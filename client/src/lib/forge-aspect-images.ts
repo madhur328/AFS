@@ -1,4 +1,5 @@
 import baseAspectLore from '../data/base-aspect-lore.json';
+import forgeBaseLayerImages from '../data/forge-base-layer-images.json';
 
 /** Lore visualization images — preferred for fullscreen aspect viz */
 const LORE_IMAGE_FILES: Record<string, string> = {
@@ -25,6 +26,10 @@ function loreDataUrl(key: string): string | null {
   return row?.image_data_url || null;
 }
 
+function isBundledSnapshot(): boolean {
+  return typeof window !== 'undefined' && !!(window as Window & { __AFS_DATA__?: unknown }).__AFS_DATA__;
+}
+
 function isOfflineStatic(): boolean {
   return (
     import.meta.env.VITE_STATIC === 'true' ||
@@ -34,18 +39,45 @@ function isOfflineStatic(): boolean {
   );
 }
 
+function needsEmbeddedBaseLayer(): boolean {
+  return isBundledSnapshot();
+}
+
+/** Public forge asset path — relative for static folder builds, absolute for live server */
+export function forgePublicAsset(relativePath: string): string {
+  if (needsEmbeddedBaseLayer()) return `./forge/${relativePath}`;
+  if (
+    import.meta.env.VITE_STATIC === 'true' ||
+    (typeof window !== 'undefined' && window.location.protocol === 'file:')
+  ) {
+    return `./forge/${relativePath}`;
+  }
+  return `/forge/${relativePath}`;
+}
+
+function embeddedBaseLayerDataUrl(key: string): string | null {
+  const map = forgeBaseLayerImages as Record<string, string>;
+  return map[key] || null;
+}
+
 /** Resolve aspect image for forge viz — lore first, then base-layer photoreal */
 export function forgeAspectImageUrl(key: string, preferLore = true): string | null {
   if (preferLore) {
-    if (isOfflineStatic()) {
+    if (isOfflineStatic() || isBundledSnapshot()) {
       const dataUrl = loreDataUrl(key);
       if (dataUrl) return dataUrl;
     }
     const loreFile = LORE_IMAGE_FILES[key];
-    if (loreFile) return `/forge/lore/${loreFile}`;
+    if (loreFile) return forgePublicAsset(`lore/${loreFile}`);
   }
+
+  if (needsEmbeddedBaseLayer()) {
+    const embedded = embeddedBaseLayerDataUrl(key);
+    if (embedded) return embedded;
+  }
+
   const baseFile = BASE_LAYER_IMAGE_FILES[key];
-  return baseFile ? `/forge/base-layer/${baseFile}` : null;
+  return baseFile ? forgePublicAsset(`base-layer/${baseFile}`) : null;
 }
 
 export function forgeLoreImageFiles(): Record<string, string> {

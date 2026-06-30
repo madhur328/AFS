@@ -51,6 +51,7 @@
     "integrate-share3": "node scripts/extract-share3.js && node scripts/ingest-share3.js",
     "update": "python scripts/extract_grok_sessions.py && node server/ingest-grok.js",
     "update-all": "python scripts/extract_grok_sessions.py && node server/ingest-grok.js && node scripts/extract-share3.js && node scripts/ingest-share3.js",
+    "embed-forge-images": "node scripts/embed-forge-base-images.js",
     "export-static": "node scripts/export-static-data.js",
     "build:static": "cd client && npm run build:static",
     "build-static": "node scripts/build-static.js",

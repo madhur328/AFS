@@ -5,7 +5,9 @@ const path = require('path');
 const fs = require('fs');
 const db = require('./db');
 
-const PORT = process.env.PORT || 3847;
+function resolvePort() {
+  return Number(process.env.PORT) || 3847;
+}
 
 async function start() {
   await db.initDb();
@@ -67,12 +69,13 @@ async function start() {
   bootHandlers();
   seedBootPulse();
 
-  return new Promise((resolve) => {
-    const server = app.listen(PORT, () => {
+  const port = resolvePort();
+  return new Promise((resolve, reject) => {
+    const server = app.listen(port, () => {
       const { loadSeedFile } = require('./services/red-leaf-kernel');
       const seed = loadSeedFile();
       const grokCount = db.prepare('SELECT COUNT(*) n FROM grok_sessions').get()?.n ?? 0;
-      console.log(`⚒️  AFS Platform API running at http://localhost:${PORT}`);
+      console.log(`⚒️  AFS Platform API running at http://localhost:${port}`);
       console.log(`🍁  Red Leaf kernel iteration ${seed.iteration} — pulse bus + spiral handlers online`);
       if (grokCount < 1) {
         console.warn('⚠️  grok_sessions empty — run: npm run sync-stranded-aspects');
@@ -81,6 +84,7 @@ async function start() {
       }
       resolve(server);
     });
+    server.on('error', reject);
   });
 }
 

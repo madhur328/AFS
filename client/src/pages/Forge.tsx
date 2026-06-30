@@ -17,7 +17,7 @@ import EmojiText from '../components/EmojiText';
 import AspectVisualizationModal, { type VizSubject } from '../components/forge/AspectVisualizationModal';
 import ForgeAspectScene, { FORGE_CENTER_KEY } from '../components/forge/ForgeAspectScene';
 import GodTierAspectsStrip from '../components/forge/GodTierAspectsStrip';
-import { forgeAspectImageUrl } from '../lib/forge-aspect-images';
+import { forgeAspectImageUrl, forgePublicAsset } from '../lib/forge-aspect-images';
 
 const PROTOCOLS = ['AFP', 'EOT', 'DCS', 'RDTQ'] as const;
 type CenterTab = 'inspect' | 'directory' | 'codex' | 'myth' | 'viz' | 'simulate';
@@ -31,6 +31,10 @@ type ForgeOutput =
 const FORGE_OS_PANEL = 'border border-[rgba(0,255,136,0.18)] bg-[rgba(0,7,4,0.72)]';
 const FORGE_OS_TITLE = 'font-mono text-[10px] font-bold uppercase tracking-[0.22em] text-[#00ff88]';
 
+function baseAspectImage(aspect: ForgeBaseAspect): string | null {
+  return aspect.imageUrl || forgeAspectImageUrl(aspect.key);
+}
+
 function aspectToViz(aspect: ForgeBaseAspect): VizSubject {
   return {
     symbol: aspect.symbol,
@@ -39,7 +43,7 @@ function aspectToViz(aspect: ForgeBaseAspect): VizSubject {
     aura: aspect.meditation?.aura,
     prompt: aspect.meditation?.prompt,
     deepInsight: aspect.deepInsight,
-    imageUrl: aspect.imageUrl || forgeAspectImageUrl(aspect.key),
+    imageUrl: baseAspectImage(aspect),
     aspectKey: aspect.key,
   };
 }
@@ -224,7 +228,11 @@ export default function Forge() {
   const subjectSymbol = forgeCenterSelected
     ? '⚒️'
     : activeGod?.glyphs.split(' ')[0] || activeBase?.symbol || '⚒️';
-  const subjectThumb = forgeCenterSelected ? '/forge/coin-safe-talisman.jpg' : activeBase?.imageUrl;
+  const subjectThumb = forgeCenterSelected
+    ? forgePublicAsset('coin-safe-talisman.jpg')
+    : activeBase
+      ? baseAspectImage(activeBase)
+      : null;
 
   return (
     <div className="-m-4 flex min-h-[calc(100vh-4rem)] flex-col bg-black text-[#00ff88] sm:-m-6 lg:-m-8">
@@ -282,6 +290,7 @@ export default function Forge() {
             <p className={FORGE_OS_TITLE}>⚒️ Aspect Forge · Base Layer ({baseAspects.length})</p>
             <div className="mt-2 grid grid-cols-2 gap-1.5">
               {baseAspects.map((aspect) => {
+                const thumb = baseAspectImage(aspect);
                 const selected =
                   selectedAspect === aspect.key || selectedAspects.includes(aspect.key);
                 return (
@@ -296,9 +305,9 @@ export default function Forge() {
                         : 'border-[rgba(0,255,136,0.12)] bg-black/40 hover:border-cyan-500/35'
                     }`}
                   >
-                    {aspect.imageUrl && (
+                    {thumb && (
                       <img
-                        src={aspect.imageUrl}
+                        src={thumb}
                         alt=""
                         className="h-14 w-full object-cover object-top opacity-90"
                       />
@@ -631,8 +640,12 @@ function InspectPane({
   return (
     <div className="space-y-3">
       <div className="flex gap-3">
-        {aspect.imageUrl && (
-          <img src={aspect.imageUrl} alt="" className="h-24 w-20 rounded border border-[#ffd700]/30 object-cover" />
+        {baseAspectImage(aspect) && (
+          <img
+            src={baseAspectImage(aspect)!}
+            alt=""
+            className="h-24 w-20 rounded border border-[#ffd700]/30 object-cover"
+          />
         )}
         <div>
           <EmojiText text={aspect.symbol} size="xl" />

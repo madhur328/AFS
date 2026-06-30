@@ -73,16 +73,19 @@ function main() {
   run('node scripts/export-static-data.js');
   verifyExport();
 
-  console.log('\n=== Step 4: Build static client (Vite IIFE) ===');
+  console.log('\n=== Step 4: Embed forge base-layer images for offline bundle ===');
+  run('node scripts/embed-forge-base-images.js');
+
+  console.log('\n=== Step 5: Build static client (Vite IIFE) ===');
   run('npm run build:static --prefix client');
 
   if (buildDesktop) {
-    console.log('\n=== Step 5: Bundle desktop HTML ===');
+    console.log('\n=== Step 6: Bundle desktop HTML ===');
     run('node scripts/bundle-static-html.js');
   }
 
   if (buildMobile) {
-    console.log('\n=== Step 6: Bundle mobile HTML ===');
+    console.log('\n=== Step 7: Bundle mobile HTML ===');
     run('node scripts/bundle-static-html.js --mobile');
   }
 
