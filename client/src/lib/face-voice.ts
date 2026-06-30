@@ -1,0 +1,183 @@
+import type { RadiantFace } from './aspect-detail';
+
+const VERB_FIXES: [RegExp, string][] = [
+  [/^I refuses\b/i, 'I refuse'],
+  [/^I chooses\b/i, 'I choose'],
+  [/^I bears\b/i, 'I bear'],
+  [/^I finds\b/i, 'I find'],
+  [/^I understands\b/i, 'I understand'],
+  [/^I honors\b/i, 'I honor'],
+  [/^I brews\b/i, 'I brew'],
+  [/^I carries\b/i, 'I carry'],
+  [/^I takes\b/i, 'I take'],
+  [/^I burns\b/i, 'I burn'],
+  [/^I accepts\b/i, 'I accept'],
+  [/^I releases\b/i, 'I release'],
+  [/^I breaks\b/i, 'I break'],
+  [/^I recognizes\b/i, 'I recognize'],
+  [/^I knows\b/i, 'I know'],
+  [/^I practices\b/i, 'I practice'],
+  [/^I allows\b/i, 'I allow'],
+  [/^I receives\b/i, 'I receive'],
+  [/^I spends\b/i, 'I spend'],
+  [/^I asks\b/i, 'I ask'],
+  [/^I dies\b/i, 'I die'],
+  [/^I looks\b/i, 'I look'],
+  [/^I channels\b/i, 'I channel'],
+  [/^I reflects\b/i, 'I reflect'],
+  [/^I integrates\b/i, 'I integrate'],
+  [/^I savors\b/i, 'I savor'],
+  [/^I endures\b/i, 'I endure'],
+  [/^I embraces\b/i, 'I embrace'],
+  [/^I offers\b/i, 'I offer'],
+  [/^I falls\b/i, 'I fall'],
+  [/^I encircles\b/i, 'I encircle'],
+  [/^I transforms\b/i, 'I transform'],
+  [/^I unlocks\b/i, 'I unlock'],
+  [/^I appreciates\b/i, 'I appreciate'],
+  [/^I responds\b/i, 'I respond'],
+  [/^I plants\b/i, 'I plant'],
+  [/^I guards\b/i, 'I guard'],
+  [/^I awakens\b/i, 'I awaken'],
+  [/^I remains\b/i, 'I remain'],
+  [/^I listens\b/i, 'I listen'],
+  [/^I safeguards\b/i, 'I safeguard'],
+  [/^I blesses\b/i, 'I bless'],
+  [/^I feels\b/i, 'I feel'],
+  [/^I sees\b/i, 'I see'],
+  [/^I speaks\b/i, 'I speak'],
+  [/^I breathes\b/i, 'I breathe'],
+  [/^I rules\b/i, 'I rule'],
+  [/^I brings\b/i, 'I bring'],
+  [/^I crosses\b/i, 'I cross'],
+  [/^I perceives\b/i, 'I perceive'],
+  [/^I spins\b/i, 'I spin'],
+  [/^I protects\b/i, 'I protect'],
+  [/^I acts\b/i, 'I act'],
+  [/^I builds\b/i, 'I build'],
+  [/^I keeps\b/i, 'I keep'],
+  [/^I repairs\b/i, 'I repair'],
+  [/^I becomes\b/i, 'I become'],
+  [/^I lives\b/i, 'I live'],
+  [/^I turns\b/i, 'I turn'],
+  [/^I stopped\b/i, 'I stopped'],
+];
+
+function fixFirstPersonGrammar(text: string): string {
+  let t = text;
+  for (const [re, rep] of VERB_FIXES) t = t.replace(re, rep);
+  return t;
+}
+
+function isRedLeafContext(context: { aspectName?: string; category?: string } = {}): boolean {
+  return context.category === 'red-leaf' || (context.aspectName || '').startsWith('Red Leaf');
+}
+
+export function demechanizeExplanation(text: string): string {
+  if (!text?.trim()) return '';
+  let t = text.trim();
+  t = t.replace(/^This facet is not\b/i, 'I am not');
+  t = t.replace(/^This facet isn't\b/i, 'I am not');
+  t = t.replace(/^This facet is\b/i, 'I am');
+  t = t.replace(/^This facet am\b/i, 'I am');
+  t = t.replace(/^This facet\b/i, 'I');
+  t = t.replace(/^I not\b/i, 'I do not');
+  return fixFirstPersonGrammar(t);
+}
+
+export function normalizeRedLeafExplanationVoice(text: string): string {
+  if (!text?.trim()) return '';
+  let t = text.trim();
+  t = t.replace(/^This facet is not\b/i, 'The red leaf is not');
+  t = t.replace(/^This facet isn't\b/i, 'The red leaf is not');
+  t = t.replace(/^This facet is\b/i, 'The red leaf is');
+  t = t.replace(/^This facet am\b/i, 'The red leaf is');
+  t = t.replace(/^This facet\b/i, 'The red leaf');
+  t = t.replace(/^This aspect\b/i, 'The red leaf');
+  t = t.replace(/^The leaf\b/i, 'The red leaf');
+  return t;
+}
+
+function isVirahTone(context: { aspectName?: string; faceName?: string }): boolean {
+  const blob = `${context.aspectName || ''} ${context.faceName || ''}`.toLowerCase();
+  return /virah|yashodhara|waiting|offering|remembering flame|mature love|dignified release|silent offering|graceful waiting/.test(blob);
+}
+
+function expandVirahExplanation(mantra: string, faceName: string): string {
+  const byFace: Record<string, string> = {
+    'Silent Offering': 'The ache is real, and I let it move through me — but I refuse to let it harden into bitterness.',
+    'Graceful Waiting': 'I do not chase what has already chosen its path. I hold this space with quiet strength, as love taught me to wait.',
+    'Remembering Flame': 'Even when he is gone, the love in my heart stays pure — a flame that needs no witness to remain true.',
+    'Dignified Release': 'I bless the path he walks, even while my own heart aches. Release is not defeat; it is mature love.',
+    'Mature Love': 'This love has outgrown the need for return. I give without ledger, and that is my sovereignty.',
+  };
+  return byFace[faceName] || mantra.trim();
+}
+
+export function humanizeExplanation(
+  text: string,
+  context: { aspectName?: string; category?: string; faceName?: string } = {}
+): string {
+  if (!text?.trim()) return '';
+  const trimmed = text.trim();
+
+  if (isVirahTone(context)) {
+    let t = demechanizeExplanation(trimmed);
+    if (/^This facet/i.test(t)) t = demechanizeExplanation(t);
+    return t.trim();
+  }
+
+  if (isRedLeafContext(context)) {
+    if (/^The leaf\b/i.test(trimmed) || /^This (facet|aspect)\b/i.test(trimmed)) {
+      return normalizeRedLeafExplanationVoice(trimmed);
+    }
+    if (/^I[\s']/.test(trimmed) || /^Even when\b/i.test(trimmed) || /^This is\b/i.test(trimmed)) {
+      return fixFirstPersonGrammar(trimmed);
+    }
+    return trimmed;
+  }
+
+  let t = demechanizeExplanation(trimmed);
+  if (/^This facet/i.test(t)) t = demechanizeExplanation(t);
+  return t.trim();
+}
+
+export function deriveAliveExplanation(
+  face: RadiantFace,
+  context: { aspectName?: string; category?: string } = {}
+): string {
+  const curated = face.explanation?.trim();
+  if (curated && !/^This facet/i.test(curated)) {
+    return humanizeExplanation(curated, { ...context, faceName: face.name });
+  }
+  const mantra = face.mantra?.trim();
+  if (!mantra) return '';
+  if (isVirahTone({ ...context, faceName: face.name })) {
+    return expandVirahExplanation(mantra, face.name);
+  }
+  return humanizeExplanation(mantra, { ...context, faceName: face.name });
+}
+
+export function humanizeRadiantFace(
+  face: RadiantFace,
+  context: { aspectName?: string; category?: string } = {}
+): RadiantFace {
+  const ctx = { ...context, faceName: face.name };
+  let explanation =
+    face.explanation?.trim() && !/^This facet/i.test(face.explanation)
+      ? humanizeExplanation(face.explanation, ctx)
+      : deriveAliveExplanation(face, ctx);
+  if (!explanation && face.mantra?.trim()) explanation = deriveAliveExplanation(face, ctx);
+  if (explanation && face.mantra?.trim() && explanation === face.mantra.trim() && isVirahTone(ctx)) {
+    explanation = expandVirahExplanation(face.mantra, face.name);
+  }
+  return { ...face, explanation: explanation || face.mantra?.trim() || '' };
+}
+
+export function humanizeRadiantFaces(
+  faces: RadiantFace[],
+  context: { aspectName?: string; category?: string } = {}
+): RadiantFace[] {
+  if (!faces.length) return [];
+  return faces.map((f) => humanizeRadiantFace(f, context));
+}

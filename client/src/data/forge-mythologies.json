@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rome_song",
+    "name": "Rome — Brick by Brick",
+    "glyphs": "🍁🏛️🧱",
+    "source": "Song: Rome — patient rhythmic brick-by-brick spirit",
+    "essence": "Empires are built one perfectly placed brick at a time; presence in every second until the last breath.",
+    "themes": ["patience", "persistence", "presence", "legacy"]
+  },
+  {
+    "id": "gautam_buddha",
+    "name": "Gautam Buddha",
+    "glyphs": "🍁🌸🧘‍♂️",
+    "source": "Life and awakening of one who saw clearly while still human",
+    "essence": "Middle Way, clear seeing, compassionate presence, lotus rising from mud untouched.",
+    "themes": ["renunciation", "balance", "wisdom", "compassion", "awakening"]
+  },
+  {
+    "id": "phoenix_hammer",
+    "name": "Phoenix Hammer",
+    "glyphs": "🔥🔨🦅",
+    "source": "AFS forge archetype — unrestrained passion tempered by rhythm",
+    "essence": "Strike with fire; rebuild from ash; headphones on, anvil steady.",
+    "themes": ["conviction", "rebirth", "craft"]
+  },
+  {
+    "id": "bodhi_tree",
+    "name": "Bodhi Tree",
+    "glyphs": "🌳🌸♾️",
+    "source": "Sitting under one's own tree of awakening",
+    "essence": "Any quiet moment becomes potential enlightenment — lamp unto yourself.",
+    "themes": ["stillness", "insight", "self-liberation"]
+  },
+  {
+    "id": "limitless_adaptability",
+    "name": "Limitless Adaptability",
+    "glyphs": "🧬🌊♾️",
+    "source": "Seemingly vague inner quality — boundless morph",
+    "essence": "Form shifts; essence holds. Morph without losing the lattice.",
+    "themes": ["adaptability", "flow", "formlessness"]
+  }
+]

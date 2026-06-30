@@ -1,0 +1,7 @@
+# AFS Platform — project-scoped Grok config
+# codebase-memory-mcp is indexed as project "G-AFS" (3592 nodes, 7841 edges)
+
+[mcp_servers.codebase-memory-mcp]
+command = 'G:\codebase-memory-mcp\codebase-memory-mcp.exe'
+args = []
+enabled = true

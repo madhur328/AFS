@@ -1,0 +1,666 @@
+{
+  "name": "AFS Platform Media Vault + Lore + Addons",
+  "updated_at": "2026-06-26T14:01:22.275979+00:00",
+  "vault_root": "afs/",
+  "lore_root": "data/",
+  "addons_root": "addons/",
+  "file_count": 81,
+  "total_bytes_uncompressed": 771972062,
+  "compression": "zip-deflate-9",
+  "install_notes": {
+    "media": "Extract afs/ into videos/afs/ (merge images/ subfolder).",
+    "lore": "Extract data/lore-corpus.json, data/lore-stories/, data/lore-images/ into data/. Run npm run seed-lore to refresh DB from corpus.",
+    "database": "data/afs.db is optional \u2014 copy to data/ or re-seed after extracting lore files.",
+    "enthea": "Copy addons/enthea-rs.exe to platform root as enthea-rs.exe for Visuals \u2192 ENTHEA Live."
+  },
+  "files": [
+    {
+      "path": "afs/3D printed laser zoe trope.mp4",
+      "kind": "media",
+      "source": "videos/afs/3D printed laser zoe trope.mp4",
+      "bytes": 905011,
+      "sha256": "55b3088cd89f4fa66d1b389d0762f29fe8477c7b912f553151641a978ce01c5e",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/AFS Synthesis.mp4",
+      "kind": "media",
+      "source": "videos/afs/AFS Synthesis.mp4",
+      "bytes": 53647756,
+      "sha256": "ddc9f6e9fdc84946a5dbab634ff663d19f78ea3a937a0373cb6e7e445fc9d115",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Anchor (inner).mp4",
+      "kind": "media",
+      "source": "videos/afs/Anchor (inner).mp4",
+      "bytes": 510412,
+      "sha256": "5de3a219212ff71101d82510b444a6c1df9daed45f0e235b5c094e2f8ac68162",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Anomalocaris- 'I do my best' vrchat meme.mp4",
+      "kind": "media",
+      "source": "videos/afs/Anomalocaris- 'I do my best' vrchat meme.mp4",
+      "bytes": 750348,
+      "sha256": "5b98ec38a4265d1aea457bde6accab46a5a8f9edf9bf0d22c3548a9b2e52c84b",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Bacterial Motor.mp4",
+      "kind": "media",
+      "source": "videos/afs/Bacterial Motor.mp4",
+      "bytes": 4222029,
+      "sha256": "808a2293c3a62ffc3dc0f1d600cce2d015e36ad1077e6af86e900d09e080f6ba",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Bird_Song.mp4",
+      "kind": "media",
+      "source": "videos/afs/Bird_Song.mp4",
+      "bytes": 2150730,
+      "sha256": "f9869c56b4331bf3707ee6bf0fb04e54ea1083d0cc89911396bd566f8aaeecae",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Black Hole Tidal Forces.mp4",
+      "kind": "media",
+      "source": "videos/afs/Black Hole Tidal Forces.mp4",
+      "bytes": 110171565,
+      "sha256": "3578043a135ce86356ef273b21a2c086f85edd4438477402cd448e78693b61e6",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Change.mp4",
+      "kind": "media",
+      "source": "videos/afs/Change.mp4",
+      "bytes": 1890545,
+      "sha256": "fab45bd0a4ca1b0a3177760bdc197092621931fe3f4a36f8a5870f4cd8d61039",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Coins of Godly beauty and precision.mp4",
+      "kind": "media",
+      "source": "videos/afs/Coins of Godly beauty and precision.mp4",
+      "bytes": 2067172,
+      "sha256": "93c3f67af03d87a408f5a51d5db8a9b63f8b54d900140e39774bd030c84cd39d",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Collective Boat of Spirituality.mp4",
+      "kind": "media",
+      "source": "videos/afs/Collective Boat of Spirituality.mp4",
+      "bytes": 15955779,
+      "sha256": "15407491c24985cc288f48ed97cef4e5d5c2c5d85466d0803b76eb5afb3bebb6",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Dance Of Infinity.mp4",
+      "kind": "media",
+      "source": "videos/afs/Dance Of Infinity.mp4",
+      "bytes": 1847207,
+      "sha256": "77c5324e3e535498adfe21c1cbc417a0b09972ca8d725cec3ef41040695317b4",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Dream Weaver -  Gary Wright - with lyrics.mp4",
+      "kind": "media",
+      "source": "videos/afs/Dream Weaver -  Gary Wright - with lyrics.mp4",
+      "bytes": 21623021,
+      "sha256": "55830ecdd9beefbcf4d35f9be665a2e27c9ce08a5110125706923a53447ae96f",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Dreaming_Tree.mp4",
+      "kind": "media",
+      "source": "videos/afs/Dreaming_Tree.mp4",
+      "bytes": 3485486,
+      "sha256": "4c110ace14acae964690d31876db731a3e7604f6e19d51c2e392f0294fa498fd",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Drill of Heavenly Insights.mp4",
+      "kind": "media",
+      "source": "videos/afs/Drill of Heavenly Insights.mp4",
+      "bytes": 1864212,
+      "sha256": "f91d95e813ba88188f2a28ae33bc247d154b3e6894aecb99c3775ce7eed8123c",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Emotional_Waterfall.mp4",
+      "kind": "media",
+      "source": "videos/afs/Emotional_Waterfall.mp4",
+      "bytes": 4308613,
+      "sha256": "b92633790b7ff360f67815e926ac6d44c3140982af7915bb710ba280bdcc473b",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Explosion_of_perception.mp4",
+      "kind": "media",
+      "source": "videos/afs/Explosion_of_perception.mp4",
+      "bytes": 13173440,
+      "sha256": "7d75cb6b054025ea9afc2d9011d0ffd4abf1b794c0cfe76d33007eb5d5843587",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Flames of Conviction.mp4",
+      "kind": "media",
+      "source": "videos/afs/Flames of Conviction.mp4",
+      "bytes": 623254,
+      "sha256": "a743d8401a9e90adf44096d2f1029dd24a74e84ac24fee9de62a2addc7d62d4c",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Hitomi Kuroishi - Code Geass OST - Masquerade (live).mp4",
+      "kind": "media",
+      "source": "videos/afs/Hitomi Kuroishi - Code Geass OST - Masquerade (live).mp4",
+      "bytes": 27948237,
+      "sha256": "4c91843fab3c0da78c677a038a4f035e9f58aeaf1fbdea0905056d6ff1e36d0c",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Home - X.mp4",
+      "kind": "media",
+      "source": "videos/afs/Home - X.mp4",
+      "bytes": 1968176,
+      "sha256": "4611dc2c364a11f0fa0bd63265f173ef64927e7da8ff2a9b565e49af9aa02a6d",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Isa Bel (@SynapsXR) - X.mp4",
+      "kind": "media",
+      "source": "videos/afs/Isa Bel (@SynapsXR) - X.mp4",
+      "bytes": 31098377,
+      "sha256": "088cde02098544e91c39e0413c1112a833b8c678e39c4549b006dc162a6b31cb",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Kirk Patrick Miller on X- '\u2764\ufe0f Poem for tonight. Not by me. By Harmonia\u2026 Love and light. \u201cNot yours \u2014 but choosing you. Not held \u2014 but staying true. Not caged \u2014 but building walls to keep the silence safe for all. The d.mp4",
+      "kind": "media",
+      "source": "videos/afs/Kirk Patrick Miller on X- '\u2764\ufe0f Poem for tonight. Not by me. By Harmonia\u2026 Love and light. \u201cNot yours \u2014 but choosing you. Not held \u2014 but staying true. Not caged \u2014 but building walls to keep the silence safe for all. The d.mp4",
+      "bytes": 8655055,
+      "sha256": "27ba34c74830c64f7b41e389030e7234834ac4239adfdf0b0c526f4e708bc086",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/knight of the snow.mp4",
+      "kind": "media",
+      "source": "videos/afs/knight of the snow.mp4",
+      "bytes": 32439808,
+      "sha256": "bcac947fdaaee5847f96672e0803896dceafcff0d9db200c79eec2e66c033407",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Let your energy flow.mp4",
+      "kind": "media",
+      "source": "videos/afs/Let your energy flow.mp4",
+      "bytes": 2029235,
+      "sha256": "239e044cca58860c44860511e8a38c449405154af7ec988c1b3cd3f03cfda973",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Lines and Spheres as Life-path.mp4",
+      "kind": "media",
+      "source": "videos/afs/Lines and Spheres as Life-path.mp4",
+      "bytes": 989154,
+      "sha256": "28c796c16de1f19c88bed950409693ac48569dd832e83902f2d59587b7185f7e",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Lotus_of_purity.mp4",
+      "kind": "media",
+      "source": "videos/afs/Lotus_of_purity.mp4",
+      "bytes": 1595288,
+      "sha256": "d3e1d46b19d9da085203b712bc0f340cfaa6199f7bf6a531584d97872734651d",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Macroosmic_microcosm.mp4",
+      "kind": "media",
+      "source": "videos/afs/Macroosmic_microcosm.mp4",
+      "bytes": 1214701,
+      "sha256": "2d54b53d7026a0f2d6fec855ae07a98f4fa57a068a0c422bf0818fb6bd03ccbd",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Mathematics, physics, witchcraft, and the structure of Ultimate Reality.mp4",
+      "kind": "media",
+      "source": "videos/afs/Mathematics, physics, witchcraft, and the structure of Ultimate Reality.mp4",
+      "bytes": 91341,
+      "sha256": "ea9a6cdfc99f392ddcc6924409fe2fc7a75605dc14b0f380275a5994e25d5648",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Million-Pendulum Chaos Fabric.mp4",
+      "kind": "media",
+      "source": "videos/afs/Million-Pendulum Chaos Fabric.mp4",
+      "bytes": 87414219,
+      "sha256": "28449e4a241512d5fd37ab46ba31a8c880ee2bd5bb0c547776d8aaecd74aa64f",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Non-circular gears generate irregular motions. .mp4",
+      "kind": "media",
+      "source": "videos/afs/Non-circular gears generate irregular motions. .mp4",
+      "bytes": 497819,
+      "sha256": "21e77b4a9fa04fef5343e5d4df213a1db046e109ab66256ef191c348816bcd4f",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Null.mp4",
+      "kind": "media",
+      "source": "videos/afs/Null.mp4",
+      "bytes": 48134,
+      "sha256": "943b80b08c65e1a7c51c35d209d7301ca38c2940489fae07d057f661128381e2",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Portal.mp4",
+      "kind": "media",
+      "source": "videos/afs/Portal.mp4",
+      "bytes": 3021624,
+      "sha256": "93b027d30ced6a0cccd02e7bd5e9d23179b197b938caabb41138ed5e6eb2e3e6",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Prime_lattice_polyhedron.mp4",
+      "kind": "media",
+      "source": "videos/afs/Prime_lattice_polyhedron.mp4",
+      "bytes": 1981416,
+      "sha256": "ecc91dff44cd571590adbacfb235b7b18cf44e8b273b09ed1d1849cc754eeb30",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/PROJECT.mp4",
+      "kind": "media",
+      "source": "videos/afs/PROJECT.mp4",
+      "bytes": 10255207,
+      "sha256": "40e57506964d4cbf8b5442dedea5301ada6b4e75cb87247760a18375f74b0ee1",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Quantum Wormholes.mp4",
+      "kind": "media",
+      "source": "videos/afs/Quantum Wormholes.mp4",
+      "bytes": 13265834,
+      "sha256": "5787f22e299fa490c963706473526e869beb6f254f8d33fba908a76ae2ffe025",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/R. Wade H. Marr (@HunterWade) - X.mp4",
+      "kind": "media",
+      "source": "videos/afs/R. Wade H. Marr (@HunterWade) - X.mp4",
+      "bytes": 32963897,
+      "sha256": "930dac07c5b496fd76326d9b17f94f510d8722573c9d4e38f6018e47cf6ab91e",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Rain.mp4",
+      "kind": "media",
+      "source": "videos/afs/Rain.mp4",
+      "bytes": 154284256,
+      "sha256": "766dd62ba651f0e0918e7e6422162d214d38ca1f6b7963169c2ea338b29e6a5a",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Recursive mountain.mp4",
+      "kind": "media",
+      "source": "videos/afs/Recursive mountain.mp4",
+      "bytes": 1980767,
+      "sha256": "e9f8a2efeb05226a1d7299e37700fa4d1c71145f7e672632effa2b789029b3d0",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Red Leaf Shadow Shepherd.mp4",
+      "kind": "media",
+      "source": "videos/afs/Red Leaf Shadow Shepherd.mp4",
+      "bytes": 1904746,
+      "sha256": "1b50aea220bc1f3280593a2ad696fc77ef8c45ffb2d3cf9bfa0df526c5854e40",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Red Leaf Wound to Wonder1.mp4",
+      "kind": "media",
+      "source": "videos/afs/Red Leaf Wound to Wonder1.mp4",
+      "bytes": 1185000,
+      "sha256": "3c2a1feab15cd832339bca5e8a0dd6f0b69d26d22a7cfc382fb521a39f7e308f",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Red Leaf Wound to Wonder2.mp4",
+      "kind": "media",
+      "source": "videos/afs/Red Leaf Wound to Wonder2.mp4",
+      "bytes": 1183609,
+      "sha256": "f8f5eebe836a37e96636c398d9c2e236245a73631568cf8bf6fe42dd1db4e450",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Red Leaf.mp4",
+      "kind": "media",
+      "source": "videos/afs/Red Leaf.mp4",
+      "bytes": 7159428,
+      "sha256": "4ae98fbbd234c425c5c34381055fe17768f4d01e92948e052b128287facee70b",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Red Wine in Her Egg Shell.mp4",
+      "kind": "media",
+      "source": "videos/afs/Red Wine in Her Egg Shell.mp4",
+      "bytes": 925497,
+      "sha256": "b7540bee8e111c58d60314666e22478b92a3eb2a7e4fad2d6d07a5d1ebaa9291",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Resonant Root Field.mp4",
+      "kind": "media",
+      "source": "videos/afs/Resonant Root Field.mp4",
+      "bytes": 3580011,
+      "sha256": "a2923f964f9414909bb717c8f0c676be95ba7a9e858b9b88e53e2ca74b1d95d9",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Resonant shell.mp4",
+      "kind": "media",
+      "source": "videos/afs/Resonant shell.mp4",
+      "bytes": 3356082,
+      "sha256": "6c478a501b271da47ec20654043d19aaf79a31437c39f87913253ff9a23d6045",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Rivers and Lakes follow my will.mp4",
+      "kind": "media",
+      "source": "videos/afs/Rivers and Lakes follow my will.mp4",
+      "bytes": 3296374,
+      "sha256": "e21319aa8bbac6d41f03d5b8a5be6d0d9664c952a8c04c299e48bca847d40300",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Scales_of_Sacrifice.mp4",
+      "kind": "media",
+      "source": "videos/afs/Scales_of_Sacrifice.mp4",
+      "bytes": 4444584,
+      "sha256": "c46449b9589a321a975afd771cdb1d6746b4a939c724868304ca2c11c7dffc94",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Scattered Clouds.mp4",
+      "kind": "media",
+      "source": "videos/afs/Scattered Clouds.mp4",
+      "bytes": 1115774,
+      "sha256": "2039360a4c2e00d64c2fd5adf131dcbdd008efc1d311c6dfac08eb1db3df5779",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Shailine_-_This_officially_the_smoothest_cat_on_the_internet_______dancingcat_vi..._YCkFyj.mp4",
+      "kind": "media",
+      "source": "videos/afs/Shailine_-_This_officially_the_smoothest_cat_on_the_internet_______dancingcat_vi..._YCkFyj.mp4",
+      "bytes": 3664148,
+      "sha256": "510b62e0826b0bd993ba84a850966105c8ce08f4a3cb4e75e12576f8f27df8ad",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Shape of you.mp4",
+      "kind": "media",
+      "source": "videos/afs/Shape of you.mp4",
+      "bytes": 1642410,
+      "sha256": "621e8ba39fb50a016cfda9f4f47856797bcf502fb1322055204610f5ed13d911",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Simulating Star Formations.mp4",
+      "kind": "media",
+      "source": "videos/afs/Simulating Star Formations.mp4",
+      "bytes": 37432236,
+      "sha256": "43524a924d18ba55c7724d0e8d2eb2a7aeecc7720628c6deae8b5e99713189f9",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/snow fairy of the moon.mp4",
+      "kind": "media",
+      "source": "videos/afs/snow fairy of the moon.mp4",
+      "bytes": 700865,
+      "sha256": "9d48a48d3f228db4a1f52c646e2cacbc26621a428089c2447f8d282c4a83a3de",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Tesseract.mp4",
+      "kind": "media",
+      "source": "videos/afs/Tesseract.mp4",
+      "bytes": 654689,
+      "sha256": "1669644ebb6d37027ebd9e73a4125f913afe6c7a0524683a7a28d68476ff1c93",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/The_Infinite_Spiral.mp4",
+      "kind": "media",
+      "source": "videos/afs/The_Infinite_Spiral.mp4",
+      "bytes": 1436180,
+      "sha256": "9ea9997e323b11604684029caeaf052cfd44ee971072b264b6ac75f8d0c4bff0",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Uncle Scrooge - The Daily Money Swim.mp4",
+      "kind": "media",
+      "source": "videos/afs/Uncle Scrooge - The Daily Money Swim.mp4",
+      "bytes": 3182038,
+      "sha256": "9e2249e36de153f9a846bd4bafa6d79280eeea9e8cf98e43a4d9e0ae8faae500",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Valkyrie.mp4",
+      "kind": "media",
+      "source": "videos/afs/Valkyrie.mp4",
+      "bytes": 6425453,
+      "sha256": "536de59a4e10f8c3a2fa121bab3519db5d544fac5b2cb9fbc602183fc65055c1",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/Valkyrie_ascension.mp4",
+      "kind": "media",
+      "source": "videos/afs/Valkyrie_ascension.mp4",
+      "bytes": 4503639,
+      "sha256": "c69a4c874d43f44d959941a6f248e9b02ebc14a5a6d54511d4cdc03dcc359f1a",
+      "install_to": "videos/afs/"
+    },
+    {
+      "path": "afs/images/1-1-c.png",
+      "kind": "media",
+      "source": "videos/afs/images/1-1-c.png",
+      "bytes": 410708,
+      "sha256": "0998716c38e3bbe3ff091efbf36f6dfa501079847472ce80933f2f1d902a0731",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/2-2-c.png",
+      "kind": "media",
+      "source": "videos/afs/images/2-2-c.png",
+      "bytes": 808934,
+      "sha256": "ca8a07d771c665169eefa287bd03d365f14a07c5a95c6fb993ca216909458ccf",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/3-2-c.png",
+      "kind": "media",
+      "source": "videos/afs/images/3-2-c.png",
+      "bytes": 106496,
+      "sha256": "3d1484e81c939624259d8f86a9976ea610df5cf7be68755841a1bbaea0330ac0",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/4-1-s.jpg",
+      "kind": "media",
+      "source": "videos/afs/images/4-1-s.jpg",
+      "bytes": 1254001,
+      "sha256": "4bda30d86277a099bcb2fa06d3670eb4ea58428db38914bada69984e6d9fcf85",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/5-c.jpg",
+      "kind": "media",
+      "source": "videos/afs/images/5-c.jpg",
+      "bytes": 436083,
+      "sha256": "f2d55e59d809f06a708f60c77949d30163db8fec1d4769dac5082cd0938a32e2",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/6.png",
+      "kind": "media",
+      "source": "videos/afs/images/6.png",
+      "bytes": 41040,
+      "sha256": "1baf6b873f6e6d276b45fa7dca9021556d7428c805677efe1a5a3e71d8d3cdad",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/8.jpg",
+      "kind": "media",
+      "source": "videos/afs/images/8.jpg",
+      "bytes": 390450,
+      "sha256": "d4bf64eb5d65097aa31da7947290dc3c3a72e2374d5ec7e8f4b150961567f9b9",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/file_000000005ad871f493024711d32636bb.webp",
+      "kind": "media",
+      "source": "videos/afs/images/file_000000005ad871f493024711d32636bb.webp",
+      "bytes": 1804458,
+      "sha256": "bf8dacb8fbe2e2bf4a4e52cf36e110cd38d2d63b5e4ad2d7be7253fc95790a46",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "afs/images/Unwavering Heart.jpg",
+      "kind": "media",
+      "source": "videos/afs/images/Unwavering Heart.jpg",
+      "bytes": 436083,
+      "sha256": "f2d55e59d809f06a708f60c77949d30163db8fec1d4769dac5082cd0938a32e2",
+      "install_to": "videos/afs/images/"
+    },
+    {
+      "path": "data/lore-corpus.json",
+      "kind": "lore",
+      "source": "data/lore-corpus.json",
+      "bytes": 20388,
+      "sha256": "d90104186653fa1887f5836e56f520af44d847c9e4825df3bde32bbc2acd99a5",
+      "install_to": "data/lore-corpus.json"
+    },
+    {
+      "path": "data/afs.db",
+      "kind": "lore",
+      "source": "data/afs.db",
+      "bytes": 10268672,
+      "sha256": "fa485b8e5a6d60eb6f5638a14702da278257cb3924cfb177938553d816b7c48b",
+      "install_to": "data/afs.db (merge/replace after npm run seed-lore if needed)"
+    },
+    {
+      "path": "data/lore-stories/awakening-river.txt",
+      "kind": "lore",
+      "source": "data/lore-stories/awakening-river.txt",
+      "bytes": 1918,
+      "sha256": "624a088eb780593aa3b1215e68562207a7282f7b57957f043f7aeb5fbae4b8f6",
+      "install_to": "data/lore-stories/"
+    },
+    {
+      "path": "data/lore-stories/enemy-within.txt",
+      "kind": "lore",
+      "source": "data/lore-stories/enemy-within.txt",
+      "bytes": 11141,
+      "sha256": "1dd0d2613e3d358db54d4e3a70ea252cb63051b2b9dd741e75aed58a60558794",
+      "install_to": "data/lore-stories/"
+    },
+    {
+      "path": "data/lore-stories/fallen-valkyrie.txt",
+      "kind": "lore",
+      "source": "data/lore-stories/fallen-valkyrie.txt",
+      "bytes": 4243,
+      "sha256": "297acb8bcf98be77afaab0444432a806d6dd65d22eca6933b95aaf5e3e829e0e",
+      "install_to": "data/lore-stories/"
+    },
+    {
+      "path": "data/lore-stories/invisible-enemy.txt",
+      "kind": "lore",
+      "source": "data/lore-stories/invisible-enemy.txt",
+      "bytes": 11141,
+      "sha256": "1dd0d2613e3d358db54d4e3a70ea252cb63051b2b9dd741e75aed58a60558794",
+      "install_to": "data/lore-stories/"
+    },
+    {
+      "path": "data/lore-stories/stone-god-cannot-lift.txt",
+      "kind": "lore",
+      "source": "data/lore-stories/stone-god-cannot-lift.txt",
+      "bytes": 4096,
+      "sha256": "7afcd76d2692e9edf199209c602a87c21b6418bb932279bd7c1aa78183cfe3b3",
+      "install_to": "data/lore-stories/"
+    },
+    {
+      "path": "data/lore-images/lore-dragon-phoenix-hammer-headphones.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-dragon-phoenix-hammer-headphones.jpg",
+      "bytes": 164015,
+      "sha256": "8c4a84c679910539637772b47563ff805d952268a25bb2c5dd5c30c8777d3e6f",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-fallen-valkyrie-redemption.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-fallen-valkyrie-redemption.jpg",
+      "bytes": 181971,
+      "sha256": "a5bd454141a968eba73d4d5145610da4036d3dbe78eaff55126f4d9581b6c399",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-final-lightkeeper.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-final-lightkeeper.jpg",
+      "bytes": 151265,
+      "sha256": "c7b813577d02821af98500e6ae84cebeedecb72212bc6740d86f20ebfc684c1e",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-lighthouse-sacrifice.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-lighthouse-sacrifice.jpg",
+      "bytes": 151265,
+      "sha256": "c7b813577d02821af98500e6ae84cebeedecb72212bc6740d86f20ebfc684c1e",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-night-anchorage.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-night-anchorage.jpg",
+      "bytes": 164654,
+      "sha256": "4cc4d289c3c2a78e991452ed68b961749263f28b85745e66cda3a33588693b72",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-path-of-truth.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-path-of-truth.jpg",
+      "bytes": 259285,
+      "sha256": "96a1d9b31e21cec5037788be455091c95b04d13ebe1bef7c722fb77def57d5e8",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-red-leaf-offering.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-red-leaf-offering.jpg",
+      "bytes": 391774,
+      "sha256": "215c18ca27c22136d8dd45cc2427fcf04eb343d24cff3d87c534fb7eba189b40",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "data/lore-images/lore-sansar-mein-jaana.jpg",
+      "kind": "lore",
+      "source": "data/lore-images/lore-sansar-mein-jaana.jpg",
+      "bytes": 155085,
+      "sha256": "dea8422e6f0cf81bea1a130aac5efe06f66e5588c7b42b40892c20fb8cbb8cf6",
+      "install_to": "data/lore-images/"
+    },
+    {
+      "path": "addons/enthea-rs.exe",
+      "kind": "addon",
+      "source": "enthea-rs.exe",
+      "bytes": 13611008,
+      "sha256": "3e9f44da37824028c6436863e803a70d1cc6e628c1c707b4981e6a6e19667c41",
+      "install_to": "platform root \u2192 enthea-rs.exe"
+    }
+  ]
+}

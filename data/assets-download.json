@@ -1,0 +1,7 @@
+{
+  "provider": "google-drive",
+  "file": "afs-assets-20260620.zip",
+  "share_url": "https://drive.google.com/file/d/1Lzaxt-85ADBsCdbCwMX806BPbxB4JhHS/view?usp=sharing",
+  "direct_download_url": "https://drive.google.com/uc?export=download&id=1Lzaxt-85ADBsCdbCwMX806BPbxB4JhHS",
+  "notes": "After uploading to Google Drive: Share → Anyone with the link → Viewer. Replace the file in Drive when running npm run pack-assets; link stays the same if you overwrite in place."
+}

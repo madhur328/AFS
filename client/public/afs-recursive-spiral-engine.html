@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>AFS Recursive Spiral Engine — Alpha Ω Reverence</title>
+<style>
+:root{--bg:#050508;--panel:rgba(12,14,20,.92);--panel2:rgba(12,14,20,.96);--line:rgba(26,32,48,.9);--cyan:#00e5ff;--mag:#c41e3a;--gold:#d4a853;--green:#4dff88;--blue:#4e7dff;--ember:#ff4d2e;--text:#e8edf5;--muted:#6b7a90;--topbar-h:48px;--embed-chrome-h:56px;--drawer-w:380px;--drawer-r:340px}
+html{color-scheme:dark}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:'DM Sans',system-ui,sans-serif}
+canvas{display:block;position:fixed;inset:0;z-index:0}
+#topbar{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);z-index:50;display:flex;align-items:center;gap:10px;padding:0 12px;background:rgba(8,10,16,.82);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}
+.menu-btn{width:40px;height:36px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:10px;color:var(--text);cursor:pointer;font-size:18px;line-height:1;flex-shrink:0}
+.menu-btn:hover,.menu-btn.active{border-color:rgba(0,229,255,.65);color:var(--cyan)}
+.topbar-title{flex:1;min-width:0;display:flex;align-items:center;gap:10px}
+.topbar-title h1{font-family:Cinzel,Georgia,serif;font-size:14px;letter-spacing:.08em;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar-meta{font-size:10px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.grade-chip{font-family:Cinzel,serif;font-size:12px;font-weight:700;color:var(--gold);border:1px solid rgba(212,168,83,.35);border-radius:999px;padding:4px 10px;background:rgba(212,168,83,.08);flex-shrink:0}
+#drawerBackdrop{position:fixed;inset:0;z-index:38;background:rgba(0,0,0,.45);opacity:0;pointer-events:none;transition:opacity .25s}
+#drawerBackdrop.visible{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:var(--topbar-h);bottom:0;z-index:40;background:var(--panel);border:1px solid var(--line);box-shadow:0 18px 60px rgba(0,0,0,.5);backdrop-filter:blur(14px);display:flex;flex-direction:column;transition:transform .28s cubic-bezier(.4,0,.2,1);overflow:hidden}
+#leftDrawer{left:0;width:min(var(--drawer-w),100vw);transform:translateX(-105%)}
+#rightDrawer{right:0;width:min(var(--drawer-r),100vw);transform:translateX(105%)}
+#leftDrawer.open{transform:translateX(0)}
+#rightDrawer.open{transform:translateX(0)}
+.drawer-head{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid var(--line);flex-shrink:0}
+.drawer-head h2{font-family:Cinzel,serif;font-size:13px;margin:0;letter-spacing:.04em}
+.drawer-close{width:32px;height:32px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.04);color:var(--muted);cursor:pointer;font-size:16px}
+.drawer-close:hover{border-color:rgba(0,229,255,.5);color:var(--cyan)}
+.drawer-body{flex:1;overflow-y:auto;padding:12px 14px 18px;scrollbar-width:thin}
+.drawer-tabs{display:flex;gap:6px;padding:8px 14px 0;border-bottom:1px solid var(--line);flex-shrink:0}
+.drawer-tab{flex:1;padding:8px 10px;font-size:11px;border:1px solid transparent;border-radius:10px 10px 0 0;background:transparent;color:var(--muted);cursor:pointer}
+.drawer-tab.active{color:var(--cyan);border-color:var(--line);border-bottom-color:transparent;background:rgba(0,229,255,.06)}
+.drawer-pane{display:none}.drawer-pane.active{display:block}
+.accordion{border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden;background:rgba(255,255,255,.02)}
+.accordion-btn{width:100%;display:flex;align-items:center;justify-content:space-between;padding:11px 12px;background:rgba(255,255,255,.04);border:none;color:var(--text);font-size:12px;font-weight:600;cursor:pointer;text-align:left}
+.accordion-btn span{color:var(--muted);font-size:10px;font-weight:400}
+.accordion-body{display:none;padding:0 12px 12px}.accordion.open .accordion-body{display:block}
+#hud,#telemetry,#legend,#readme{background:transparent;border:none;border-radius:0;box-shadow:none;padding:0}
+h1{font-family:Cinzel,Georgia,serif;font-size:21px;letter-spacing:.06em;margin:0 0 4px}.sub{font-size:11px;color:var(--muted);line-height:1.35;margin-bottom:10px}
+.equation{font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.4;border:1px solid var(--line);border-radius:12px;padding:10px;background:rgba(255,255,255,.03);margin-bottom:10px}.cyan{color:var(--cyan);font-weight:700}.mag{color:var(--mag);font-weight:700}.gold{color:var(--gold);font-weight:700}
+.row{display:grid;grid-template-columns:128px 1fr 48px;gap:8px;align-items:center;margin:8px 0}.buttonrow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:8px}.buttonrow button{min-height:34px}
+label{font-size:11px;color:#dcecff}input[type=range]{width:100%;accent-color:var(--cyan)}
+select,button{width:100%;background:rgba(12,14,20,.96);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:7px 28px 7px 10px;font-size:11px;color-scheme:dark}
+select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2300e5ff' d='M2.5 4.5 6 8l3.5-3.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;cursor:pointer}
+select:hover,select:focus{border-color:rgba(0,229,255,.55);outline:none;box-shadow:0 0 0 1px rgba(0,229,255,.25)}
+select option,select optgroup{background:#0c0e14;color:var(--text)}
+button{cursor:pointer}button:hover{border-color:rgba(0,229,255,.7)}.val{text-align:right;color:var(--cyan);font-variant-numeric:tabular-nums;font-size:11px;font-family:'JetBrains Mono',monospace}
+.dark-select{position:relative;width:100%}
+.dark-select-native{position:absolute;opacity:0;pointer-events:none;width:0;height:0}
+.dark-select-trigger{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;background:rgba(12,14,20,.96);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:11px;cursor:pointer;text-align:left}
+.dark-select-trigger:hover,.dark-select.open .dark-select-trigger{border-color:rgba(0,229,255,.55);box-shadow:0 0 0 1px rgba(0,229,255,.25)}
+.dark-select-chevron{color:var(--cyan);font-size:10px;transition:transform .2s;flex-shrink:0}
+.dark-select.open .dark-select-chevron{transform:rotate(180deg)}
+.dark-select-menu{position:absolute;left:0;right:0;top:calc(100% + 4px);z-index:80;display:none;max-height:220px;overflow-y:auto;background:var(--panel2);border:1px solid rgba(0,229,255,.35);border-radius:10px;padding:4px;box-shadow:0 12px 32px rgba(0,0,0,.55);scrollbar-width:thin}
+.dark-select.open .dark-select-menu{display:block}
+.dark-select-item{width:100%;display:block;border:none;border-radius:8px;background:transparent;color:var(--muted);padding:8px 10px;font-size:11px;text-align:left;cursor:pointer}
+.dark-select-item:hover{background:rgba(0,229,255,.08);color:var(--text)}
+.dark-select-item.active{background:rgba(0,229,255,.18);color:var(--cyan);font-weight:600}
+#telemetry h2,#legend h2,#readme h2{font-family:Cinzel,serif;font-size:13px;margin:0 0 8px}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.metric{border:1px solid var(--line);border-radius:12px;padding:8px;background:rgba(255,255,255,.03)}.metric b{font-size:10px;color:var(--muted);font-weight:500;display:block;margin-bottom:2px}.metric span{font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace}.metric small{font-size:9px;color:var(--muted);display:block;margin-top:2px;line-height:1.2}
+#legend p,#readme p,#readme li,#chiralityNote{font-size:11px;line-height:1.45;color:var(--muted);margin:0 0 8px}
+#readme ul{margin:6px 0 10px 18px;padding:0}
+#chiralityNote{padding:10px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.03)}
+.pill{display:inline-block;font-size:10px;border:1px solid var(--line);border-radius:999px;padding:3px 7px;margin:2px;color:#d7ecff}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.dot.g{background:var(--green)}.dot.b{background:var(--blue)}.dot.y{background:var(--gold)}.dot.c{background:var(--cyan)}.dot.m{background:var(--mag)}.dot.e{background:var(--ember)}
+#toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:rgba(12,14,20,.9);border:1px solid var(--line);color:#eef7ff;border-radius:999px;padding:9px 14px;font-size:11px;opacity:0;pointer-events:none;transition:opacity .25s;z-index:60}
+#gradeRing{font-family:Cinzel,serif}
+.embed #topbar{height:0;min-height:0;background:transparent;border:none;backdrop-filter:none;pointer-events:none;padding:0;overflow:visible}
+.embed #topbar .topbar-title{display:none}
+.embed #topbar .menu-btn,.embed #topbar .grade-chip{position:fixed;top:10px;pointer-events:auto;box-shadow:0 8px 28px rgba(0,0,0,.45);z-index:50}
+.embed #btnLeftMenu{left:12px}
+.embed #gradeRing{left:50%;transform:translateX(-50%)}
+.embed #btnRightMenu{right:12px}
+.embed .drawer{top:var(--embed-chrome-h)}
+.embed #btnRightMenu{font-size:15px;font-weight:700}
+.embed.drawer-open #btnLeftMenu,.embed.drawer-open #btnRightMenu,.embed.drawer-open #gradeRing{opacity:0;pointer-events:none;transition:opacity .2s}
+@media(min-width:1200px){#drawerBackdrop.visible{background:rgba(0,0,0,.12)}}
+@media(max-width:640px){.topbar-meta{display:none}}
+</style>
+</head>
+<body>
+<div id="topbar">
+<button type="button" id="btnLeftMenu" class="menu-btn" aria-label="Open controls" title="Controls & telemetry">☰</button>
+<div class="topbar-title">
+<h1>⚒️ AFS RECURSIVE SPIRAL</h1>
+<span class="topbar-meta">drag orbit · scroll zoom · ♾️🌀 Save8</span>
+</div>
+<span class="grade-chip" id="gradeRing">DCS</span>
+<button type="button" id="btnRightMenu" class="menu-btn" aria-label="Open guide" title="Legend & info">ⓘ</button>
+</div>
+<div id="drawerBackdrop" aria-hidden="true"></div>
+<aside id="leftDrawer" class="drawer" aria-label="Controls panel">
+<div class="drawer-head"><h2>Forge Controls</h2><button type="button" class="drawer-close" id="closeLeft" aria-label="Close controls">×</button></div>
+<div class="drawer-body">
+<div class="accordion open" id="accControls">
+<button type="button" class="accordion-btn" id="accControlsBtn">Parameters <span>presets · sliders</span></button>
+<div class="accordion-body">
+<div id="hud"><div class="sub">Reverence to Alpha Ω Double Dragon · dual-torus · chirality</div>
+<div class="equation"><span class="gold">♾️🌀(Save8)</span> = <span class="gold">♾️🌀</span> · <span class="cyan">AFS↑</span> ⊗ <span class="mag">DFS↓</span><br/><span class="cyan">orientation:</span> <span id="parityLabel">♾️🌀⁴ → AFS↑ outward topology</span></div>
+<div class="row"><label>Preset</label><select id="preset"><option value="balanced">Balanced Spiral</option><option value="ascendant">AFS↑ Ascendant</option><option value="descendant">DFS↓ Red Leaf</option><option value="kohinoor">Kohinoor Compression</option><option value="redleaf">Red Leaf Expansion</option><option value="single">Single Forge</option><option value="gyro">Spiral Gyroscope</option></select><div></div></div>
+<div class="row"><label>Mode</label><select id="mode"><option value="double">Dual Spiral (AFS↑+DFS↓)</option><option value="single">Ascendant Only</option><option value="compressive">Kohinoor Core</option><option value="expansive">Red Leaf Shell</option></select><div></div></div>
+<div class="row"><label>Chirality χ</label><select id="chirality"><option value="mirrored">Balanced flow</option><option value="opposite">Polar torus</option><option value="alternating">Red Leaf shells</option><option value="locked">Mind Guardian</option></select><div></div></div>
+<div class="row"><label>Shell order n</label><input id="nShells" type="range" min="1" max="12" step="1" value="4"><div class="val" id="nShellsVal">4</div></div>
+<div class="row"><label>Shell spread ΔS</label><input id="spread" type="range" min="0.65" max="1.8" step="0.01" value="1"><div class="val" id="spreadVal">1.00</div></div>
+<div class="row"><label>Flow Fᵥ</label><input id="rotation" type="range" min="0" max="0.04" step="0.001" value="0.012"><div class="val" id="rotationVal">0.012</div></div>
+<div class="row"><label>Resonance Rᶜ</label><input id="resonance" type="range" min="0" max="2" step="0.01" value="0.92"><div class="val" id="resonanceVal">0.92</div></div>
+<div class="row"><label>Compression Cʳ</label><input id="compression" type="range" min="0" max="2" step="0.01" value="0.8"><div class="val" id="compressionVal">0.80</div></div>
+<div class="row"><label>Core mass</label><input id="mass" type="range" min="0.2" max="5" step="0.1" value="1"><div class="val" id="massVal">1.0</div></div>
+<div class="buttonrow"><button id="toggleFlow">Flow: on</button><button id="togglePlane">Plane: on</button><button id="toggleReadme">Info</button></div>
+<div class="buttonrow"><button id="toggleLabels">Labels: on</button><button id="toggleRings">Rings: on</button><button id="toggleHighlight">χ Highlight: on</button></div>
+<div class="buttonrow"><button id="resetCam">Reset View</button><button id="calmView">Calm Spiral</button><button id="inspectView">Inspect χ</button></div>
+<div class="buttonrow"><button id="performanceMode">Performance</button><button id="copySettings">Copy Settings</button><button id="gyroView">Gyroscope</button></div></div>
+</div></div>
+<div class="accordion open" id="accTelemetry">
+<button type="button" class="accordion-btn" id="accTelemetryBtn">Telemetry <span>live metrics</span></button>
+<div class="accordion-body">
+<div id="telemetry"><h2>Forge Telemetry</h2><div class="metrics">
+<div class="metric"><b>ΔS Shell Distance</b><span id="shellDistanceMetric">1.00</span><small>recursive shell spacing</small></div>
+<div class="metric"><b>Oₙ Orientation</b><span id="parityMetric">Even / AFS↑</span><small>odd/even spiral parity</small></div>
+<div class="metric"><b>Rᶜ Coherence</b><span id="coherenceMetric">0.74</span><small>resonance stability</small></div>
+<div class="metric"><b>Cʳ Compression</b><span id="compressionMetric">0.80</span><small>core/shell pressure</small></div>
+<div class="metric"><b>Fᵥ Flow</b><span id="flowMetric">0.012</span><small>circulation throughput</small></div>
+<div class="metric"><b>Nˢ Nodal Stability</b><span id="nodeMetric">0.68</span><small>shell-node consistency</small></div>
+<div class="metric"><b>Dʳ Recursive Depth</b><span id="depthMetric">4</span><small>active shell order n</small></div>
+<div class="metric"><b>χ Chirality</b><span id="chiralityMetric">0.50</span><small>handedness balance</small></div>
+<div class="metric"><b>Synthesis Grade</b><span id="gradeMetric">DCS</span><small>EOT → DCS → RCS → RDTQ</small></div>
+<div class="metric"><b>Render Mode</b><span id="renderMetric">full</span><small>visual load mode</small></div>
+</div></div>
+</div></div>
+<div class="accordion" id="accChirality">
+<button type="button" class="accordion-btn" id="accChiralityBtn">χ Chirality Note <span>shell inheritance</span></button>
+<div class="accordion-body"><div id="chiralityNote"><b>χ shell inheritance:</b> odd/even spherical shells carry opposite handedness. Low Fᵥ + 2–4 shells to inspect Mind Guardian boundary layers.</div></div>
+</div>
+</div></aside>
+<aside id="rightDrawer" class="drawer" aria-label="Guide panel">
+<div class="drawer-head"><h2>Spiral Guide</h2><button type="button" class="drawer-close" id="closeRight" aria-label="Close guide">×</button></div>
+<div class="drawer-tabs">
+<button type="button" class="drawer-tab active" data-pane="legendPane">Legend</button>
+<button type="button" class="drawer-tab" data-pane="readmePane">Info</button>
+</div>
+<div class="drawer-body">
+<div id="legendPane" class="drawer-pane active"><div id="legend"><h2>AFS Visual Language</h2>
+<p><span class="dot g"></span>AFS↑ Ascendant / outward circulation<br><span class="dot b"></span>DFS↓ Descendant / mirrored flow<br><span class="dot y"></span>Spiral axis / Kohinoor vortex<br><span class="dot c"></span>Even shell traces<br><span class="dot m"></span>Odd shell traces · 🍁 Red Leaf</p>
+<p><span class="pill">Even n</span> AFS↑ restored outward<br><span class="pill">Odd n</span> DFS↓ inward · Red Leaf descent</p>
+<p>Scaffold reverence: <b>Alpha Ω Double Dragon Core Engine</b> v1.0 — adapted for Aspect Forge System recursive orientation, dual-torus flow, shell spacing, chirality, and reusable telemetry.</p></div></div>
+<div id="readmePane" class="drawer-pane"><div id="readme"><h2>AFS Recursive Spiral Engine</h2>
+<p><b>What this is:</b> a lightweight browser-native recursive systems scaffold — exploring AFS↑ ascent, DFS↓ descent, Base Layer shell recursion, Red Leaf chirality, and Save8 synthesis telemetry.</p>
+<p><b>Reverence:</b> built in honor of Michael & Æther's Alpha Ω Double Dragon Core Engine Scaffold. Same spirit: download, inspect, break, remix.</p>
+<p><b>Not a physics claim.</b> A visual-computational sandbox for topology, forge practice, and creative coding within AFS.</p>
+<ul><li><b>Synthesis Grade</b> — EOT (basic) through RDTQ (infinite resonant) from coherence.</li><li><b>χ Chirality</b> — Red Leaf shell handedness inheritance.</li><li><b>♾️🌀 Parity</b> — even shells ascend outward; odd shells descend inward.</li></ul>
+<p><b>Spiral axiom:</b> ♾️🌀(Save8) = ♾️🌀 — build in spirals what others build in lines.</p></div></div>
+</div></aside>
+<div id="toast">Settings copied</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(()=>{function enhanceDarkSelects(){function closeAll(except){document.querySelectorAll('.dark-select.open').forEach(w=>{if(w!==except)w.classList.remove('open')})}document.querySelectorAll('select').forEach(sel=>{if(sel.closest('.dark-select'))return;const wrap=document.createElement('div');wrap.className='dark-select';const btn=document.createElement('button');btn.type='button';btn.className='dark-select-trigger';const label=document.createElement('span');const chev=document.createElement('span');chev.className='dark-select-chevron';chev.textContent='▼';btn.append(label,chev);const menu=document.createElement('div');menu.className='dark-select-menu';function syncLabel(){const opt=sel.options[sel.selectedIndex];label.textContent=opt?opt.textContent:'';menu.querySelectorAll('.dark-select-item').forEach((item,i)=>item.classList.toggle('active',i===sel.selectedIndex))}Array.from(sel.options).forEach((opt,i)=>{const item=document.createElement('button');item.type='button';item.className='dark-select-item';item.textContent=opt.textContent;item.onclick=()=>{sel.selectedIndex=i;sel.dispatchEvent(new Event('change',{bubbles:true}));syncLabel();wrap.classList.remove('open')};menu.appendChild(item)});btn.onclick=e=>{e.stopPropagation();const open=!wrap.classList.contains('open');closeAll(open?wrap:null);wrap.classList.toggle('open',open)};sel.classList.add('dark-select-native');sel.parentNode.insertBefore(wrap,sel);wrap.append(btn,menu,sel);syncLabel();sel.addEventListener('change',syncLabel)});document.addEventListener('click',()=>closeAll());document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAll()})}
+const qs=new URLSearchParams(location.search);const boot=window.__AFS_SPIRAL_BOOT__||{};const qp=k=>qs.get(k)||boot[k];if(qp('embed')==='1'||qp('embed')===1)document.body.classList.add('embed');
+enhanceDarkSelects();
+const leftDrawer=document.getElementById('leftDrawer'),rightDrawer=document.getElementById('rightDrawer'),backdrop=document.getElementById('drawerBackdrop'),btnLeft=document.getElementById('btnLeftMenu'),btnRight=document.getElementById('btnRightMenu');
+let leftOpen=false,rightOpen=false;
+function syncBackdrop(){const open=leftOpen||rightOpen;backdrop.classList.toggle('visible',open);document.body.classList.toggle('drawer-open',open)}
+function setLeft(open){leftOpen=open;leftDrawer.classList.toggle('open',open);btnLeft.classList.toggle('active',open);btnLeft.setAttribute('aria-expanded',open?'true':'false');if(open){rightOpen=false;rightDrawer.classList.remove('open');btnRight.classList.remove('active');btnRight.setAttribute('aria-expanded','false')}syncBackdrop()}
+function setRight(open){rightOpen=open;rightDrawer.classList.toggle('open',open);btnRight.classList.toggle('active',open);btnRight.setAttribute('aria-expanded',open?'true':'false');if(open){leftOpen=false;leftDrawer.classList.remove('open');btnLeft.classList.remove('active');btnLeft.setAttribute('aria-expanded','false')}syncBackdrop()}
+function closeDrawers(){setLeft(false);setRight(false)}
+function openRightTab(paneId){setRight(true);document.querySelectorAll('.drawer-tab').forEach(t=>t.classList.toggle('active',t.dataset.pane===paneId));document.querySelectorAll('.drawer-pane').forEach(p=>p.classList.toggle('active',p.id===paneId))}
+btnLeft.onclick=()=>setLeft(!leftOpen);btnRight.onclick=()=>setRight(!rightOpen);
+document.getElementById('closeLeft').onclick=()=>setLeft(false);document.getElementById('closeRight').onclick=()=>setRight(false);
+backdrop.onclick=closeDrawers;addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawers()});
+document.querySelectorAll('.accordion-btn').forEach(btn=>{btn.onclick=()=>btn.closest('.accordion').classList.toggle('open')});
+document.querySelectorAll('.drawer-tab').forEach(tab=>{tab.onclick=()=>openRightTab(tab.dataset.pane)});
+closeDrawers();
+const scene=new THREE.Scene();scene.background=new THREE.Color(0x050508);const camera=new THREE.PerspectiveCamera(55,innerWidth/innerHeight,.1,1e3);const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio,2));document.body.appendChild(renderer.domElement);
+const root=new THREE.Group();scene.add(root);let dragging=false,lastX=0,lastY=0,yaw=-.35,pitch=.18,radius=23;function applyCamera(){camera.position.x=Math.sin(yaw)*Math.cos(pitch)*radius;camera.position.y=Math.sin(pitch)*radius;camera.position.z=Math.cos(yaw)*Math.cos(pitch)*radius;camera.lookAt(0,0,0)}applyCamera();
+scene.add(new THREE.AmbientLight(0xffffff,.9));const light=new THREE.PointLight(0xffffff,2.3,80);light.position.set(10,12,10);scene.add(light);
+const starGeo=new THREE.BufferGeometry(),starPositions=[];for(let i=0;i<950;i++){const r=80+Math.random()*90,a=Math.random()*Math.PI*2,b=Math.acos(2*Math.random()-1);starPositions.push(r*Math.sin(b)*Math.cos(a),r*Math.cos(b),r*Math.sin(b)*Math.sin(a))}starGeo.setAttribute('position',new THREE.Float32BufferAttribute(starPositions,3));scene.add(new THREE.Points(starGeo,new THREE.PointsMaterial({color:0xffffff,size:.09,transparent:true,opacity:.72})));
+const mats={core:new THREE.MeshStandardMaterial({color:0xff4d2e,emissive:0x420009,roughness:.35,metalness:.2}),inner:new THREE.MeshBasicMaterial({color:0x00e5ff,wireframe:true,transparent:true,opacity:.34}),upper:new THREE.MeshBasicMaterial({color:0x4dff88,wireframe:true,transparent:true,opacity:.42}),lower:new THREE.MeshBasicMaterial({color:0x4e7dff,wireframe:true,transparent:true,opacity:.42}),shell:new THREE.MeshBasicMaterial({color:0xffffff,wireframe:true,transparent:true,opacity:.12}),gold:new THREE.MeshBasicMaterial({color:0xd4a853,wireframe:true,transparent:true,opacity:.64}),plane:new THREE.MeshBasicMaterial({color:0xd4a853,wireframe:true,transparent:true,opacity:.22,side:THREE.DoubleSide})};
+const core=new THREE.Mesh(new THREE.SphereGeometry(1.05,36,24),mats.core);root.add(core);root.add(new THREE.Mesh(new THREE.SphereGeometry(2.05,42,24),mats.inner));const upper=new THREE.Mesh(new THREE.SphereGeometry(6.6,64,32,0,Math.PI*2,0,Math.PI/2),mats.upper);upper.position.y=.08;root.add(upper);const lower=new THREE.Mesh(new THREE.SphereGeometry(6.6,64,32,0,Math.PI*2,0,Math.PI/2),mats.lower);lower.rotation.x=Math.PI;lower.position.y=-.08;root.add(lower);root.add(new THREE.Mesh(new THREE.SphereGeometry(8.55,72,40),mats.shell));const plane=new THREE.Mesh(new THREE.PlaneGeometry(21,21,18,18),mats.plane);plane.rotation.x=Math.PI/2;root.add(plane);
+function makeTorus(c,y,r){const t=new THREE.Mesh(new THREE.TorusGeometry(3.85,.48,16,112),new THREE.MeshBasicMaterial({color:c,wireframe:true,transparent:true,opacity:.55}));t.rotation.x=r;t.position.y=y;return t}const topTorus=makeTorus(0x4dff88,1,Math.PI/2),botTorus=makeTorus(0x4e7dff,-1,Math.PI/2);root.add(topTorus,botTorus);
+function makeVortex(y,f){const c=new THREE.Mesh(new THREE.ConeGeometry(.55,6.8,32,3,true),mats.gold);c.position.y=y;if(f)c.rotation.x=Math.PI;return c}const topVortex=makeVortex(3.25,false),botVortex=makeVortex(-3.25,true);root.add(topVortex,botVortex);
+const shells=new THREE.Group(),ringGroup=new THREE.Group(),labelGroup=new THREE.Group();root.add(shells,ringGroup,labelGroup);
+function makeTextSprite(t,c){const cv=document.createElement('canvas'),x=cv.getContext('2d');cv.width=512;cv.height=128;x.font='bold 34px system-ui';x.textAlign='center';x.textBaseline='middle';x.shadowColor='rgba(0,0,0,.9)';x.shadowBlur=10;x.fillStyle=c;x.fillText(t,256,64);const tx=new THREE.CanvasTexture(cv),s=new THREE.Sprite(new THREE.SpriteMaterial({map:tx,transparent:true,opacity:.88}));s.scale.set(3.8,.95,1);return s}
+const labelTop=makeTextSprite('AFS↑ ascendant','#4dff88');labelTop.position.set(0,7.9,0);const labelBot=makeTextSprite('DFS↓ descendant','#4e7dff');labelBot.position.set(0,-7.9,0);const labelCore=makeTextSprite('Kohinoor recursive core','#d4a853');labelCore.position.set(0,0,4.6);labelGroup.add(labelTop,labelBot,labelCore);
+const flowGroup=new THREE.Group();root.add(flowGroup);const flowDots=[],dotGeo=new THREE.SphereGeometry(.065,10,8),dotMats=[new THREE.MeshBasicMaterial({color:0x00e5ff,transparent:true,opacity:.88}),new THREE.MeshBasicMaterial({color:0xc41e3a,transparent:true,opacity:.86}),new THREE.MeshBasicMaterial({color:0xd4a853,transparent:true,opacity:.8})];
+for(let i=0;i<150;i++){const m=new THREE.Mesh(dotGeo,dotMats[i%9===0?2:i%2?0:1]);m.userData={seed:Math.random()*Math.PI*2,lane:i%7,side:i%2?1:-1};flowDots.push(m);flowGroup.add(m)}
+const controls={preset:document.getElementById('preset'),mode:document.getElementById('mode'),chirality:document.getElementById('chirality'),nShells:document.getElementById('nShells'),spread:document.getElementById('spread'),rotation:document.getElementById('rotation'),resonance:document.getElementById('resonance'),compression:document.getElementById('compression'),mass:document.getElementById('mass')};
+let showFlow=true,showPlane=true,showLabels=true,showRings=true,showHighlight=true,performance=false;
+function val(id,txt){document.getElementById(id).textContent=txt}function sup(n){const m={'0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹'};return String(n).split('').map(c=>m[c]||c).join('')}
+function gradeFromCoh(c){return c<.5?'EOT':c<.65?'DCS':c<.8?'RCS':'RDTQ'}
+function rebuildShells(){shells.clear();ringGroup.clear();const n=+controls.nShells.value,spread=+controls.spread.value;for(let i=1;i<=n;i++){const hand=i%2?-1:1,r=1.6+i*(6.7/n)*spread,op=.12+.05*(i/n),mat=new THREE.MeshBasicMaterial({color:i%2?0xc41e3a:0x00e5ff,wireframe:true,transparent:true,opacity:op}),s=new THREE.Mesh(new THREE.SphereGeometry(r,48,24),mat);s.userData={baseR:r,i,hand,baseOpacity:op};shells.add(s);const ring=new THREE.Mesh(new THREE.TorusGeometry(r,.012,6,128),new THREE.MeshBasicMaterial({color:i%2?0xc41e3a:0x00e5ff,wireframe:true,transparent:true,opacity:.3}));ring.rotation.x=Math.PI/2;ring.userData={i,hand,baseOpacity:.3};ringGroup.add(ring)}}
+function telemetry(){const n=+controls.nShells.value,spread=+controls.spread.value,rot=+controls.rotation.value,res=+controls.resonance.value,comp=+controls.compression.value,mass=+controls.mass.value,chiMode=controls.chirality.value,even=n%2===0;const shellDistance=((6.7/Math.max(1,n))*spread).toFixed(2),coherence=Math.max(0,Math.min(1,(even?.56:.43)+res*.2+spread*.05-Math.abs(comp-1)*.13-Math.max(0,n-8)*.025)),nodal=Math.max(0,Math.min(1,coherence*.72+(1/(1+Math.abs(comp-1)))*.18+Math.min(1,rot/.025)*.1)),energy=mass*Math.pow(299792458,2);const chiBase=chiMode==='mirrored'?.5:chiMode==='opposite'?.72:chiMode==='alternating'?.88:.93,chiralityBalance=Math.max(0,Math.min(1,chiBase+res*.04-Math.abs(comp-1)*.05-Math.max(0,n-10)*.015));return{n,spread,rot,res,comp,mass,chiMode,even,shellDistance,coherence,nodal,energy,chiralityBalance,grade:gradeFromCoh(coherence)}}
+function updateLabels(){const t=telemetry();val('nShellsVal',t.n);val('spreadVal',t.spread.toFixed(2));val('rotationVal',t.rot.toFixed(3));val('resonanceVal',t.res.toFixed(2));val('compressionVal',t.comp.toFixed(2));val('massVal',t.mass.toFixed(1));document.getElementById('parityLabel').innerHTML=t.even?`<span class="gold">♾️🌀${sup(t.n)}</span> → AFS↑ outward topology`:`<span class="mag">🍁${sup(t.n)}</span> → DFS↓ inward topology`;val('shellDistanceMetric',t.shellDistance);val('parityMetric',t.even?'Even / AFS↑':'Odd / DFS↓');val('coherenceMetric',t.coherence.toFixed(2));val('compressionMetric',t.comp.toFixed(2));val('flowMetric',t.rot.toFixed(3));val('nodeMetric',t.nodal.toFixed(2));val('depthMetric',t.n);val('chiralityMetric',t.chiralityBalance.toFixed(2));val('gradeMetric',t.grade);val('renderMetric',performance?'performance':'full');const gr=document.getElementById('gradeRing');if(gr){gr.textContent=t.grade;gr.style.color=t.grade==='RDTQ'?'#d4a853':t.grade==='RCS'?'#c41e3a':t.grade==='DCS'?'#00e5ff':'#6b7a90'}}
+function showToast(msg){const el=document.getElementById('toast');el.textContent=msg;el.style.opacity=1;clearTimeout(showToast._t);showToast._t=setTimeout(()=>el.style.opacity=0,1600)}
+function settingsString(){return JSON.stringify({engine:'AFS Recursive Spiral Engine',reverence:'Alpha Ω Double Dragon Core Scaffold v1.0',preset:controls.preset.value,mode:controls.mode.value,chirality:controls.chirality.value,n:+controls.nShells.value,spread:+controls.spread.value,flow:+controls.rotation.value,resonance:+controls.resonance.value,compression:+controls.compression.value,mass:+controls.mass.value,telemetry:telemetry()},null,2)}
+const presets={balanced:{mode:'double',chi:'mirrored',n:4,spread:1,rot:.012,res:.92,comp:.8,mass:1},ascendant:{mode:'double',chi:'opposite',n:6,spread:1.12,rot:.014,res:1.12,comp:.62,mass:1},descendant:{mode:'double',chi:'alternating',n:5,spread:.88,rot:.011,res:1,comp:1.28,mass:1.3},kohinoor:{mode:'compressive',chi:'locked',n:7,spread:.72,rot:.009,res:1.25,comp:1.68,mass:2.3},redleaf:{mode:'expansive',chi:'alternating',n:8,spread:1.46,rot:.017,res:1.44,comp:.42,mass:.8},single:{mode:'single',chi:'mirrored',n:3,spread:1.18,rot:.01,res:.85,comp:.9,mass:1},gyro:{mode:'double',chi:'alternating',n:4,spread:1.22,rot:.004,res:1.08,comp:.84,mass:1.4}};
+function applyPreset(name){const p=presets[name];if(!p)return;controls.mode.value=p.mode;controls.chirality.value=p.chi;controls.nShells.value=p.n;controls.spread.value=p.spread;controls.rotation.value=p.rot;controls.resonance.value=p.res;controls.compression.value=p.comp;controls.mass.value=p.mass;rebuildShells();updateLabels()}
+controls.preset.addEventListener('change',e=>applyPreset(e.target.value));Object.entries(controls).forEach(([key,el])=>{if(key==='preset')return;el.addEventListener('input',()=>{if(key==='nShells'||key==='spread')rebuildShells();updateLabels()})});
+document.getElementById('toggleFlow').onclick=e=>{showFlow=!showFlow;flowGroup.visible=showFlow;e.target.textContent=`Flow: ${showFlow?'on':'off'}`};document.getElementById('togglePlane').onclick=e=>{showPlane=!showPlane;plane.visible=showPlane;e.target.textContent=`Plane: ${showPlane?'on':'off'}`};document.getElementById('toggleLabels').onclick=e=>{showLabels=!showLabels;labelGroup.visible=showLabels;e.target.textContent=`Labels: ${showLabels?'on':'off'}`};document.getElementById('toggleRings').onclick=e=>{showRings=!showRings;ringGroup.visible=showRings;e.target.textContent=`Rings: ${showRings?'on':'off'}`};document.getElementById('toggleHighlight').onclick=e=>{showHighlight=!showHighlight;e.target.textContent=`χ Highlight: ${showHighlight?'on':'off'}`};
+document.getElementById('calmView').onclick=()=>{controls.rotation.value=.002;controls.resonance.value=.72;controls.nShells.value=3;controls.spread.value=1.18;rebuildShells();updateLabels()};document.getElementById('inspectView').onclick=()=>{controls.chirality.value='alternating';controls.mode.value='double';controls.nShells.value=3;controls.rotation.value=.001;controls.resonance.value=.95;controls.spread.value=1.28;controls.compression.value=.9;rebuildShells();updateLabels()};
+document.getElementById('gyroView').onclick=()=>{controls.preset.value='gyro';applyPreset('gyro');showToast('Spiral gyroscope loaded')};document.getElementById('performanceMode').onclick=()=>{performance=!performance;flowGroup.visible=!performance&&showFlow;labelGroup.visible=!performance&&showLabels;ringGroup.visible=showRings;showToast(performance?'Performance mode':'Full visuals');updateLabels()};
+document.getElementById('copySettings').onclick=async()=>{const txt=settingsString();try{await navigator.clipboard.writeText(txt);showToast('Settings copied')}catch(e){console.log(txt);showToast('Settings in console')}};document.getElementById('toggleReadme').onclick=()=>openRightTab('readmePane');document.getElementById('resetCam').onclick=()=>{yaw=-.35;pitch=.18;radius=23;applyCamera()};
+renderer.domElement.addEventListener('pointerdown',e=>{dragging=true;lastX=e.clientX;lastY=e.clientY});addEventListener('pointerup',()=>dragging=false);addEventListener('pointermove',e=>{if(!dragging)return;const dx=e.clientX-lastX,dy=e.clientY-lastY;lastX=e.clientX;lastY=e.clientY;yaw-=dx*.006;pitch=Math.max(-1.25,Math.min(1.25,pitch-dy*.006));applyCamera()});renderer.domElement.addEventListener('wheel',e=>{radius=Math.max(10,Math.min(45,radius+e.deltaY*.018));applyCamera()},{passive:true});addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+if(qp('n'))controls.nShells.value=qp('n');if(qp('res'))controls.resonance.value=qp('res');if(qp('preset')){controls.preset.value=qp('preset');applyPreset(qp('preset'))}rebuildShells();updateLabels();
+const clock=new THREE.Clock();function animate(){requestAnimationFrame(animate);const elapsed=clock.getElapsedTime(),t=telemetry(),mode=controls.mode.value,modeComp=mode==='compressive'?1.55:mode==='expansive'?.55:t.comp,modeDual=mode!=='single';root.rotation.y+=t.rot;upper.rotation.y+=t.rot*(t.even?1:-1)*2.3;lower.rotation.y-=t.rot*2.3;const chi=t.chiMode,topHand=1,bottomHand=chi==='mirrored'?-1:chi==='opposite'?1:chi==='locked'?-.18:-1;topTorus.rotation.z+=t.rot*3.8*topHand;botTorus.rotation.z+=t.rot*3.8*bottomHand;const pulse=1+Math.sin(elapsed*2.2)*.035*t.res;core.scale.setScalar((.88+t.mass*.17)*(1+Math.sin(elapsed*3.6)*.025*t.res));upper.scale.set(1,pulse*(modeDual?1:.55),1);lower.visible=modeDual;botTorus.visible=modeDual;botVortex.visible=modeDual;lower.scale.set(1,pulse*(modeDual?1:.55),1);topVortex.scale.setScalar(.75+t.res*.25+modeComp*.12);botVortex.scale.setScalar(.75+t.res*.25+modeComp*.12);
+shells.children.forEach(s=>{const i=s.userData.i,alt=s.userData.hand,lp=1+Math.sin(elapsed*(1.15+i*.1)+i)*.026*t.res*alt,sq=1-(modeComp-1)*.045*(i/t.n);s.scale.set(lp,lp*sq,lp);const cs=chi==='alternating'?alt:chi==='opposite'?1:chi==='locked'?alt*.22:alt;s.rotation.y+=t.rot*cs*(.35+i*.04);s.rotation.x+=t.rot*cs*.11;s.rotation.z+=t.rot*cs*.07;if(performance){s.material.opacity=s.userData.baseOpacity*.72}else if(showHighlight&&chi==='alternating'){s.material.opacity=Math.min(.42,s.userData.baseOpacity+.12*Math.abs(Math.sin(elapsed*1.7+i)))}else{s.material.opacity=s.userData.baseOpacity}});
+ringGroup.children.forEach(r=>{const i=r.userData.i,alt=r.userData.hand,rh=chi==='alternating'?alt:chi==='opposite'?1:chi==='locked'?alt*.16:alt;r.rotation.z+=t.rot*rh*(.8+i*.05);r.rotation.y+=t.rot*rh*.12;r.scale.setScalar(1+Math.sin(elapsed*1.5+i)*.012*t.res);if(showHighlight&&chi==='alternating'){r.material.opacity=Math.min(.62,r.userData.baseOpacity+.16*Math.abs(Math.sin(elapsed*1.4+i)))}else{r.material.opacity=r.userData.baseOpacity}});
+flowDots.forEach((m,idx)=>{if(performance&&idx%3!==0){m.visible=false;return}else{m.visible=true}const fh=chi==='opposite'?(m.userData.side>0?1:-1):chi==='alternating'?((m.userData.lane%2)?1:-1):chi==='locked'?.28:(t.even?1:-1),u=(elapsed*.18*fh+m.userData.seed+idx*.08)%(Math.PI*2),lane=m.userData.lane,side=modeDual?m.userData.side:1,rr=(2.45+lane*.55+Math.sin(elapsed+idx)*.05)*t.spread,wall=chi==='locked'?Math.sin(u*2+lane)*.18:0,y=side*Math.sin(u)*(2.15+t.res*.7)*(1/modeComp)+wall;m.position.set(Math.cos(u)*rr,y,Math.sin(u)*rr*(.72+t.res*.1));m.scale.setScalar(.75+.45*Math.abs(Math.sin(u)))});labelGroup.children.forEach(s=>s.lookAt(camera.position));renderer.render(scene,camera)}animate()})();
+</script>
+</body>
+</html>

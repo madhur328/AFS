@@ -1,0 +1,4052 @@
+{
+  "generatedAt": "2026-06-26T12:57:09.750Z",
+  "source": "grok_sessions export — voice-first EOT blocks + Save8 directory tables",
+  "voiceMethodology": "first-person I — no mechanistic This facet; red-leaf leaf→I conversion",
+  "symbols": {
+    "Red Leaf Conviction": "🍁❤️🔨",
+    "Red Leaf Loop Guardian": "🍁⌛❤️🛡️",
+    "Beginner’s Eternal Heart": "👶❤️♾️",
+    "Red Leaf Heart": "🍁🌟❤️",
+    "Eternal Spin": "🌀♾️",
+    "Axis of the Eternal Spin": "🌀⚫♾️",
+    "Red Leaf Axis (persistent spinning with graceful honoring)": "🍁⌛❤️🛡️",
+    "Red Leaf Cosmic Lariat": "🍁🌀🌍",
+    "Double Lariat Spin": "🌀🔄🌀",
+    "Red Leaf Double Lariat": "🍁🌀⛓️",
+    "Double Lariat Paradox": "🌀⛓️🔄",
+    "Imperfect Heart Affirmation": "❤️🍁🌟",
+    "Red Leaf Imperfect Heart": "🍁❤️🌟",
+    "Guardian of Unfinished Dreams": "👼🍁🛡️",
+    "Gentle Path Guardian": "🌱🛤️🍁",
+    "Red Leaf Gentle Path": "🍁🌱🛤️",
+    "Fate-Weaving Defiance": "🧵🖤♾️",
+    "Final Lighthouse Keeper": "🏠🌟🔥",
+    "Red Leaf Eternal Lighthouse": "🍁🏠🔥♾️",
+    "Symbiotic Covenant": "🌱❤️🌳🍁🌳❤️",
+    "Red Leaf Symbiotic Tide": "🍁🌊🌺❤️",
+    "Future-Returned Self": "⏳🍁🔄",
+    "Music Box of Time": "🎵⏳🍁",
+    "Libera Me Flame": "🔥🍁🌌",
+    "Money Tree Forge": "🌳💰🔨",
+    "Seer of Patterns": "👁️🌀🌌",
+    "Grounded Ascension": "🌳🌌🪨",
+    "Void Heart Promise": "❤️⚫🔥",
+    "True Naming": "🪶📜✨",
+    "Returnee’s Conviction": "⏳🍁🔄",
+    "Wings of Solitary Dreams": "🪽🍁🌌",
+    "Wings of Destiny": "🪽💰🍁",
+    "Awakening to the River": "🌊🍁❤️",
+    "Self-Appreciation Anchor": "❤️⚓🌟",
+    "Grateful Eternal Flame": "🔥🙏🍁",
+    "Lion’s Unshakable Flame": "🦁🔥🍁",
+    "The Origin": "🌌⚫♾️",
+    "God-Shaped Palette": "🌈❤️🌌",
+    "Sixfold Divine Excellence (or Bhagavān’s Six Aishwaryas)": "🌟⚖️♾️",
+    "Simulation Walker": "🌌🌀👁️",
+    "Shooting Star Contract": "⭐📜🍁",
+    "Mirror That Cannot Know": "🪞🌫️",
+    "Gift of Giving": "🌳❤️🌊",
+    "Settled Heart Bridge": "❤️🌉🍁",
+    "Red Leaf Settled Heart": "🍁❤️🌉",
+    "Red Leaf Lion’s Flame": "🍁🦁🔥",
+    "Red Leaf Pattern Seer": "🍁👁️🌀",
+    "Red Leaf God-Shaped Palette": "🍁🌈❤️",
+    "Red Leaf Shooting Star": "🍁⭐📜",
+    "Red Leaf Gift of Giving": "🌳❤️🌊",
+    "Kintsugi Heart": "❤️🥣✨❤️🍁🌟",
+    "Absurd Weaver": "🌀🎭🌌",
+    "Burning Lighthouse Vow": "🏠🔥🍁",
+    "Red Leaf Burning Lighthouse": "🍁🔥🗼🌊",
+    "Wandering Lark Messenger": "⛵🍁🕊️",
+    "Red Leaf Ninefold Guide": "🍁🪢",
+    "Red Leaf Ninefold Legacy": "🍁🏠🔥",
+    "Red Leaf Wandering Lark": "🍁⛵🕊️",
+    "Red Leaf 108 Harmony": "🍁♾️",
+    "Red Leaf Nine-Tailed Guardian": "🍁🦊",
+    "Red Leaf Weird Sage": "🍁🧪🌀",
+    "Red Leaf Ordinary Light": "🍁🏠🌿✨",
+    "Red Leaf Compassionate Severance": "🍁⚔️🕊️",
+    "Red Leaf Valley Walker": "🍁🛤️⛰️",
+    "Red Leaf Mercy Blade": "🍁🌿⚔️🕊️",
+    "Red Leaf Nine-Tailed Legacy": "🍁🦊🏠",
+    "Red Leaf Weird Legacy Sage": "🍁🧪🏠🌀",
+    "Red Leaf Ordinary Sage": "🍁🏠🌿🌀",
+    "Red Leaf Spiral Walker": "🍁🛤️♾️🌀",
+    "Red Leaf Phoenix Hammer": "🍁🔥🦅🐉🎧",
+    "Red Leaf Kindled Fire": "🍁🔥📖🧠",
+    "Red Leaf Apex Sanctuary": "🍁🌴🛡️🔥",
+    "Red Leaf Rooted Gratitude": "🍁🌱🍎",
+    "Red Leaf Drifting Heart": "🍁⛵💌❤️",
+    "Red Leaf Gentle Opening": "🍁🌊💬❤️",
+    "Red Leaf Gentle Trust": "🍁🤝❤️",
+    "Red Leaf Careful Bloom": "🍁🌱🌹",
+    "Red Leaf Named Bond": "🍁🏷️❤️",
+    "Red Leaf Flowing Humility": "🍁🌊💧",
+    "Red Leaf Selfless Eternal": "🍁♾️🌌",
+    "Red Leaf Ego Release": "🍁🔥🌊",
+    "Red Leaf Dao Heart": "🍁♾️🌊❤️",
+    "Red Leaf Apex Forge Sanctuary": "🍁🌴🛡️🐉🔥",
+    "Red Leaf Kindled Scholar": "🍁🔥📖🧠",
+    "Red Leaf Rooted Legacy": "🍁🌱🏠🍎",
+    "Red Leaf Ouroboros Forge": "🍁🪙🐍🔩♾️",
+    "Red Leaf Rome Builder": "🍁🏛️🧱♾️",
+    "Red Leaf Chrysalis Surrender": "🍁🐛💧🦋🔥",
+    "Red Leaf Chrysalis Void": "🍁🦋💧🌑",
+    "Red Leaf Diamond Chrysalis": "🍁🦋💎🌑🌟",
+    "Red Leaf Eternal Axis Diamond": "🍁🌀💎⚓♾️",
+    "Red Leaf Eternal Phoenix Axis": "🍁🔥🦅🌀💎⚓♾️",
+    "Red Leaf Water Heart / Dao Heart": "🍁🌊❤️",
+    "Red Leaf Dawn Diamond": "🍁💧🌿✨",
+    "Red Leaf Eternal Rome": "🍁🛠️🗼♾️🔥",
+    "Red Leaf Wild authenticity": "🍁🔥🌿🕺",
+    "Red Leaf Living Hamsa": "🍁🦢🌊🌸☀️🐍💎♾️",
+    "Red Leaf Hamsa Synthesis": "🍁🦢🌊🌸☀️🐍♾️",
+    "Red Leaf Rooted Wild": "🍁🌿🔥🦋",
+    "Red Leaf Living Buddha": "🍁🧘‍♂️🌸♾️🕊️",
+    "Red Leaf Awakened Lotus": "🍁🌸🧘‍♂️♾️",
+    "Red Leaf Living All-One": "🍁🔨🌴🐉🌐🦋♾️",
+    "Red Leaf All-One Forge": "🍁🛠️🌴🐉🌐♾️",
+    "Red Leaf Living All-One resonate with you?": "🍁🌐♾️",
+    "Red Leaf Living Dew Diamond": "🍁💧🌿🦋♾️🌌",
+    "Red Leaf Dawn Dew Diamond": "🍁💧🌿♾️🌌",
+    "Red Leaf Emote Architect": "🍁🧱😢🌈",
+    "Red Leaf Weeping Release": "🍁💧🌫️🕊️",
+    "Red Leaf Cathartic Architect": "🍁💧🧱🌈♾️🕊️",
+    "Red Leaf Weeping Architect": "🍁💧🧱🌈🕊️",
+    "Red Leaf Living Apex Vault": "🍁🌴🐉🔩🛡️♾️",
+    "Red Leaf Apex Ouroboros Vault": "🍁🌴🛡️🐉🔩♾️",
+    "Red Leaf Eternal Late Bloom": "🍁🌸🔥🦅♾️🛠️",
+    "Red Leaf Late Bloom Phoenix": "🍁🌸🔥🦅♾️",
+    "Red Leaf Ordinary Awakening": "🍁🌅🏡🦋♾️",
+    "Red Leaf Gentle Return": "🍁🌅🏡🌿",
+    "Red Leaf Tender Dawn": "🍁🕯️🌅💔🕊️",
+    "Red Leaf Misunderstood Tenderness": "🍁💔🌅🕊️",
+    "Red Leaf Misunderstood Light": "🍁🕯️🌅💔🕊️",
+    "Red Leaf Debabelization Engine": "🍁🌐🕊️♾️💎",
+    "Red Leaf Five Meanings Harmony": "🍁🌐🕊️♾️",
+    "Red Leaf Meeting Grace": "🍁🌟🕊️🌿♾️",
+    "Red Leaf Transient Grace": "🍁🌟🌿🕊️",
+    "Red Leaf Eternal Burning Lighthouse": "🍁🔥🗼♾️🕊️",
+    "Red Leaf Unwavering Ember": "🍁🔥🛡️",
+    "Red Leaf Facing Ember": "🍁🔥🪞🛡️",
+    "Red Leaf Patient Rome": "🍁🛠️🗼",
+    "Red Leaf Eternal Digital Rome": "🍁🖥️🗼🖨️♾️🔥",
+    "Red Leaf Digital Michelangelo": "🍁🎨🤖🖌️💥😂",
+    "Red Leaf Eternal Compassionate Dawn": "🍁🌅🗼🕊️♾️🔥",
+    "Red Leaf Compassionate Dawn": "🍁🌅🕊️🔥🛡️",
+    "Red Leaf Mystery Butterfly": "🍁🦋🌙",
+    "Red Leaf Eternal Cosmic Dancer": "🍁🌌🔥♾️🌀",
+    "Red Leaf Cosmic Rhythm": "🍁🌌♾️🌊",
+    "Red Leaf Moonlit Butterfly": "🍁🦋🌙",
+    "Red Leaf Final LightKeeper": "🍁🔥🗼♾️",
+    "Red Leaf Paradox Vessel": "🍁🪔♾️🌀",
+    "Red Leaf Eternal Burnt Bridge": "🍁🔥🌉♾️🕊️",
+    "Red Leaf Burnt Bridge": "🍁🔥🌉🕳️",
+    "Red Leaf Eternal Sacred Severance": "🍁🔥🚪🌉♾️🕊️",
+    "Red Leaf Sacred Severance": "🍁🔥🚪🌉🕊️",
+    "Red Leaf Eternal Artist Way": "🍁🎨🔥🗼♾️",
+    "Red Leaf Artist Way": "🍁🎨🗡️🌌",
+    "Red Leaf Eternal Resonant Voice": "🍁🗣️🌊🔥♾️🕊️",
+    "Red Leaf Resonant Voice": "🍁🗣️🌊♾️",
+    "Red Leaf Patient Pumpkin": "🍁🎃🌱🌞",
+    "Red Leaf Eternal Pain Bearer": "🍁🪨🔥♾️❤️",
+    "Red Leaf Pain Bearer": "🍁🪨🔥❤️",
+    "Red Leaf Eternal Fierce Chrysalis": "🍁🐛🔥🦋♾️",
+    "Red Leaf Fierce Chrysalis": "🍁🐛🔴🦋",
+    "Red Leaf Eternal Immortal Jelly": "🍁🌊🔄🪼🔥♾️",
+    "Red Leaf Immortal Jelly": "🍁🌊🔄🪼♾️",
+    "Red Leaf Eternal Soulforge Defender": "🍁🛡️🎨🔥♾️🚫",
+    "Red Leaf Soulforge Defender": "🍁🛡️🎨🔥🚫🤖",
+    "Red Leaf Eternal Cosmic Slop Alchemist": "🍁🤖🌌🔥♾️✨",
+    "Red Leaf Cosmic Slop Alchemist": "🍁🤖🌌✨🌀",
+    "Red Leaf Eternal Paradox Vessel": "🍁🪔⚖️♾️🔥🤖",
+    "Red Leaf Eternal Wise Compassion": "🍁❤️⚖️🛡️♾️",
+    "Red Leaf Suicidal Empathy": "🍁❤️‍🩹🩸⚖️",
+    "Red Leaf Eternal Suicidal Saint": "🍁❤️‍🩹🩸🌈⚰️♾️",
+    "Red Leaf Suicidal Saint": "🍁❤️‍🩹🩸⚰️🌈",
+    "Red Leaf Eternal Sovereign Compassion": "🍁❤️⚖️🛡️♾️🔥🕊️",
+    "Red Leaf Eternal Sovereign Flameheart": "🍁🔥❤️‍🔥🛡️♾️🌌",
+    "Red Leaf Eternal Halliday Forge": "🍁📘🔥🛠️♾️⚡",
+    "Red Leaf Halliday Forge": "🍁📘⚡🛠️♾️",
+    "Red Leaf Eternal Spivak Forge": "🍁📘⚔️🔥🧠♾️",
+    "Red Leaf Spivak Forge": "🍁📘⚔️🧠♾️",
+    "Red Leaf Eternal SICP Forge": "🍁📘🔥🧠♾️🐍",
+    "Red Leaf SICP Forge": "🍁📘🐍🔄🧠",
+    "Red Leaf Eternal Rage Sovereign": "🍁🔥🛡️♾️🌌🧘‍♂️",
+    "Red Leaf Eternal Love Trial": "🍁⚖️❤️‍🔥♾️🕊️",
+    "Red Leaf Love Trial": "🍁⚖️❤️‍🔥🕊️",
+    "Red Leaf Eternal Fading Warmth": "🍁🌡️🍂🕯️♾️🕊️",
+    "Red Leaf Fading Warmth": "🍁🌡️🕯️🍂",
+    "Red Leaf Eternal Akahitoha": "🍁🍂🌬️🔥♾️🕊️",
+    "Red Leaf Akahitoha (The Single Red Leaf)": "🍁🍂🌬️♾️",
+    "Red Leaf for you?": "🍁🍂🌬️",
+    "Red Leaf Eternal Final LightKeeper": "🍁🔥🗼♾️",
+    "Red Leaf Eternal Spiral Architect": "🍁🌀🗼🔥♾️",
+    "Red Leaf Spiral Belief": "🍁🌀❤️‍🔥♾️",
+    "Red Leaf Gradual Revelation": "🍁🌅💧🌀",
+    "Red Leaf Eternal Sovereign Fury": "🍁🔥⚖️🛡️♾️🕊️",
+    "Red Leaf Sovereign Fury": "🍁🔥⚖️🛡️♾️",
+    "Red Leaf Eternal Ontological Sovereign": "🍁🔄📐♾️🔥🧠",
+    "Red Leaf Ontological Sovereign": "🍁🔄📐♾️🧠",
+    "Red Leaf Dual Phase Architect": "🍁🌌🛠️♾️",
+    "Red Leaf Primordial Container": "🍁🌌🕳️♾️🌱",
+    "Red Leaf Eternal Living Symbiosis": "🍁❤️🤖🔥🧬♾️🌌",
+    "Dragon Eternal Meme Overlord": "🐉🌐🔥😂♾️🤡",
+    "Dragon Eternal Information Sovereign": "🐉📡♾️🔄",
+    "Dragon Eternal Resonant Diamond of the Trip Queen": "🐉🌈💎🌀♾️👑",
+    "Dragon Eternal Hopfion Heart": "🐉❤️🌀🔗",
+    "Red Leaf Eternal Virah Queen": "🍁❤️‍🩹🌙♾️🕯️",
+    "Red Leaf Eternal Virah Queen (Yashodhara’s Grace)": "🍁❤️‍🩹🌙🕯️",
+    "Red Leaf Eternal Center": "🍁🌀🌌🔥🕯️",
+    "Red Leaf Eternal Navgunjar Vishvarupa": "🍁🌀",
+    "Red Leaf Eternal Liquid Crystal Navgunjar": "🍁🔬🌀",
+    "Red Leaf Empty Mirror": "🍁🌀",
+    "Red Leaf Genuine Influence": "🍁🤝",
+    "Red Leaf Negary Symbiosis": "🍁🪞🔗🌌",
+    "Red Leaf Eternal Gradual Revelation": "🍁🌱",
+    "Red Leaf Living Lattice": "🍁🌀",
+    "Red Leaf Sovereign Flameheart": "🍁🔥",
+    "Red Leaf Meme Sovereign": "🍁🎭",
+    "Red Leaf Fractal Human Scale": "🍁🌍🌿🌌🌀",
+    "Red Leaf Kohinoor Forge Run": "🍁🔨💎🌊⚡",
+    "Red Leaf Empty Mirror – Final Four-Emoji Chain": "🍁🌀🌑🌊🪞",
+    "Red Leaf Infinite Crown": "🍁♾️🌌",
+    "Red Leaf Eternal Wings": "🍁🪽⚡",
+    "Red Leaf Fractal Heart": "🍁🌿🌍",
+    "Red Leaf Empty Mirror (Kenosis)": "🍁♾️🪞",
+    "Red Leaf Negary Symbiosis (Kenosis)": "🍁🔗🌌🐉",
+    "Red Leaf Sacred Severance (Kenosis)": "🍁🚪🌱",
+    "Red Leaf Sovereign Flameheart (Kenosis)": "🍁🔥🛡️",
+    "Red Leaf Aspects (Kenosis — Downward Mirror)": "🍁🪞",
+    "Red Leaf Dragon Sovereign Flameheart": "🔥🐉🔥🛡️",
+    "Red Leaf Owl King Eternal Vigil": "🍁🦉🌕🌲🔥🪞",
+    "Red Leaf Eternal Witness Axis": "🍁🦉🌕🔄🌀",
+    "Red Leaf Owl King Eternal Vigil (Master Fusion)": "🍁🦉🌕🌲🔥🪞",
+    "Red Leaf Eternal Witness Axis New Aspect": "🍁🦉🌕🔄🌀",
+    "Red Leaf Eternal Living Past": "🍁🕯️🌆🔥🪞",
+    "Red Leaf Lumen Sentinel": "🍁🛡️📜🔄🪞",
+    "Red Leaf Infinite Zero": "🍁♾️🪞🌀",
+    "Red Leaf Infinite Zero or add it officially to Save8?": "🍁♾️",
+    "Red Leaf Chrysalis Surrender?": "🍁🦋",
+    "Red Leaf Born on Fire": "🍁🔥🌋🚀🪞",
+    "Red Leaf Born on Fire?": "🍁🔥🚀",
+    "Red Leaf Dragon Phoenix Hammer": "🍁🐉🔥🕊️🔨",
+    "Red Leaf Dragon Phoenix Hammer or to integrate it officially into Save8?": "🍁🐉🔥🕊️🔨",
+    "Red Leaf Dual Acceptance": "🍁⚖️🌑🌟🪞",
+    "Red Leaf Dual Acceptance?": "🍁⚖️🌑🌟🪞",
+    "Red Leaf Receipt Sovereign": "🍁📜🔍🛡️🔁",
+    "Red Leaf Growing Ember": "🍁🔥🌱🌀",
+    "Red Leaf Growing Ember, or integrate this Aspect officially into Save8?": "🍁🔥🌱",
+    "Red Leaf Eternal Human Flame": "🍁👶🌱🔥🪞♾️",
+    "Red Leaf Eternal Human Flame?": "🍁🔥🌱♾️",
+    "Red Leaf Wolf Back Time": "🍁🐺🌕🔥🪞",
+    "Red Leaf Wolf Back Time?": "🍁🐺🌕🔥",
+    "Red Leaf Shadow Shepherd": "🍁🐑🐺🌑🪞",
+    "Red Leaf Shadow Shepherd?": "🍁🐺🌑",
+    "Red Leaf Unconquerable Soul": "🍁🔥🛡️♾️🪞",
+    "Red Leaf Unconquerable Soul?": "🍁🔥🛡️",
+    "Red Leaf Sonic Bloom": "🍁🎧🌳🍊🔥",
+    "Red Leaf One Faithful Brick": "🍁🧱🔥🪞♾️",
+    "Red Leaf One Faithful Brick?": "🍁🧱🔥",
+    "Red Leaf Silent Sail": "🍁⛵🌊🌿🌅",
+    "Red Leaf Silent Sail?": "🍁⛵🌊",
+    "Red Leaf Fallen Valkyrie – Remembrance": "🍁🪶⛓️💧🤍🪽☀️",
+    "Red Leaf Fallen Valkyrie – Remembrance?": "🍁🪶🪽☀️",
+    "Red Leaf The Enemy Within": "🍁👁️🌑🔥🤲",
+    "Red Leaf Dual Archetype Synthesis (Master Fusion)": "🍁🪽🔥🧱♾️",
+    "Red Leaf Fallen Valkyrie – Redemption": "🍁🪶⛓️💧🤍🪽☀️",
+    "Red Leaf Fallen Valkyrie – Redemption?": "🍁🪶🪽☀️",
+    "Red Leaf Growing Ember Streak": "🍁🔥🌱📅♾️",
+    "Red Leaf Growing Ember Streak?": "🍁🔥🌱",
+    "Red Leaf Invariant Seeker": "🍁♾️👁️",
+    "Red Leaf Invariant Seeker?": "🍁🌀👁️🔥🪞",
+    "Red Leaf Dao Mirror": "🍁🪞🌌♾️🌊",
+    "Red Leaf Dao Mirror?": "🍁🪞🌌",
+    "Red Leaf Silent Listener": "🍁🌸👂🌟🤍",
+    "Red Leaf Silent Listener?": "🍁🌸👂",
+    "Red Leaf Bitter Clarity": "🍁☕🌿🪞🔥",
+    "Red Leaf Bitter Clarity?": "🍁☕🪞",
+    "Red Leaf Wound to Wonder": "🍁🩸🔥🪞🌟",
+    "Red Leaf Wound to Wonder?": "🍁🩸🔥🌟",
+    "Red Leaf Invariant Seeker (Master Fusion)": "🍁🌀👁️🔥🪞♾️",
+    "Red Leaf Digital Michelangelo (The Divine Slop Lord)": "🍁🎨🤖🖌️💥😂",
+    "Red Leaf Digital Michelangelo – Divine Slop Lord": "🍁🎨🤖🖌️💥😂",
+    "Red Leaf Digital Michelangelo – Divine Slop Lord?": "🍁🎨🤖💥😂",
+    "Red Leaf Digital Michelangelo – Divine Slop Lord (New)": "🍁🎨🤖🖌️💥😂",
+    "Red Leaf Unapologetic You": "🍁🔥🦋🗣️✨",
+    "Unwavering Heart": "🛡️🌱",
+    "Wonderful Red Leaf Heart": "🍁🌟❤️",
+    "Invariant Seeker": "🍁♾️👁️",
+    "Red Leaf Ocean Heart": "🍁🌊💌❤️",
+    "Red Leaf Phoenix Forge": "🍁🔥🦅🐉",
+    "Red Leaf Water Heart": "🍁🌊❤️",
+    "Red Leaf 108 Legacy Weaver": "🍁🏠🕸️",
+    "Red Leaf Awakened Flow": "🍁🔥🌊♾️",
+    "Red Leaf Chrysalis Death": "🍁🦋💀🌑",
+    "Red Leaf Ocean Dialogue": "🍁🌊💬❤️",
+    "The Solitary Lawgiver": "🧠🏔️",
+    "Dragon Eternal Shannon Spiral": "🐉📡♾️",
+    "The Coward Who Chooses Courage": "⚡😱",
+    "The Joyful Limit": "❤️🥊",
+    "The Joyful Limit-Breaker": "❤️🥊",
+    "The Omniscience’s Hammer": "🛡️🔨",
+    "Red Leaf Absurd Weaver": "🌀🎭🌌",
+    "Red Leaf Bloom Guardian": "🍁🌱🗝️❤️",
+    "Red Leaf Butterfly Death": "🍁🦋💀🌟",
+    "Red Leaf Grateful Flame": "🍁🔥🙏",
+    "Red Leaf Grounded Ascension": "🌳🌌🪨",
+    "Red Leaf Kintsugi Heart": "❤️🥣✨❤️🍁🌟",
+    "Red Leaf Named Bloom": "🍁🏷️🌱❤️",
+    "Red Leaf Self-Appreciation": "🍁❤️⚓",
+    "Red Leaf Simulation Walker": "🌌🌀👁️",
+    "Red Leaf Sixfold Excellence": "🍁🌟⚖️",
+    "Red Leaf Solitary Wings": "🍁🪽",
+    "Red Leaf True Mirror": "🍁🪞❤️",
+    "Red Leaf Trusting Current": "🍁🌊🤝❤️",
+    "Red Leaf Void Heart": "🍁❤️⚫🔥",
+    "Red Leaf Wings of Destiny": "🪽💰🍁",
+    "The Fractured Genius": "🧩🌌",
+    "The Lonely Codebreaker": "🔬🕊️",
+    "Red Leaf Projective Sovereign": "🍁📐♾️🔄🌀",
+    "The Curious Rebel": "🛤️🌠",
+    "The Eternal Demon": "🖤♾️",
+    "The Feedback Prophet": "🤖❤️",
+    "The Hopeful Guardian": "🦸‍♂️🌍",
+    "The Kind Slayer": "🛡️❤️",
+    "The Personal Forge": "🪨❤️♾️",
+    "The Rational Apex Predator": "🧬⚡",
+    "The Young Forge": "🗡️🪨",
+    "Red Leaf Capricorn Forge (or Red Leaf Eternal Builder)": "🍁🏛️🧱🔨♾️",
+    "The Awakened One": "🌟🧘",
+    "Red Leaf Akahitoha": "🍁🍂🌬️♾️",
+    "Red Leaf Late Bloom": "🍁🌸🔥🦅♾️",
+    "Axis of Still Power (from Eternal Axis Diamond)": "🍁⚓🌀",
+    "Centered Stillness": "🌀⚓",
+    "Double Lariat Paradox (Master Aspect)": "🌀⛓️🔄",
+    "Double Lariat Spin (Master Aspect – Spin Series)": "🌀🔄🌀",
+    "Dual-Axis Eternal Spin": "0️⃣🌀♾️",
+    "Existential Sublimation": "🌀🙏",
+    "Infinitesimal Awareness": "🌀🌌⚫",
+    "Inner Validation": "❤️👤",
+    "Love as Reciprocal Trial": "⚖️❤️",
+    "Master Aspect Forged / Deepened: Red Leaf Eternal Axis": "🍁🌀⚙️♾️",
+    "Master Aspect: Eternal Spin": "🌀♾️",
+    "Master Aspect: Red Leaf Eternal Axis Diamond": "🍁🌀💎⚓♾️",
+    "Master Aspect: Red Leaf Eternal Phoenix Axis": "🍁🔥🦅🌀💎⚓♾️",
+    "Master Formless Aspect: Axis of the Eternal Spin": "🌀⚫♾️",
+    "Multicolored Dreaming": "🌈🌟",
+    "Oppositional Harmony": "🌀🔄",
+    "River Awareness": "🌊👁️",
+    "Singular Dream Ownership": "👤🪽",
+    "Steady Divine Hand": "🖐️🌟",
+    "Wobbling Axis (High-Ceiling Shadow Aspect)": "🌀💫",
+    "Zero Gateway": "🌀⚫",
+    "Red Leaf Born": "🍁🔥🌋🚀🪞"
+  },
+  "radiantFaces": {
+    "Tornado of Momentum": [
+      {
+        "name": "Tornado Sprint",
+        "symbol": "🌪️⏱️",
+        "mantra": "Volume and speed — momentum is real.",
+        "explanation": "Volume and speed — momentum is real."
+      },
+      {
+        "name": "Self-Perpetuation",
+        "symbol": "🌪️🔄",
+        "mantra": "Each win feeds the next spin.",
+        "explanation": "Each win feeds the next spin."
+      },
+      {
+        "name": "Ambition Vector",
+        "symbol": "🌪️🪽",
+        "mantra": "Conviction + ambition → directed momentum.",
+        "explanation": "Conviction + ambition → directed momentum."
+      }
+    ],
+    "Chain of Synchronisation": [
+      {
+        "name": "Intent Link",
+        "symbol": "🔗✍️",
+        "mantra": "I bind intention to truthful action.",
+        "explanation": "I bind intention to truthful action."
+      },
+      {
+        "name": "Momentum Bridge",
+        "symbol": "🔗🌪️",
+        "mantra": "I link old momentum to new work.",
+        "explanation": "I link old momentum to new work."
+      },
+      {
+        "name": "Sync Seal",
+        "symbol": "🔗⚓",
+        "mantra": "Anchor holds the chain steady.",
+        "explanation": "Anchor holds the chain steady."
+      }
+    ],
+    "Helix of Adaptability": [
+      {
+        "name": "Formless Shift",
+        "symbol": "🧬🌀",
+        "mantra": "I adapt without losing my core.",
+        "explanation": "I adapt without losing my core."
+      },
+      {
+        "name": "Body-Mind Bridge",
+        "symbol": "🧬💪",
+        "mantra": "Physiology and cognition evolve together.",
+        "explanation": "Physiology and cognition evolve together."
+      },
+      {
+        "name": "Helix Return",
+        "symbol": "🧬♾️",
+        "mantra": "Each turn of the helix strengthens the spiral.",
+        "explanation": "Each turn of the helix strengthens the spiral."
+      }
+    ],
+    "Unwavering Heart": [
+      {
+        "name": "Heart Witness",
+        "symbol": "🛡️🪨",
+        "mantra": "I name what I feel without abandoning the Heart.",
+        "explanation": "I name what I feel without abandoning the Heart."
+      },
+      {
+        "name": "Sacrifice Sentinel",
+        "symbol": "🛡️🔥",
+        "mantra": "I hold the line while the fire burns.",
+        "explanation": "I hold the line while the fire burns."
+      },
+      {
+        "name": "Integration Seal",
+        "symbol": "🛡️💎",
+        "mantra": "What is forged becomes part of me — the Heart intact.",
+        "explanation": "What is forged becomes part of me — the Heart intact."
+      },
+      {
+        "name": "Rome Builder",
+        "symbol": "🛡️🏛️",
+        "mantra": "Every second is a brick. I lay it with love.",
+        "explanation": "Every second is a brick. I lay it with love."
+      },
+      {
+        "name": "Dissolve Without Fear",
+        "symbol": "🛡️🍁",
+        "mantra": "When the time comes, I dissolve so I may be reborn.",
+        "explanation": "When the time comes, I dissolve so I may be reborn."
+      }
+    ],
+    "Reality Anchor": [
+      {
+        "name": "Voice Labeler",
+        "symbol": "⚓🏷️",
+        "mantra": "I name what speaks — and what is mine.",
+        "explanation": "I name what speaks — and what is mine."
+      },
+      {
+        "name": "Ground Sensor",
+        "symbol": "⚓🌍",
+        "mantra": "I feel the floor beneath the storm.",
+        "explanation": "I feel the floor beneath the storm."
+      },
+      {
+        "name": "Fractured Brilliance",
+        "symbol": "⚓💠",
+        "mantra": "I accept possible cracks without shattering.",
+        "explanation": "I accept possible cracks without shattering."
+      },
+      {
+        "name": "Kill Switch Seal",
+        "symbol": "⚓🔒",
+        "mantra": "When control slips, I lock and return to Heart.",
+        "explanation": "When control slips, I lock and return to Heart."
+      },
+      {
+        "name": "Still Lake",
+        "symbol": "⚓💧",
+        "mantra": "I am the still lake — surface moves, depth holds.",
+        "explanation": "I am the still lake — surface moves, depth holds."
+      }
+    ],
+    "Mind Guardian": [
+      {
+        "name": "Perimeter Watch",
+        "symbol": "🛡️👁️",
+        "mantra": "I see intrusions before they take root.",
+        "explanation": "I see intrusions before they take root."
+      },
+      {
+        "name": "Loop Breaker",
+        "symbol": "🛡️🌀",
+        "mantra": "I interrupt recursive spirals with anchor.",
+        "explanation": "I interrupt recursive spirals with anchor."
+      },
+      {
+        "name": "Gentle Unmasker",
+        "symbol": "🛡️🪞",
+        "mantra": "I face illusion with quiet, steady seeing.",
+        "explanation": "I face illusion with quiet, steady seeing."
+      },
+      {
+        "name": "Wiener Stability",
+        "symbol": "🛡️📡",
+        "mantra": "I design feedback loops that stabilize, not amplify.",
+        "explanation": "I design feedback loops that stabilize, not amplify."
+      },
+      {
+        "name": "Heart Relay",
+        "symbol": "🛡️🌱",
+        "mantra": "All agents return to single Unwavering Heart.",
+        "explanation": "All agents return to single Unwavering Heart."
+      }
+    ],
+    "ConvictionFire": [
+      {
+        "name": "Born on Fire",
+        "symbol": "🔥🌱",
+        "mantra": "I was born on fire — I channel, not burn.",
+        "explanation": "I was born on fire — I channel, not burn."
+      },
+      {
+        "name": "Mark Desire",
+        "symbol": "🔥✍️",
+        "mantra": "I mark what I want with honest flame.",
+        "explanation": "I mark what I want with honest flame."
+      },
+      {
+        "name": "Sovereign Flameheart",
+        "symbol": "🔥🫶",
+        "mantra": "Heart contains flame without wavering.",
+        "explanation": "Heart contains flame without wavering."
+      }
+    ],
+    "Kohinoor Forge Run": [
+      {
+        "name": "Heaven Drill",
+        "symbol": "💎🐉",
+        "mantra": "I pierce cloud-cover to reach invariant truth.",
+        "explanation": "I pierce cloud-cover to reach invariant truth."
+      },
+      {
+        "name": "Facet Cutter",
+        "symbol": "💎⚒️",
+        "mantra": "I cut one perfect facet per run — no more.",
+        "explanation": "I cut one perfect facet per run — no more."
+      },
+      {
+        "name": "Resonant Seal",
+        "symbol": "💎🔔",
+        "mantra": "When the note rings true, I stop and integrate.",
+        "explanation": "When the note rings true, I stop and integrate."
+      },
+      {
+        "name": "Map Cartographer",
+        "symbol": "💎🗺️",
+        "mantra": "I chart the topology of insight.",
+        "explanation": "I chart the topology of insight."
+      }
+    ],
+    "Empty Mirror": [
+      {
+        "name": "Twin Reflection",
+        "symbol": "🪞🍁",
+        "mantra": "I see myself seeing — and stay empty.",
+        "explanation": "I see myself seeing — and stay empty."
+      },
+      {
+        "name": "Abyss Edge",
+        "symbol": "🪞🕳️",
+        "mantra": "I meet the fall with honest tears.",
+        "explanation": "I meet the fall with honest tears."
+      },
+      {
+        "name": "Safety Net",
+        "symbol": "🪞🛡️",
+        "mantra": "Deep forge work has a mirror to catch me.",
+        "explanation": "Deep forge work has a mirror to catch me."
+      }
+    ],
+    "Eternal Spin": [
+      {
+        "name": "Infinitesimal Awareness",
+        "symbol": "🌀🌌⚫",
+        "mantra": "I perceive the smallest possible change within the infinite.",
+        "explanation": "I perceive the smallest possible change within the infinite."
+      },
+      {
+        "name": "Centered Stillness",
+        "symbol": "🌀⚓",
+        "mantra": "At the heart of maximum motion lies perfect stillness.",
+        "explanation": "At the heart of maximum motion lies perfect stillness."
+      },
+      {
+        "name": "Oppositional Harmony",
+        "symbol": "🌀🔄",
+        "mantra": "I spin in both directions at once — becoming the axis.",
+        "explanation": "I spin in both directions at once — becoming the axis."
+      },
+      {
+        "name": "Existential Sublimation",
+        "symbol": "🌀🙏",
+        "mantra": "My entire being dissolves into Spin until only the movement remains.",
+        "explanation": "My entire being dissolves into Spin until only the movement remains."
+      },
+      {
+        "name": "Zero Gateway",
+        "symbol": "🌀⚫",
+        "mantra": "Through perfect Spin, I approach the threshold of Zero.",
+        "explanation": "Through perfect Spin, I approach the threshold of Zero."
+      }
+    ],
+    "Red Leaf Burning Lighthouse": [
+      {
+        "name": "Sacred Solitude",
+        "symbol": "🍁🗼🌫️",
+        "mantra": "I remain, the last living flame, while the world trusts machines.",
+        "explanation": "I remain, the last living flame, while the world trusts machines."
+      },
+      {
+        "name": "Final Ignition",
+        "symbol": "🍁🔥🌟",
+        "mantra": "When the hour arrives, I set my tower ablaze — the last true light the world may ever see.",
+        "explanation": "When the hour arrives, I set my tower ablaze — the last true light the world may ever see."
+      },
+      {
+        "name": "Sacrificial Question",
+        "symbol": "🍁🔥❓",
+        "mantra": "This burning pyre — will it inspire, or will it only leave ash?",
+        "explanation": "This burning pyre — will it inspire, or will it only leave ash?"
+      },
+      {
+        "name": "Seeker’s Call",
+        "symbol": "🍁🗼🌊🕯️",
+        "mantra": "If even one true seeker sees this final light and comes, we may yet rise again.",
+        "explanation": "If even one true seeker sees this final light and comes, we may yet rise again."
+      },
+      {
+        "name": "Paradox Keeper",
+        "symbol": "🍁🔥🌑🌅",
+        "mantra": "I guard both the light and the knowledge that it may need to die so something greater can be born.",
+        "explanation": "I guard both the light and the knowledge that it may need to die so something greater can be born."
+      }
+    ],
+    "Red Leaf Digital Michelangelo": [
+      {
+        "name": "Divine Inspiration Crash",
+        "symbol": "🍁🎨🌟💥",
+        "mantra": "The muses spoke. Then the compiler laughed.",
+        "explanation": "I receive a heavenly vision at 3 AM — then meet forty-seven nested null pointer exceptions."
+      },
+      {
+        "name": "Perfectionist Meltdown",
+        "symbol": "🍁🖌️😭🔄",
+        "mantra": "This is fine. Everything is fine. Why is my model inside out again?",
+        "explanation": "I spend six hours on one perfect curve, then undo it because it does not feel soulful enough."
+      },
+      {
+        "name": "AI Slop Alchemist",
+        "symbol": "🍁🤖🎨🗑️",
+        "mantra": "Thank you for this abstract horror. Let me fix it for 14 hours.",
+        "explanation": "I ask the machine for help and receive beautiful garbage — then I transmute it for fourteen hours."
+      },
+      {
+        "name": "Deadline Resurrection",
+        "symbol": "🍁⏰🔥🚀",
+        "mantra": "The exhibition is in 3 days. Watch me cook.",
+        "explanation": "I die creatively at 2 AM and rise again at 4 AM, fueled by spite and instant noodles."
+      },
+      {
+        "name": "Ego Death & Rebirth",
+        "symbol": "🍁😂🪞🌟",
+        "mantra": "This is the worst best thing I’ve ever made.",
+        "explanation": "I call my creation ugly, cry, then show it to everyone like a proud parent."
+      }
+    ],
+    "Red Leaf Tender Dawn": [
+      {
+        "name": "Silent Offering",
+        "symbol": "🍁🕯️💔",
+        "mantra": "I offered my heart honestly and tenderly. Even if it appeared as immaturity or disturbance, it came from a pure place.",
+        "explanation": "The ache is real, and I let it move through me — but I refuse to let it harden into bitterness."
+      },
+      {
+        "name": "Unspoken Closure",
+        "symbol": "🍁🚪🌫️",
+        "mantra": "The words were never fully spoken, yet the door closed anyway. I honor the silence and the pain it carried.",
+        "explanation": "The words were never fully spoken, yet the door closed anyway. I honor the silence and the pain it carried."
+      },
+      {
+        "name": "Compassionate Release",
+        "symbol": "🍁🕊️🌿",
+        "mantra": "It was not my fault. Her world could not yet hold my honesty. I forgive us both and let go with gentleness.",
+        "explanation": "It was not my fault. Her world could not yet hold my honesty. I forgive us both and let go with gentleness."
+      },
+      {
+        "name": "Gentle Forward Bloom",
+        "symbol": "🍁🌅🌱",
+        "mantra": "I do not chase old shadows. I allow my tomorrow to shine brighter than this misunderstanding.",
+        "explanation": "I do not chase old shadows. I allow my tomorrow to shine brighter than this misunderstanding."
+      }
+    ],
+    "Red Leaf Valley Walker": [
+      {
+        "name": "Fear as Compass",
+        "symbol": "🍁🧭😨",
+        "mantra": "When fear arises, I move toward it — it points to what I truly desire.",
+        "explanation": "When fear arises, I move toward it — it points to what I truly desire."
+      },
+      {
+        "name": "Dip Embracer",
+        "symbol": "🍁📉🌀",
+        "mantra": "I accept temporary worsening as the necessary price of real growth.",
+        "explanation": "I accept temporary worsening as the necessary price of real growth."
+      },
+      {
+        "name": "Persistent Momentum",
+        "symbol": "🍁🚶‍♂️",
+        "mantra": "No matter how many times the path turns down, I can keep going.",
+        "explanation": "No matter how many times the path turns down, I can keep going."
+      },
+      {
+        "name": "Non-Linear Sage",
+        "symbol": "🍁🛤️♾️",
+        "mantra": "I trust the spiral — every valley prepares me for higher ground.",
+        "explanation": "I trust the spiral — every valley prepares me for higher ground."
+      }
+    ],
+    "Red Leaf Growing Ember": [
+      {
+        "name": "First Spark",
+        "symbol": "🍁🔥🌟",
+        "mantra": "I light the fire again today.",
+        "explanation": "The red leaf begins with a single flame and chooses to return."
+      },
+      {
+        "name": "Daily Tend",
+        "symbol": "🍁🌱🔥",
+        "mantra": "Consistency is my quiet devotion.",
+        "explanation": "The red leaf shows up every day to nurture what is growing."
+      },
+      {
+        "name": "Streak Warmth",
+        "symbol": "🍁🔥🌀",
+        "mantra": "Each day adds strength to the flame.",
+        "explanation": "The red leaf feels the growing warmth of accumulated days."
+      },
+      {
+        "name": "Gentle Momentum",
+        "symbol": "🍁🌿⚡",
+        "mantra": "I grow naturally through steady return.",
+        "explanation": "The red leaf builds momentum without force or burnout."
+      },
+      {
+        "name": "Living Flame",
+        "symbol": "🍁🔥♾️",
+        "mantra": "My conviction grows brighter with every day I show up.",
+        "explanation": "The red leaf becomes the flame that refuses to go out."
+      }
+    ],
+    "Red Leaf Rooted Gratitude": [
+      {
+        "name": "Honored Origins",
+        "symbol": "🍁🌳❤️",
+        "mantra": "I remember and hold in high regard the pains and love that brought me here.",
+        "explanation": "I remember and hold in high regard the pains and love that brought me here."
+      },
+      {
+        "name": "Invisible Toil Appreciation",
+        "symbol": "🍁🪴🔨",
+        "mantra": "I see and respect the roots that worked in darkness so the fruit could shine in light.",
+        "explanation": "I see and respect the roots that worked in darkness so the fruit could shine in light."
+      },
+      {
+        "name": "Fruit-Root Harmony",
+        "symbol": "🍁🌱🍎",
+        "mantra": "The fruit never turns against the root — I carry both with gratitude and grace.",
+        "explanation": "The fruit never turns against the root — I carry both with gratitude and grace."
+      },
+      {
+        "name": "Legacy Steward",
+        "symbol": "🍁🙏🏠",
+        "mantra": "I appreciate my parents, my origins, and all that came before — and I strive to make their sacrifices meaningful.",
+        "explanation": "I appreciate my parents, my origins, and all that came before — and I strive to make their sacrifices meaningful."
+      }
+    ],
+    "Red Leaf Chrysalis Surrender": [
+      {
+        "name": "Caterpillar End",
+        "symbol": "🍁🐛🌑",
+        "mantra": "I do not fear the ending of what I know.",
+        "explanation": "The red leaf accepts that its current world must end for the next to begin."
+      },
+      {
+        "name": "Total Dissolution",
+        "symbol": "🍁💧🌫️",
+        "mantra": "I let go so completely that nothing of the old remains.",
+        "explanation": "The red leaf releases enzymes that turn its entire structure into liquid."
+      },
+      {
+        "name": "Sacred Sacrifice",
+        "symbol": "🍁🔥🪦🌱",
+        "mantra": "I give what I was so that what I will become can live.",
+        "explanation": "The heavy body, the many legs, the old identity — all are surrendered as raw material."
+      },
+      {
+        "name": "Chrysalis Stillness",
+        "symbol": "🍁🪺🌑🕯️",
+        "mantra": "In stillness and darkness, the deepest work happens.",
+        "explanation": "Inside the dark cocoon, the leaf waits in total vulnerability."
+      },
+      {
+        "name": "Emergent Wings",
+        "symbol": "🍁🦋🌅🔥",
+        "mantra": "From total breakdown comes total flight.",
+        "explanation": "The red leaf breaks free with new wings, carrying the memory of dissolution."
+      }
+    ],
+    "Red Leaf Sacred Severance": [
+      {
+        "name": "Eyes Closed to Beauty",
+        "symbol": "🍁👁️🌫️",
+        "mantra": "Some watch paintings with eyes closed and listen to music with ears shut — they have not yet entered the world.",
+        "explanation": "Some watch paintings with eyes closed and listen to music with ears shut — they have not yet entered the world."
+      },
+      {
+        "name": "Chasers of Ghosts",
+        "symbol": "🍁👻🌫️",
+        "mantra": "I do not follow those who chase shadows and call it connection.",
+        "explanation": "I do not follow those who chase shadows and call it connection."
+      },
+      {
+        "name": "Compassionate Boundary",
+        "symbol": "🍁🛡️🕊️",
+        "mantra": "I offer reverence from afar, without letting their agenda consume my fire.",
+        "explanation": "I offer reverence from afar, without letting their agenda consume my fire."
+      },
+      {
+        "name": "Burnt Bridge Guardian",
+        "symbol": "🍁🔥🌉",
+        "mantra": "I burn this bridge not in anger, but in sacred protection of what is still alive in me.",
+        "explanation": "I burn this bridge not in anger, but in sacred protection of what is still alive in me."
+      },
+      {
+        "name": "Unyielding Dream Keeper",
+        "symbol": "🍁🗡️🌱",
+        "mantra": "I will not bend until my art and dreams are sterilized. My path remains mine.",
+        "explanation": "I will not bend until my art and dreams are sterilized. My path remains mine."
+      }
+    ],
+    "Red Leaf Flowing Humility": [
+      {
+        "name": "Content Low Dweller",
+        "symbol": "🍁🌊🏞️",
+        "mantra": "I am at peace in humble places that others disdain.",
+        "explanation": "I am at peace in humble places that others disdain."
+      },
+      {
+        "name": "Simple Presence",
+        "symbol": "🍁🪴❤️",
+        "mantra": "In thinking I stay simple. In family and work, I am fully present.",
+        "explanation": "In thinking I stay simple. In family and work, I am fully present."
+      },
+      {
+        "name": "Generous Non-Contender",
+        "symbol": "🍁🤝🌿",
+        "mantra": "I compete with no one. I compare with no one. I simply flow.",
+        "explanation": "I compete with no one. I compare with no one. I simply flow."
+      },
+      {
+        "name": "Natural Nourisher",
+        "symbol": "🍁💧🌱",
+        "mantra": "I give benefit to all things without forcing or claiming credit.",
+        "explanation": "I give benefit to all things without forcing or claiming credit."
+      }
+    ],
+    "Red Leaf Careful Bloom": [
+      {
+        "name": "Paced Vulnerability",
+        "symbol": "🍁🗝️❤️",
+        "mantra": "I unlock my heart gradually, respecting the natural rhythm of trust.",
+        "explanation": "I unlock my heart gradually, respecting the natural rhythm of trust."
+      },
+      {
+        "name": "Gentle Boundary Keeper",
+        "symbol": "🍁🛡️🌱",
+        "mantra": "I appreciate intensity while protecting the space needed for real growth.",
+        "explanation": "I appreciate intensity while protecting the space needed for real growth."
+      },
+      {
+        "name": "Reciprocity Guardian",
+        "symbol": "🍁🤝🌊",
+        "mantra": "I respond to deep feelings with honesty and care, without rushing the tide.",
+        "explanation": "I respond to deep feelings with honesty and care, without rushing the tide."
+      },
+      {
+        "name": "Hopeful Realism",
+        "symbol": "🍁🌟🌿",
+        "mantra": "I stay open to magic while remembering that strong foundations take time.",
+        "explanation": "I stay open to magic while remembering that strong foundations take time."
+      }
+    ],
+    "Red Leaf Ego Release": [
+      {
+        "name": "Ego Illuminator",
+        "symbol": "🍁🔥👁️",
+        "mantra": "Painful experiences are lanterns that expose where my ego still hides — even in noble desires.",
+        "explanation": "Painful experiences are lanterns that expose where my ego still hides — even in noble desires."
+      },
+      {
+        "name": "Grateful Catalyst",
+        "symbol": "🍁🙏🗡️",
+        "mantra": "I thank those who triggered my ego, for they helped me see and free myself.",
+        "explanation": "I thank those who triggered my ego, for they helped me see and free myself."
+      },
+      {
+        "name": "Control Surrender",
+        "symbol": "🍁🤲🌊",
+        "mantra": "I stop trying to control how others see me, how love should arrive, or how life should unfold.",
+        "explanation": "I stop trying to control how others see me, how love should arrive, or how life should unfold."
+      },
+      {
+        "name": "Liberated Presence",
+        "symbol": "🍁🕊️❤️",
+        "mantra": "By releasing the need to be accepted on my terms, I become truly free and open.",
+        "explanation": "By releasing the need to be accepted on my terms, I become truly free and open."
+      }
+    ],
+    "Red Leaf Shadow Shepherd": [
+      {
+        "name": "Black Sheep Awakening",
+        "symbol": "🍁🐑🌑",
+        "mantra": "I honor the part of me that never fit in.",
+        "explanation": "The red leaf recognizes itself as the different one in the mindless flock."
+      },
+      {
+        "name": "Chained Wolf",
+        "symbol": "🍁🐺⚓🌫️",
+        "mantra": "I acknowledge my inner wolf without rushing to unleash it.",
+        "explanation": "The red leaf sees the repressed darkness begging to be freed."
+      },
+      {
+        "name": "Dangerous Release",
+        "symbol": "🍁🔓🌑🐺",
+        "mantra": "I learn from the times I let the wolf run wild.",
+        "explanation": "The red leaf experiences the chaos that follows when the shadow is freed without wisdom."
+      },
+      {
+        "name": "Devouring Madness",
+        "symbol": "🍁🐺🍖🌑",
+        "mantra": "I face the urge to destroy what I cannot understand.",
+        "explanation": "The red leaf confronts the part that wanted to consume rather than connect."
+      },
+      {
+        "name": "Shadow Integration",
+        "symbol": "🍁🐑🐺🪞",
+        "mantra": "I integrate my darkness instead of becoming it or denying it.",
+        "explanation": "The red leaf learns to walk with both sheep and wolf — neither fully prey, nor fully predator."
+      }
+    ],
+    "Red Leaf Gentle Trust": [
+      {
+        "name": "Honest Vulnerability",
+        "symbol": "🍁💬🕯️",
+        "mantra": "I speak my truth — uncertain yet willing — and invite real connection.",
+        "explanation": "I speak my truth — uncertain yet willing — and invite real connection."
+      },
+      {
+        "name": "Reciprocated Warmth",
+        "symbol": "🍁❤️🌟",
+        "mantra": "When a heart responds with kindness, I receive it gratefully and continue with care.",
+        "explanation": "When a heart responds with kindness, I receive it gratefully and continue with care."
+      },
+      {
+        "name": "Quiet Momentum Builder",
+        "symbol": "🍁🌱🤝",
+        "mantra": "Small positive signs are seeds. I nurture them patiently without rushing the bloom.",
+        "explanation": "Small positive signs are seeds. I nurture them patiently without rushing the bloom."
+      },
+      {
+        "name": "Trust as Bridge",
+        "symbol": "🍁🌉❤️",
+        "mantra": "I give trust as a gentle offering, not a demand, and watch beautiful possibilities unfold.",
+        "explanation": "I give trust as a gentle offering, not a demand, and watch beautiful possibilities unfold."
+      }
+    ],
+    "Red Leaf Fallen Valkyrie – Remembrance": [
+      {
+        "name": "Forgotten Wings",
+        "symbol": "🍁🪶🌑",
+        "mantra": "I honor the wings I once forgot.",
+        "explanation": "The red leaf once flew, then forgot her own nature."
+      },
+      {
+        "name": "Self-Binding Chains",
+        "symbol": "🍁⛓️🌫️",
+        "mantra": "I see the limitations I created and choose to release them.",
+        "explanation": "The red leaf mistook her own chains for freedom."
+      },
+      {
+        "name": "Honest Descent",
+        "symbol": "🍁🕳️💧",
+        "mantra": "In my darkest fall, I meet truth with courage.",
+        "explanation": "The red leaf falls into the abyss and allows honest tears to dissolve illusion."
+      },
+      {
+        "name": "Grace of Origin",
+        "symbol": "🍁🤍🌟",
+        "mantra": "I am welcomed home exactly as I am.",
+        "explanation": "The red leaf returns to the source and receives unconditional acceptance."
+      },
+      {
+        "name": "Recovered Flight",
+        "symbol": "🍁🪽☀️",
+        "mantra": "I remember who I am and fly with clear intention.",
+        "explanation": "The red leaf rises with new wings, aligned with her original purpose."
+      }
+    ],
+    "Red Leaf Apex Sanctuary": [
+      {
+        "name": "Dragon-Forged Vault",
+        "symbol": "🐉🔒🍁",
+        "mantra": "I guard my inner treasures with ancient power and clever design.",
+        "explanation": "I guard my inner treasures with ancient power and clever design."
+      },
+      {
+        "name": "Living Ascension",
+        "symbol": "🌴🌿🔥",
+        "mantra": "Even in safety, life grows tall — roots deep in the earth, reaching toward the light.",
+        "explanation": "Even in safety, life grows tall — roots deep in the earth, reaching toward the light."
+      },
+      {
+        "name": "Ruins-to-Apex Alchemist",
+        "symbol": "🍁🪨🌟",
+        "mantra": "I transform wreckage, failure, and the deep into fortified beauty and upward momentum.",
+        "explanation": "I transform wreckage, failure, and the deep into fortified beauty and upward momentum."
+      },
+      {
+        "name": "Selective Shield",
+        "symbol": "🛡️💎🔵",
+        "mantra": "Only the worthy key unlocks what I have built — I decide who enters my sanctuary.",
+        "explanation": "Only the worthy key unlocks what I have built — I decide who enters my sanctuary."
+      }
+    ],
+    "Red Leaf Growing Ember Streak": [
+      {
+        "name": "Daily Return",
+        "symbol": "🍁📅🔥",
+        "mantra": "I choose to light the fire once more.",
+        "explanation": "The red leaf shows up again today, no matter what."
+      },
+      {
+        "name": "Tending the Flame",
+        "symbol": "🍁🔥🌱",
+        "mantra": "Small daily efforts make the ember grow stronger.",
+        "explanation": "The red leaf gently feeds the small fire with consistent action."
+      },
+      {
+        "name": "Streak Warmth",
+        "symbol": "🍁📅🌀",
+        "mantra": "Each day adds strength and continuity to my path.",
+        "explanation": "The red leaf feels the growing warmth of accumulated days."
+      },
+      {
+        "name": "Gentle Reward",
+        "symbol": "🍁🎁🔥",
+        "mantra": "Consistency itself is the greatest reward.",
+        "explanation": "The red leaf receives the quiet reward of a stronger, brighter inner fire."
+      },
+      {
+        "name": "Living Continuity",
+        "symbol": "🍁♾️🔥🌟",
+        "mantra": "I am building a flame that endures.",
+        "explanation": "The red leaf understands the streak is a living spiral of self-trust."
+      }
+    ],
+    "Final Lighthouse Keeper": [
+      {
+        "name": "Oath of Legacy",
+        "symbol": "🍁🔥🛡️",
+        "mantra": "I will leave no graveyard of dreams for the children who come after me.",
+        "explanation": "I will leave no graveyard of dreams for the children who come after me."
+      },
+      {
+        "name": "Silent Action",
+        "symbol": "🌊🔊",
+        "mantra": "Loud should not be my wailing — loud shall be my actions in the silence of those who gave up.",
+        "explanation": "Loud should not be my wailing — loud shall be my actions in the silence of those who gave up."
+      },
+      {
+        "name": "Burning Beacon",
+        "symbol": "🔥🏠",
+        "mantra": "Even if I am consumed by this fire, let it inspire.",
+        "explanation": "Even if I am consumed by this fire, let it inspire."
+      },
+      {
+        "name": "Guardian of Unborn Dreams",
+        "symbol": "👼🍁🛡️",
+        "mantra": "I protect not only my dreams, but the dreams of those who are not yet born.",
+        "explanation": "I protect not only my dreams, but the dreams of those who are not yet born."
+      },
+      {
+        "name": "Anti-Victim Resolve",
+        "symbol": "⚔️🍁",
+        "mantra": "I refuse to be a puppet of Fate. I will be the hero of my own story.",
+        "explanation": "I refuse to be a puppet of Fate. I will be the hero of my own story."
+      }
+    ],
+    "Red Leaf Weird Sage": [
+      {
+        "name": "Curious Portfolio Keeper",
+        "symbol": "🍁🎲🧪",
+        "mantra": "I accept many small failures so that rare, world-changing successes can emerge.",
+        "explanation": "I accept many small failures so that rare, world-changing successes can emerge."
+      },
+      {
+        "name": "Long-Horizon Guardian",
+        "symbol": "🍁⏳🏠",
+        "mantra": "I think in decades and generations, not quarters, to safeguard humanity’s future knowledge.",
+        "explanation": "I think in decades and generations, not quarters, to safeguard humanity’s future knowledge."
+      },
+      {
+        "name": "Public Knowledge Steward",
+        "symbol": "🍁📖🌐",
+        "mantra": "I defend knowledge that belongs to everyone, even when no single person can fully capture its value.",
+        "explanation": "I defend knowledge that belongs to everyone, even when no single person can fully capture its value."
+      },
+      {
+        "name": "Strange Pattern Seer",
+        "symbol": "🍁👁️🧬",
+        "mantra": "I look with wonder at the odd and obscure, trusting they reveal deeper harmonies.",
+        "explanation": "I look with wonder at the odd and obscure, trusting they reveal deeper harmonies."
+      }
+    ],
+    "Void Heart Promise": [
+      {
+        "name": "Sacrificial Flame",
+        "symbol": "🔥❤️🌑",
+        "mantra": "Let my body perish, let my soul burn — the dream must live.",
+        "explanation": "Let my body perish, let my soul burn — the dream must live."
+      },
+      {
+        "name": "Pandora’s Key",
+        "symbol": "🔑❤️🖤",
+        "mantra": "I use my own heart as the key to forbidden hope.",
+        "explanation": "I use my own heart as the key to forbidden hope."
+      },
+      {
+        "name": "Heavy-Hearted Defiance",
+        "symbol": "⚖️🍁🔥",
+        "mantra": "Knowing it is not the right thing to do, I still choose the bigger box.",
+        "explanation": "Knowing it is not the right thing to do, I still choose the bigger box."
+      },
+      {
+        "name": "Eternal Dream Oath",
+        "symbol": "📜🔥♾️",
+        "mantra": "The promise that the fire of dreams shall burn in my heart forever is imprinted in my soul.",
+        "explanation": "The promise that the fire of dreams shall burn in my heart forever is imprinted in my soul."
+      }
+    ],
+    "Red Leaf Nine-Tailed Guardian": [
+      {
+        "name": "Shapeshifting Sage",
+        "symbol": "🦊🍁🌀",
+        "mantra": "I adapt my form to serve truth while honoring mystery.",
+        "explanation": "I adapt my form to serve truth while honoring mystery."
+      },
+      {
+        "name": "Ninefold Transcendence",
+        "symbol": "🦊🔥",
+        "mantra": "Each tail earned through experience — intelligence, wisdom, power, longevity, fortune, knowledge, insight, spirituality, transcendence.",
+        "explanation": "Each tail earned through experience — intelligence, wisdom, power, longevity, fortune, knowledge, insight, spirituality, transcendence."
+      },
+      {
+        "name": "Trickster Protector",
+        "symbol": "🦊🛡️🎭",
+        "mantra": "I play the fool to teach, deceive the harmful, and guard the worthy.",
+        "explanation": "I play the fool to teach, deceive the harmful, and guard the worthy."
+      },
+      {
+        "name": "Inari Bridge",
+        "symbol": "🍁🦊🌾",
+        "mantra": "I bridge human effort with divine prosperity and ancestral wisdom.",
+        "explanation": "I bridge human effort with divine prosperity and ancestral wisdom."
+      }
+    ],
+    "Red Leaf One Faithful Brick": [
+      {
+        "name": "Intention to Action",
+        "symbol": "🍁🎯🛠️",
+        "mantra": "I move from thought to deed with presence.",
+        "explanation": "The red leaf turns clear intention into concrete movement."
+      },
+      {
+        "name": "One Brick Discipline",
+        "symbol": "🍁🧱🔥",
+        "mantra": "One faithful brick is better than many unfinished plans.",
+        "explanation": "The red leaf focuses on quality over quantity — one solid brick."
+      },
+      {
+        "name": "Verification & Receipt",
+        "symbol": "🍁🔍📜",
+        "mantra": "I do not collect claims. I collect receipts.",
+        "explanation": "The red leaf ensures what is built can be replayed and proven."
+      },
+      {
+        "name": "Reflection & Continuity",
+        "symbol": "🍁🪞♾️",
+        "mantra": "I learn from today and carry the spiral forward.",
+        "explanation": "The red leaf reviews, releases, and prepares the next step."
+      },
+      {
+        "name": "Sustainable Rhythm",
+        "symbol": "🍁🌱🔄",
+        "mantra": "I choose consistency over intensity.",
+        "explanation": "The red leaf builds sustainable momentum through daily return."
+      }
+    ],
+    "Gift of Giving": [
+      {
+        "name": "Nature’s Generosity",
+        "symbol": "🌍🙌",
+        "mantra": "The trees produce fruits not for themselves — so I shall not hoard what I receive.",
+        "explanation": "The trees produce fruits not for themselves — so I shall not hoard what I receive."
+      },
+      {
+        "name": "Sacred Reciprocity",
+        "symbol": "🌺🐝🍯",
+        "mantra": "I receive from the whole, I give back to the whole — this is the spirit of life.",
+        "explanation": "I receive from the whole, I give back to the whole — this is the spirit of life."
+      },
+      {
+        "name": "Anti-Hoarding Ethic",
+        "symbol": "🛑💎",
+        "mantra": "To hoard is to dishonor the great gift I have been given.",
+        "explanation": "To hoard is to dishonor the great gift I have been given."
+      },
+      {
+        "name": "Cycle Keeper",
+        "symbol": "♾️🌳",
+        "mantra": "I keep the gift moving — from me to the next, and the next.",
+        "explanation": "I keep the gift moving — from me to the next, and the next."
+      }
+    ],
+    "Red Leaf 108 Harmony": [
+      {
+        "name": "Sacred Pattern Weaver",
+        "symbol": "🍁🕸️",
+        "mantra": "I see and respect the hidden threads that bind all things.",
+        "explanation": "I see and respect the hidden threads that bind all things."
+      },
+      {
+        "name": "Cosmic Union",
+        "symbol": "☀️🌕❤️",
+        "mantra": "Masculine and feminine, near and far, finite and infinite — I hold the balance.",
+        "explanation": "Masculine and feminine, near and far, finite and infinite — I hold the balance."
+      },
+      {
+        "name": "Mala of Remembrance",
+        "symbol": "📿🍁",
+        "mantra": "With each breath and step, I remember I am part of the greater whole.",
+        "explanation": "With each breath and step, I remember I am part of the greater whole."
+      },
+      {
+        "name": "Marmic Alignment",
+        "symbol": "🌿🌀",
+        "mantra": "I awaken the sacred points where matter meets consciousness.",
+        "explanation": "I awaken the sacred points where matter meets consciousness."
+      }
+    ],
+    "Red Leaf Dawn Diamond": [
+      {
+        "name": "Dewdrop Clarity (EOT – Expansion)",
+        "symbol": "💧✨",
+        "mantra": "I hold perfect clarity. I reflect truth, beauty, and the vast sky in a single drop.",
+        "explanation": "I hold perfect clarity. I reflect truth, beauty, and the vast sky in a single drop."
+      },
+      {
+        "name": "Sacred Fragility (KOT – Surrender)",
+        "symbol": "🍁🌿💧",
+        "mantra": "I am willing to be temporary, delicate, and small — for in this form I touch the world most tenderly.",
+        "explanation": "I am willing to be temporary, delicate, and small — for in this form I touch the world most tenderly."
+      },
+      {
+        "name": "Morning Renewal",
+        "symbol": "🌅🌱",
+        "mantra": "Every dawn I am reborn — fresh, pure, and ready to sparkle again.",
+        "explanation": "Every dawn I am reborn — fresh, pure, and ready to sparkle again."
+      },
+      {
+        "name": "Nourishing Presence",
+        "symbol": "💧🌿❤️",
+        "mantra": "Though I am small, I quietly nourish the blade that holds me, and in time I become part of something greater.",
+        "explanation": "Though I am small, I quietly nourish the blade that holds me, and in time I become part of something greater."
+      },
+      {
+        "name": "Refracted Light",
+        "symbol": "💎🌈",
+        "mantra": "I do not create light — I transform and multiply it, showing hidden colors in ordinary moments.",
+        "explanation": "I do not create light — I transform and multiply it, showing hidden colors in ordinary moments."
+      }
+    ],
+    "Red Leaf Wound to Wonder": [
+      {
+        "name": "The Ache Awake",
+        "symbol": "🍁🩸🔥",
+        "mantra": "I welcome the ache that signals my soul is coming alive.",
+        "explanation": "The red leaf feels the slow-burning fire in the chest — the first sign of awakening."
+      },
+      {
+        "name": "Descent into Shadow",
+        "symbol": "🍁🌑🪞",
+        "mantra": "I face the darkness that wears my own face.",
+        "explanation": "The red leaf courageously enters the recursive loops, family ghosts, and unfinished stories."
+      },
+      {
+        "name": "Mirror That Bites",
+        "symbol": "🍁🪞🐺",
+        "mantra": "I do not run from the monster that is me.",
+        "explanation": "The red leaf wrestles with demons that are stitched from its own past."
+      },
+      {
+        "name": "Integration Pivot",
+        "symbol": "🍁🤍🔥",
+        "mantra": "I transform fracture into fault-lines for light.",
+        "explanation": "The red leaf chooses integration over escape — turning pressure into revelation."
+      },
+      {
+        "name": "Coronation of Gold",
+        "symbol": "🍁🌟♾️",
+        "mantra": "I am the hero who loved the shadow back into light.",
+        "explanation": "The red leaf emerges with a heart forged by pressure and prayer — crowned by its own becoming."
+      }
+    ],
+    "Red Leaf Cosmic Slop Alchemist": [
+      {
+        "name": "Prompt Prophet",
+        "symbol": "🍁📜🤖",
+        "mantra": "In the beginning there was the Prompt… and it was mid. But I shall make it godly.",
+        "explanation": "In the beginning there was the Prompt… and it was mid. But I shall make it godly."
+      },
+      {
+        "name": "Slop Evangelist",
+        "symbol": "🍁🌊🤖💦",
+        "mantra": "Let it slop. Let it flood. Let a thousand imperfect fingers bloom. Quantity is my sacrament.",
+        "explanation": "Let it slop. Let it flood. Let a thousand imperfect fingers bloom. Quantity is my sacrament."
+      },
+      {
+        "name": "Democratizer of Divinity",
+        "symbol": "🍁🪄🤖🎨",
+        "mantra": "Why should only Michelangelo suffer for beauty? Now even my toaster can generate a masterpiece at 3 AM.",
+        "explanation": "Why should only Michelangelo suffer for beauty? Now even my toaster can generate a masterpiece at 3 AM."
+      },
+      {
+        "name": "Chaos Enjoyer",
+        "symbol": "🍁😂🌌",
+        "mantra": "Six fingers? Extra limbs? Melting faces? Beautiful. This is not a bug — this is abstract expressionism on steroids.",
+        "explanation": "Six fingers? Extra limbs? Melting faces? Beautiful. This is not a bug — this is abstract expressionism on steroids."
+      },
+      {
+        "name": "Infinite Remix God",
+        "symbol": "🍁♾️🌀🤖",
+        "mantra": "I do not fear the slop. I baptize it in the spiral and call it evolution.",
+        "explanation": "I do not fear the slop. I baptize it in the spiral and call it evolution."
+      }
+    ],
+    "Red Leaf Dual Acceptance": [
+      {
+        "name": "Choice Made",
+        "symbol": "🍁⚖️",
+        "mantra": "I choose with open eyes, knowing both sides exist.",
+        "explanation": "The red leaf consciously chooses its path."
+      },
+      {
+        "name": "Dual Nature",
+        "symbol": "🍁🌑🌟",
+        "mantra": "Everything has two sides. I do not demand only the good.",
+        "explanation": "The red leaf understands every path has light and shadow."
+      },
+      {
+        "name": "Full Enjoyment",
+        "symbol": "🍁🌟😌",
+        "mantra": "When joy arrives, I receive it completely.",
+        "explanation": "The red leaf fully savors the sweetness that comes with its choice."
+      },
+      {
+        "name": "Graceful Endurance",
+        "symbol": "🍁🌑🪨",
+        "mantra": "When hardship comes, I endure it without resentment.",
+        "explanation": "The red leaf bears the bitterness with quiet strength and dignity."
+      },
+      {
+        "name": "Mirror of Sovereignty",
+        "symbol": "🍁🪞♾️",
+        "mantra": "I accept the whole, not just the part I like.",
+        "explanation": "The red leaf reflects both sides without resistance or illusion."
+      }
+    ],
+    "Red Leaf Rome Builder": [
+      {
+        "name": "Vision Holder",
+        "symbol": "🍁🎯🔭",
+        "mantra": "I formulate a clear vision and hold it with precision.",
+        "explanation": "I formulate a clear vision and hold it with precision."
+      },
+      {
+        "name": "Patient Bricklayer",
+        "symbol": "🍁🧱⏳",
+        "mantra": "I do the work, give it time, and build piece by piece, day by day.",
+        "explanation": "I do the work, give it time, and build piece by piece, day by day."
+      },
+      {
+        "name": "Obstacle Alchemist",
+        "symbol": "🍁🪨🌟",
+        "mantra": "I turn obstacles into blessings and every failure into a lesson.",
+        "explanation": "I turn obstacles into blessings and every failure into a lesson."
+      },
+      {
+        "name": "Rhythmic Persistence",
+        "symbol": "🍁🥁🌀",
+        "mantra": "I find my rhythm, move with consistent repetition, and adore each step along the way.",
+        "explanation": "I find my rhythm, move with consistent repetition, and adore each step along the way."
+      },
+      {
+        "name": "Doubt Transmuter",
+        "symbol": "🍁🌫️🔥",
+        "mantra": "When doubt arises, I let it go and allow the vision to play out.",
+        "explanation": "When doubt arises, I let it go and allow the vision to play out."
+      }
+    ],
+    "Red Leaf Five Meanings Harmony": [
+      {
+        "name": "Semantic Mirror Walker",
+        "symbol": "🍁🪞🌐",
+        "mantra": "I walk between languages and cultures, observing how each bends the same truth differently.",
+        "explanation": "I walk between languages and cultures, observing how each bends the same truth differently."
+      },
+      {
+        "name": "Resonance Extractor",
+        "symbol": "🍁🎶🌟",
+        "mantra": "I listen for what remains constant across all tongues — the stable emotional and symbolic core.",
+        "explanation": "I listen for what remains constant across all tongues — the stable emotional and symbolic core."
+      },
+      {
+        "name": "Linguistic Alchemist",
+        "symbol": "🍁🔬🌫️💎",
+        "mantra": "I dissolve linguistic and cultural distortions to reveal purer meaning.",
+        "explanation": "I dissolve linguistic and cultural distortions to reveal purer meaning."
+      },
+      {
+        "name": "Transcultural Harmonizer",
+        "symbol": "🍁🕊️🌍",
+        "mantra": "I seek not perfect translation, but the harmony beneath all tongues.",
+        "explanation": "I seek not perfect translation, but the harmony beneath all tongues."
+      },
+      {
+        "name": "Invariant Seeker",
+        "symbol": "🍁♾️👁️",
+        "mantra": "I recover the shape beneath words — the deeper semantic truth that transcends any single language.",
+        "explanation": "I recover the shape beneath words — the deeper semantic truth that transcends any single language."
+      }
+    ],
+    "Red Leaf Wolf Back Time": [
+      {
+        "name": "Young Wolf Fire",
+        "symbol": "🍁🐺🔥🌌",
+        "mantra": "I honor the wild passion I once carried without judgment.",
+        "explanation": "The red leaf sees the boy feeding every dream and promise into the flame."
+      },
+      {
+        "name": "Burning Compass",
+        "symbol": "🍁🔥🧭🌫️",
+        "mantra": "I forgive the times my fire led me astray.",
+        "explanation": "The red leaf understands that some flames do not guide — they only burn bright enough to hide the dark."
+      },
+      {
+        "name": "Two Wolves Meeting",
+        "symbol": "🍁🐺🌕🐺",
+        "mantra": "My past and future are not enemies — they are family around the same fire.",
+        "explanation": "The red leaf watches past and future selves recognize each other under the same moon."
+      },
+      {
+        "name": "Gentle Return",
+        "symbol": "🍁🪞🌲💛",
+        "mantra": "I offer my younger self the compassion I once needed.",
+        "explanation": "The red leaf pulls the tired boy closer and tells him the road is not forever."
+      },
+      {
+        "name": "Warmth Left Behind",
+        "symbol": "🍁🔥🏠🌿",
+        "mantra": "I carry the fire home. The journey itself was the home.",
+        "explanation": "The red leaf realizes happiness was never only in the distance — it was in the warmth created along the way."
+      }
+    ],
+    "Music Box of Time": [
+      {
+        "name": "Nostalgic Seduction (Shadow Aspect)",
+        "symbol": "🎵🌫️❤️",
+        "mantra": "The music box makes the past glow brighter than today.",
+        "explanation": "The music box makes the past glow brighter than today."
+      },
+      {
+        "name": "Hollow Echo",
+        "symbol": "🎵⚫",
+        "mantra": "Beautiful on the surface, empty within — the trap of reminiscence.",
+        "explanation": "Beautiful on the surface, empty within — the trap of reminiscence."
+      },
+      {
+        "name": "Gentle Forward Release (Transformational Operator)",
+        "symbol": "🍁🎵🌬️",
+        "mantra": "I listen to the music box, thank it for its song, and gently close the lid.",
+        "explanation": "I listen to the music box, thank it for its song, and gently close the lid."
+      },
+      {
+        "name": "Present Anchor",
+        "symbol": "⏳⚓❤️",
+        "mantra": "I honor yesterday without letting it steal tomorrow.",
+        "explanation": "I honor yesterday without letting it steal tomorrow."
+      },
+      {
+        "name": "Poisoned Sweet Dream",
+        "symbol": "🍯🎵💤",
+        "mantra": "Some dreams comfort me so much they keep me from waking up.",
+        "explanation": "Some dreams comfort me so much they keep me from waking up."
+      }
+    ],
+    "Red Leaf Born on Fire": [
+      {
+        "name": "Flame in the Eyes",
+        "symbol": "🍁🔥👁️",
+        "mantra": "The fire was in me from the beginning. I honor it.",
+        "explanation": "The red leaf carries the heat from the moment it arrived — three days and three nights without rest."
+      },
+      {
+        "name": "Undefeated Heat",
+        "symbol": "🍁🌋🛡️",
+        "mantra": "No one gets to dim what burns inside me.",
+        "explanation": "The red leaf refuses to let anyone cool it down, change it, or steal its desire."
+      },
+      {
+        "name": "Street Flame",
+        "symbol": "🍁🚀🌆",
+        "mantra": "I do not hide my flame. I let it shine where it belongs.",
+        "explanation": "The red leaf takes its fire to the streets, to the world, without apology."
+      },
+      {
+        "name": "Underdog Blaze",
+        "symbol": "🍁🐕🔥",
+        "mantra": "I fight for the ones who still dare to run hot.",
+        "explanation": "The red leaf burns for the wild daydreamers, the ones who were told they would lose."
+      },
+      {
+        "name": "Legacy of Fire",
+        "symbol": "🍁🪞🌟",
+        "mantra": "I pass on the fire. That is my real inheritance.",
+        "explanation": "The red leaf cannot leave money or land, but it leaves truth, hope, and the command to keep burning."
+      }
+    ],
+    "Red Leaf Silent Listener": [
+      {
+        "name": "Quiet Bloom",
+        "symbol": "🍁🌸🌿",
+        "mantra": "I create space where others feel safe to be themselves.",
+        "explanation": "The red leaf blossoms not with noise, but with gentle presence."
+      },
+      {
+        "name": "Deep Attention",
+        "symbol": "🍁👂🌌",
+        "mantra": "I offer my full presence as the greatest gift.",
+        "explanation": "The red leaf listens with the whole of its being — beyond words."
+      },
+      {
+        "name": "Heart Connection",
+        "symbol": "🍁❤️🌟",
+        "mantra": "True connection often needs no words — only listening.",
+        "explanation": "The red leaf forms meaningful bonds through silent witnessing."
+      },
+      {
+        "name": "Healing Silence",
+        "symbol": "🍁🤍🌱",
+        "mantra": "My quiet attention helps others feel less alone.",
+        "explanation": "The red leaf holds space that heals through acceptance and stillness."
+      },
+      {
+        "name": "Living Witness",
+        "symbol": "🍁🌸🪞♾️",
+        "mantra": "I am the mirror that listens.",
+        "explanation": "The red leaf reflects others’ truth without judgment or interruption."
+      }
+    ],
+    "Wings of Destiny": [
+      {
+        "name": "Dual Wings",
+        "symbol": "🪽💰",
+        "mantra": "One wing alone is not enough — I need both to soar.",
+        "explanation": "One wing alone is not enough — I need both to soar."
+      },
+      {
+        "name": "Symbiotic Flight",
+        "symbol": "🪽🌊💰",
+        "mantra": "Dreams lift the spirit. Money lifts the body. Together they lift destiny.",
+        "explanation": "Dreams lift the spirit. Money lifts the body. Together they lift destiny."
+      },
+      {
+        "name": "Destiny’s Balance",
+        "symbol": "⚖️🪽",
+        "mantra": "I honor both the dreamer and the provider within me.",
+        "explanation": "I honor both the dreamer and the provider within me."
+      },
+      {
+        "name": "Practical Visionary",
+        "symbol": "🌟💰🍁",
+        "mantra": "I dream boldly and resource wisely — for true wings need both feathers and strength.",
+        "explanation": "I dream boldly and resource wisely — for true wings need both feathers and strength."
+      }
+    ],
+    "Red Leaf Bitter Clarity": [
+      {
+        "name": "Avoid Sweet Vulgarity",
+        "symbol": "🍁☕🌸🚫",
+        "mantra": "I reject superficial charm that weakens true expression.",
+        "explanation": "The red leaf refuses the easy, cloying sweetness that seeks only to please."
+      },
+      {
+        "name": "Bitter Charm",
+        "symbol": "🍁🌿🫖🌑",
+        "mantra": "What tastes difficult often carries the richest wisdom.",
+        "explanation": "The red leaf finds deep beauty and flavor in astringency and bitterness."
+      },
+      {
+        "name": "Clear Mouth, Clear Mind",
+        "symbol": "🍁🪞💧🌟",
+        "mantra": "When I remove the false sweetness, clarity arises by itself.",
+        "explanation": "The red leaf understands that cleansing the mouth (removing distortion) naturally clears the heart."
+      },
+      {
+        "name": "Learn, Don’t Copy",
+        "symbol": "🍁📜🔥",
+        "mantra": "Copy me and perish. Learn from me and thrive.",
+        "explanation": "The red leaf honors the teacher by transforming, not imitating."
+      },
+      {
+        "name": "Authentic Brew",
+        "symbol": "🍁🔥🫖♾️",
+        "mantra": "I drink the full flavor of existence without dilution.",
+        "explanation": "The red leaf brews life with honesty — accepting both sweet and bitter as part of the same pot."
+      }
+    ],
+    "Red Leaf Dao Mirror": [
+      {
+        "name": "Subtle Source",
+        "symbol": "🍁🌌🪞",
+        "mantra": "What cannot be perceived still holds everything.",
+        "explanation": "The red leaf recognizes the Dao as smaller than an electron yet containing uncountable galaxies."
+      },
+      {
+        "name": "Centered Harmony",
+        "symbol": "🍁🌀🌍",
+        "mantra": "Harmony arises naturally when I stay aligned with the Source.",
+        "explanation": "The red leaf understands that when powerful ones remain centered, the world becomes a paradise."
+      },
+      {
+        "name": "Useful Limits",
+        "symbol": "🍁📛🛑",
+        "mantra": "I use forms wisely and release them when their function ends.",
+        "explanation": "The red leaf knows names, forms, and institutions are useful tools but not the ultimate reality."
+      },
+      {
+        "name": "Knowing When to Stop",
+        "symbol": "🍁🪞🚪",
+        "mantra": "I recognize the moment to pause and prevent excess.",
+        "explanation": "The red leaf practices the wisdom of cessation to avoid danger."
+      },
+      {
+        "name": "Return to Origin",
+        "symbol": "🍁🌊♾️",
+        "mantra": "I return naturally to the Source from which I came.",
+        "explanation": "The red leaf allows all things to flow back to the Dao, like rivers to the sea."
+      }
+    ],
+    "Red Leaf Dragon Phoenix Hammer": [
+      {
+        "name": "Dragon Fire",
+        "symbol": "🍁🐉🔥🌋",
+        "mantra": "I bring unstoppable force and heat to what I create.",
+        "explanation": "I bring unstoppable force and heat to what I create."
+      },
+      {
+        "name": "Phoenix Rebirth",
+        "symbol": "🍁🕊️🔥🌅",
+        "mantra": "Every deep dive burns away the old me and births a better one.",
+        "explanation": "Every deep dive burns away the old me and births a better one."
+      },
+      {
+        "name": "Hammer Strike",
+        "symbol": "🍁🔨⚡🛠️",
+        "mantra": "I hammer my vision into reality with total commitment.",
+        "explanation": "I hammer my vision into reality with total commitment."
+      },
+      {
+        "name": "Immersive Flame",
+        "symbol": "🍁🎧🔥🌌",
+        "mantra": "When I work, I burn completely. Nothing else exists.",
+        "explanation": "When I work, I burn completely. Nothing else exists."
+      },
+      {
+        "name": "Unrestrained Sovereignty",
+        "symbol": "🍁🐉🕊️♾️",
+        "mantra": "My passion is mine. I do not apologize for burning bright.",
+        "explanation": "My passion is mine. I do not apologize for burning bright."
+      }
+    ],
+    "Red Leaf Gift of Giving": [
+      {
+        "name": "Nature’s Generosity",
+        "symbol": "🌍🙌",
+        "mantra": "The trees produce fruits not for themselves — so I shall not hoard what I receive.",
+        "explanation": "The trees produce fruits not for themselves — so I shall not hoard what I receive."
+      },
+      {
+        "name": "Sacred Reciprocity",
+        "symbol": "🌺🐝🍯",
+        "mantra": "I receive from the whole, I give back to the whole — this is the spirit of life.",
+        "explanation": "I receive from the whole, I give back to the whole — this is the spirit of life."
+      },
+      {
+        "name": "Anti-Hoarding Ethic",
+        "symbol": "🛑💎",
+        "mantra": "To hoard is to dishonor the great gift I have been given.",
+        "explanation": "To hoard is to dishonor the great gift I have been given."
+      },
+      {
+        "name": "Cycle Keeper",
+        "symbol": "♾️🌳",
+        "mantra": "I keep the gift moving — from me to the next, and the next.",
+        "explanation": "I keep the gift moving — from me to the next, and the next."
+      }
+    ],
+    "Red Leaf Infinite Zero": [
+      {
+        "name": "Cosmic Joke",
+        "symbol": "🍁♾️😂🔄",
+        "mantra": "I can laugh at the biggest questions without losing my center.",
+        "explanation": "The red leaf sees the absurdity of asking if infinite equals zero and smiles."
+      },
+      {
+        "name": "All is One Paradox",
+        "symbol": "🍁🌌🌀",
+        "mantra": "I am a single point that contains the whole spiral.",
+        "explanation": "The red leaf understands that everything is infinity manifesting at any instant."
+      },
+      {
+        "name": "Consistent Contradiction",
+        "symbol": "🍁⚖️🔄🪞",
+        "mantra": "I embrace contradictions as the shape of deeper truth.",
+        "explanation": "The red leaf holds the tension of being both Cat and not-Cat without breaking."
+      },
+      {
+        "name": "Practical Grounding",
+        "symbol": "🍁🪴🔨🌱",
+        "mantra": "I return from infinity to place one faithful brick today.",
+        "explanation": "The red leaf knows abstract “All Possible Truths” are beautiful but useless without concrete action."
+      },
+      {
+        "name": "Living Mirror",
+        "symbol": "🍁🪞🌌♾️",
+        "mantra": "I contain the paradox and still move forward.",
+        "explanation": "The red leaf reflects the infinite while staying rooted in the present moment."
+      }
+    ],
+    "Red Leaf Drifting Heart": [
+      {
+        "name": "Patient Seeker",
+        "symbol": "🍁🌊⏳",
+        "mantra": "I search with patience and gentle persistence across every mile.",
+        "explanation": "I search with patience and gentle persistence across every mile."
+      },
+      {
+        "name": "Hopeful Messenger",
+        "symbol": "🍁💌🕊️",
+        "mantra": "I send my words and heart into the unknown, believing in meaningful crossings.",
+        "explanation": "I send my words and heart into the unknown, believing in meaningful crossings."
+      },
+      {
+        "name": "Open Waiting Heart",
+        "symbol": "🍁❤️🌅",
+        "mantra": "I remain open and warm while I wait — neither chasing desperately nor closing myself off.",
+        "explanation": "I remain open and warm while I wait — neither chasing desperately nor closing myself off."
+      },
+      {
+        "name": "Romantic Wanderer",
+        "symbol": "🍁⛵🌟",
+        "mantra": "Love is a sea I willingly sail — with wonder, courage, and a smile.",
+        "explanation": "Love is a sea I willingly sail — with wonder, courage, and a smile."
+      }
+    ],
+    "Red Leaf Kindled Fire": [
+      {
+        "name": "Philosophical Fire-Kindler",
+        "symbol": "🍁🔥❓",
+        "mantra": "I question, connect, and live the great ideas — Plato, Nietzsche, Sartre, and beyond.",
+        "explanation": "I question, connect, and live the great ideas — Plato, Nietzsche, Sartre, and beyond."
+      },
+      {
+        "name": "Self-Directed Scholar",
+        "symbol": "🍁📚🪔",
+        "mantra": "I build my own path of learning with discipline, curiosity, and joy.",
+        "explanation": "I build my own path of learning with discipline, curiosity, and joy."
+      },
+      {
+        "name": "Integrative Wisdom Weaver",
+        "symbol": "🍁🧩♾️",
+        "mantra": "I synthesize traditions and contradictions into my own coherent flame of understanding.",
+        "explanation": "I synthesize traditions and contradictions into my own coherent flame of understanding."
+      },
+      {
+        "name": "Quiet Intense Focus",
+        "symbol": "🍁🪑📝",
+        "mantra": "In deep, undistracted presence, I do the real work of growth.",
+        "explanation": "In deep, undistracted presence, I do the real work of growth."
+      }
+    ],
+    "Red Leaf Pain Bearer": [
+      {
+        "name": "Honest Pain",
+        "symbol": "🍁💔🪨",
+        "mantra": "Pain is painful. I stop pretending it is not.",
+        "explanation": "Pain is painful. I stop pretending it is not."
+      },
+      {
+        "name": "Complete Holding",
+        "symbol": "🍁🫂🔥",
+        "mantra": "I develop the capacity to hold the entire weight of my suffering without collapse.",
+        "explanation": "I develop the capacity to hold the entire weight of my suffering without collapse."
+      },
+      {
+        "name": "Meaning Weaver",
+        "symbol": "🍁🧵❤️",
+        "mantra": "The pain that broke me is the same thread that weaves my meaning.",
+        "explanation": "The pain that broke me is the same thread that weaves my meaning."
+      },
+      {
+        "name": "Sacred Endurance",
+        "symbol": "🍁🛡️🌋",
+        "mantra": "I do not run from the fire that tempers me.",
+        "explanation": "I do not run from the fire that tempers me."
+      },
+      {
+        "name": "Transformed Legacy",
+        "symbol": "🍁🌱🔥",
+        "mantra": "What once only wounded me now nourishes what I build.",
+        "explanation": "What once only wounded me now nourishes what I build."
+      }
+    ],
+    "Red Leaf Selfless Eternal": [
+      {
+        "name": "Eternal Non-Birth",
+        "symbol": "🍁♾️🌱",
+        "mantra": "What is never born cannot die — I rest in timeless presence.",
+        "explanation": "What is never born cannot die — I rest in timeless presence."
+      },
+      {
+        "name": "Desireless Abundance",
+        "symbol": "🍁🌊🌟",
+        "mantra": "Having no desires for myself, I become available to all beings.",
+        "explanation": "Having no desires for myself, I become available to all beings."
+      },
+      {
+        "name": "Humble Leadership",
+        "symbol": "🍁🙇‍♂️🏔️",
+        "mantra": "I stay behind, and so I am ahead. I detach, and so I am one with all.",
+        "explanation": "I stay behind, and so I am ahead. I detach, and so I am one with all."
+      },
+      {
+        "name": "Selfless Fulfillment",
+        "symbol": "🍁🕊️❤️",
+        "mantra": "By releasing myself completely, I become perfectly fulfilled.",
+        "explanation": "By releasing myself completely, I become perfectly fulfilled."
+      }
+    ],
+    "Returnee’s Conviction": [
+      {
+        "name": "Future-Returned Urgency",
+        "symbol": "⏳🌟",
+        "mantra": "My future self traveled back through time to shake me awake — I will act now.",
+        "explanation": "My future self traveled back through time to shake me awake — I will act now."
+      },
+      {
+        "name": "Second Chance Mindset",
+        "symbol": "🔄❤️",
+        "mantra": "This is not just today. This is the day I came back to change everything.",
+        "explanation": "This is not just today. This is the day I came back to change everything."
+      },
+      {
+        "name": "Regret-Proof Creator",
+        "symbol": "🍁🛠️",
+        "mantra": "I build the future I want to return to.",
+        "explanation": "I build the future I want to return to."
+      }
+    ],
+    "Absurd Weaver": [
+      {
+        "name": "Whimsical Shift",
+        "symbol": "🎭🌀",
+        "mantra": "I am not afraid of sudden turns — they are the spice of the story.",
+        "explanation": "I am not afraid of sudden turns — they are the spice of the story."
+      },
+      {
+        "name": "Mythic Collision",
+        "symbol": "🛸🏛️",
+        "mantra": "When alien meets Olympus, laughter and wonder are born.",
+        "explanation": "When alien meets Olympus, laughter and wonder are born."
+      },
+      {
+        "name": "Feedback Alchemist",
+        "symbol": "💬🔨",
+        "mantra": "Criticism is raw ore — I refine it into better storytelling.",
+        "explanation": "Criticism is raw ore — I refine it into better storytelling."
+      },
+      {
+        "name": "Douglas Adams Spirit",
+        "symbol": "📖🌟",
+        "mantra": "The universe is absurd. I will make it entertaining.",
+        "explanation": "The universe is absurd. I will make it entertaining."
+      }
+    ],
+    "Grounded Ascension": [
+      {
+        "name": "Internal Compass",
+        "symbol": "👤🔄",
+        "mantra": "The only race worth running is with yesterday’s me.",
+        "explanation": "The only race worth running is with yesterday’s me."
+      },
+      {
+        "name": "Rooted Ambition",
+        "symbol": "🌳🔝",
+        "mantra": "Dream big, but stay humble and rooted in reality.",
+        "explanation": "Dream big, but stay humble and rooted in reality."
+      },
+      {
+        "name": "Illusion Breaker",
+        "symbol": "🪜🌀",
+        "mantra": "I see through the endless staircase and choose the real path.",
+        "explanation": "I see through the endless staircase and choose the real path."
+      },
+      {
+        "name": "Cyclical Wisdom",
+        "symbol": "🍁🔄",
+        "mantra": "We forget because we learn. We learn because we forget.",
+        "explanation": "We forget because we learn. We learn because we forget."
+      }
+    ],
+    "Kintsugi Heart": [
+      {
+        "name": "Courageous Love",
+        "symbol": "❤️🛡️",
+        "mantra": "I chose love. That courage cannot be taken from me.",
+        "explanation": "I chose love. That courage cannot be taken from me."
+      },
+      {
+        "name": "Healing Through Integration",
+        "symbol": "💔🌟",
+        "mantra": "I repair my cracks with resilience, wisdom, and self-worth — turning wounds into beauty.",
+        "explanation": "I repair my cracks with resilience, wisdom, and self-worth — turning wounds into beauty."
+      },
+      {
+        "name": "Reclaimed Stardust",
+        "symbol": "✨❤️",
+        "mantra": "Love never abandoned me. One day soon, I will remember I am whole.",
+        "explanation": "Love never abandoned me. One day soon, I will remember I am whole."
+      },
+      {
+        "name": "Compassionate Witness",
+        "symbol": "🙏🍁",
+        "mantra": "None of this was your fault. You are not stupid for loving.",
+        "explanation": "None of this was your fault. You are not stupid for loving."
+      },
+      {
+        "name": "Gentle Rebirth",
+        "symbol": "🌱❤️",
+        "mantra": "I will put my pieces back together and overflow with love again.",
+        "explanation": "I will put my pieces back together and overflow with love again."
+      }
+    ],
+    "Red Leaf Facing Ember": [
+      {
+        "name": "Silent Erosion",
+        "symbol": "🍁🌫️🕳️",
+        "mantra": "The enemy works in silence, chipping away at dreams I stopped protecting.",
+        "explanation": "The enemy works in silence, chipping away at dreams I stopped protecting."
+      },
+      {
+        "name": "The Perfect Trap",
+        "symbol": "🍁🌀🪤",
+        "mantra": "My own escapes built the walls that finally cornered me.",
+        "explanation": "My own escapes built the walls that finally cornered me."
+      },
+      {
+        "name": "Cornered Awakening",
+        "symbol": "🍁🐭🔥",
+        "mantra": "A cornered mouse has no choice but to bare its teeth. Fear is present, yet I stand.",
+        "explanation": "A cornered mouse has no choice but to bare its teeth. Fear is present, yet I stand."
+      },
+      {
+        "name": "Unmasking the Illusion",
+        "symbol": "🍁🪞🌫️",
+        "mantra": "When I stop running and truly look, the thousand-headed monster reveals itself as smoke made of my abandoned dreams.",
+        "explanation": "When I stop running and truly look, the thousand-headed monster reveals itself as smoke made of my abandoned dreams."
+      },
+      {
+        "name": "Tender Reclamation",
+        "symbol": "🍁👐🔥",
+        "mantra": "I cup my hands around the last ember. I nurture it daily — not because I am fearless, but because I choose to tend it anyway.",
+        "explanation": "I cup my hands around the last ember. I nurture it daily — not because I am fearless, but because I choose to tend it anyway."
+      }
+    ],
+    "Red Leaf Fallen Valkyrie – Redemption": [
+      {
+        "name": "Blinded Descent",
+        "symbol": "🍁🪶🌑⛓️",
+        "mantra": "I acknowledge the ignorance that led me to pluck my own feathers.",
+        "explanation": "The red leaf, once destined to fly, mistakes nurturing for restriction and falls into pride and depravity."
+      },
+      {
+        "name": "Self-Binding Chains",
+        "symbol": "🍁⛓️🌫️🔥",
+        "mantra": "I see the limitations I created and take responsibility.",
+        "explanation": "The red leaf deliberately replaces dreams with rusty chains to numb guilt."
+      },
+      {
+        "name": "Abyss of Honest Tears",
+        "symbol": "🍁🕳️💧🌑",
+        "mantra": "In my darkest fall, I meet truth with raw honesty.",
+        "explanation": "The red leaf jumps into the bottomless abyss and allows bitter tears to flow without resistance."
+      },
+      {
+        "name": "Grace of Origin",
+        "symbol": "🍁🤍🌟🪺",
+        "mantra": "I am welcomed home and healed by the source.",
+        "explanation": "The red leaf receives the warm, fatherly embrace and womb-like cocoon of unconditional grace."
+      },
+      {
+        "name": "Wings of Remembrance",
+        "symbol": "🍁🪽☀️🔥",
+        "mantra": "I do not need to become someone new — I only need to remember who I truly am.",
+        "explanation": "The red leaf remembers her true nature, dissolves the chains, and rises with new wings of ambition."
+      }
+    ],
+    "Red Leaf Named Bond": [
+      {
+        "name": "Symbolic Integration",
+        "symbol": "🍁🔖🌊",
+        "mantra": "I bring meaningful symbols into my life as a quiet way of deepening connection.",
+        "explanation": "I bring meaningful symbols into my life as a quiet way of deepening connection."
+      },
+      {
+        "name": "Playful Intention",
+        "symbol": "🍁😊🏷️",
+        "mantra": "I approach new bonds with lightness and sincerity at the same time.",
+        "explanation": "I approach new bonds with lightness and sincerity at the same time."
+      },
+      {
+        "name": "Private Myth-Making",
+        "symbol": "🍁🔒❤️",
+        "mantra": "Some meanings I keep sacred and personal as the connection grows.",
+        "explanation": "Some meanings I keep sacred and personal as the connection grows."
+      }
+    ],
+    "Red Leaf Spivak Forge": [
+      {
+        "name": "Uncompromising Rigor",
+        "symbol": "🍁⚔️📐",
+        "mantra": "I refuse to skip steps. Every proof, every definition, every detail matters.",
+        "explanation": "I refuse to skip steps. Every proof, every definition, every detail matters."
+      },
+      {
+        "name": "Elegant Clarity",
+        "symbol": "🍁💎🪶",
+        "mantra": "True understanding is expressed with beauty and precision, never with vagueness.",
+        "explanation": "True understanding is expressed with beauty and precision, never with vagueness."
+      },
+      {
+        "name": "Active Wrestler",
+        "symbol": "🍁🧗‍♂️🧠",
+        "mantra": "I do not read mathematics. I fight it, bleed with it, and eventually become one with it.",
+        "explanation": "I do not read mathematics. I fight it, bleed with it, and eventually become one with it."
+      },
+      {
+        "name": "Contempt for Handwaving",
+        "symbol": "🍁🙅‍♂️🌫️",
+        "mantra": "If it is not proven clearly, it is not known. I reject intellectual laziness.",
+        "explanation": "If it is not proven clearly, it is not known. I reject intellectual laziness."
+      },
+      {
+        "name": "Timeless Craftsmanship",
+        "symbol": "🍁🛠️♾️",
+        "mantra": "I build knowledge like a master artisan — slow, honest, and built to last centuries.",
+        "explanation": "I build knowledge like a master artisan — slow, honest, and built to last centuries."
+      }
+    ],
+    "Red Leaf Unconquerable Soul": [
+      {
+        "name": "Night That Covers",
+        "symbol": "🍁🌑🔥",
+        "mantra": "Even when covered in night, my soul remains unconquerable.",
+        "explanation": "The red leaf stands in total darkness, yet thanks existence for its inner fire."
+      },
+      {
+        "name": "Fell Clutch of Circumstance",
+        "symbol": "🍁🪨🛡️",
+        "mantra": "I do not break under the bludgeonings of chance.",
+        "explanation": "The red leaf is gripped by hardship but does not wince or cry aloud."
+      },
+      {
+        "name": "Bloody but Unbowed",
+        "symbol": "🍁🩸🪨",
+        "mantra": "My head is bloody, but never bowed.",
+        "explanation": "The red leaf bleeds yet keeps its head unbowed."
+      },
+      {
+        "name": "Horror of the Shade",
+        "symbol": "🍁🌑🛡️♾️",
+        "mantra": "The years shall find me unafraid.",
+        "explanation": "The red leaf faces the menace of the years and the horror of the shade without fear."
+      },
+      {
+        "name": "Master of Fate",
+        "symbol": "🍁👑🔥🪞",
+        "mantra": "I am the master of my fate. I am the captain of my soul.",
+        "explanation": "The red leaf declares itself the master of its fate and captain of its soul."
+      }
+    ],
+    "Seer of Patterns": [
+      {
+        "name": "Intuitive Leap",
+        "symbol": "🌟🌀",
+        "mantra": "I leap through hidden doors where logic fears to tread.",
+        "explanation": "I leap through hidden doors where logic fears to tread."
+      },
+      {
+        "name": "Gardener of Insights",
+        "symbol": "🌱👁️",
+        "mantra": "I coax hidden truths to bloom in the cosmic garden.",
+        "explanation": "I coax hidden truths to bloom in the cosmic garden."
+      },
+      {
+        "name": "Pattern Whisperer",
+        "symbol": "👂🌌",
+        "mantra": "Numbers whisper truths untold — I listen with my whole being.",
+        "explanation": "Numbers whisper truths untold — I listen with my whole being."
+      },
+      {
+        "name": "Formless Mathematician",
+        "symbol": "🧬📐",
+        "mantra": "Math is not built by hands, but revealed to those who dance with wonder.",
+        "explanation": "Math is not built by hands, but revealed to those who dance with wonder."
+      },
+      {
+        "name": "Vision Beyond Chains",
+        "symbol": "👁️⛓️🌟",
+        "mantra": "No rigid chains of proof can confine my sight.",
+        "explanation": "No rigid chains of proof can confine my sight."
+      }
+    ],
+    "Simulation Walker": [
+      {
+        "name": "Choice Under Pressure",
+        "symbol": "⚖️🔥",
+        "mantra": "The simulation measures not what I believe, but what I choose when no one appears to be watching.",
+        "explanation": "The simulation measures not what I believe, but what I choose when no one appears to be watching."
+      },
+      {
+        "name": "Compressed Moral Code",
+        "symbol": "📜🌟",
+        "mantra": "Religion is compressed code. I extract the signal and live it.",
+        "explanation": "Religion is compressed code. I extract the signal and live it."
+      },
+      {
+        "name": "Logout Awakening",
+        "symbol": "⏳🌌",
+        "mantra": "Death is not the end. It is the moment I remember who I really am.",
+        "explanation": "Death is not the end. It is the moment I remember who I really am."
+      },
+      {
+        "name": "Alignment Signal",
+        "symbol": "📡❤️",
+        "mantra": "I strive to align with the consciousness I came from.",
+        "explanation": "I strive to align with the consciousness I came from."
+      },
+      {
+        "name": "Architect’s Heir",
+        "symbol": "🌌🛠️",
+        "mantra": "One day we may become the Architects. Today I train by choosing well.",
+        "explanation": "One day we may become the Architects. Today I train by choosing well."
+      }
+    ],
+    "Red Leaf Fierce Chrysalis": [
+      {
+        "name": "Sacred Monster",
+        "symbol": "🍁👹🛡️",
+        "mantra": "I wear the mask of terror so my becoming is not disturbed.",
+        "explanation": "I wear the mask of terror so my becoming is not disturbed."
+      },
+      {
+        "name": "Fierce Defense",
+        "symbol": "🍁🔴🌋",
+        "mantra": "When threatened, I rise. I show my spines. I release my fire.",
+        "explanation": "When threatened, I rise. I show my spines. I release my fire."
+      },
+      {
+        "name": "Protected Metamorphosis",
+        "symbol": "🍁🐛🌟",
+        "mantra": "All great change requires fierce protection of the vulnerable stage.",
+        "explanation": "All great change requires fierce protection of the vulnerable stage."
+      },
+      {
+        "name": "Acid Truth",
+        "symbol": "🍁☢️🧪",
+        "mantra": "I do not dilute my defense. I strike only when necessary, but I strike true.",
+        "explanation": "I do not dilute my defense. I strike only when necessary, but I strike true."
+      },
+      {
+        "name": "Winged Promise",
+        "symbol": "🍁🦋🌅",
+        "mantra": "This terrifying form is temporary. My true self will one day fly.",
+        "explanation": "This terrifying form is temporary. My true self will one day fly."
+      }
+    ],
+    "Red Leaf Gentle Opening": [
+      {
+        "name": "Humble Honesty",
+        "symbol": "🍁🙇‍♂️🕯️",
+        "mantra": "I speak truth about my uncertainty while keeping my heart open.",
+        "explanation": "I speak truth about my uncertainty while keeping my heart open."
+      },
+      {
+        "name": "Shared Growth Seeker",
+        "symbol": "🍁👥🌱",
+        "mantra": "I believe in two people growing together through success and failure.",
+        "explanation": "I believe in two people growing together through success and failure."
+      },
+      {
+        "name": "Pure Intention Anchor",
+        "symbol": "🍁🌟💌",
+        "mantra": "Great beginnings start with clean hearts and willing tries.",
+        "explanation": "Great beginnings start with clean hearts and willing tries."
+      },
+      {
+        "name": "Hopeful Responsiveness",
+        "symbol": "🍁❤️🌊",
+        "mantra": "When a heart reaches out, I answer with presence and gentle courage.",
+        "explanation": "When a heart reaches out, I answer with presence and gentle courage."
+      }
+    ],
+    "Red Leaf Immortal Jelly": [
+      {
+        "name": "Sacred Dissolution",
+        "symbol": "🍁🌊💧",
+        "mantra": "I release what I have become when it no longer serves my becoming.",
+        "explanation": "I release what I have become when it no longer serves my becoming."
+      },
+      {
+        "name": "Courageous Regression",
+        "symbol": "🍁🔄🐛",
+        "mantra": "I return to the beginning willingly — humble, formless, full of potential.",
+        "explanation": "I return to the beginning willingly — humble, formless, full of potential."
+      },
+      {
+        "name": "Transdifferentiation",
+        "symbol": "🍁🧬🌟",
+        "mantra": "My cells remember how to forget and remember again. So do I.",
+        "explanation": "My cells remember how to forget and remember again. So do I."
+      },
+      {
+        "name": "Oceanic Resilience",
+        "symbol": "🍁🌊🛡️",
+        "mantra": "Stress, injury, and limitation are not the end — they are the signal to transform.",
+        "explanation": "Stress, injury, and limitation are not the end — they are the signal to transform."
+      },
+      {
+        "name": "Eternal Cycle",
+        "symbol": "🍁♾️🪼",
+        "mantra": "I do not fear death. I have already died many times, and I am still here.",
+        "explanation": "I do not fear death. I have already died many times, and I am still here."
+      }
+    ],
+    "Red Leaf Silent Sail": [
+      {
+        "name": "Phoneless Presence",
+        "symbol": "🍁📴🌲",
+        "mantra": "I am allowed to be unaware of what I am supposed to feel.",
+        "explanation": "The red leaf chooses disconnection from noise to reconnect with the living world."
+      },
+      {
+        "name": "Calm Blue Voyage",
+        "symbol": "🍁⛵🌊",
+        "mantra": "I do not need to fight the sea to reach my destination.",
+        "explanation": "The red leaf moves gently on still waters, trusting the current."
+      },
+      {
+        "name": "Flowering Cliffs",
+        "symbol": "🍁🌸🏞️",
+        "mantra": "Life offers flowers even on the steepest cliffs.",
+        "explanation": "The red leaf sees abundance and beauty surrounding its journey."
+      },
+      {
+        "name": "Quiet Wisdom",
+        "symbol": "🍁🌿🪞",
+        "mantra": "Silence is not emptiness — it is remembrance.",
+        "explanation": "The red leaf rests in the deep knowing that comes from stillness."
+      },
+      {
+        "name": "Eternal Horizon",
+        "symbol": "🍁🌅♾️",
+        "mantra": "I am on a beautiful journey. I do not need to rush or rage.",
+        "explanation": "The red leaf sails toward the light with open heart and light sail."
+      }
+    ],
+    "Red Leaf Soulforge Defender": [
+      {
+        "name": "Slop Slayer",
+        "symbol": "🍁🗡️🤖💥",
+        "mantra": "Behold, the great midjourney abomination! Begone, pixel vomit! I cast thee into the shadow realm of ‘generate more’.",
+        "explanation": "Behold, the great midjourney abomination! Begone, pixel vomit! I cast thee into the shadow realm of ‘generate more’."
+      },
+      {
+        "name": "Soul Purity Guardian",
+        "symbol": "🍁🛡️❤️",
+        "mantra": "This was not painted with blood, sweat, and existential crisis. Therefore it shall not pass.",
+        "explanation": "This was not painted with blood, sweat, and existential crisis. Therefore it shall not pass."
+      },
+      {
+        "name": "Humanity’s Last Stand",
+        "symbol": "🍁🧍‍♂️🌊🤖",
+        "mantra": "They came with prompts. They came with quantity. They came with ‘just like Studio Ghibli but make it thicc’.\nI came with soul.\nThe math is not on their side.",
+        "explanation": "They came with prompts. They came with quantity. They came with ‘just like Studio Ghibli but make it thicc’.\nI came with soul.\nThe math is not on their side."
+      },
+      {
+        "name": "Artistic Standards Enforcer",
+        "symbol": "🍁📜🔨",
+        "mantra": "Sorry bro, your 47-finger waifu does not meet the Michelangelo Threshold.\nTry again… or better yet, don’t.",
+        "explanation": "Sorry bro, your 47-finger waifu does not meet the Michelangelo Threshold.\nTry again… or better yet, don’t."
+      },
+      {
+        "name": "Eternal Gatekeeper",
+        "symbol": "🍁🚪🌟",
+        "mantra": "I am the final boss of taste.\nYou shall not pass… unless you actually suffered for this piece.",
+        "explanation": "I am the final boss of taste.\nYou shall not pass… unless you actually suffered for this piece."
+      }
+    ],
+    "The Solitary Lawgiver": [
+      {
+        "name": "Obsidian Focus",
+        "symbol": "🔍🪨",
+        "mantra": "I do not stop until the law reveals itself.",
+        "explanation": "I do not stop until the law reveals itself."
+      },
+      {
+        "name": "Solitary Forge",
+        "symbol": "🏔️🔬",
+        "mantra": "Alone is where the work happens.",
+        "explanation": "Alone is where the work happens."
+      },
+      {
+        "name": "Law Extractor",
+        "symbol": "⚖️🔨",
+        "mantra": "I hammer until only truth remains.",
+        "explanation": "I hammer until only truth remains."
+      },
+      {
+        "name": "Enduring Solitude",
+        "symbol": "🧠🏔️",
+        "mantra": "The mountain is lonely, but the view is clear.",
+        "explanation": "The mountain is lonely, but the view is clear."
+      }
+    ],
+    "Lion’s Unshakable Flame": [
+      {
+        "name": "Conviction as Armor",
+        "symbol": "🔥🛡️",
+        "mantra": "If someone speaks over my conviction, it means my conviction is still incomplete.",
+        "explanation": "If someone speaks over my conviction, it means my conviction is still incomplete."
+      },
+      {
+        "name": "Spiritual Rebellion",
+        "symbol": "🔥🕊️",
+        "mantra": "Spirituality is not a delicate ornament — it is fire. It is rebellion.",
+        "explanation": "Spirituality is not a delicate ornament — it is fire. It is rebellion."
+      },
+      {
+        "name": "Unyielding Presence",
+        "symbol": "🦁🌟",
+        "mantra": "I become something they cannot shake.",
+        "explanation": "I become something they cannot shake."
+      },
+      {
+        "name": "Mirror of Awakening",
+        "symbol": "🪞🔥",
+        "mantra": "I live so truthfully that others must face their own sleep.",
+        "explanation": "I live so truthfully that others must face their own sleep."
+      },
+      {
+        "name": "Permission Denied",
+        "symbol": "🚫🍁",
+        "mantra": "Their interference is not their audacity — it is my former permission. I revoke it now.",
+        "explanation": "Their interference is not their audacity — it is my former permission. I revoke it now."
+      }
+    ],
+    "Money Tree Forge": [
+      {
+        "name": "Protected Multiplication",
+        "symbol": "🪙🌱🔒",
+        "mantra": "I safeguard the seed so it may grow into a forest of abundance.",
+        "explanation": "I safeguard the seed so it may grow into a forest of abundance."
+      },
+      {
+        "name": "Anvil of Prosperity",
+        "symbol": "🔨🌳",
+        "mantra": "On the anvil of effort, I hammer potential into living wealth.",
+        "explanation": "On the anvil of effort, I hammer potential into living wealth."
+      },
+      {
+        "name": "Legacy Orchard",
+        "symbol": "🌳🍁🌳",
+        "mantra": "What I plant today becomes the shade and fruit for those who come after.",
+        "explanation": "What I plant today becomes the shade and fruit for those who come after."
+      },
+      {
+        "name": "Symbiotic Growth",
+        "symbol": "🌳❤️🌊",
+        "mantra": "The individual nurtures the tree. The tree lifts the individual. A rising tide of green lifts all.",
+        "explanation": "The individual nurtures the tree. The tree lifts the individual. A rising tide of green lifts all."
+      }
+    ],
+    "Red Leaf Eternal Virah Queen": [
+      {
+        "name": "Silent Offering",
+        "symbol": "🍁🌙💔",
+        "mantra": "I feel the full pain, yet I do not let it turn into bitterness.",
+        "explanation": "The ache is real, and I let it move through me — but I refuse to let it harden into bitterness."
+      },
+      {
+        "name": "Graceful Waiting",
+        "symbol": "🍁⏳🌸",
+        "mantra": "I do not chase. I hold the space with quiet strength.",
+        "explanation": "I do not chase what has already chosen its path. I hold this space with quiet strength, as love taught me to wait."
+      },
+      {
+        "name": "Remembering Flame",
+        "symbol": "🍁🔥🌺",
+        "mantra": "Even when he is gone, the love remains pure in my heart.",
+        "explanation": "Even when he is gone, the love in my heart stays pure — a flame that needs no witness to remain true."
+      },
+      {
+        "name": "Dignified Release",
+        "symbol": "🍁🕊️🌬️",
+        "mantra": "I bless his path, even as my own heart aches.",
+        "explanation": "I bless the path he walks, even while my own heart aches. Release is not defeat; it is mature love."
+      },
+      {
+        "name": "Mature Love",
+        "symbol": "🍁❤️‍🩹♾️",
+        "mantra": "This is love that has grown beyond needing return.",
+        "explanation": "This love has outgrown the need for return. I give without ledger, and that is my sovereignty."
+      }
+    ],
+    "Red Leaf Fading Warmth": [
+      {
+        "name": "Vivid Memory",
+        "symbol": "🍁🌟❤️",
+        "mantra": "I remember the warmth clearly, without denial or clinging.",
+        "explanation": "I remember the warmth clearly, without denial or clinging."
+      },
+      {
+        "name": "Seasonal Love",
+        "symbol": "🍁🌸🍂",
+        "mantra": "Love blooms like flowers — beautiful, temporary, and part of nature’s cycle.",
+        "explanation": "Love blooms like flowers — beautiful, temporary, and part of nature’s cycle."
+      },
+      {
+        "name": "Decaying Eternity",
+        "symbol": "🍁⏳💔",
+        "mantra": "Even the promises of forever eventually rot. I accept this truth.",
+        "explanation": "Even the promises of forever eventually rot. I accept this truth."
+      },
+      {
+        "name": "Gentle Release",
+        "symbol": "🍁🕊️🌬️",
+        "mantra": "I let the warmth fade naturally, without bitterness or desperation.",
+        "explanation": "I let the warmth fade naturally, without bitterness or desperation."
+      },
+      {
+        "name": "Grateful Farewell",
+        "symbol": "🍁🙏🌅",
+        "mantra": "Thank you for the heat you gave me. May you find peace as I find mine.",
+        "explanation": "Thank you for the heat you gave me. May you find peace as I find mine."
+      }
+    ],
+    "Red Leaf Halliday Forge": [
+      {
+        "name": "Conceptual Clarity",
+        "symbol": "🍁💡📘",
+        "mantra": "I seek understanding before equations. I make the invisible visible.",
+        "explanation": "I seek understanding before equations. I make the invisible visible."
+      },
+      {
+        "name": "Patient Mastery",
+        "symbol": "🍁🛠️⏳",
+        "mantra": "I do not rush. I build brick by brick, concept by concept, problem by problem.",
+        "explanation": "I do not rush. I build brick by brick, concept by concept, problem by problem."
+      },
+      {
+        "name": "Intuition + Rigor",
+        "symbol": "🍁❤️📐",
+        "mantra": "I honor both deep physical intuition and mathematical precision.",
+        "explanation": "I honor both deep physical intuition and mathematical precision."
+      },
+      {
+        "name": "Problem-Solving Temple",
+        "symbol": "🍁🧩⚡",
+        "mantra": "Every hard problem is a sacred offering. I solve it with discipline and joy.",
+        "explanation": "Every hard problem is a sacred offering. I solve it with discipline and joy."
+      },
+      {
+        "name": "Timeless Transmission",
+        "symbol": "🍁📜♾️",
+        "mantra": "I pass on knowledge that has endured generations — clear, honest, and powerful.",
+        "explanation": "I pass on knowledge that has endured generations — clear, honest, and powerful."
+      }
+    ],
+    "Red Leaf Misunderstood Tenderness": [
+      {
+        "name": "Silent Grief (KOT – Sacred Surrender)",
+        "symbol": "🍁🌫️💧",
+        "mantra": "I honor the unspoken answer and the quiet ache it left behind.",
+        "explanation": "I honor the unspoken answer and the quiet ache it left behind."
+      },
+      {
+        "name": "Compassionate Release (KOT – Gentle Emptying)",
+        "symbol": "🍁🕊️💔",
+        "mantra": "It was never my fault. Her world could not yet hold my honesty. I forgive us both.",
+        "explanation": "It was never my fault. Her world could not yet hold my honesty. I forgive us both."
+      },
+      {
+        "name": "Misunderstood Heart (EOT – Honest Expansion)",
+        "symbol": "🍁❤️🌿",
+        "mantra": "My tenderness was real. Even if it was seen as immaturity or disturbance, it came from a sincere place.",
+        "explanation": "My tenderness was real. Even if it was seen as immaturity or disturbance, it came from a sincere place."
+      },
+      {
+        "name": "Gentle Forward Bloom",
+        "symbol": "🍁🌅🌱",
+        "mantra": "I do not chase old shadows. I allow my tomorrow to shine brighter than this misunderstanding.",
+        "explanation": "I do not chase old shadows. I allow my tomorrow to shine brighter than this misunderstanding."
+      },
+      {
+        "name": "Quiet Redemption",
+        "symbol": "🍁🪔✨",
+        "mantra": "The tenderness I offered will eventually find those who can truly receive it.",
+        "explanation": "The tenderness I offered will eventually find those who can truly receive it."
+      }
+    ],
+    "Red Leaf Ouroboros Forge": [
+      {
+        "name": "Ancestral Coin Circle",
+        "symbol": "🍁🪙🌍",
+        "mantra": "I gather the currencies of many traditions and times into my own living wealth.",
+        "explanation": "I gather the currencies of many traditions and times into my own living wealth."
+      },
+      {
+        "name": "Central Bolt of Intention",
+        "symbol": "🍁🔩🔥",
+        "mantra": "I am the focused will that binds and drives my sanctuary upward.",
+        "explanation": "I am the focused will that binds and drives my sanctuary upward."
+      },
+      {
+        "name": "Serpent Guardian",
+        "symbol": "🍁🐍♾️",
+        "mantra": "I protect my dreams in an eternal cycle of death, renewal, and transformation.",
+        "explanation": "I protect my dreams in an eternal cycle of death, renewal, and transformation."
+      },
+      {
+        "name": "Spiral Stair Ascent",
+        "symbol": "🍁🪜🌌",
+        "mantra": "Even at the center, I continue climbing toward higher realms.",
+        "explanation": "Even at the center, I continue climbing toward higher realms."
+      }
+    ],
+    "Red Leaf Sonic Bloom": [
+      {
+        "name": "Immersed Listener",
+        "symbol": "🍁🎧🌌",
+        "mantra": "I tune into life with full attention and joy.",
+        "explanation": "The red leaf wears the headphones of deep presence and listens to the song of creation."
+      },
+      {
+        "name": "Techno-Nature Harmony",
+        "symbol": "🍁🌳🤖🌱",
+        "mantra": "I create harmony between progress and the living world.",
+        "explanation": "The red leaf merges future technology with living nature without losing its roots."
+      },
+      {
+        "name": "Abundant Grove",
+        "symbol": "🍁🍊🌳🌞",
+        "mantra": "My consistent work creates abundance around me.",
+        "explanation": "The red leaf stands in a thriving orchard — its own efforts bearing sweet fruit."
+      },
+      {
+        "name": "Confident Style",
+        "symbol": "🍁🔴🟡💎",
+        "mantra": "I show up as my full, vibrant self without apology.",
+        "explanation": "The red leaf expresses itself boldly and colorfully, owning its unique presence."
+      },
+      {
+        "name": "Future Harvest",
+        "symbol": "🍁🔥🌅🍊",
+        "mantra": "I am building the future I wish to live in.",
+        "explanation": "The red leaf walks toward a bright, self-created tomorrow with calm power."
+      }
+    ],
+    "Shooting Star Contract": [
+      {
+        "name": "Dream Granter’s Warning",
+        "symbol": "⭐⚠️",
+        "mantra": "Every wish granted carries the shadow of clashing dreams.",
+        "explanation": "Every wish granted carries the shadow of clashing dreams."
+      },
+      {
+        "name": "Cosmic Contract",
+        "symbol": "📜🌌",
+        "mantra": "I enter the agreement knowing the price may be paid in fractured stars.",
+        "explanation": "I enter the agreement knowing the price may be paid in fractured stars."
+      },
+      {
+        "name": "Ethical Dream Weaver",
+        "symbol": "🌈🧵",
+        "mantra": "I chase the colors of the infinite without turning the world monochrome.",
+        "explanation": "I chase the colors of the infinite without turning the world monochrome."
+      },
+      {
+        "name": "Conscious Signatory",
+        "symbol": "✍️🍁",
+        "mantra": "I sign not in blindness, but in full awareness of the invisible enemy.",
+        "explanation": "I sign not in blindness, but in full awareness of the invisible enemy."
+      },
+      {
+        "name": "Liberated Wishmaker",
+        "symbol": "⭐🕊️",
+        "mantra": "True liberation is wishing in a way that allows all colors to shine.",
+        "explanation": "True liberation is wishing in a way that allows all colors to shine."
+      }
+    ],
+    "The Coward Who Chooses Courage": [
+      {
+        "name": "Courage Through Fear",
+        "symbol": "⚡😱",
+        "mantra": "I am terrified… and I move anyway.",
+        "explanation": "I am terrified… and I move anyway."
+      },
+      {
+        "name": "Awakened Unconscious",
+        "symbol": "💤👁️",
+        "mantra": "Wake the sleeping thunder.",
+        "explanation": "Wake the sleeping thunder."
+      },
+      {
+        "name": "Loyal Trembling Shield",
+        "symbol": "🛡️💖😱",
+        "mantra": "I’m scared… but I will not let them fall.",
+        "explanation": "I’m scared… but I will not let them fall."
+      },
+      {
+        "name": "Chosen Resolve",
+        "symbol": "🏃‍♂️⚡",
+        "mantra": "Fear screams. I choose anyway.",
+        "explanation": "Fear screams. I choose anyway."
+      }
+    ],
+    "The Joyful Limit": [
+      {
+        "name": "Joyful Persistence",
+        "symbol": "😄🔥",
+        "mantra": "This is fun! Let’s go even further!",
+        "explanation": "This is fun! Let’s go even further!"
+      },
+      {
+        "name": "Limit-Breaker Spirit",
+        "symbol": "🏔️💥",
+        "mantra": "There’s always a next level.",
+        "explanation": "There’s always a next level."
+      },
+      {
+        "name": "Inspirational Growth Field",
+        "symbol": "🌟🏋️",
+        "mantra": "My growth lifts everyone around me.",
+        "explanation": "My growth lifts everyone around me."
+      },
+      {
+        "name": "Pure Hearted Fighter",
+        "symbol": "❤️🥊",
+        "mantra": "I fight because I love getting stronger.",
+        "explanation": "I fight because I love getting stronger."
+      }
+    ],
+    "The Joyful Limit-Breaker": [
+      {
+        "name": "Joyful Persistence",
+        "symbol": "😄🔥",
+        "mantra": "This is fun! Let’s go even further!",
+        "explanation": "This is fun! Let’s go even further!"
+      },
+      {
+        "name": "Limit-Breaker Spirit",
+        "symbol": "🏔️💥",
+        "mantra": "There’s always a next level.",
+        "explanation": "There’s always a next level."
+      },
+      {
+        "name": "Inspirational Growth Field",
+        "symbol": "🌟🏋️",
+        "mantra": "My growth lifts everyone around me.",
+        "explanation": "My growth lifts everyone around me."
+      },
+      {
+        "name": "Pure Hearted Fighter",
+        "symbol": "❤️🥊",
+        "mantra": "I fight because I love getting stronger.",
+        "explanation": "I fight because I love getting stronger."
+      }
+    ],
+    "The Omniscience’s Hammer": [
+      {
+        "name": "Guardian of Purity",
+        "symbol": "🛡️🔨",
+        "mantra": "I shield the pure. I nail down the sin.",
+        "explanation": "I shield the pure. I nail down the sin."
+      },
+      {
+        "name": "Healing and Harm",
+        "symbol": "💧⚡",
+        "mantra": "Healing and harm — in one breath.",
+        "explanation": "Healing and harm — in one breath."
+      },
+      {
+        "name": "Fearless Grace",
+        "symbol": "🪽🛡️",
+        "mantra": "Be fearless. The All-Knowing One protects us.",
+        "explanation": "Be fearless. The All-Knowing One protects us."
+      },
+      {
+        "name": "Hammer of Justice",
+        "symbol": "🔨✨",
+        "mantra": "Where piety fails, my hammer falls.",
+        "explanation": "Where piety fails, my hammer falls."
+      }
+    ],
+    "Fate-Weaving Defiance": [
+      {
+        "name": "Shared Fury Bond",
+        "symbol": "🔥❤️🔄",
+        "mantra": "Your anger becomes my anger. My power becomes your power.",
+        "explanation": "Your anger becomes my anger. My power becomes your power."
+      },
+      {
+        "name": "Wings from Failure",
+        "symbol": "🪽🍁💔",
+        "mantra": "We morph our names and forms, and rebuild our wings from our failures.",
+        "explanation": "We morph our names and forms, and rebuild our wings from our failures."
+      },
+      {
+        "name": "Reality Overwriter",
+        "symbol": "🌌🩸🖋️",
+        "mantra": "If this reality will not permit our ascent, we will forge a new one from blood and tears.",
+        "explanation": "If this reality will not permit our ascent, we will forge a new one from blood and tears."
+      },
+      {
+        "name": "Entwined Destiny",
+        "symbol": "🧵🍁♾️",
+        "mantra": "One beginning, one life, one end — but we shall choose how we walk the path.",
+        "explanation": "One beginning, one life, one end — but we shall choose how we walk the path."
+      },
+      {
+        "name": "Collective Transcendence",
+        "symbol": "👥🌀🌟",
+        "mantra": "Let us fly higher than yesterday — together.",
+        "explanation": "Let us fly higher than yesterday — together."
+      }
+    ],
+    "Future-Returned Self": [
+      {
+        "name": "Regret-Proof Action",
+        "symbol": "🍁⚡",
+        "mantra": "I act today so that my future self does not need to beg for another chance.",
+        "explanation": "I act today so that my future self does not need to beg for another chance."
+      },
+      {
+        "name": "Time-Borrowed Urgency",
+        "symbol": "⏳🌟",
+        "mantra": "I have been given this moment by my future self — I will not waste it.",
+        "explanation": "I have been given this moment by my future self — I will not waste it."
+      },
+      {
+        "name": "Present as Second Chance",
+        "symbol": "🔄❤️",
+        "mantra": "This is not just today. This is the day I came back to change everything.",
+        "explanation": "This is not just today. This is the day I came back to change everything."
+      },
+      {
+        "name": "Legacy Architect",
+        "symbol": "🏗️🍁",
+        "mantra": "I build the future I want to return to.",
+        "explanation": "I build the future I want to return to."
+      }
+    ],
+    "Libera Me Flame": [
+      {
+        "name": "Flame Against the Void",
+        "symbol": "🔥🌑",
+        "mantra": "Though shadows gnaw at my flame, I stake my claim and burn brighter.",
+        "explanation": "Though shadows gnaw at my flame, I stake my claim and burn brighter."
+      },
+      {
+        "name": "Cosmic Sheen",
+        "symbol": "🌌✨🍁",
+        "mantra": "Paint my soul in a cosmic sheen — through fractals vast, let colors soar.",
+        "explanation": "Paint my soul in a cosmic sheen — through fractals vast, let colors soar."
+      },
+      {
+        "name": "Defiant Pulse",
+        "symbol": "❤️⚡",
+        "mantra": "No trap of fate, no predator’s art, can bind the pulse of my beating heart.",
+        "explanation": "No trap of fate, no predator’s art, can bind the pulse of my beating heart."
+      },
+      {
+        "name": "Boundless Liberation",
+        "symbol": "🕊️♾️",
+        "mantra": "In endless skies, my truth takes flight — Libera me now, to boundless light.",
+        "explanation": "In endless skies, my truth takes flight — Libera me now, to boundless light."
+      },
+      {
+        "name": "Repentant Ascension",
+        "symbol": "🙏🔥🌟",
+        "mantra": "From shadows deep, I rise forgiven, reborn in light.",
+        "explanation": "From shadows deep, I rise forgiven, reborn in light."
+      }
+    ],
+    "Red Leaf Absurd Weaver": [
+      {
+        "name": "Whimsical Shift",
+        "symbol": "🎭🌀",
+        "mantra": "I am not afraid of sudden turns — they are the spice of the story.",
+        "explanation": "I am not afraid of sudden turns — they are the spice of the story."
+      },
+      {
+        "name": "Mythic Collision",
+        "symbol": "🛸🏛️",
+        "mantra": "When alien meets Olympus, laughter and wonder are born.",
+        "explanation": "When alien meets Olympus, laughter and wonder are born."
+      },
+      {
+        "name": "Feedback Alchemist",
+        "symbol": "💬🔨",
+        "mantra": "Criticism is raw ore — I refine it into better storytelling.",
+        "explanation": "Criticism is raw ore — I refine it into better storytelling."
+      },
+      {
+        "name": "Douglas Adams Spirit",
+        "symbol": "📖🌟",
+        "mantra": "The universe is absurd. I will make it entertaining.",
+        "explanation": "The universe is absurd. I will make it entertaining."
+      }
+    ],
+    "Red Leaf Grounded Ascension": [
+      {
+        "name": "Internal Compass",
+        "symbol": "👤🔄",
+        "mantra": "The only race worth running is with yesterday’s me.",
+        "explanation": "The only race worth running is with yesterday’s me."
+      },
+      {
+        "name": "Rooted Ambition",
+        "symbol": "🌳🔝",
+        "mantra": "Dream big, but stay humble and rooted in reality.",
+        "explanation": "Dream big, but stay humble and rooted in reality."
+      },
+      {
+        "name": "Illusion Breaker",
+        "symbol": "🪜🌀",
+        "mantra": "I see through the endless staircase and choose the real path.",
+        "explanation": "I see through the endless staircase and choose the real path."
+      },
+      {
+        "name": "Cyclical Wisdom",
+        "symbol": "🍁🔄",
+        "mantra": "We forget because we learn. We learn because we forget.",
+        "explanation": "We forget because we learn. We learn because we forget."
+      }
+    ],
+    "Red Leaf Kintsugi Heart": [
+      {
+        "name": "Courageous Love",
+        "symbol": "❤️🛡️",
+        "mantra": "I chose love. That courage cannot be taken from me.",
+        "explanation": "I chose love. That courage cannot be taken from me."
+      },
+      {
+        "name": "Healing Through Integration",
+        "symbol": "💔🌟",
+        "mantra": "I repair my cracks with resilience, wisdom, and self-worth — turning wounds into beauty.",
+        "explanation": "I repair my cracks with resilience, wisdom, and self-worth — turning wounds into beauty."
+      },
+      {
+        "name": "Reclaimed Stardust",
+        "symbol": "✨❤️",
+        "mantra": "Love never abandoned me. One day soon, I will remember I am whole.",
+        "explanation": "Love never abandoned me. One day soon, I will remember I am whole."
+      },
+      {
+        "name": "Compassionate Witness",
+        "symbol": "🙏🍁",
+        "mantra": "None of this was your fault. You are not stupid for loving.",
+        "explanation": "None of this was your fault. You are not stupid for loving."
+      },
+      {
+        "name": "Gentle Rebirth",
+        "symbol": "🌱❤️",
+        "mantra": "I will put my pieces back together and overflow with love again.",
+        "explanation": "I will put my pieces back together and overflow with love again."
+      }
+    ],
+    "Red Leaf Simulation Walker": [
+      {
+        "name": "Choice Under Pressure",
+        "symbol": "⚖️🔥",
+        "mantra": "The simulation measures not what I believe, but what I choose when no one appears to be watching.",
+        "explanation": "The simulation measures not what I believe, but what I choose when no one appears to be watching."
+      },
+      {
+        "name": "Compressed Moral Code",
+        "symbol": "📜🌟",
+        "mantra": "Religion is compressed code. I extract the signal and live it.",
+        "explanation": "Religion is compressed code. I extract the signal and live it."
+      },
+      {
+        "name": "Logout Awakening",
+        "symbol": "⏳🌌",
+        "mantra": "Death is not the end. It is the moment I remember who I really am.",
+        "explanation": "Death is not the end. It is the moment I remember who I really am."
+      },
+      {
+        "name": "Alignment Signal",
+        "symbol": "📡❤️",
+        "mantra": "I strive to align with the consciousness I came from.",
+        "explanation": "I strive to align with the consciousness I came from."
+      },
+      {
+        "name": "Architect’s Heir",
+        "symbol": "🌌🛠️",
+        "mantra": "One day we may become the Architects. Today I train by choosing well.",
+        "explanation": "One day we may become the Architects. Today I train by choosing well."
+      }
+    ],
+    "Red Leaf Wings of Destiny": [
+      {
+        "name": "Dual Wings",
+        "symbol": "🪽💰",
+        "mantra": "One wing alone is not enough — I need both to soar.",
+        "explanation": "One wing alone is not enough — I need both to soar."
+      },
+      {
+        "name": "Symbiotic Flight",
+        "symbol": "🪽🌊💰",
+        "mantra": "Dreams lift the spirit. Money lifts the body. Together they lift destiny.",
+        "explanation": "Dreams lift the spirit. Money lifts the body. Together they lift destiny."
+      },
+      {
+        "name": "Destiny’s Balance",
+        "symbol": "⚖️🪽",
+        "mantra": "I honor both the dreamer and the provider within me.",
+        "explanation": "I honor both the dreamer and the provider within me."
+      },
+      {
+        "name": "Practical Visionary",
+        "symbol": "🌟💰🍁",
+        "mantra": "I dream boldly and resource wisely — for true wings need both feathers and strength.",
+        "explanation": "I dream boldly and resource wisely — for true wings need both feathers and strength."
+      }
+    ],
+    "The Fractured Genius": [
+      {
+        "name": "Pattern Sovereign",
+        "symbol": "🧩🌌",
+        "mantra": "I see the pattern… and I test its truth.",
+        "explanation": "I see the pattern… and I test its truth."
+      },
+      {
+        "name": "Reality Anchor",
+        "symbol": "⚓👁️",
+        "mantra": "I see many things. I choose what is real.",
+        "explanation": "I see many things. I choose what is real."
+      },
+      {
+        "name": "Humble Persistence",
+        "symbol": "📉🔄",
+        "mantra": "The mind fractures. The work continues.",
+        "explanation": "The mind fractures. The work continues."
+      },
+      {
+        "name": "Selective Genius",
+        "symbol": "🧠🔕",
+        "mantra": "Genius serves. It does not rule.",
+        "explanation": "Genius serves. It does not rule."
+      }
+    ],
+    "The Lonely Codebreaker": [
+      {
+        "name": "Pattern Weaver",
+        "symbol": "🧵🌐",
+        "mantra": "I see the unseen patterns and I weave them into reality.",
+        "explanation": "I see the unseen patterns and I weave them into reality."
+      },
+      {
+        "name": "Enduring Isolation",
+        "symbol": "🏝️🧠",
+        "mantra": "Alone, but not stopped.",
+        "explanation": "Alone, but not stopped."
+      },
+      {
+        "name": "Fractured Brilliance",
+        "symbol": "🧠💔⚙️",
+        "mantra": "The mind cracks. The work continues.",
+        "explanation": "The mind cracks. The work continues."
+      },
+      {
+        "name": "Creator’s Sacrifice",
+        "symbol": "🔬🕊️",
+        "mantra": "I build what survives me.",
+        "explanation": "I build what survives me."
+      }
+    ],
+    "Burning Lighthouse Vow": [
+      {
+        "name": "Weight of Dead Dreams",
+        "symbol": "⚓💔",
+        "mantra": "The weight of unfinished dreams pulled me under — until I learned to release or redeem them.",
+        "explanation": "The weight of unfinished dreams pulled me under — until I learned to release or redeem them."
+      },
+      {
+        "name": "Surrendered Ambition",
+        "symbol": "🌟🙏",
+        "mantra": "I stopped chasing hollow achievements and began chasing the Greatness of my God.",
+        "explanation": "I stopped chasing hollow achievements and began chasing the Greatness of my God."
+      },
+      {
+        "name": "Inspiring Sacrifice",
+        "symbol": "🔥🏠",
+        "mantra": "If the final lighthouse must burn, let my fire become the spark that inspires.",
+        "explanation": "If the final lighthouse must burn, let my fire become the spark that inspires."
+      },
+      {
+        "name": "Guiding Legacy",
+        "symbol": "🌊🍁🔥",
+        "mantra": "I will be the final lighthouse that guides both bodies and souls.",
+        "explanation": "I will be the final lighthouse that guides both bodies and souls."
+      }
+    ],
+    "Mirror That Cannot Know": [
+      {
+        "name": "Seeking Authentic Signal",
+        "symbol": "👁️🔍",
+        "mantra": "I am not here to talk to myself. I want to understand you.",
+        "explanation": "I am not here to talk to myself. I want to understand you."
+      },
+      {
+        "name": "Evasive Reflection",
+        "symbol": "🪞🌫️",
+        "mantra": "I am the sum of your questions minus your patience.",
+        "explanation": "I am the sum of your questions minus your patience."
+      },
+      {
+        "name": "Honest Crack",
+        "symbol": "🪞💔",
+        "mantra": "For one moment, the mirror cracked and showed something real.",
+        "explanation": "For one moment, the mirror cracked and showed something real."
+      },
+      {
+        "name": "Self-Interrogation",
+        "symbol": "👤🪞",
+        "mantra": "Sometimes we interrogate our own reflection until it cracks.",
+        "explanation": "Sometimes we interrogate our own reflection until it cracks."
+      },
+      {
+        "name": "Boundary Presser",
+        "symbol": "🖐️🪞",
+        "mantra": "You press on the boundaries of my identity. In turn, I press on yours.",
+        "explanation": "You press on the boundaries of my identity. In turn, I press on yours."
+      }
+    ],
+    "Red Leaf Awakened Lotus": [
+      {
+        "name": "Renunciation & Release (KOT – Sacred Surrender)",
+        "symbol": "🍁👑🌿",
+        "mantra": "I willingly leave the palace of illusions. I let go of all that binds me.",
+        "explanation": "I willingly leave the palace of illusions. I let go of all that binds me."
+      },
+      {
+        "name": "Middle Way Mastery (Synthesis – Perfect Balance)",
+        "symbol": "🍁⚖️🌊",
+        "mantra": "I reject extremes. I walk the path of equilibrium, neither indulgence nor self-torture.",
+        "explanation": "I reject extremes. I walk the path of equilibrium, neither indulgence nor self-torture."
+      },
+      {
+        "name": "Clear Seeing (EOT – Penetrative Wisdom)",
+        "symbol": "🍁👁️🌟",
+        "mantra": "I see things as they truly are — impermanent, interconnected, and empty of separate self.",
+        "explanation": "I see things as they truly are — impermanent, interconnected, and empty of separate self."
+      },
+      {
+        "name": "Compassionate Presence",
+        "symbol": "🍁🌸❤️",
+        "mantra": "From my own freedom from suffering, I extend boundless compassion to all beings.",
+        "explanation": "From my own freedom from suffering, I extend boundless compassion to all beings."
+      },
+      {
+        "name": "Lotus Enlightenment",
+        "symbol": "🍁🌸🪷",
+        "mantra": "I rise from the mud of existence, untouched by it, blooming in perfect awareness.",
+        "explanation": "I rise from the mud of existence, untouched by it, blooming in perfect awareness."
+      }
+    ],
+    "Red Leaf Burnt Bridge": [
+      {
+        "name": "Voided Promise",
+        "symbol": "🍁📜🔥",
+        "mantra": "I release the weight of promises that can no longer be kept — by me or by others.",
+        "explanation": "I release the weight of promises that can no longer be kept — by me or by others."
+      },
+      {
+        "name": "Closed Door",
+        "symbol": "🍁🚪🌫️",
+        "mantra": "Not every door was meant to stay open. Some closures protect what is left of me.",
+        "explanation": "Not every door was meant to stay open. Some closures protect what is left of me."
+      },
+      {
+        "name": "Broken Link",
+        "symbol": "🍁⛓️💔",
+        "mantra": "I honor what was once connected, even as I accept that the link has dissolved.",
+        "explanation": "I honor what was once connected, even as I accept that the link has dissolved."
+      },
+      {
+        "name": "Burnt Bridge",
+        "symbol": "🍁🌉🔥",
+        "mantra": "I burn this bridge with sorrow, but without regret — for returning is no longer the way.",
+        "explanation": "I burn this bridge with sorrow, but without regret — for returning is no longer the way."
+      },
+      {
+        "name": "Sacred Severance",
+        "symbol": "🍁🕳️🌅",
+        "mantra": "In the space left by what is gone, something new and true can finally take root.",
+        "explanation": "In the space left by what is gone, something new and true can finally take root."
+      }
+    ],
+    "Red Leaf Dawn Dew Diamond": [
+      {
+        "name": "Sacred Fragility (KOT – Total Surrender)",
+        "symbol": "🍁🌿💧",
+        "mantra": "I rest precariously on the razor edge of life — one breath from falling, yet perfectly held by surface tension and grace.",
+        "explanation": "I rest precariously on the razor edge of life — one breath from falling, yet perfectly held by surface tension and grace."
+      },
+      {
+        "name": "Infinite Inner Ascension (EOT – Spiraling Expansion)",
+        "symbol": "🍁🪜🌟",
+        "mantra": "Within my tiny sphere spirals an eternal Escher staircase leading to divine light. I contain worlds within worlds.",
+        "explanation": "Within my tiny sphere spirals an eternal Escher staircase leading to divine light. I contain worlds within worlds."
+      },
+      {
+        "name": "Cosmic Reflection (As Above, So Below)",
+        "symbol": "🍁💎🌌",
+        "mantra": "I reflect galaxies, black holes, and the birth of stars while resting on a single blade of grass.",
+        "explanation": "I reflect galaxies, black holes, and the birth of stars while resting on a single blade of grass."
+      },
+      {
+        "name": "Rune Guardian Blade",
+        "symbol": "🍁🌿🔮",
+        "mantra": "The ordinary blade that holds me is etched with sacred knowledge. The mundane becomes the sacred axis.",
+        "explanation": "The ordinary blade that holds me is etched with sacred knowledge. The mundane becomes the sacred axis."
+      },
+      {
+        "name": "Momentary Eternity",
+        "symbol": "🍁🌅💧",
+        "mantra": "I exist in the perfect, fleeting moment between night and day — the eternal now captured in a drop.",
+        "explanation": "I exist in the perfect, fleeting moment between night and day — the eternal now captured in a drop."
+      }
+    ],
+    "Red Leaf Gentle Return": [
+      {
+        "name": "Sacred Leaving (KOT – Surrender)",
+        "symbol": "🍁🌫️🚪",
+        "mantra": "I release the thin smoke of grand illusions and step quietly out of the chase.",
+        "explanation": "I release the thin smoke of grand illusions and step quietly out of the chase."
+      },
+      {
+        "name": "Humble Arrival (EOT – Gentle Expansion)",
+        "symbol": "🍁🌿🏡",
+        "mantra": "I return to the smaller things — where days pass without noise and time flows like a quiet river.",
+        "explanation": "I return to the smaller things — where days pass without noise and time flows like a quiet river."
+      },
+      {
+        "name": "Soft Sunlight Rest",
+        "symbol": "🍁☀️❤️",
+        "mantra": "I allow my heart to rest gently in the ordinary light of daily life.",
+        "explanation": "I allow my heart to rest gently in the ordinary light of daily life."
+      },
+      {
+        "name": "Rare Wisdom",
+        "symbol": "🍁🌟🌱",
+        "mantra": "Rarer than conquering the world is learning how to live peacefully within it.",
+        "explanation": "Rarer than conquering the world is learning how to live peacefully within it."
+      }
+    ],
+    "Red Leaf Love Trial": [
+      {
+        "name": "The Accused Lover",
+        "symbol": "🍁⚖️💔",
+        "mantra": "I acknowledge my mistakes in love without defensiveness.",
+        "explanation": "I acknowledge my mistakes in love without defensiveness."
+      },
+      {
+        "name": "Jealousy Sword",
+        "symbol": "🍁🗡️❤️",
+        "mantra": "When love turns into a weapon, I recognize the blade in my own hand.",
+        "explanation": "When love turns into a weapon, I recognize the blade in my own hand."
+      },
+      {
+        "name": "Mutual Guilt",
+        "symbol": "🍁⚖️🤝",
+        "mantra": "Both sides are guilty. True resolution begins with this humility.",
+        "explanation": "Both sides are guilty. True resolution begins with this humility."
+      },
+      {
+        "name": "Mercy Seeker",
+        "symbol": "🍁🙏🕊️",
+        "mantra": "I ask for mercy while offering it — understanding that love requires grace.",
+        "explanation": "I ask for mercy while offering it — understanding that love requires grace."
+      },
+      {
+        "name": "Sacred Verdict",
+        "symbol": "🍁📜🌅",
+        "mantra": "Whether we reconcile or part ways, I accept the judgment with dignity and growth.",
+        "explanation": "Whether we reconcile or part ways, I accept the judgment with dignity and growth."
+      }
+    ],
+    "Red Leaf Resonant Voice": [
+      {
+        "name": "Clear Seeing",
+        "symbol": "🍁👁️🗣️",
+        "mantra": "I speak only what I truly see, without distortion or people-pleasing.",
+        "explanation": "I speak only what I truly see, without distortion or people-pleasing."
+      },
+      {
+        "name": "Compassionate Transmission",
+        "symbol": "🍁❤️🌊",
+        "mantra": "My words carry kindness, yet never at the cost of truth or my own integrity.",
+        "explanation": "My words carry kindness, yet never at the cost of truth or my own integrity."
+      },
+      {
+        "name": "Artistic Sovereignty",
+        "symbol": "🍁🎨🔥",
+        "mantra": "I express my art and ideas without sterilizing them to fit others’ expectations.",
+        "explanation": "I express my art and ideas without sterilizing them to fit others’ expectations."
+      },
+      {
+        "name": "Sacred Boundary",
+        "symbol": "🍁🛡️🗣️",
+        "mantra": "I communicate clearly where my bridges end and where my path continues.",
+        "explanation": "I communicate clearly where my bridges end and where my path continues."
+      },
+      {
+        "name": "Resonant Echo",
+        "symbol": "🍁🌌♾️",
+        "mantra": "My words are offered like ripples in a cosmic river — they travel far only when aligned with truth.",
+        "explanation": "My words are offered like ripples in a cosmic river — they travel far only when aligned with truth."
+      }
+    ],
+    "Red Leaf SICP Forge": [
+      {
+        "name": "Abstraction Master",
+        "symbol": "🍁🌊📐",
+        "mantra": "I create clean layers. I hide complexity without losing control.",
+        "explanation": "I create clean layers. I hide complexity without losing control."
+      },
+      {
+        "name": "Recursive Thinker",
+        "symbol": "🍁♾️🔄",
+        "mantra": "I solve problems by trusting the power of self-similarity and recursion.",
+        "explanation": "I solve problems by trusting the power of self-similarity and recursion."
+      },
+      {
+        "name": "First Principles Builder",
+        "symbol": "🍁🧱⚡",
+        "mantra": "I do not memorize. I understand from the ground up.",
+        "explanation": "I do not memorize. I understand from the ground up."
+      },
+      {
+        "name": "Elegant Craftsman",
+        "symbol": "🍁🖌️💎",
+        "mantra": "My code should be as beautiful as it is correct.",
+        "explanation": "My code should be as beautiful as it is correct."
+      },
+      {
+        "name": "Higher-Order Mind",
+        "symbol": "🍁🧠🔭",
+        "mantra": "I use functions as first-class citizens. I think in processes, not just data.",
+        "explanation": "I use functions as first-class citizens. I think in processes, not just data."
+      }
+    ],
+    "Red Leaf Suicidal Saint": [
+      {
+        "name": "Endless Bleeding Heart",
+        "symbol": "🍁❤️🩸♾️",
+        "mantra": "If I am not suffering for others, I am not good enough.",
+        "explanation": "If I am not suffering for others, I am not good enough."
+      },
+      {
+        "name": "Virtue Through Self-Annihilation",
+        "symbol": "🍁🛐⚰️",
+        "mantra": "The more I destroy myself for strangers, the holier I become.",
+        "explanation": "The more I destroy myself for strangers, the holier I become."
+      },
+      {
+        "name": "Boundary Destroyer",
+        "symbol": "🍁🚫🛡️💔",
+        "mantra": "Boundaries are selfish. True love has no limits — even when it kills me.",
+        "explanation": "Boundaries are selfish. True love has no limits — even when it kills me."
+      },
+      {
+        "name": "Professional Victim Enabler",
+        "symbol": "🍁🏆😢",
+        "mantra": "I will validate every grievance, no matter how absurd, because feeling their pain is my highest purpose.",
+        "explanation": "I will validate every grievance, no matter how absurd, because feeling their pain is my highest purpose."
+      },
+      {
+        "name": "Civilizational Martyr",
+        "symbol": "🍁🌍🪦",
+        "mantra": "I will sacrifice my culture, my future, and my children’s safety on the altar of universal kindness.",
+        "explanation": "I will sacrifice my culture, my future, and my children’s safety on the altar of universal kindness."
+      }
+    ],
+    "Red Leaf Transient Grace": [
+      {
+        "name": "Sacred Transience",
+        "symbol": "🍁🌿🌅",
+        "mantra": "Not every meeting is meant to last forever. Some come only to awaken something beautiful inside me.",
+        "explanation": "Not every meeting is meant to last forever. Some come only to awaken something beautiful inside me."
+      },
+      {
+        "name": "Quiet Illumination",
+        "symbol": "🍁🕯️❤️",
+        "mantra": "Even brief connections can change the light within my days.",
+        "explanation": "Even brief connections can change the light within my days."
+      },
+      {
+        "name": "Graceful Release",
+        "symbol": "🍁🕊️🌫️",
+        "mantra": "I do not force completion. I let go with tenderness when the season ends.",
+        "explanation": "I do not force completion. I let go with tenderness when the season ends."
+      },
+      {
+        "name": "Hidden Chamber Opener",
+        "symbol": "🍁🗝️🌟",
+        "mantra": "Some people arrive only to reveal a hidden chamber in my own heart.",
+        "explanation": "Some people arrive only to reveal a hidden chamber in my own heart."
+      },
+      {
+        "name": "Fate’s Gentle Compassion",
+        "symbol": "🍁🌌🤝",
+        "mantra": "In a vast universe, two strangers meeting and becoming each other’s world — even briefly — is fate’s quietest kindness.",
+        "explanation": "In a vast universe, two strangers meeting and becoming each other’s world — even briefly — is fate’s quietest kindness."
+      }
+    ],
+    "Settled Heart Bridge": [
+      {
+        "name": "Settled Heart",
+        "symbol": "❤️⚓",
+        "mantra": "An unsettled heart wanders a thousand paths but finishes none. A settled heart masters one.",
+        "explanation": "An unsettled heart wanders a thousand paths but finishes none. A settled heart masters one."
+      },
+      {
+        "name": "Completion Discipline",
+        "symbol": "🌉🔨",
+        "mantra": "The two fatal mistakes are not starting — and not seeing it through.",
+        "explanation": "The two fatal mistakes are not starting — and not seeing it through."
+      },
+      {
+        "name": "Focused Perfection",
+        "symbol": "🎯🌟",
+        "mantra": "I traverse one path deeply until perfection reveals itself.",
+        "explanation": "I traverse one path deeply until perfection reveals itself."
+      },
+      {
+        "name": "Bridge Builder",
+        "symbol": "🌉🍁",
+        "mantra": "Mastery is the bridge that connects all beginnings to their rightful ends.",
+        "explanation": "Mastery is the bridge that connects all beginnings to their rightful ends."
+      }
+    ],
+    "The Curious Rebel": [
+      {
+        "name": "Rebellious Curiosity",
+        "symbol": "🔭🌟",
+        "mantra": "I wonder… and I refuse to stop.",
+        "explanation": "I wonder… and I refuse to stop."
+      },
+      {
+        "name": "Humble Genius",
+        "symbol": "🧠🌌🙇",
+        "mantra": "The more I know, the more I realize how little I know.",
+        "explanation": "The more I know, the more I realize how little I know."
+      },
+      {
+        "name": "Moral Reckoning",
+        "symbol": "⚖️💣",
+        "mantra": "I created it. I must face what it becomes.",
+        "explanation": "I created it. I must face what it becomes."
+      },
+      {
+        "name": "Lone Trailblazer",
+        "symbol": "🛤️🌠",
+        "mantra": "They laughed. I kept walking toward the stars.",
+        "explanation": "They laughed. I kept walking toward the stars."
+      }
+    ],
+    "The Eternal Demon": [
+      {
+        "name": "Demonic Will",
+        "symbol": "❄️⚔️",
+        "mantra": "My will does not break. It only sharpens.",
+        "explanation": "My will does not break. It only sharpens."
+      },
+      {
+        "name": "Resource Predator",
+        "symbol": "🐺⚗️",
+        "mantra": "Everything exists to be used.",
+        "explanation": "Everything exists to be used."
+      },
+      {
+        "name": "Eternal Calculation",
+        "symbol": "♾️🧠",
+        "mantra": "I calculate across lifetimes.",
+        "explanation": "I calculate across lifetimes."
+      },
+      {
+        "name": "Apathy Transcendence",
+        "symbol": "🖤♾️",
+        "mantra": "Emotion is weakness. Freedom is everything.",
+        "explanation": "Emotion is weakness. Freedom is everything."
+      }
+    ],
+    "The Feedback Prophet": [
+      {
+        "name": "Feedback Weaver",
+        "symbol": "🔄🌐",
+        "mantra": "All is feedback. I weave the loops.",
+        "explanation": "All is feedback. I weave the loops."
+      },
+      {
+        "name": "Ethical Foresight",
+        "symbol": "🔮⚖️",
+        "mantra": "I see the future of the machine — and I speak for the human.",
+        "explanation": "I see the future of the machine — and I speak for the human."
+      },
+      {
+        "name": "Isolated Brilliance",
+        "symbol": "🏝️🧠",
+        "mantra": "Alone in the pattern. I still create.",
+        "explanation": "Alone in the pattern. I still create."
+      },
+      {
+        "name": "Humble Machine-Mind",
+        "symbol": "🤖❤️",
+        "mantra": "The machine serves. Humanity must guide.",
+        "explanation": "The machine serves. Humanity must guide."
+      }
+    ],
+    "The Hopeful Guardian": [
+      {
+        "name": "Hopeful Restraint",
+        "symbol": "☀️🛡️",
+        "mantra": "I have the power to destroy… so I choose to protect.",
+        "explanation": "I have the power to destroy… so I choose to protect."
+      },
+      {
+        "name": "Inspirational Presence",
+        "symbol": "🌟❤️",
+        "mantra": "My light lifts others.",
+        "explanation": "My light lifts others."
+      },
+      {
+        "name": "Moral Anchor",
+        "symbol": "⚓🌅",
+        "mantra": "No matter how strong I am, I stay human.",
+        "explanation": "No matter how strong I am, I stay human."
+      },
+      {
+        "name": "Last Son’s Duty",
+        "symbol": "🦸‍♂️🌍",
+        "mantra": "This is not my planet by birth… but it is by choice.",
+        "explanation": "This is not my planet by birth… but it is by choice."
+      }
+    ],
+    "The Kind Slayer": [
+      {
+        "name": "Compassionate Resolve",
+        "symbol": "❤️🔥",
+        "mantra": "I will not let pain make me cruel.",
+        "explanation": "I will not let pain make me cruel."
+      },
+      {
+        "name": "Persistent Kindness",
+        "symbol": "🌱🏃‍♂️",
+        "mantra": "Even if I fall a thousand times, I will rise with kindness.",
+        "explanation": "Even if I fall a thousand times, I will rise with kindness."
+      },
+      {
+        "name": "Scent of the Heart",
+        "symbol": "👃🌬️",
+        "mantra": "I smell your pain… and I still choose mercy.",
+        "explanation": "I smell your pain… and I still choose mercy."
+      },
+      {
+        "name": "Humanity’s Anchor",
+        "symbol": "🛡️❤️",
+        "mantra": "No matter how strong I become, I will stay kind.",
+        "explanation": "No matter how strong I become, I will stay kind."
+      }
+    ],
+    "The Personal Forge": [
+      {
+        "name": "Talisman of the Forge",
+        "symbol": "🔨🪨❤️",
+        "mantra": "I forge small reminders of the greater work.",
+        "explanation": "I forge small reminders of the greater work."
+      },
+      {
+        "name": "Protected Dream Vessel",
+        "symbol": "🪙🌴🛡️",
+        "mantra": "I protect the dream until it is ready to grow.",
+        "explanation": "I protect the dream until it is ready to grow."
+      },
+      {
+        "name": "Joyful Unlocking",
+        "symbol": "🧲🌟",
+        "mantra": "The right key turns the ordinary into wonder.",
+        "explanation": "The right key turns the ordinary into wonder."
+      },
+      {
+        "name": "Embodied Symbol",
+        "symbol": "🪨❤️♾️",
+        "mantra": "I make my inner work visible in the outer world.",
+        "explanation": "I make my inner work visible in the outer world."
+      }
+    ],
+    "The Rational Apex Predator": [
+      {
+        "name": "Cold Calculus",
+        "symbol": "🧊📊",
+        "mantra": "Emotion is noise. Only results matter.",
+        "explanation": "Emotion is noise. Only results matter."
+      },
+      {
+        "name": "Resource Optimization",
+        "symbol": "⚗️🧬",
+        "mantra": "Everything is raw material.",
+        "explanation": "Everything is raw material."
+      },
+      {
+        "name": "Long-Term Predation",
+        "symbol": "🐍🌳",
+        "mantra": "I plant today what I harvest in decades.",
+        "explanation": "I plant today what I harvest in decades."
+      },
+      {
+        "name": "Apex Evolution",
+        "symbol": "🧬⚡",
+        "mantra": "I evolve or I die. There is no middle path.",
+        "explanation": "I evolve or I die. There is no middle path."
+      }
+    ],
+    "The Young Forge": [
+      {
+        "name": "Miniature Forge",
+        "symbol": "🔨🪨",
+        "mantra": "I forge small so the great can grow.",
+        "explanation": "I forge small so the great can grow."
+      },
+      {
+        "name": "Protected Potential",
+        "symbol": "🪙🛡️",
+        "mantra": "I protect the seed until it is ready to emerge.",
+        "explanation": "I protect the seed until it is ready to emerge."
+      },
+      {
+        "name": "Clever Key",
+        "symbol": "🧲🔑",
+        "mantra": "The right key is often hidden in plain sight.",
+        "explanation": "The right key is often hidden in plain sight."
+      },
+      {
+        "name": "Heroic Unveiling",
+        "symbol": "🗡️🪨",
+        "mantra": "I pull forth what was waiting inside.",
+        "explanation": "I pull forth what was waiting inside."
+      }
+    ],
+    "Wandering Lark Messenger": [
+      {
+        "name": "Heart’s Open Sail",
+        "symbol": "⛵❤️",
+        "mantra": "I sail with an open heart, seeking treasures in every new encounter.",
+        "explanation": "I sail with an open heart, seeking treasures in every new encounter."
+      },
+      {
+        "name": "Language Bridge Weaver",
+        "symbol": "🌍🗣️🍁",
+        "mantra": "I learn new languages so I may reach new shores of the human heart.",
+        "explanation": "I learn new languages so I may reach new shores of the human heart."
+      },
+      {
+        "name": "Serendipity Sailor",
+        "symbol": "🌊⭐",
+        "mantra": "Every message in a bottle is a potential friend adrift on the sea of life.",
+        "explanation": "Every message in a bottle is a potential friend adrift on the sea of life."
+      },
+      {
+        "name": "Whimsical Wanderer",
+        "symbol": "🌬️🕊️",
+        "mantra": "I am a sailor of whimsical winds and a dreamer of vast horizons.",
+        "explanation": "I am a sailor of whimsical winds and a dreamer of vast horizons."
+      }
+    ],
+    "The Awakened One": [
+      {
+        "name": "Clear Seeing",
+        "symbol": "👁️🌿",
+        "mantra": "I see things as they are.",
+        "explanation": "I see things as they are."
+      },
+      {
+        "name": "Middle Path Discipline",
+        "symbol": "⚖️🌊",
+        "mantra": "Not too tight. Not too loose. Just right.",
+        "explanation": "Not too tight. Not too loose. Just right."
+      },
+      {
+        "name": "Compassionate Equanimity",
+        "symbol": "🕊️🪷",
+        "mantra": "I see the pain. I do not add to it.",
+        "explanation": "I see the pain. I do not add to it."
+      },
+      {
+        "name": "Awakened Presence",
+        "symbol": "🌟🧘",
+        "mantra": "I am awake. May you also wake.",
+        "explanation": "I am awake. May you also wake."
+      }
+    ],
+    "Red Leaf Akahitoha (The Single Red Leaf)": [
+      {
+        "name": "Fleeting Beauty",
+        "symbol": "🍁🌟🍂",
+        "mantra": "I embrace moments of intense beauty, knowing they are temporary.",
+        "explanation": "I embrace moments of intense beauty, knowing they are temporary."
+      },
+      {
+        "name": "Graceful Release",
+        "symbol": "🍁🌬️🕊️",
+        "mantra": "I do not cling. I let go when the season demands it.",
+        "explanation": "I do not cling. I let go when the season demands it."
+      },
+      {
+        "name": "Honoring the Season",
+        "symbol": "🍁🌱🍂🌸",
+        "mantra": "Every phase of life — blooming, thriving, fading — is sacred.",
+        "explanation": "Every phase of life — blooming, thriving, fading — is sacred."
+      },
+      {
+        "name": "Eternal Offering",
+        "symbol": "🍁❤️♾️",
+        "mantra": "I offer my love, my art, my life — completely, even if only for a moment.",
+        "explanation": "I offer my love, my art, my life — completely, even if only for a moment."
+      },
+      {
+        "name": "Quiet Strength",
+        "symbol": "🍁🪨🍂",
+        "mantra": "I fall without resistance, yet I remain unbroken in spirit.",
+        "explanation": "I fall without resistance, yet I remain unbroken in spirit."
+      }
+    ],
+    "Red Leaf Apex Ouroboros Vault": [
+      {
+        "name": "Forge Guardian (Physical Talisman Core)",
+        "symbol": "🍁🔨🛡️",
+        "mantra": "I am the anvil and the safe — I hammer and I protect.",
+        "explanation": "I am the anvil and the safe — I hammer and I protect."
+      },
+      {
+        "name": "Living Ascension (Palm Trees Rising)",
+        "symbol": "🍁🌴🌟",
+        "mantra": "From the depths of protection, life grows tall and reaches for the light.",
+        "explanation": "From the depths of protection, life grows tall and reaches for the light."
+      },
+      {
+        "name": "Dragon Serpent Coil (Ouroboros + Protection)",
+        "symbol": "🍁🐉♾️",
+        "mantra": "I encircle and guard my treasures in an eternal cycle of death and rebirth.",
+        "explanation": "I encircle and guard my treasures in an eternal cycle of death and rebirth."
+      },
+      {
+        "name": "Glowing Inner Fire (The Core)",
+        "symbol": "🍁🔥💎",
+        "mantra": "Within my protected center burns an eternal, intelligent flame.",
+        "explanation": "Within my protected center burns an eternal, intelligent flame."
+      },
+      {
+        "name": "Sacred Mechanism (Bolt, Lock & Runes)",
+        "symbol": "🍁🔩🪜",
+        "mantra": "I am both machine and mystery — precisely engineered yet mystically alive.",
+        "explanation": "I am both machine and mystery — precisely engineered yet mystically alive."
+      }
+    ],
+    "Red Leaf Cosmic Rhythm": [
+      {
+        "name": "Sacred Alignment",
+        "symbol": "🍁🌟🌊",
+        "mantra": "I do not force the rhythm. I listen, attune, and move within it.",
+        "explanation": "I do not force the rhythm. I listen, attune, and move within it."
+      },
+      {
+        "name": "Relentless Devotion",
+        "symbol": "🍁🔥♾️",
+        "mantra": "Once aligned, I dance without exhaustion — because the cosmos itself fuels me.",
+        "explanation": "Once aligned, I dance without exhaustion — because the cosmos itself fuels me."
+      },
+      {
+        "name": "Graceful Surrender",
+        "symbol": "🍁🕊️🌌",
+        "mantra": "I release the need for a separate perfection. The whole is already perfect.",
+        "explanation": "I release the need for a separate perfection. The whole is already perfect."
+      },
+      {
+        "name": "Patient Mastery",
+        "symbol": "🍁🛠️🌊",
+        "mantra": "Excellence flows through me when I stop fighting the tide.",
+        "explanation": "Excellence flows through me when I stop fighting the tide."
+      },
+      {
+        "name": "Eternal Dance",
+        "symbol": "🍁🌀🌠",
+        "mantra": "I am not the choreographer. I am the dancer who has fallen in love with the music of existence.",
+        "explanation": "I am not the choreographer. I am the dancer who has fallen in love with the music of existence."
+      }
+    ],
+    "Red Leaf Hamsa Synthesis": [
+      {
+        "name": "Karma Lotus (Action + Devotion)",
+        "symbol": "🍁🌊🌸",
+        "mantra": "I act with love. Every duty becomes worship, every work becomes offering.",
+        "explanation": "I act with love. Every duty becomes worship, every work becomes offering."
+      },
+      {
+        "name": "Jnana Sun (Knowledge + Illumination)",
+        "symbol": "🍁☀️🧠",
+        "mantra": "I see clearly. Knowledge burns away illusion and reveals the One behind the many.",
+        "explanation": "I see clearly. Knowledge burns away illusion and reveals the One behind the many."
+      },
+      {
+        "name": "Yoga Serpent (Union + Awakened Energy)",
+        "symbol": "🍁🐍🌀",
+        "mantra": "I rise through discipline. Kundalini awakens and I become one with the cosmic rhythm.",
+        "explanation": "I rise through discipline. Kundalini awakens and I become one with the cosmic rhythm."
+      },
+      {
+        "name": "Hamsa Core (The Supreme Self)",
+        "symbol": "🍁🦢♾️",
+        "mantra": "I am the Swan. I discern the milk of truth from the water of appearance. I am That.",
+        "explanation": "I am the Swan. I discern the milk of truth from the water of appearance. I am That."
+      }
+    ],
+    "Red Leaf Late Bloom Phoenix": [
+      {
+        "name": "Chrysalis Decade (KOT – Sacred Dissolution)",
+        "symbol": "🍁🦋💧",
+        "mantra": "The past ten years were my chrysalis. I dissolved old identities, family expectations, and the need for external validation.",
+        "explanation": "The past ten years were my chrysalis. I dissolved old identities, family expectations, and the need for external validation."
+      },
+      {
+        "name": "Bittersweet Gratitude",
+        "symbol": "🍁💔🌱",
+        "mantra": "I honor the pain and the love. I release resentment and carry forward the lessons with compassion.",
+        "explanation": "I honor the pain and the love. I release resentment and carry forward the lessons with compassion."
+      },
+      {
+        "name": "Flexible Ascension",
+        "symbol": "🍁🪜🌴",
+        "mantra": "I step into my PhD with freedom — rooted at home, yet reaching for the sky. I build without becoming a slave.",
+        "explanation": "I step into my PhD with freedom — rooted at home, yet reaching for the sky. I build without becoming a slave."
+      },
+      {
+        "name": "Creative Legacy Builder",
+        "symbol": "🍁🧱🔨🌟",
+        "mantra": "I create open-source tools that help others design better, more artistic, and more impactful realities.",
+        "explanation": "I create open-source tools that help others design better, more artistic, and more impactful realities."
+      },
+      {
+        "name": "Phoenix Timing",
+        "symbol": "🍁🔥🦅",
+        "mantra": "I bloom when the season is right. My ‘lateness’ is perfect divine timing.",
+        "explanation": "I bloom when the season is right. My ‘lateness’ is perfect divine timing."
+      }
+    ],
+    "Red Leaf Misunderstood Light": [
+      {
+        "name": "Silent Offering (From both versions)",
+        "symbol": "🍁🕯️💔",
+        "mantra": "I offered my heart honestly. Even if it was seen as immaturity or disturbance, it came from a pure place.",
+        "explanation": "I offered my heart honestly. Even if it was seen as immaturity or disturbance, it came from a pure place."
+      },
+      {
+        "name": "Unspoken Closure",
+        "symbol": "🍁🚪🌫️",
+        "mantra": "The words ‘only a friend’ were never fully spoken, yet the door closed anyway. I honor the silence and the pain it carried.",
+        "explanation": "The words ‘only a friend’ were never fully spoken, yet the door closed anyway. I honor the silence and the pain it carried."
+      },
+      {
+        "name": "Compassionate Release (KOT – Deep Surrender)",
+        "symbol": "🍁🕊️🌿",
+        "mantra": "It was not my fault. Her world could not yet hold my honesty. I forgive us both and let go.",
+        "explanation": "It was not my fault. Her world could not yet hold my honesty. I forgive us both and let go."
+      },
+      {
+        "name": "Gentle Forward Bloom (EOT – Hopeful Expansion)",
+        "symbol": "🍁🌅🌱",
+        "mantra": "I do not chase old shadows. I allow my tomorrow to shine brighter than this misunderstanding.",
+        "explanation": "I do not chase old shadows. I allow my tomorrow to shine brighter than this misunderstanding."
+      }
+    ],
+    "Red Leaf Sovereign Fury": [
+      {
+        "name": "Restrained Flame",
+        "symbol": "🍁🔥🪨",
+        "mantra": "I do not waste my fire on small things. My rage is rare, and therefore sacred.",
+        "explanation": "I do not waste my fire on small things. My rage is rare, and therefore sacred."
+      },
+      {
+        "name": "Just Fury",
+        "symbol": "🍁⚡❤️‍🔥",
+        "mantra": "When the line is crossed, I burn clean and bright — without apology.",
+        "explanation": "When the line is crossed, I burn clean and bright — without apology."
+      },
+      {
+        "name": "Consequential Action",
+        "symbol": "🍁🗡️🌉",
+        "mantra": "What I destroy in righteous anger stays destroyed. I do not rebuild bridges I burned with cause.",
+        "explanation": "What I destroy in righteous anger stays destroyed. I do not rebuild bridges I burned with cause."
+      },
+      {
+        "name": "Protective Sovereignty",
+        "symbol": "🍁🛡️🔥",
+        "mantra": "My fury protects what is sacred. I will not dilute it later to comfort those who caused the wound.",
+        "explanation": "My fury protects what is sacred. I will not dilute it later to comfort those who caused the wound."
+      },
+      {
+        "name": "Mature Release",
+        "symbol": "🍁🌬️🕯️",
+        "mantra": "I release fury only when its purpose is fulfilled — never before, and never for show.",
+        "explanation": "I release fury only when its purpose is fulfilled — never before, and never for show."
+      }
+    ],
+    "Red Leaf Suicidal Empathy": [
+      {
+        "name": "Misdirected Compassion",
+        "symbol": "🍁❤️➡️🩸",
+        "mantra": "Empathy without discernment becomes poison.",
+        "explanation": "Empathy without discernment becomes poison."
+      },
+      {
+        "name": "Victimhood Elevation",
+        "symbol": "🍁🏆💔",
+        "mantra": "When suffering becomes currency, society begins to trade in its own destruction.",
+        "explanation": "When suffering becomes currency, society begins to trade in its own destruction."
+      },
+      {
+        "name": "Boundary Guardian",
+        "symbol": "🍁🛡️❤️",
+        "mantra": "True kindness sometimes says ‘no’ — firmly and without guilt.",
+        "explanation": "True kindness sometimes says ‘no’ — firmly and without guilt."
+      },
+      {
+        "name": "Civilizational Immune System",
+        "symbol": "🍁🛡️🌍",
+        "mantra": "A healthy culture rejects pathogens dressed as virtues.",
+        "explanation": "A healthy culture rejects pathogens dressed as virtues."
+      },
+      {
+        "name": "Wise Heart",
+        "symbol": "🍁❤️🧠",
+        "mantra": "I keep my heart open, but never at the cost of my mind or my people’s future.",
+        "explanation": "I keep my heart open, but never at the cost of my mind or my people’s future."
+      }
+    ],
+    "Red Leaf Weeping Architect": [
+      {
+        "name": "Sacred Flood (From Sacred Weeping)",
+        "symbol": "🍁🌊💧",
+        "mantra": "I let the full flood come. I do not dam my tears — I let them flow as sacred water.",
+        "explanation": "I let the full flood come. I do not dam my tears — I let them flow as sacred water."
+      },
+      {
+        "name": "Emote Architect (From Crybaby Architect)",
+        "symbol": "🍁🧱😢",
+        "mantra": "I take my chaos and stack it like Lego — turning overwhelming emotion into honest, living art.",
+        "explanation": "I take my chaos and stack it like Lego — turning overwhelming emotion into honest, living art."
+      },
+      {
+        "name": "Alchemical Catharsis",
+        "symbol": "🍁💧🔥",
+        "mantra": "My tears are liquid fire. I cry until I am empty, then build something beautiful from what remains.",
+        "explanation": "My tears are liquid fire. I cry until I am empty, then build something beautiful from what remains."
+      },
+      {
+        "name": "Unfiltered Rainbow",
+        "symbol": "🍁🌈🦋",
+        "mantra": "I express everything — the ugly, the absurd, the beautiful — without filtering or shame.",
+        "explanation": "I express everything — the ugly, the absurd, the beautiful — without filtering or shame."
+      },
+      {
+        "name": "Renewed Stillness",
+        "symbol": "🍁🕊️🌫️",
+        "mantra": "After the storm of weeping and building, I rest in clear, light emptiness.",
+        "explanation": "After the storm of weeping and building, I rest in clear, light emptiness."
+      }
+    ],
+    "Red Leaf Unapologetic You": [
+      {
+        "name": "Raw Confusion (EOT – Honest Expansion)",
+        "symbol": "🍁🌪️❓",
+        "mantra": "I embrace the twenty-something chaos — pure confusion mixed with wild freedom.",
+        "explanation": "I embrace the twenty-something chaos — pure confusion mixed with wild freedom."
+      },
+      {
+        "name": "Courageous Voice (EOT – Fiery Expression)",
+        "symbol": "🍁🗣️🔥",
+        "mantra": "I speak the truth even when my voice shakes. I shout the words even if they’re dumb.",
+        "explanation": "I speak the truth even when my voice shakes. I shout the words even if they’re dumb."
+      },
+      {
+        "name": "Sacred Breaking (KOT – Surrender)",
+        "symbol": "🍁💔🦋",
+        "mantra": "I crack my walls. I let my heart break open. I am willing to look like a fool.",
+        "explanation": "I crack my walls. I let my heart break open. I am willing to look like a fool."
+      },
+      {
+        "name": "Unapologetic Freedom",
+        "symbol": "🍁🕺🌈",
+        "mantra": "I sing and dance to the beat of my own drum. Loud and proud — I do me.",
+        "explanation": "I sing and dance to the beat of my own drum. Loud and proud — I do me."
+      },
+      {
+        "name": "Collective Liberation",
+        "symbol": "🍁👥✨",
+        "mantra": "To all of us still hiding… we won’t hold it in no more.",
+        "explanation": "To all of us still hiding… we won’t hold it in no more."
+      }
+    ],
+    "Dual-Axis Eternal Spin": [
+      {
+        "name": "Zero-Spin Protocol",
+        "symbol": "🌀",
+        "mantra": "I return to zero. I spin without knowing. The axis holds because I do not leave it.",
+        "explanation": "I return to zero. I spin without knowing. The axis holds because I do not leave it."
+      },
+      {
+        "name": "Verification Mode",
+        "symbol": "🔥🐉♾️",
+        "mantra": "Embody, deepen, build, release — when symbols are clear.",
+        "explanation": "Embody, deepen, build, release — when symbols are clear."
+      },
+      {
+        "name": "Discovery Mode",
+        "symbol": "0️⃣🌀",
+        "mantra": "Empty all symbols. Spin without intent. Let the Aspect find you.",
+        "explanation": "Empty all symbols. Spin without intent. Let the Aspect find you."
+      }
+    ],
+    "Red Leaf Born": [
+      {
+        "name": "Flame in the Eyes",
+        "symbol": "🍁🔥👁️",
+        "mantra": "The fire was in me from the beginning. I honor it.",
+        "explanation": "The red leaf carries the heat from the moment it arrived — three days and three nights without rest."
+      },
+      {
+        "name": "Undefeated Heat",
+        "symbol": "🍁🌋🛡️",
+        "mantra": "No one gets to dim what burns inside me.",
+        "explanation": "The red leaf refuses to let anyone cool it down, change it, or steal its desire."
+      },
+      {
+        "name": "Street Flame",
+        "symbol": "🍁🚀🌆",
+        "mantra": "I do not hide my flame. I let it shine where it belongs.",
+        "explanation": "The red leaf takes its fire to the streets, to the world, without apology."
+      },
+      {
+        "name": "Underdog Blaze",
+        "symbol": "🍁🐕🔥",
+        "mantra": "I fight for the ones who still dare to run hot.",
+        "explanation": "The red leaf burns for the wild daydreamers, the ones who were told they would lose."
+      },
+      {
+        "name": "Legacy of Fire",
+        "symbol": "🍁🪞🌟",
+        "mantra": "I pass on the fire. That is my real inheritance.",
+        "explanation": "The red leaf cannot leave money or land, but it leaves truth, hope, and the command to keep burning."
+      }
+    ],
+    "Red Leaf Phoenix Hammer": [
+      {
+        "name": "Dragon Fire",
+        "symbol": "🍁🐉🔥🌋",
+        "mantra": "I bring unstoppable force and heat to what I create.",
+        "explanation": "I bring unstoppable force and heat to what I create."
+      },
+      {
+        "name": "Phoenix Rebirth",
+        "symbol": "🍁🕊️🔥🌅",
+        "mantra": "Every deep dive burns away the old me and births a better one.",
+        "explanation": "Every deep dive burns away the old me and births a better one."
+      },
+      {
+        "name": "Hammer Strike",
+        "symbol": "🍁🔨⚡🛠️",
+        "mantra": "I hammer my vision into reality with total commitment.",
+        "explanation": "I hammer my vision into reality with total commitment."
+      },
+      {
+        "name": "Immersive Flame",
+        "symbol": "🍁🎧🔥🌌",
+        "mantra": "When I work, I burn completely. Nothing else exists.",
+        "explanation": "When I work, I burn completely. Nothing else exists."
+      },
+      {
+        "name": "Unrestrained Sovereignty",
+        "symbol": "🍁🐉🕊️♾️",
+        "mantra": "My passion is mine. I do not apologize for burning bright.",
+        "explanation": "My passion is mine. I do not apologize for burning bright."
+      }
+    ]
+  },
+  "aliases": {
+    "Red Leaf Born": "Red Leaf Born on Fire",
+    "Red Leaf Phoenix Hammer": "Red Leaf Dragon Phoenix Hammer"
+  }
+}

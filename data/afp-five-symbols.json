@@ -1,0 +1,54 @@
+{
+  "title": "Five AFP Symbols — Daily Protocol",
+  "source": "grok.com/share/c2hhcmQtMw_30fe2380-069b-42b8-bffe-b64689325eaf",
+  "pipeline": ["Anchor", "Fire", "Sprout", "Tornado", "Engine"],
+  "baseLayerNote": "🌪️ Tornado of Momentum is now a Base Layer primitive alongside 🔗 Chain of Synchronisation and 🧬 Helix of Adaptability",
+  "symbols": [
+    {
+      "symbol": "⚓",
+      "name": "Anchor of Stability",
+      "aspect": "Stability amid inner ripples + external disturbances",
+      "ritual": "Anchor Protocol (60-second reset)",
+      "task": "When the first ripple hits (family tension, online argument), place one hand on chest or a physical anchor object. Repeat: \"I am the anchor. The disturbance is weather. My goal does not move.\" Name one micro-precaution for the next 30 minutes. Run once daily even on calm days.",
+      "alternatives": ["🏔️ Mountain", "🪨 Bedrock"]
+    },
+    {
+      "symbol": "🔥",
+      "name": "Fire of Conviction",
+      "aspect": "Trust in myself and the process",
+      "ritual": "Conviction Ignition (3-minute morning ritual)",
+      "task": "Open AFP journal to Past Victories Log. Read one specific past success aloud. Write: \"Today I trust the process because yesterday I [specific action].\" Light a match or candle for 10 seconds — carry the warmth into the day.",
+      "alternatives": ["🏺 Eternal Flame", "⚒️ Forge"]
+    },
+    {
+      "symbol": "🌱",
+      "name": "Sprout of Nurturing",
+      "aspect": "Purity in mind, body, and soul — fuel for faith",
+      "ritual": "Sprout Nurture Window (10-minute block)",
+      "task": "Rotate daily: Mind — 10 min pure silence; Body — one clean choice (water, push-ups, sunlight); Soul — one precept affirmation in journal. Protect this block as sacred.",
+      "alternatives": ["🌳 Ancient Oak", "🪷 Lotus"]
+    },
+    {
+      "symbol": "🌪️",
+      "name": "Tornado of Momentum",
+      "aspect": "Energy and self-perpetuation on easy repetitive work",
+      "ritual": "Tornado Sprint (5-minute timed burst)",
+      "task": "Stack easy repetitive tasks. Set 5-minute timer — full speed, no perfectionism. After: journal \"Tornado completed X items in Y minutes — momentum is real.\" One sprint per day.",
+      "alternatives": ["🏹 Arrow in flight", "🌊 River Current"]
+    },
+    {
+      "symbol": "🚂",
+      "name": "Engine of Efficiency",
+      "aspect": "Breakthrough of limits + continuous process improvement",
+      "ritual": "Engine Log + Upgrade (post-solution ritual)",
+      "task": "When you find an elegant solution: write old vs new method, draw engine upgrade icon, ask \"What tweak makes this faster next time?\" Keep dedicated Engine Notebook. Review last 7 upgrades every Sunday.",
+      "alternatives": ["⚙️ Precision Gear", "🚀 Afterburner"]
+    }
+  ],
+  "cycle": "Anchor keeps the system on course → Fire supplies belief → Sprout provides clean fuel → Tornado multiplies energy → Engine converts power into measurable progress.",
+  "formulas": [
+    { "formula": "🔥 + 🪽 + ⚓ = 🌪️", "name": "Conviction + Wings of Ambition + Anchor → Tornado" },
+    { "formula": "⚓ (inner) = 🪞", "name": "Inner Anchor → Mirror of Truth" },
+    { "formula": "🌪️ (slowed) = Whirlpool", "name": "Slowed Tornado → introspective integration" }
+  ]
+}

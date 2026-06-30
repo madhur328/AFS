@@ -1,0 +1,31 @@
+{
+  "invite_code": "4PQM2n6c",
+  "invite_url": "https://discord.gg/4PQM2n6c",
+  "guild_id": "1498477844945436732",
+  "guild_name": "Super learners",
+  "default_channel_id": "1498477846241214517",
+  "default_channel_name": "general",
+  "primary_journal_channel": "journal",
+  "recommended_channels": [
+    { "name": "daily", "journal_type": "daily", "purpose": "Short daily symbol rituals" },
+    { "name": "journal", "journal_type": "journal", "purpose": "Longer symbolic journaling" },
+    { "name": "eot", "journal_type": "EOT", "purpose": "Emotional Ore Transmutation runs" },
+    { "name": "afp", "journal_type": "AFP", "purpose": "Aspect Forge Protocol runs" },
+    { "name": "codex", "journal_type": "codex", "purpose": "Formulas, axioms, saves" },
+    { "name": "insights", "journal_type": "insight", "purpose": "One-line breakthroughs" }
+  ],
+  "channel_journal_types": {
+    "general": "journal",
+    "daily": "daily",
+    "journal": "journal",
+    "eot": "EOT",
+    "afp": "AFP",
+    "codex": "codex",
+    "insights": "insight",
+    "bot-log": "meta"
+  },
+  "sync_channel_names": [
+    "journal"
+  ],
+  "sync_channel_ids": []
+}

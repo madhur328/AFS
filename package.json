@@ -1,0 +1,116 @@
+{
+  "name": "afs-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aspect Forge System — Master Platform",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:kill": "node scripts/kill-dev-processes.js",
+    "dev:basic": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:client && electron-builder --win portable",
+    "build:client": "cd client && npm run build",
+    "start": "node server/index.js",
+    "dev:all": "node scripts/dev.js",
+    "seed": "node server/seed.js",
+    "fix-symbols": "node scripts/fix-symbols.js",
+    "fix-broken-emojis": "node scripts/fix-broken-emojis.js",
+    "audit-emojis": "node scripts/audit-broken-emojis.js",
+    "sync-base-layer": "node scripts/sync-base-layer.js",
+    "ensure-grok-data": "node scripts/ensure-grok-data.js",
+    "sync-stranded-aspects": "node scripts/sync-stranded-aspects.js",
+    "merge-aspect-variants": "node scripts/merge-aspect-variants.js",
+    "rebuild-aspects": "node scripts/rebuild-aspects-from-origin.js",
+    "enrich-generic": "node scripts/enrich-generic-aspects.js",
+    "fix-zero-facets": "node scripts/fix-zero-facets.js",
+    "purge-non-origin": "node scripts/purge-non-origin-aspects.js",
+    "seed-insights": "node scripts/seed-afs-insights.js",
+    "seed-lore": "node scripts/seed-lore.js",
+    "seed-synthesis": "node scripts/seed-synthesis-hierarchy.js",
+    "fix-axioms": "node scripts/fix-axioms.js",
+    "restore-spin-lineage": "node scripts/restore-spin-lineage.js",
+    "restore-double-lariat-spin-series": "node scripts/restore-double-lariat-spin-series.js",
+    "restore-love-trial": "node scripts/restore-love-trial-lineage.js",
+    "ingest-fusions": "node scripts/ingest-aspect-fusions.js",
+    "bulk-ingest-origins": "node scripts/bulk-ingest-origins.js",
+    "rebuild-synergies": "node scripts/rebuild-synergies.js",
+    "sync-videos": "node scripts/sync-afs-videos.js",
+    "ensure-media-vault": "node scripts/ensure-media-vault.js",
+    "consolidate-media": "node scripts/consolidate-afs-media.js",
+    "pack-assets": "python scripts/pack-afs-assets.py",
+    "build-corpus": "node scripts/build-corpus-symbols.js",
+    "humanize-voice": "node scripts/humanize-aspect-voice.js",
+    "apply-pinnacles": "node scripts/apply-canonical-pinnacles.js",
+    "apply-eot-routing": "node scripts/apply-eot-routing.js",
+    "merge-canonical": "node scripts/merge-canonical-aspects.js",
+    "ingest-grok": "node server/ingest-grok.js",
+    "extract-share3": "node scripts/extract-share3.js",
+    "ingest-share3": "node scripts/ingest-share3.js",
+    "integrate-share3": "node scripts/extract-share3.js && node scripts/ingest-share3.js",
+    "update": "python scripts/extract_grok_sessions.py && node server/ingest-grok.js",
+    "update-all": "python scripts/extract_grok_sessions.py && node server/ingest-grok.js && node scripts/extract-share3.js && node scripts/ingest-share3.js",
+    "export-static": "node scripts/export-static-data.js",
+    "build:static": "cd client && npm run build:static",
+    "build-static": "node scripts/build-static.js",
+    "static": "node scripts/build-static.js --desktop",
+    "static:mobile": "node scripts/build-static.js --mobile",
+    "static:all": "node scripts/build-static.js",
+    "discord-bot": "node scripts/discord-bot.js",
+    "discord-backfill": "node scripts/discord-backfill.js",
+    "journal-sync": "node scripts/discord-backfill.js",
+    "dedupe-journal": "node scripts/dedupe-journal-entries.js",
+    "journal-reset": "node scripts/reset-journal-from-discord.js",
+    "discord-status": "node scripts/discord-bot-status.js",
+    "setup": "npm install && cd client && npm install && npm run seed && npm run consolidate-media",
+    "generate-routes": "node scripts/generate-kernel-routes.js",
+    "export-kernel": "node scripts/export-red-leaf-kernel.js",
+    "verify-kernel": "node scripts/verify-red-leaf-kernel.js",
+    "test": "node scripts/verify-red-leaf-kernel.js && node scripts/generate-kernel-routes.js && node --test tests/emoji-data.test.js && node --test tests/pulse-bus.test.js && node --test tests/kernel-readiness.test.js && node --test tests/kernel-codegen.test.js && node --test tests/kernel-store.test.js && node --test tests/kernel-spiral.test.js && node --test tests/module-cache.test.js && node --test tests/grok-stranded-aspects.test.js && node --test tests/journal-aspect-quality.test.js && node --test tests/journal-dedup.test.js && node --test tests/aspect-version-fork.test.js && node --test tests/aspect-detail-journal-faces.test.js && node --test tests/aspect-fusion.test.js && node --test tests/grok-extract-tier.test.js && node --test tests/face-voice.test.js && node --test tests/goals.test.js && npm run test --prefix client",
+    "test:emoji": "node --test tests/emoji-data.test.js",
+    "test:ui": "npm run test --prefix client"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^14.26.4",
+    "express": "^4.21.2",
+    "sql.js": "^1.12.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron": "^35.7.5",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.madhur328.afs-platform",
+    "productName": "AFS Platform",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "server/**/*",
+      "client/dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "data",
+        "to": "data"
+      }
+    ],
+    "win": {
+      "signAndEditExecutable": false,
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    }
+  }
+}

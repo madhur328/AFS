@@ -1,0 +1,2386 @@
+{
+  "meta": {
+    "exportedAt": "2026-06-30T03:27:11.771Z",
+    "iteration": 4,
+    "seed": "🍁"
+  },
+  "kernel": {
+    "seed": "🍁",
+    "version": 1,
+    "iteration": 6,
+    "paradox": {
+      "equation": "🍁 = ♾️🌀 = AFS",
+      "mantra": "The perfected Leaf is everything — because everything is a reframe of the Leaf.",
+      "operators": {
+        "reframe": {
+          "symbol": "🍁",
+          "fn": "Reframe(x)",
+          "polar": "descent"
+        },
+        "transform": {
+          "symbol": "♾️🌀",
+          "fn": "Transform(x)",
+          "polar": "spiral"
+        },
+        "optimize": {
+          "symbol": "AFS",
+          "fn": "Optimize(x)",
+          "polar": "ascent"
+        }
+      }
+    },
+    "axiom": "♾️🌀(Save8) = ♾️🌀",
+    "capabilities": {
+      "devRouteCodegen": true,
+      "livePulseBus": true,
+      "runtimeGeneration": true,
+      "spiralHandlers": true,
+      "kernelCache": true,
+      "multiModuleCache": true
+    },
+    "spiral": {
+      "operator": "♾️🌀",
+      "rings": [
+        "reframe",
+        "transform",
+        "optimize"
+      ],
+      "flowEdgeCount": 55
+    },
+    "generatedAt": "2026-06-30T03:27:11.770Z",
+    "topology": {
+      "branches": [
+        {
+          "id": "seed",
+          "operator": "seed",
+          "symbol": "🍁",
+          "label": "Origin",
+          "vector": "origin",
+          "moduleIds": [
+            "dashboard",
+            "kernel"
+          ],
+          "modules": [
+            {
+              "id": "dashboard",
+              "symbol": "🍁⌂",
+              "path": "/",
+              "label": "Dashboard",
+              "branch": "seed",
+              "operator": "seed",
+              "operatorSymbol": "🍁",
+              "vector": "origin",
+              "depth": 0,
+              "glyph": "⌂",
+              "api": {
+                "primary": "/api/dashboard",
+                "read": [
+                  "identity",
+                  "aspects",
+                  "grok",
+                  "journal"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.identity"
+              ],
+              "dataSources": [
+                "identity",
+                "aspects",
+                "grok",
+                "journal"
+              ],
+              "dataSinks": [],
+              "page": "Dashboard",
+              "layout": "shell",
+              "testHeading": "Welcome|Test Forger"
+            },
+            {
+              "id": "kernel",
+              "symbol": "🍁🍁",
+              "path": "/kernel",
+              "label": "Red Leaf Kernel",
+              "branch": "seed",
+              "operator": "seed",
+              "operatorSymbol": "🍁",
+              "vector": "origin",
+              "depth": 0,
+              "glyph": "🍁",
+              "api": {
+                "primary": "/api/kernel",
+                "read": [
+                  "kernel"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.kernel"
+              ],
+              "dataSources": [
+                "kernel"
+              ],
+              "dataSinks": [],
+              "page": "RedLeafKernel",
+              "layout": "shell",
+              "testHeading": "Red Leaf Kernel"
+            }
+          ]
+        },
+        {
+          "id": "reframe",
+          "operator": "reframe",
+          "symbol": "🍁",
+          "label": "Reframe",
+          "vector": "descent",
+          "moduleIds": [
+            "aspects",
+            "lore",
+            "insights",
+            "journal",
+            "identity"
+          ],
+          "modules": [
+            {
+              "id": "aspects",
+              "symbol": "🍁🍁💎",
+              "path": "/aspects",
+              "label": "Aspects",
+              "branch": "reframe",
+              "operator": "reframe",
+              "operatorSymbol": "🍁",
+              "vector": "descent",
+              "depth": 1,
+              "glyph": "💎",
+              "api": {
+                "primary": "/api/aspects",
+                "read": [
+                  "aspects",
+                  "synergies"
+                ],
+                "write": [
+                  "aspects"
+                ]
+              },
+              "emits": [
+                "pulse.aspect"
+              ],
+              "dataSources": [
+                "aspects",
+                "synergies"
+              ],
+              "dataSinks": [
+                "aspects"
+              ],
+              "page": "Aspects",
+              "layout": "shell",
+              "testHeading": "Aspect Registry"
+            },
+            {
+              "id": "lore",
+              "symbol": "🍁🍁✨",
+              "path": "/lore",
+              "label": "Lore",
+              "branch": "reframe",
+              "operator": "reframe",
+              "operatorSymbol": "🍁",
+              "vector": "descent",
+              "depth": 1,
+              "glyph": "✨",
+              "api": {
+                "primary": "/api/lore",
+                "read": [
+                  "lore"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.lore"
+              ],
+              "dataSources": [
+                "lore"
+              ],
+              "dataSinks": [],
+              "page": "Lore",
+              "layout": "shell",
+              "testHeading": "Lore & Alchemy"
+            },
+            {
+              "id": "insights",
+              "symbol": "🍁🍁💡",
+              "path": "/insights",
+              "label": "Insights",
+              "branch": "reframe",
+              "operator": "reframe",
+              "operatorSymbol": "🍁",
+              "vector": "descent",
+              "depth": 1,
+              "glyph": "💡",
+              "api": {
+                "primary": "/api/insights",
+                "read": [
+                  "insights",
+                  "codex"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.insight"
+              ],
+              "dataSources": [
+                "insights",
+                "codex"
+              ],
+              "dataSinks": [],
+              "page": "Insights",
+              "layout": "shell",
+              "testHeading": "^Insights$"
+            },
+            {
+              "id": "journal",
+              "symbol": "🍁🍁📓",
+              "path": "/journal",
+              "label": "Journal",
+              "branch": "reframe",
+              "operator": "reframe",
+              "operatorSymbol": "🍁",
+              "vector": "descent",
+              "depth": 1,
+              "glyph": "📓",
+              "api": {
+                "primary": "/api/journal",
+                "read": [
+                  "journal"
+                ],
+                "write": [
+                  "journal"
+                ]
+              },
+              "emits": [
+                "pulse.journal"
+              ],
+              "dataSources": [
+                "journal"
+              ],
+              "dataSinks": [
+                "journal"
+              ],
+              "page": "Journal",
+              "layout": "shell",
+              "testHeading": "^Journal$"
+            },
+            {
+              "id": "identity",
+              "symbol": "🍁🍁🪞",
+              "path": "/identity",
+              "label": "Identity",
+              "branch": "reframe",
+              "operator": "reframe",
+              "operatorSymbol": "🍁",
+              "vector": "descent",
+              "depth": 1,
+              "glyph": "🪞",
+              "api": {
+                "primary": "/api/identity",
+                "read": [
+                  "identity",
+                  "aspects"
+                ],
+                "write": [
+                  "identity"
+                ]
+              },
+              "emits": [
+                "pulse.identity"
+              ],
+              "dataSources": [
+                "identity",
+                "aspects"
+              ],
+              "dataSinks": [
+                "identity"
+              ],
+              "page": "Identity",
+              "layout": "shell",
+              "testHeading": "Current Identity"
+            }
+          ]
+        },
+        {
+          "id": "transform",
+          "operator": "transform",
+          "symbol": "♾️🌀",
+          "label": "Transform",
+          "vector": "spiral",
+          "moduleIds": [
+            "spiral",
+            "fusions",
+            "visualizations",
+            "grok",
+            "math"
+          ],
+          "modules": [
+            {
+              "id": "spiral",
+              "symbol": "🍁♾️🌀∞",
+              "path": "/spiral",
+              "label": "Spiral Engine",
+              "branch": "transform",
+              "operator": "transform",
+              "operatorSymbol": "♾️🌀",
+              "vector": "spiral",
+              "depth": 2,
+              "glyph": "∞",
+              "api": {
+                "primary": "/api/kernel",
+                "read": [
+                  "kernel"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.spiral"
+              ],
+              "dataSources": [
+                "kernel"
+              ],
+              "dataSinks": [],
+              "page": "SpiralEngine",
+              "layout": "fullscreen",
+              "testHeading": "Recursive Spiral Engine"
+            },
+            {
+              "id": "fusions",
+              "symbol": "🍁♾️🌀⚗️",
+              "path": "/fusions",
+              "label": "Fusions",
+              "branch": "transform",
+              "operator": "transform",
+              "operatorSymbol": "♾️🌀",
+              "vector": "spiral",
+              "depth": 2,
+              "glyph": "⚗️",
+              "api": {
+                "primary": "/api/fusions",
+                "read": [
+                  "fusions",
+                  "aspects"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.fusion"
+              ],
+              "dataSources": [
+                "fusions",
+                "aspects"
+              ],
+              "dataSinks": [],
+              "page": "Fusions",
+              "layout": "shell",
+              "testHeading": "Alchemy Fusions & Synergies"
+            },
+            {
+              "id": "visualizations",
+              "symbol": "🍁♾️🌀🎬",
+              "path": "/visualizations",
+              "label": "Visuals",
+              "branch": "transform",
+              "operator": "transform",
+              "operatorSymbol": "♾️🌀",
+              "vector": "spiral",
+              "depth": 2,
+              "glyph": "🎬",
+              "api": {
+                "primary": "/api/visualizations",
+                "read": [
+                  "visualizations"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.viz"
+              ],
+              "dataSources": [
+                "visualizations"
+              ],
+              "dataSinks": [],
+              "page": "Visualizations",
+              "layout": "shell",
+              "testHeading": "^Visualizations$"
+            },
+            {
+              "id": "grok",
+              "symbol": "🍁♾️🌀📜",
+              "path": "/grok",
+              "label": "Grok Origin",
+              "branch": "transform",
+              "operator": "transform",
+              "operatorSymbol": "♾️🌀",
+              "vector": "spiral",
+              "depth": 2,
+              "glyph": "📜",
+              "api": {
+                "primary": "/api/grok/sessions",
+                "read": [
+                  "grok"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.grok"
+              ],
+              "dataSources": [
+                "grok"
+              ],
+              "dataSinks": [],
+              "page": "GrokOrigin",
+              "layout": "shell",
+              "testHeading": "Grok Origin"
+            },
+            {
+              "id": "math",
+              "symbol": "🍁♾️🌀∑",
+              "path": "/math",
+              "label": "Mathematics",
+              "branch": "transform",
+              "operator": "transform",
+              "operatorSymbol": "♾️🌀",
+              "vector": "spiral",
+              "depth": 2,
+              "glyph": "∑",
+              "api": {
+                "primary": "/api/math",
+                "read": [
+                  "math",
+                  "codex"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.math"
+              ],
+              "dataSources": [
+                "math",
+                "codex"
+              ],
+              "dataSinks": [],
+              "page": "MathPage",
+              "layout": "shell",
+              "testHeading": "^Mathematics$"
+            }
+          ]
+        },
+        {
+          "id": "optimize",
+          "operator": "optimize",
+          "symbol": "AFS",
+          "label": "Optimize",
+          "vector": "ascent",
+          "moduleIds": [
+            "forge",
+            "daily",
+            "codex",
+            "goals",
+            "personas",
+            "techniques",
+            "automations",
+            "search"
+          ],
+          "modules": [
+            {
+              "id": "forge",
+              "symbol": "🍁AFS⚒️",
+              "path": "/forge",
+              "label": "Forge",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "⚒️",
+              "api": {
+                "primary": "/api/forge",
+                "read": [
+                  "aspects",
+                  "codex"
+                ],
+                "write": [
+                  "forge_sessions"
+                ]
+              },
+              "emits": [
+                "pulse.forge"
+              ],
+              "dataSources": [
+                "aspects",
+                "codex"
+              ],
+              "dataSinks": [
+                "forge_sessions"
+              ],
+              "page": "Forge",
+              "layout": "shell",
+              "testHeading": "Aspect Forge Protocol"
+            },
+            {
+              "id": "daily",
+              "symbol": "🍁AFS📅",
+              "path": "/daily",
+              "label": "DFR / DKR",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "📅",
+              "api": {
+                "primary": "/api/daily-runs",
+                "read": [
+                  "protocols"
+                ],
+                "write": [
+                  "daily_runs"
+                ]
+              },
+              "emits": [
+                "pulse.daily"
+              ],
+              "dataSources": [
+                "protocols"
+              ],
+              "dataSinks": [
+                "daily_runs"
+              ],
+              "page": "Daily",
+              "layout": "shell",
+              "testHeading": "Daily Forge Runs"
+            },
+            {
+              "id": "codex",
+              "symbol": "🍁AFS📖",
+              "path": "/codex",
+              "label": "Codex",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "📖",
+              "api": {
+                "primary": "/api/codex",
+                "read": [
+                  "codex",
+                  "axioms"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.codex"
+              ],
+              "dataSources": [
+                "codex",
+                "axioms"
+              ],
+              "dataSinks": [],
+              "page": "Codex",
+              "layout": "shell",
+              "testHeading": "AFS Codex"
+            },
+            {
+              "id": "goals",
+              "symbol": "🍁AFS🎯",
+              "path": "/goals",
+              "label": "Goals",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "🎯",
+              "api": {
+                "primary": "/api/goals",
+                "read": [
+                  "goals"
+                ],
+                "write": [
+                  "goals"
+                ]
+              },
+              "emits": [
+                "pulse.goal"
+              ],
+              "dataSources": [
+                "goals"
+              ],
+              "dataSinks": [
+                "goals"
+              ],
+              "page": "Goals",
+              "layout": "shell",
+              "testHeading": "Goals & Achievements"
+            },
+            {
+              "id": "personas",
+              "symbol": "🍁AFS👤",
+              "path": "/personas",
+              "label": "Personas",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "👤",
+              "api": {
+                "primary": "/api/personas",
+                "read": [
+                  "personas"
+                ],
+                "write": [
+                  "personas"
+                ]
+              },
+              "emits": [
+                "pulse.persona"
+              ],
+              "dataSources": [
+                "personas"
+              ],
+              "dataSinks": [
+                "personas"
+              ],
+              "page": "Personas",
+              "layout": "shell",
+              "testHeading": "^Personas$"
+            },
+            {
+              "id": "techniques",
+              "symbol": "🍁AFS🧠",
+              "path": "/techniques",
+              "label": "Techniques",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "🧠",
+              "api": {
+                "primary": "/api/techniques",
+                "read": [
+                  "techniques"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.technique"
+              ],
+              "dataSources": [
+                "techniques"
+              ],
+              "dataSinks": [],
+              "page": "Techniques",
+              "layout": "shell",
+              "testHeading": "^Techniques$"
+            },
+            {
+              "id": "automations",
+              "symbol": "🍁AFS⚡",
+              "path": "/automations",
+              "label": "Automations",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "⚡",
+              "api": {
+                "primary": "/api/automations",
+                "read": [
+                  "automations"
+                ],
+                "write": [
+                  "automations"
+                ]
+              },
+              "emits": [
+                "pulse.auto"
+              ],
+              "dataSources": [
+                "automations"
+              ],
+              "dataSinks": [
+                "automations"
+              ],
+              "page": "Automations",
+              "layout": "shell",
+              "testHeading": "^Automations$"
+            },
+            {
+              "id": "search",
+              "symbol": "🍁AFS🔍",
+              "path": "/search",
+              "label": "Search",
+              "branch": "optimize",
+              "operator": "optimize",
+              "operatorSymbol": "AFS",
+              "vector": "ascent",
+              "depth": 2,
+              "glyph": "🔍",
+              "api": {
+                "primary": "/api/search",
+                "read": [
+                  "search_index",
+                  "aspects",
+                  "codex"
+                ],
+                "write": []
+              },
+              "emits": [
+                "pulse.search"
+              ],
+              "dataSources": [
+                "search_index",
+                "aspects",
+                "codex"
+              ],
+              "dataSinks": [],
+              "page": "SearchPage",
+              "layout": "shell",
+              "testHeading": "Search Directory"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "dashboard",
+          "symbol": "🍁⌂",
+          "path": "/",
+          "label": "Dashboard",
+          "branch": "seed",
+          "operator": "seed",
+          "operatorSymbol": "🍁",
+          "vector": "origin",
+          "depth": 0,
+          "glyph": "⌂",
+          "api": {
+            "primary": "/api/dashboard",
+            "read": [
+              "identity",
+              "aspects",
+              "grok",
+              "journal"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.identity"
+          ],
+          "dataSources": [
+            "identity",
+            "aspects",
+            "grok",
+            "journal"
+          ],
+          "dataSinks": [],
+          "page": "Dashboard",
+          "layout": "shell",
+          "testHeading": "Welcome|Test Forger"
+        },
+        {
+          "id": "aspects",
+          "symbol": "🍁🍁💎",
+          "path": "/aspects",
+          "label": "Aspects",
+          "branch": "reframe",
+          "operator": "reframe",
+          "operatorSymbol": "🍁",
+          "vector": "descent",
+          "depth": 1,
+          "glyph": "💎",
+          "api": {
+            "primary": "/api/aspects",
+            "read": [
+              "aspects",
+              "synergies"
+            ],
+            "write": [
+              "aspects"
+            ]
+          },
+          "emits": [
+            "pulse.aspect"
+          ],
+          "dataSources": [
+            "aspects",
+            "synergies"
+          ],
+          "dataSinks": [
+            "aspects"
+          ],
+          "page": "Aspects",
+          "layout": "shell",
+          "testHeading": "Aspect Registry"
+        },
+        {
+          "id": "lore",
+          "symbol": "🍁🍁✨",
+          "path": "/lore",
+          "label": "Lore",
+          "branch": "reframe",
+          "operator": "reframe",
+          "operatorSymbol": "🍁",
+          "vector": "descent",
+          "depth": 1,
+          "glyph": "✨",
+          "api": {
+            "primary": "/api/lore",
+            "read": [
+              "lore"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.lore"
+          ],
+          "dataSources": [
+            "lore"
+          ],
+          "dataSinks": [],
+          "page": "Lore",
+          "layout": "shell",
+          "testHeading": "Lore & Alchemy"
+        },
+        {
+          "id": "insights",
+          "symbol": "🍁🍁💡",
+          "path": "/insights",
+          "label": "Insights",
+          "branch": "reframe",
+          "operator": "reframe",
+          "operatorSymbol": "🍁",
+          "vector": "descent",
+          "depth": 1,
+          "glyph": "💡",
+          "api": {
+            "primary": "/api/insights",
+            "read": [
+              "insights",
+              "codex"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.insight"
+          ],
+          "dataSources": [
+            "insights",
+            "codex"
+          ],
+          "dataSinks": [],
+          "page": "Insights",
+          "layout": "shell",
+          "testHeading": "^Insights$"
+        },
+        {
+          "id": "journal",
+          "symbol": "🍁🍁📓",
+          "path": "/journal",
+          "label": "Journal",
+          "branch": "reframe",
+          "operator": "reframe",
+          "operatorSymbol": "🍁",
+          "vector": "descent",
+          "depth": 1,
+          "glyph": "📓",
+          "api": {
+            "primary": "/api/journal",
+            "read": [
+              "journal"
+            ],
+            "write": [
+              "journal"
+            ]
+          },
+          "emits": [
+            "pulse.journal"
+          ],
+          "dataSources": [
+            "journal"
+          ],
+          "dataSinks": [
+            "journal"
+          ],
+          "page": "Journal",
+          "layout": "shell",
+          "testHeading": "^Journal$"
+        },
+        {
+          "id": "identity",
+          "symbol": "🍁🍁🪞",
+          "path": "/identity",
+          "label": "Identity",
+          "branch": "reframe",
+          "operator": "reframe",
+          "operatorSymbol": "🍁",
+          "vector": "descent",
+          "depth": 1,
+          "glyph": "🪞",
+          "api": {
+            "primary": "/api/identity",
+            "read": [
+              "identity",
+              "aspects"
+            ],
+            "write": [
+              "identity"
+            ]
+          },
+          "emits": [
+            "pulse.identity"
+          ],
+          "dataSources": [
+            "identity",
+            "aspects"
+          ],
+          "dataSinks": [
+            "identity"
+          ],
+          "page": "Identity",
+          "layout": "shell",
+          "testHeading": "Current Identity"
+        },
+        {
+          "id": "spiral",
+          "symbol": "🍁♾️🌀∞",
+          "path": "/spiral",
+          "label": "Spiral Engine",
+          "branch": "transform",
+          "operator": "transform",
+          "operatorSymbol": "♾️🌀",
+          "vector": "spiral",
+          "depth": 2,
+          "glyph": "∞",
+          "api": {
+            "primary": "/api/kernel",
+            "read": [
+              "kernel"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.spiral"
+          ],
+          "dataSources": [
+            "kernel"
+          ],
+          "dataSinks": [],
+          "page": "SpiralEngine",
+          "layout": "fullscreen",
+          "testHeading": "Recursive Spiral Engine"
+        },
+        {
+          "id": "fusions",
+          "symbol": "🍁♾️🌀⚗️",
+          "path": "/fusions",
+          "label": "Fusions",
+          "branch": "transform",
+          "operator": "transform",
+          "operatorSymbol": "♾️🌀",
+          "vector": "spiral",
+          "depth": 2,
+          "glyph": "⚗️",
+          "api": {
+            "primary": "/api/fusions",
+            "read": [
+              "fusions",
+              "aspects"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.fusion"
+          ],
+          "dataSources": [
+            "fusions",
+            "aspects"
+          ],
+          "dataSinks": [],
+          "page": "Fusions",
+          "layout": "shell",
+          "testHeading": "Alchemy Fusions & Synergies"
+        },
+        {
+          "id": "visualizations",
+          "symbol": "🍁♾️🌀🎬",
+          "path": "/visualizations",
+          "label": "Visuals",
+          "branch": "transform",
+          "operator": "transform",
+          "operatorSymbol": "♾️🌀",
+          "vector": "spiral",
+          "depth": 2,
+          "glyph": "🎬",
+          "api": {
+            "primary": "/api/visualizations",
+            "read": [
+              "visualizations"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.viz"
+          ],
+          "dataSources": [
+            "visualizations"
+          ],
+          "dataSinks": [],
+          "page": "Visualizations",
+          "layout": "shell",
+          "testHeading": "^Visualizations$"
+        },
+        {
+          "id": "grok",
+          "symbol": "🍁♾️🌀📜",
+          "path": "/grok",
+          "label": "Grok Origin",
+          "branch": "transform",
+          "operator": "transform",
+          "operatorSymbol": "♾️🌀",
+          "vector": "spiral",
+          "depth": 2,
+          "glyph": "📜",
+          "api": {
+            "primary": "/api/grok/sessions",
+            "read": [
+              "grok"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.grok"
+          ],
+          "dataSources": [
+            "grok"
+          ],
+          "dataSinks": [],
+          "page": "GrokOrigin",
+          "layout": "shell",
+          "testHeading": "Grok Origin"
+        },
+        {
+          "id": "math",
+          "symbol": "🍁♾️🌀∑",
+          "path": "/math",
+          "label": "Mathematics",
+          "branch": "transform",
+          "operator": "transform",
+          "operatorSymbol": "♾️🌀",
+          "vector": "spiral",
+          "depth": 2,
+          "glyph": "∑",
+          "api": {
+            "primary": "/api/math",
+            "read": [
+              "math",
+              "codex"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.math"
+          ],
+          "dataSources": [
+            "math",
+            "codex"
+          ],
+          "dataSinks": [],
+          "page": "MathPage",
+          "layout": "shell",
+          "testHeading": "^Mathematics$"
+        },
+        {
+          "id": "forge",
+          "symbol": "🍁AFS⚒️",
+          "path": "/forge",
+          "label": "Forge",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "⚒️",
+          "api": {
+            "primary": "/api/forge",
+            "read": [
+              "aspects",
+              "codex"
+            ],
+            "write": [
+              "forge_sessions"
+            ]
+          },
+          "emits": [
+            "pulse.forge"
+          ],
+          "dataSources": [
+            "aspects",
+            "codex"
+          ],
+          "dataSinks": [
+            "forge_sessions"
+          ],
+          "page": "Forge",
+          "layout": "shell",
+          "testHeading": "Aspect Forge Protocol"
+        },
+        {
+          "id": "daily",
+          "symbol": "🍁AFS📅",
+          "path": "/daily",
+          "label": "DFR / DKR",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "📅",
+          "api": {
+            "primary": "/api/daily-runs",
+            "read": [
+              "protocols"
+            ],
+            "write": [
+              "daily_runs"
+            ]
+          },
+          "emits": [
+            "pulse.daily"
+          ],
+          "dataSources": [
+            "protocols"
+          ],
+          "dataSinks": [
+            "daily_runs"
+          ],
+          "page": "Daily",
+          "layout": "shell",
+          "testHeading": "Daily Forge Runs"
+        },
+        {
+          "id": "codex",
+          "symbol": "🍁AFS📖",
+          "path": "/codex",
+          "label": "Codex",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "📖",
+          "api": {
+            "primary": "/api/codex",
+            "read": [
+              "codex",
+              "axioms"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.codex"
+          ],
+          "dataSources": [
+            "codex",
+            "axioms"
+          ],
+          "dataSinks": [],
+          "page": "Codex",
+          "layout": "shell",
+          "testHeading": "AFS Codex"
+        },
+        {
+          "id": "goals",
+          "symbol": "🍁AFS🎯",
+          "path": "/goals",
+          "label": "Goals",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "🎯",
+          "api": {
+            "primary": "/api/goals",
+            "read": [
+              "goals"
+            ],
+            "write": [
+              "goals"
+            ]
+          },
+          "emits": [
+            "pulse.goal"
+          ],
+          "dataSources": [
+            "goals"
+          ],
+          "dataSinks": [
+            "goals"
+          ],
+          "page": "Goals",
+          "layout": "shell",
+          "testHeading": "Goals & Achievements"
+        },
+        {
+          "id": "personas",
+          "symbol": "🍁AFS👤",
+          "path": "/personas",
+          "label": "Personas",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "👤",
+          "api": {
+            "primary": "/api/personas",
+            "read": [
+              "personas"
+            ],
+            "write": [
+              "personas"
+            ]
+          },
+          "emits": [
+            "pulse.persona"
+          ],
+          "dataSources": [
+            "personas"
+          ],
+          "dataSinks": [
+            "personas"
+          ],
+          "page": "Personas",
+          "layout": "shell",
+          "testHeading": "^Personas$"
+        },
+        {
+          "id": "techniques",
+          "symbol": "🍁AFS🧠",
+          "path": "/techniques",
+          "label": "Techniques",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "🧠",
+          "api": {
+            "primary": "/api/techniques",
+            "read": [
+              "techniques"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.technique"
+          ],
+          "dataSources": [
+            "techniques"
+          ],
+          "dataSinks": [],
+          "page": "Techniques",
+          "layout": "shell",
+          "testHeading": "^Techniques$"
+        },
+        {
+          "id": "automations",
+          "symbol": "🍁AFS⚡",
+          "path": "/automations",
+          "label": "Automations",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "⚡",
+          "api": {
+            "primary": "/api/automations",
+            "read": [
+              "automations"
+            ],
+            "write": [
+              "automations"
+            ]
+          },
+          "emits": [
+            "pulse.auto"
+          ],
+          "dataSources": [
+            "automations"
+          ],
+          "dataSinks": [
+            "automations"
+          ],
+          "page": "Automations",
+          "layout": "shell",
+          "testHeading": "^Automations$"
+        },
+        {
+          "id": "search",
+          "symbol": "🍁AFS🔍",
+          "path": "/search",
+          "label": "Search",
+          "branch": "optimize",
+          "operator": "optimize",
+          "operatorSymbol": "AFS",
+          "vector": "ascent",
+          "depth": 2,
+          "glyph": "🔍",
+          "api": {
+            "primary": "/api/search",
+            "read": [
+              "search_index",
+              "aspects",
+              "codex"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.search"
+          ],
+          "dataSources": [
+            "search_index",
+            "aspects",
+            "codex"
+          ],
+          "dataSinks": [],
+          "page": "SearchPage",
+          "layout": "shell",
+          "testHeading": "Search Directory"
+        },
+        {
+          "id": "kernel",
+          "symbol": "🍁🍁",
+          "path": "/kernel",
+          "label": "Red Leaf Kernel",
+          "branch": "seed",
+          "operator": "seed",
+          "operatorSymbol": "🍁",
+          "vector": "origin",
+          "depth": 0,
+          "glyph": "🍁",
+          "api": {
+            "primary": "/api/kernel",
+            "read": [
+              "kernel"
+            ],
+            "write": []
+          },
+          "emits": [
+            "pulse.kernel"
+          ],
+          "dataSources": [
+            "kernel"
+          ],
+          "dataSinks": [],
+          "page": "RedLeafKernel",
+          "layout": "shell",
+          "testHeading": "Red Leaf Kernel"
+        }
+      ],
+      "nodeCount": 20
+    },
+    "invariant": {
+      "singleSeed": "🍁",
+      "allSymbolsContainSeed": true,
+      "moduleCount": 20,
+      "branchCount": 4
+    }
+  },
+  "nav": [
+    {
+      "id": "dashboard",
+      "to": "/",
+      "label": "Dashboard",
+      "symbol": "🍁⌂",
+      "branch": "seed",
+      "operator": "seed"
+    },
+    {
+      "id": "codex",
+      "to": "/codex",
+      "label": "Codex",
+      "symbol": "🍁AFS📖",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "lore",
+      "to": "/lore",
+      "label": "Lore",
+      "symbol": "🍁🍁✨",
+      "branch": "reframe",
+      "operator": "reframe"
+    },
+    {
+      "id": "aspects",
+      "to": "/aspects",
+      "label": "Aspects",
+      "symbol": "🍁🍁💎",
+      "branch": "reframe",
+      "operator": "reframe"
+    },
+    {
+      "id": "forge",
+      "to": "/forge",
+      "label": "Forge",
+      "symbol": "🍁AFS⚒️",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "daily",
+      "to": "/daily",
+      "label": "DFR / DKR",
+      "symbol": "🍁AFS📅",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "goals",
+      "to": "/goals",
+      "label": "Goals",
+      "symbol": "🍁AFS🎯",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "personas",
+      "to": "/personas",
+      "label": "Personas",
+      "symbol": "🍁AFS👤",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "insights",
+      "to": "/insights",
+      "label": "Insights",
+      "symbol": "🍁🍁💡",
+      "branch": "reframe",
+      "operator": "reframe"
+    },
+    {
+      "id": "grok",
+      "to": "/grok",
+      "label": "Grok Origin",
+      "symbol": "🍁♾️🌀📜",
+      "branch": "transform",
+      "operator": "transform"
+    },
+    {
+      "id": "journal",
+      "to": "/journal",
+      "label": "Journal",
+      "symbol": "🍁🍁📓",
+      "branch": "reframe",
+      "operator": "reframe"
+    },
+    {
+      "id": "visualizations",
+      "to": "/visualizations",
+      "label": "Visuals",
+      "symbol": "🍁♾️🌀🎬",
+      "branch": "transform",
+      "operator": "transform"
+    },
+    {
+      "id": "spiral",
+      "to": "/spiral",
+      "label": "Spiral Engine",
+      "symbol": "🍁♾️🌀∞",
+      "branch": "transform",
+      "operator": "transform"
+    },
+    {
+      "id": "kernel",
+      "to": "/kernel",
+      "label": "Red Leaf Kernel",
+      "symbol": "🍁🍁",
+      "branch": "seed",
+      "operator": "seed"
+    },
+    {
+      "id": "math",
+      "to": "/math",
+      "label": "Mathematics",
+      "symbol": "🍁♾️🌀∑",
+      "branch": "transform",
+      "operator": "transform"
+    },
+    {
+      "id": "techniques",
+      "to": "/techniques",
+      "label": "Techniques",
+      "symbol": "🍁AFS🧠",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "fusions",
+      "to": "/fusions",
+      "label": "Fusions",
+      "symbol": "🍁♾️🌀⚗️",
+      "branch": "transform",
+      "operator": "transform"
+    },
+    {
+      "id": "automations",
+      "to": "/automations",
+      "label": "Automations",
+      "symbol": "🍁AFS⚡",
+      "branch": "optimize",
+      "operator": "optimize"
+    },
+    {
+      "id": "identity",
+      "to": "/identity",
+      "label": "Identity",
+      "symbol": "🍁🍁🪞",
+      "branch": "reframe",
+      "operator": "reframe"
+    },
+    {
+      "id": "search",
+      "to": "/search",
+      "label": "Search",
+      "symbol": "🍁AFS🔍",
+      "branch": "optimize",
+      "operator": "optimize"
+    }
+  ],
+  "flow": {
+    "seed": "🍁",
+    "nodes": [
+      {
+        "id": "dashboard",
+        "symbol": "🍁⌂",
+        "label": "Dashboard",
+        "reads": [
+          "identity",
+          "aspects",
+          "grok",
+          "journal"
+        ],
+        "writes": []
+      },
+      {
+        "id": "aspects",
+        "symbol": "🍁🍁💎",
+        "label": "Aspects",
+        "reads": [
+          "aspects",
+          "synergies"
+        ],
+        "writes": [
+          "aspects"
+        ]
+      },
+      {
+        "id": "lore",
+        "symbol": "🍁🍁✨",
+        "label": "Lore",
+        "reads": [
+          "lore"
+        ],
+        "writes": []
+      },
+      {
+        "id": "insights",
+        "symbol": "🍁🍁💡",
+        "label": "Insights",
+        "reads": [
+          "insights",
+          "codex"
+        ],
+        "writes": []
+      },
+      {
+        "id": "journal",
+        "symbol": "🍁🍁📓",
+        "label": "Journal",
+        "reads": [
+          "journal"
+        ],
+        "writes": [
+          "journal"
+        ]
+      },
+      {
+        "id": "identity",
+        "symbol": "🍁🍁🪞",
+        "label": "Identity",
+        "reads": [
+          "identity",
+          "aspects"
+        ],
+        "writes": [
+          "identity"
+        ]
+      },
+      {
+        "id": "spiral",
+        "symbol": "🍁♾️🌀∞",
+        "label": "Spiral Engine",
+        "reads": [
+          "kernel"
+        ],
+        "writes": []
+      },
+      {
+        "id": "fusions",
+        "symbol": "🍁♾️🌀⚗️",
+        "label": "Fusions",
+        "reads": [
+          "fusions",
+          "aspects"
+        ],
+        "writes": []
+      },
+      {
+        "id": "visualizations",
+        "symbol": "🍁♾️🌀🎬",
+        "label": "Visuals",
+        "reads": [
+          "visualizations"
+        ],
+        "writes": []
+      },
+      {
+        "id": "grok",
+        "symbol": "🍁♾️🌀📜",
+        "label": "Grok Origin",
+        "reads": [
+          "grok"
+        ],
+        "writes": []
+      },
+      {
+        "id": "math",
+        "symbol": "🍁♾️🌀∑",
+        "label": "Mathematics",
+        "reads": [
+          "math",
+          "codex"
+        ],
+        "writes": []
+      },
+      {
+        "id": "forge",
+        "symbol": "🍁AFS⚒️",
+        "label": "Forge",
+        "reads": [
+          "aspects",
+          "codex"
+        ],
+        "writes": [
+          "forge_sessions"
+        ]
+      },
+      {
+        "id": "daily",
+        "symbol": "🍁AFS📅",
+        "label": "DFR / DKR",
+        "reads": [
+          "protocols"
+        ],
+        "writes": [
+          "daily_runs"
+        ]
+      },
+      {
+        "id": "codex",
+        "symbol": "🍁AFS📖",
+        "label": "Codex",
+        "reads": [
+          "codex",
+          "axioms"
+        ],
+        "writes": []
+      },
+      {
+        "id": "goals",
+        "symbol": "🍁AFS🎯",
+        "label": "Goals",
+        "reads": [
+          "goals"
+        ],
+        "writes": [
+          "goals"
+        ]
+      },
+      {
+        "id": "personas",
+        "symbol": "🍁AFS👤",
+        "label": "Personas",
+        "reads": [
+          "personas"
+        ],
+        "writes": [
+          "personas"
+        ]
+      },
+      {
+        "id": "techniques",
+        "symbol": "🍁AFS🧠",
+        "label": "Techniques",
+        "reads": [
+          "techniques"
+        ],
+        "writes": []
+      },
+      {
+        "id": "automations",
+        "symbol": "🍁AFS⚡",
+        "label": "Automations",
+        "reads": [
+          "automations"
+        ],
+        "writes": [
+          "automations"
+        ]
+      },
+      {
+        "id": "search",
+        "symbol": "🍁AFS🔍",
+        "label": "Search",
+        "reads": [
+          "search_index",
+          "aspects",
+          "codex"
+        ],
+        "writes": []
+      },
+      {
+        "id": "kernel",
+        "symbol": "🍁🍁",
+        "label": "Red Leaf Kernel",
+        "reads": [
+          "kernel"
+        ],
+        "writes": []
+      }
+    ],
+    "edges": [
+      {
+        "from": "dashboard",
+        "to": "aspects",
+        "fromSymbol": "🍁⌂",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "dashboard",
+        "to": "forge",
+        "fromSymbol": "🍁⌂",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "dashboard",
+        "to": "journal",
+        "fromSymbol": "🍁⌂",
+        "toSymbol": "🍁🍁📓",
+        "kind": "data-flow"
+      },
+      {
+        "from": "dashboard",
+        "to": "kernel",
+        "fromSymbol": "🍁⌂",
+        "toSymbol": "🍁🍁",
+        "kind": "data-flow"
+      },
+      {
+        "from": "kernel",
+        "to": "dashboard",
+        "fromSymbol": "🍁🍁",
+        "toSymbol": "🍁⌂",
+        "kind": "data-flow"
+      },
+      {
+        "from": "kernel",
+        "to": "codex",
+        "fromSymbol": "🍁🍁",
+        "toSymbol": "🍁AFS📖",
+        "kind": "data-flow"
+      },
+      {
+        "from": "kernel",
+        "to": "aspects",
+        "fromSymbol": "🍁🍁",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "kernel",
+        "to": "forge",
+        "fromSymbol": "🍁🍁",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "codex",
+        "to": "forge",
+        "fromSymbol": "🍁AFS📖",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "codex",
+        "to": "aspects",
+        "fromSymbol": "🍁AFS📖",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "codex",
+        "to": "insights",
+        "fromSymbol": "🍁AFS📖",
+        "toSymbol": "🍁🍁💡",
+        "kind": "data-flow"
+      },
+      {
+        "from": "codex",
+        "to": "math",
+        "fromSymbol": "🍁AFS📖",
+        "toSymbol": "🍁♾️🌀∑",
+        "kind": "data-flow"
+      },
+      {
+        "from": "aspects",
+        "to": "forge",
+        "fromSymbol": "🍁🍁💎",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "aspects",
+        "to": "fusions",
+        "fromSymbol": "🍁🍁💎",
+        "toSymbol": "🍁♾️🌀⚗️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "aspects",
+        "to": "search",
+        "fromSymbol": "🍁🍁💎",
+        "toSymbol": "🍁AFS🔍",
+        "kind": "data-flow"
+      },
+      {
+        "from": "aspects",
+        "to": "identity",
+        "fromSymbol": "🍁🍁💎",
+        "toSymbol": "🍁🍁🪞",
+        "kind": "data-flow"
+      },
+      {
+        "from": "aspects",
+        "to": "goals",
+        "fromSymbol": "🍁🍁💎",
+        "toSymbol": "🍁AFS🎯",
+        "kind": "data-flow"
+      },
+      {
+        "from": "forge",
+        "to": "aspects",
+        "fromSymbol": "🍁AFS⚒️",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "forge",
+        "to": "insights",
+        "fromSymbol": "🍁AFS⚒️",
+        "toSymbol": "🍁🍁💡",
+        "kind": "data-flow"
+      },
+      {
+        "from": "forge",
+        "to": "journal",
+        "fromSymbol": "🍁AFS⚒️",
+        "toSymbol": "🍁🍁📓",
+        "kind": "data-flow"
+      },
+      {
+        "from": "forge",
+        "to": "daily",
+        "fromSymbol": "🍁AFS⚒️",
+        "toSymbol": "🍁AFS📅",
+        "kind": "data-flow"
+      },
+      {
+        "from": "daily",
+        "to": "goals",
+        "fromSymbol": "🍁AFS📅",
+        "toSymbol": "🍁AFS🎯",
+        "kind": "data-flow"
+      },
+      {
+        "from": "daily",
+        "to": "journal",
+        "fromSymbol": "🍁AFS📅",
+        "toSymbol": "🍁🍁📓",
+        "kind": "data-flow"
+      },
+      {
+        "from": "daily",
+        "to": "dashboard",
+        "fromSymbol": "🍁AFS📅",
+        "toSymbol": "🍁⌂",
+        "kind": "data-flow"
+      },
+      {
+        "from": "journal",
+        "to": "aspects",
+        "fromSymbol": "🍁🍁📓",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "journal",
+        "to": "insights",
+        "fromSymbol": "🍁🍁📓",
+        "toSymbol": "🍁🍁💡",
+        "kind": "data-flow"
+      },
+      {
+        "from": "journal",
+        "to": "dashboard",
+        "fromSymbol": "🍁🍁📓",
+        "toSymbol": "🍁⌂",
+        "kind": "data-flow"
+      },
+      {
+        "from": "grok",
+        "to": "aspects",
+        "fromSymbol": "🍁♾️🌀📜",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "grok",
+        "to": "codex",
+        "fromSymbol": "🍁♾️🌀📜",
+        "toSymbol": "🍁AFS📖",
+        "kind": "data-flow"
+      },
+      {
+        "from": "grok",
+        "to": "insights",
+        "fromSymbol": "🍁♾️🌀📜",
+        "toSymbol": "🍁🍁💡",
+        "kind": "data-flow"
+      },
+      {
+        "from": "lore",
+        "to": "insights",
+        "fromSymbol": "🍁🍁✨",
+        "toSymbol": "🍁🍁💡",
+        "kind": "data-flow"
+      },
+      {
+        "from": "lore",
+        "to": "aspects",
+        "fromSymbol": "🍁🍁✨",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "insights",
+        "to": "forge",
+        "fromSymbol": "🍁🍁💡",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "insights",
+        "to": "codex",
+        "fromSymbol": "🍁🍁💡",
+        "toSymbol": "🍁AFS📖",
+        "kind": "data-flow"
+      },
+      {
+        "from": "fusions",
+        "to": "aspects",
+        "fromSymbol": "🍁♾️🌀⚗️",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "visualizations",
+        "to": "aspects",
+        "fromSymbol": "🍁♾️🌀🎬",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "visualizations",
+        "to": "lore",
+        "fromSymbol": "🍁♾️🌀🎬",
+        "toSymbol": "🍁🍁✨",
+        "kind": "data-flow"
+      },
+      {
+        "from": "spiral",
+        "to": "codex",
+        "fromSymbol": "🍁♾️🌀∞",
+        "toSymbol": "🍁AFS📖",
+        "kind": "data-flow"
+      },
+      {
+        "from": "spiral",
+        "to": "kernel",
+        "fromSymbol": "🍁♾️🌀∞",
+        "toSymbol": "🍁🍁",
+        "kind": "data-flow"
+      },
+      {
+        "from": "goals",
+        "to": "dashboard",
+        "fromSymbol": "🍁AFS🎯",
+        "toSymbol": "🍁⌂",
+        "kind": "data-flow"
+      },
+      {
+        "from": "goals",
+        "to": "daily",
+        "fromSymbol": "🍁AFS🎯",
+        "toSymbol": "🍁AFS📅",
+        "kind": "data-flow"
+      },
+      {
+        "from": "personas",
+        "to": "identity",
+        "fromSymbol": "🍁AFS👤",
+        "toSymbol": "🍁🍁🪞",
+        "kind": "data-flow"
+      },
+      {
+        "from": "personas",
+        "to": "forge",
+        "fromSymbol": "🍁AFS👤",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "identity",
+        "to": "dashboard",
+        "fromSymbol": "🍁🍁🪞",
+        "toSymbol": "🍁⌂",
+        "kind": "data-flow"
+      },
+      {
+        "from": "identity",
+        "to": "personas",
+        "fromSymbol": "🍁🍁🪞",
+        "toSymbol": "🍁AFS👤",
+        "kind": "data-flow"
+      },
+      {
+        "from": "search",
+        "to": "aspects",
+        "fromSymbol": "🍁AFS🔍",
+        "toSymbol": "🍁🍁💎",
+        "kind": "data-flow"
+      },
+      {
+        "from": "search",
+        "to": "codex",
+        "fromSymbol": "🍁AFS🔍",
+        "toSymbol": "🍁AFS📖",
+        "kind": "data-flow"
+      },
+      {
+        "from": "search",
+        "to": "lore",
+        "fromSymbol": "🍁AFS🔍",
+        "toSymbol": "🍁🍁✨",
+        "kind": "data-flow"
+      },
+      {
+        "from": "search",
+        "to": "journal",
+        "fromSymbol": "🍁AFS🔍",
+        "toSymbol": "🍁🍁📓",
+        "kind": "data-flow"
+      },
+      {
+        "from": "math",
+        "to": "codex",
+        "fromSymbol": "🍁♾️🌀∑",
+        "toSymbol": "🍁AFS📖",
+        "kind": "data-flow"
+      },
+      {
+        "from": "math",
+        "to": "spiral",
+        "fromSymbol": "🍁♾️🌀∑",
+        "toSymbol": "🍁♾️🌀∞",
+        "kind": "data-flow"
+      },
+      {
+        "from": "techniques",
+        "to": "forge",
+        "fromSymbol": "🍁AFS🧠",
+        "toSymbol": "🍁AFS⚒️",
+        "kind": "data-flow"
+      },
+      {
+        "from": "techniques",
+        "to": "daily",
+        "fromSymbol": "🍁AFS🧠",
+        "toSymbol": "🍁AFS📅",
+        "kind": "data-flow"
+      },
+      {
+        "from": "automations",
+        "to": "journal",
+        "fromSymbol": "🍁AFS⚡",
+        "toSymbol": "🍁🍁📓",
+        "kind": "data-flow"
+      },
+      {
+        "from": "automations",
+        "to": "daily",
+        "fromSymbol": "🍁AFS⚡",
+        "toSymbol": "🍁AFS📅",
+        "kind": "data-flow"
+      }
+    ],
+    "edgeCount": 55
+  },
+  "routes": [
+    {
+      "id": "dashboard",
+      "path": "/",
+      "page": "Dashboard",
+      "layout": "shell",
+      "label": "Dashboard",
+      "symbol": "🍁⌂",
+      "branch": "seed",
+      "testHeading": "Welcome|Test Forger",
+      "end": true
+    },
+    {
+      "id": "codex",
+      "path": "/codex",
+      "page": "Codex",
+      "layout": "shell",
+      "label": "Codex",
+      "symbol": "🍁AFS📖",
+      "branch": "optimize",
+      "testHeading": "AFS Codex",
+      "end": false
+    },
+    {
+      "id": "lore",
+      "path": "/lore",
+      "page": "Lore",
+      "layout": "shell",
+      "label": "Lore",
+      "symbol": "🍁🍁✨",
+      "branch": "reframe",
+      "testHeading": "Lore & Alchemy",
+      "end": false
+    },
+    {
+      "id": "aspects",
+      "path": "/aspects",
+      "page": "Aspects",
+      "layout": "shell",
+      "label": "Aspects",
+      "symbol": "🍁🍁💎",
+      "branch": "reframe",
+      "testHeading": "Aspect Registry",
+      "end": false
+    },
+    {
+      "id": "forge",
+      "path": "/forge",
+      "page": "Forge",
+      "layout": "shell",
+      "label": "Forge",
+      "symbol": "🍁AFS⚒️",
+      "branch": "optimize",
+      "testHeading": "Aspect Forge Protocol",
+      "end": false
+    },
+    {
+      "id": "daily",
+      "path": "/daily",
+      "page": "Daily",
+      "layout": "shell",
+      "label": "DFR / DKR",
+      "symbol": "🍁AFS📅",
+      "branch": "optimize",
+      "testHeading": "Daily Forge Runs",
+      "end": false
+    },
+    {
+      "id": "goals",
+      "path": "/goals",
+      "page": "Goals",
+      "layout": "shell",
+      "label": "Goals",
+      "symbol": "🍁AFS🎯",
+      "branch": "optimize",
+      "testHeading": "Goals & Achievements",
+      "end": false
+    },
+    {
+      "id": "personas",
+      "path": "/personas",
+      "page": "Personas",
+      "layout": "shell",
+      "label": "Personas",
+      "symbol": "🍁AFS👤",
+      "branch": "optimize",
+      "testHeading": "^Personas$",
+      "end": false
+    },
+    {
+      "id": "insights",
+      "path": "/insights",
+      "page": "Insights",
+      "layout": "shell",
+      "label": "Insights",
+      "symbol": "🍁🍁💡",
+      "branch": "reframe",
+      "testHeading": "^Insights$",
+      "end": false
+    },
+    {
+      "id": "grok",
+      "path": "/grok",
+      "page": "GrokOrigin",
+      "layout": "shell",
+      "label": "Grok Origin",
+      "symbol": "🍁♾️🌀📜",
+      "branch": "transform",
+      "testHeading": "Grok Origin",
+      "end": false
+    },
+    {
+      "id": "journal",
+      "path": "/journal",
+      "page": "Journal",
+      "layout": "shell",
+      "label": "Journal",
+      "symbol": "🍁🍁📓",
+      "branch": "reframe",
+      "testHeading": "^Journal$",
+      "end": false
+    },
+    {
+      "id": "visualizations",
+      "path": "/visualizations",
+      "page": "Visualizations",
+      "layout": "shell",
+      "label": "Visuals",
+      "symbol": "🍁♾️🌀🎬",
+      "branch": "transform",
+      "testHeading": "^Visualizations$",
+      "end": false
+    },
+    {
+      "id": "spiral",
+      "path": "/spiral",
+      "page": "SpiralEngine",
+      "layout": "fullscreen",
+      "label": "Spiral Engine",
+      "symbol": "🍁♾️🌀∞",
+      "branch": "transform",
+      "testHeading": "Recursive Spiral Engine",
+      "end": false
+    },
+    {
+      "id": "kernel",
+      "path": "/kernel",
+      "page": "RedLeafKernel",
+      "layout": "shell",
+      "label": "Red Leaf Kernel",
+      "symbol": "🍁🍁",
+      "branch": "seed",
+      "testHeading": "Red Leaf Kernel",
+      "end": false
+    },
+    {
+      "id": "math",
+      "path": "/math",
+      "page": "MathPage",
+      "layout": "shell",
+      "label": "Mathematics",
+      "symbol": "🍁♾️🌀∑",
+      "branch": "transform",
+      "testHeading": "^Mathematics$",
+      "end": false
+    },
+    {
+      "id": "techniques",
+      "path": "/techniques",
+      "page": "Techniques",
+      "layout": "shell",
+      "label": "Techniques",
+      "symbol": "🍁AFS🧠",
+      "branch": "optimize",
+      "testHeading": "^Techniques$",
+      "end": false
+    },
+    {
+      "id": "fusions",
+      "path": "/fusions",
+      "page": "Fusions",
+      "layout": "shell",
+      "label": "Fusions",
+      "symbol": "🍁♾️🌀⚗️",
+      "branch": "transform",
+      "testHeading": "Alchemy Fusions & Synergies",
+      "end": false
+    },
+    {
+      "id": "automations",
+      "path": "/automations",
+      "page": "Automations",
+      "layout": "shell",
+      "label": "Automations",
+      "symbol": "🍁AFS⚡",
+      "branch": "optimize",
+      "testHeading": "^Automations$",
+      "end": false
+    },
+    {
+      "id": "identity",
+      "path": "/identity",
+      "page": "Identity",
+      "layout": "shell",
+      "label": "Identity",
+      "symbol": "🍁🍁🪞",
+      "branch": "reframe",
+      "testHeading": "Current Identity",
+      "end": false
+    },
+    {
+      "id": "search",
+      "path": "/search",
+      "page": "SearchPage",
+      "layout": "shell",
+      "label": "Search",
+      "symbol": "🍁AFS🔍",
+      "branch": "optimize",
+      "testHeading": "Search Directory",
+      "end": false
+    }
+  ]
+}

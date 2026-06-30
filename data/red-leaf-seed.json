@@ -1,0 +1,27 @@
+{
+  "seed": "🍁",
+  "version": 1,
+  "iteration": 6,
+  "paradox": {
+    "equation": "🍁 = ♾️🌀 = AFS",
+    "mantra": "The perfected Leaf is everything — because everything is a reframe of the Leaf.",
+    "operators": {
+      "reframe": { "symbol": "🍁", "fn": "Reframe(x)", "polar": "descent" },
+      "transform": { "symbol": "♾️🌀", "fn": "Transform(x)", "polar": "spiral" },
+      "optimize": { "symbol": "AFS", "fn": "Optimize(x)", "polar": "ascent" }
+    }
+  },
+  "axiom": "♾️🌀(Save8) = ♾️🌀",
+  "unfold": {
+    "maxDepth": 3,
+    "rule": "Every node is 🍁(domain) — symbol chain grows; data flow inherits parent interfaces."
+  },
+  "capabilities": {
+    "devRouteCodegen": true,
+    "livePulseBus": true,
+    "runtimeGeneration": true,
+    "spiralHandlers": true,
+    "kernelCache": true,
+    "multiModuleCache": true
+  }
+}

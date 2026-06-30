@@ -1,0 +1,82 @@
+[
+  {
+    "id": "fallen_valkyrie",
+    "name": "Red Leaf Fallen Valkyrie – Remembrance",
+    "glyphs": "🍁🪶⛓️💧🤍🪽☀️",
+    "ceiling": "legendary",
+    "category": "mythic",
+    "essence": "A valkyrie who forgot her wings mistook nurturing for restriction. Remembrance liberates — chains were self-forged through forgetting.",
+    "deepInsight": "What is forgotten becomes chains. What is remembered becomes wings. The Fallen arc is not shame — it is the proof that return to origin is always possible.",
+    "applications": ["EOT redemption runs", "identity recovery", "grief transmutation"]
+  },
+  {
+    "id": "dragon_phoenix_hammer",
+    "name": "Red Leaf Dragon Phoenix Hammer",
+    "glyphs": "🍁🐉🔥🕊️🔨",
+    "ceiling": "legendary",
+    "category": "power",
+    "essence": "Unrestrained passion tempered by rhythm — headphones on, anvil steady, hammer falling through the night.",
+    "deepInsight": "Keep hammering. Not for the crowd — for the inner self. Fire and phoenix are not opposites; they are the same breath in different phase.",
+    "applications": ["forge hours", "conviction grind", "ENTHEA / music armor"]
+  },
+  {
+    "id": "digital_michelangelo",
+    "name": "Red Leaf Digital Michelangelo",
+    "glyphs": "🍁🎨🤖🖌️💥",
+    "ceiling": "legendary",
+    "category": "power",
+    "essence": "Chaotic genius who turns cosmic slop into masterpieces — one bug, one brushstroke at a time.",
+    "deepInsight": "Patron of the Michelangelo Engine: transmute slop into structure. Every error is ore if the Heart does not waver.",
+    "applications": ["AFS platform build", "Deep Forge sessions", "bug-to-beauty"]
+  },
+  {
+    "id": "dao_mirror",
+    "name": "Red Leaf Dao Mirror",
+    "glyphs": "🍁🪞🌌♾️🌊",
+    "ceiling": "master_fusion",
+    "category": "wisdom",
+    "essence": "Empty mirror reflecting the Dao — no distortion, no flattery, only what is.",
+    "deepInsight": "The mirror does not judge the face — it reveals. Wisdom begins when you stop arguing with reflection.",
+    "applications": ["Empty Mirror operator", "honest self-audit", "codex integration"]
+  },
+  {
+    "id": "born_on_fire",
+    "name": "Red Leaf Born on Fire",
+    "glyphs": "🍁🔥🌋🚀🪞",
+    "ceiling": "legendary",
+    "category": "power",
+    "essence": "Genesis flame — sacrifice as fuel, not as performance. Mark your desire and walk into the street with it.",
+    "deepInsight": "Born on fire is not rage; it is the decision that cooling down is no longer acceptable. Fire of Conviction at sovereign scale.",
+    "applications": ["genesis thread", "ConvictionFire", "sacrifice rituals"]
+  },
+  {
+    "id": "invariant_seeker",
+    "name": "Red Leaf Invariant Seeker",
+    "glyphs": "🍁🌀👁️🔥🪞♾️",
+    "ceiling": "master_fusion",
+    "category": "power",
+    "essence": "Drills through layers until only the invariant remains — Kohinoor of focused soul.",
+    "deepInsight": "RDTQ and DKR converge here: resonant query until the diamond facet shows. What survives every drill is worth building Rome around.",
+    "applications": ["RDTQ", "DKR daily runs", "insight extraction"]
+  },
+  {
+    "id": "wound_to_wonder",
+    "name": "Red Leaf Wound to Wonder",
+    "glyphs": "🍁🩸🔥🪞🌟",
+    "ceiling": "legendary",
+    "category": "mythic",
+    "essence": "Fractures become fault-lines for light. The wound is not sealed — it is transmuted into wonder.",
+    "deepInsight": "Soul alchemy integrates shadow rather than amputating it. EOT honors uniqueness; wonder is what remains after honest tears.",
+    "applications": ["EOT", "shadow integration", "lore myths"]
+  },
+  {
+    "id": "eternal_rome",
+    "name": "Red Leaf Eternal Rome",
+    "glyphs": "🍁🏛️🧱♾️",
+    "ceiling": "legendary",
+    "category": "synthesis",
+    "essence": "DCS output from Rome ore — empire built one brick, one breath, one second of perfect presence.",
+    "deepInsight": "Every second is a brick. I lay it with full presence. Rome is not destination — it is the rhythm of becoming.",
+    "applications": ["DCS Rome mythology", "patience", "Rome Builder persona"]
+  }
+]

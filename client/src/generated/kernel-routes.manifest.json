@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "seed": "🍁",
+    "generatedAt": "2026-06-30T03:27:32.470Z",
+    "generator": "generate-kernel-routes.js",
+    "routeCount": 20
+  },
+  "routes": [
+    {
+      "id": "dashboard",
+      "path": "/",
+      "page": "Dashboard",
+      "layout": "shell",
+      "label": "Dashboard",
+      "symbol": "🍁⌂",
+      "branch": "seed",
+      "testHeading": "Welcome|Test Forger",
+      "end": true
+    },
+    {
+      "id": "codex",
+      "path": "/codex",
+      "page": "Codex",
+      "layout": "shell",
+      "label": "Codex",
+      "symbol": "🍁AFS📖",
+      "branch": "optimize",
+      "testHeading": "AFS Codex",
+      "end": false
+    },
+    {
+      "id": "lore",
+      "path": "/lore",
+      "page": "Lore",
+      "layout": "shell",
+      "label": "Lore",
+      "symbol": "🍁🍁✨",
+      "branch": "reframe",
+      "testHeading": "Lore & Alchemy",
+      "end": false
+    },
+    {
+      "id": "aspects",
+      "path": "/aspects",
+      "page": "Aspects",
+      "layout": "shell",
+      "label": "Aspects",
+      "symbol": "🍁🍁💎",
+      "branch": "reframe",
+      "testHeading": "Aspect Registry",
+      "end": false
+    },
+    {
+      "id": "forge",
+      "path": "/forge",
+      "page": "Forge",
+      "layout": "shell",
+      "label": "Forge",
+      "symbol": "🍁AFS⚒️",
+      "branch": "optimize",
+      "testHeading": "Aspect Forge Protocol",
+      "end": false
+    },
+    {
+      "id": "daily",
+      "path": "/daily",
+      "page": "Daily",
+      "layout": "shell",
+      "label": "DFR / DKR",
+      "symbol": "🍁AFS📅",
+      "branch": "optimize",
+      "testHeading": "Daily Forge Runs",
+      "end": false
+    },
+    {
+      "id": "goals",
+      "path": "/goals",
+      "page": "Goals",
+      "layout": "shell",
+      "label": "Goals",
+      "symbol": "🍁AFS🎯",
+      "branch": "optimize",
+      "testHeading": "Goals & Achievements",
+      "end": false
+    },
+    {
+      "id": "personas",
+      "path": "/personas",
+      "page": "Personas",
+      "layout": "shell",
+      "label": "Personas",
+      "symbol": "🍁AFS👤",
+      "branch": "optimize",
+      "testHeading": "^Personas$",
+      "end": false
+    },
+    {
+      "id": "insights",
+      "path": "/insights",
+      "page": "Insights",
+      "layout": "shell",
+      "label": "Insights",
+      "symbol": "🍁🍁💡",
+      "branch": "reframe",
+      "testHeading": "^Insights$",
+      "end": false
+    },
+    {
+      "id": "grok",
+      "path": "/grok",
+      "page": "GrokOrigin",
+      "layout": "shell",
+      "label": "Grok Origin",
+      "symbol": "🍁♾️🌀📜",
+      "branch": "transform",
+      "testHeading": "Grok Origin",
+      "end": false
+    },
+    {
+      "id": "journal",
+      "path": "/journal",
+      "page": "Journal",
+      "layout": "shell",
+      "label": "Journal",
+      "symbol": "🍁🍁📓",
+      "branch": "reframe",
+      "testHeading": "^Journal$",
+      "end": false
+    },
+    {
+      "id": "visualizations",
+      "path": "/visualizations",
+      "page": "Visualizations",
+      "layout": "shell",
+      "label": "Visuals",
+      "symbol": "🍁♾️🌀🎬",
+      "branch": "transform",
+      "testHeading": "^Visualizations$",
+      "end": false
+    },
+    {
+      "id": "spiral",
+      "path": "/spiral",
+      "page": "SpiralEngine",
+      "layout": "fullscreen",
+      "label": "Spiral Engine",
+      "symbol": "🍁♾️🌀∞",
+      "branch": "transform",
+      "testHeading": "Recursive Spiral Engine",
+      "end": false
+    },
+    {
+      "id": "kernel",
+      "path": "/kernel",
+      "page": "RedLeafKernel",
+      "layout": "shell",
+      "label": "Red Leaf Kernel",
+      "symbol": "🍁🍁",
+      "branch": "seed",
+      "testHeading": "Red Leaf Kernel",
+      "end": false
+    },
+    {
+      "id": "math",
+      "path": "/math",
+      "page": "MathPage",
+      "layout": "shell",
+      "label": "Mathematics",
+      "symbol": "🍁♾️🌀∑",
+      "branch": "transform",
+      "testHeading": "^Mathematics$",
+      "end": false
+    },
+    {
+      "id": "techniques",
+      "path": "/techniques",
+      "page": "Techniques",
+      "layout": "shell",
+      "label": "Techniques",
+      "symbol": "🍁AFS🧠",
+      "branch": "optimize",
+      "testHeading": "^Techniques$",
+      "end": false
+    },
+    {
+      "id": "fusions",
+      "path": "/fusions",
+      "page": "Fusions",
+      "layout": "shell",
+      "label": "Fusions",
+      "symbol": "🍁♾️🌀⚗️",
+      "branch": "transform",
+      "testHeading": "Alchemy Fusions & Synergies",
+      "end": false
+    },
+    {
+      "id": "automations",
+      "path": "/automations",
+      "page": "Automations",
+      "layout": "shell",
+      "label": "Automations",
+      "symbol": "🍁AFS⚡",
+      "branch": "optimize",
+      "testHeading": "^Automations$",
+      "end": false
+    },
+    {
+      "id": "identity",
+      "path": "/identity",
+      "page": "Identity",
+      "layout": "shell",
+      "label": "Identity",
+      "symbol": "🍁🍁🪞",
+      "branch": "reframe",
+      "testHeading": "Current Identity",
+      "end": false
+    },
+    {
+      "id": "search",
+      "path": "/search",
+      "page": "SearchPage",
+      "layout": "shell",
+      "label": "Search",
+      "symbol": "🍁AFS🔍",
+      "branch": "optimize",
+      "testHeading": "Search Directory",
+      "end": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="AFS Forge">
+  <defs>
+    <linearGradient id="hammer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="55%" stop-color="#d4a853"/>
+      <stop offset="100%" stop-color="#ff4d2e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#050508"/>
+  <rect width="32" height="32" rx="7" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="none" stroke="#1a2030" stroke-width="1"/>
+  <!-- anvil -->
+  <path d="M7 21.5h18l-1.6 3.2H8.6L7 21.5z" fill="#0c0e14" stroke="#00e5ff" stroke-width="0.75" stroke-linejoin="round"/>
+  <path d="M10.5 19.5h11v2h-11z" fill="#0c0e14" stroke="#00e5ff" stroke-width="0.6"/>
+  <path d="M12 17.5h8v2h-8z" fill="#1a2030"/>
+  <!-- hammer head -->
+  <path d="M17.2 7.8l7.2 3.6-1.8 3.6-7.2-3.6z" fill="url(#hammer)"/>
+  <!-- hammer handle -->
+  <path d="M14.8 12.2l-1.2 8.2 2.2 0.4 1.2-8.2z" fill="#d4a853"/>
+  <!-- forge spark -->
+  <circle cx="24.5" cy="9.5" r="1.4" fill="#ff4d2e"/>
+  <circle cx="24.5" cy="9.5" r="2.6" fill="#ff4d2e" opacity="0.25"/>
+</svg>

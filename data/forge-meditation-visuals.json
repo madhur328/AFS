@@ -1,0 +1,50 @@
+{
+  "anchor": {
+    "primary": "#1e5a7a",
+    "glow": "#44aacc",
+    "gradient": ["#020810", "#0a1e30", "#1e5a7a"],
+    "breath": "4-4-6",
+    "aura": "steady downward column",
+    "prompt": "Feel weight descending through spine into earth. Hold the line. Doubt passes; you remain."
+  },
+  "fire": {
+    "primary": "#cc4400",
+    "glow": "#ff6622",
+    "gradient": ["#1a0800", "#3d1200", "#cc4400"],
+    "breath": "4-2-6",
+    "aura": "rising flame, contained",
+    "prompt": "Flame at solar plexus — steady, not consuming. Born on fire; take flames to the street with care."
+  },
+  "clarity": {
+    "primary": "#c9a227",
+    "glow": "#ffe066",
+    "gradient": ["#0a0800", "#1a1400", "#5a4a10"],
+    "breath": "4-4-4",
+    "aura": "key-turning flash",
+    "prompt": "Fog lifts. See the lock. One truth becomes actionable. Turn the key."
+  },
+  "tornado": {
+    "primary": "#3a5a7a",
+    "glow": "#88bbee",
+    "gradient": ["#060810", "#0c1420", "#1a2840"],
+    "breath": "3-2-5",
+    "aura": "spiral vortex rise",
+    "prompt": "Spin into motion at the center. Surface chaos, core momentum — carry forward."
+  },
+  "chain": {
+    "primary": "#4a4a5a",
+    "glow": "#aabbcc",
+    "gradient": ["#08080c", "#141420", "#2a2a38"],
+    "breath": "4-4-4",
+    "aura": "interlocking links pulse",
+    "prompt": "Feel each link click into rhythm. Separate parts synchronize into one chain."
+  },
+  "helix": {
+    "primary": "#2a6a4a",
+    "glow": "#66ddaa",
+    "gradient": ["#040a08", "#0c1810", "#183028"],
+    "breath": "4-4-6",
+    "aura": "double helix morph",
+    "prompt": "Watch the helix turn. Form morphs; essence holds. Adapt without fracture."
+  }
+}

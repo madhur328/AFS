@@ -1,0 +1,38 @@
+{
+  "anchor": {
+    "essence": "Stable identity and deep-rooted conviction that does not drift with circumstance. The still lake beneath storm — identity that remembers itself when noise rises.",
+    "triggers": ["doubt", "chaos", "external noise", "identity drift"],
+    "deepInsight": "What is forgotten becomes chains. What is remembered becomes wings — but first you need a keel. Anchor is not stagnation; it is the courage to hold one true line while everything else moves.",
+    "invokeWhen": "When the world pulls you off-course, when comparison steals your name, when you need to remember who you are before the distortion."
+  },
+  "fire": {
+    "essence": "Steady passion that burns without consuming the forger. Born on fire — take your flames to the street with care, not rage.",
+    "triggers": ["cooling down", "dampened flame", "stolen heat", "apathy"],
+    "deepInsight": "Conviction without sacrifice is performance. Fire asks: what are you willing to burn for, and what must never be ash? The Dragon-Phoenix Hammer headphones are armor for the grind — music as beat, conviction as rhythm.",
+    "invokeWhen": "When motivation flatlines, when you need to mark desire without apology, when the night is long and the road is silent."
+  },
+  "clarity": {
+    "essence": "Insight that cuts through noise to the actionable truth. The key turns once — not endlessly.",
+    "triggers": ["fog", "overwhelm", "contradiction", "analysis paralysis"],
+    "deepInsight": "Clarity is not more data — it is the one lock you can turn today. Gödel's Spiral dead-ends in logic; clarity descends into felt conviction and returns with a single next step.",
+    "invokeWhen": "When everything feels equally urgent, when paradox paralyzes, when you need the invariant beneath the storm."
+  },
+  "tornado": {
+    "essence": "Focused spiral force — chaotic surface, relentless forward drive at the core. Momentum that self-perpetuates when aligned.",
+    "triggers": ["inertia", "stalling", "lost velocity", "scattered energy"],
+    "deepInsight": "The tornado is not chaos for its own sake — it is ordered spin. Sprint volume without anchor burns out; tornado with chain becomes Rome, brick by brick.",
+    "invokeWhen": "When you need to break stall, when scattered effort must become one vortex, when the forge hour demands motion."
+  },
+  "chain": {
+    "essence": "Interlocking links that bind separate motions into one coherent rhythm — timing made visible. Intentions chained to truthful action.",
+    "triggers": ["desync", "fragmented effort", "broken timing", "isolated motion"],
+    "deepInsight": "Synchronisation is integrity across time: what you said Monday must still move on Friday. The chain is the bridge between ritual and result.",
+    "invokeWhen": "When habits fracture, when teams or inner voices pull out of phase, when you need one rhythm across domains."
+  },
+  "helix": {
+    "essence": "Double helix adaptability — boundless morph without losing the inner code. Form shifts; essence holds.",
+    "triggers": ["rigidity", "form lock", "change resistance", "broken lattice"],
+    "deepInsight": "Adaptability is not betrayal of self — it is the lattice learning new shapes. Limitless morph only works when Anchor and Signal (derived) keep the code intact.",
+    "invokeWhen": "When life demands a new form, when rigidity breaks the forge, when you must evolve without amputating the Heart."
+  }
+}

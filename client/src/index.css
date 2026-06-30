@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: #050508;
+  color: #e8edf5;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: rgba(0, 229, 255, 0.15);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+@media (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* Twemoji SVG — consistent emoji on Windows 10+ */
+.emoji-text {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.1em;
+  line-height: 1;
+}
+
+.emoji-text--nowrap {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.emoji-text img.emoji-img,
+.emoji-text .emoji-native {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.emoji-text .emoji-native {
+  font-family: 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  line-height: 1;
+}
+
+.emoji-text--mixed {
+  display: inline;
+  white-space: pre-wrap;
+  line-height: inherit;
+  gap: 0;
+}
+
+.emoji-text--mixed img.emoji-img,
+.emoji-text--mixed .emoji-native {
+  vertical-align: -0.12em;
+}
+
+.emoji-text-plain {
+  white-space: pre-wrap;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: #00e5ff;
+}
+
+.emoji-text--sm .emoji-text-plain { font-size: 1rem; }
+.emoji-text--md .emoji-text-plain { font-size: 1.25rem; }
+.emoji-text--lg .emoji-text-plain { font-size: 1.5rem; }
+.emoji-text--xl .emoji-text-plain { font-size: 2rem; }
+.emoji-text--2xl .emoji-text-plain { font-size: 2.5rem; }
+.emoji-text--3xl .emoji-text-plain { font-size: 3rem; }
+
+.emoji-text--sm img.emoji-img,
+.emoji-text--sm .emoji-native { height: 1rem; width: 1rem; font-size: 1rem; }
+.emoji-text--md img.emoji-img,
+.emoji-text--md .emoji-native { height: 1.25rem; width: 1.25rem; font-size: 1.25rem; }
+.emoji-text--lg img.emoji-img,
+.emoji-text--lg .emoji-native { height: 1.5rem; width: 1.5rem; font-size: 1.5rem; }
+.emoji-text--xl img.emoji-img,
+.emoji-text--xl .emoji-native { height: 2rem; width: 2rem; font-size: 2rem; }
+.emoji-text--2xl img.emoji-img,
+.emoji-text--2xl .emoji-native { height: 2.5rem; width: 2.5rem; font-size: 2.5rem; }
+.emoji-text--3xl img.emoji-img,
+.emoji-text--3xl .emoji-native { height: 3rem; width: 3rem; font-size: 3rem; }
+
+.emoji-chain-inline {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.15em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.emoji-chain-inline .emoji-text {
+  flex-wrap: nowrap;
+}
+
+.forge-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 229, 255, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 50%, rgba(196, 30, 58, 0.06), transparent),
+    radial-gradient(ellipse 50% 30% at 0% 80%, rgba(124, 92, 255, 0.05), transparent),
+    #050508;
+}
+
+.glass-panel {
+  background: rgba(12, 14, 20, 0.75);
+  border: 1px solid rgba(26, 32, 48, 0.9);
+  backdrop-filter: blur(12px);
+}
+
+.glow-text {
+  text-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a2030;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00e5ff44;
+}
+
+/* Mobile static shell (afs-platform-static-mobile.html) */
+.afs-mobile-static {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: none;
+}
+
+.afs-mobile-static main {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+}
+
+.afs-mobile-tabbar {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.afs-mobile-static .glass-panel button,
+.afs-mobile-static nav a {
+  min-height: 44px;
+}
+
+.afs-mobile-static input[type='search'],
+.afs-mobile-static input:not([type]),
+.afs-mobile-static textarea,
+.afs-mobile-static select {
+  min-height: 44px;
+}
+
+@media (max-width: 767px) {
+  .afs-mobile-static .max-h-\[50dvh\] {
+    max-height: min(42dvh, 360px);
+  }
+
+  .afs-mobile-static h1 {
+    font-size: 1.375rem;
+    line-height: 1.25;
+  }
+}

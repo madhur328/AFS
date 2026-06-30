@@ -1,0 +1,77 @@
+{
+  "version": 3,
+  "label": "Base Layer (6)",
+  "removedSlots": [
+    { "symbol": "🔶", "name": "Forge / Value" },
+    { "symbol": "🛡️🌱", "name": "Unwavering Heart" },
+    { "symbol": "💎", "name": "Signal / Structure" }
+  ],
+  "slots": [
+    {
+      "symbol": "⚓",
+      "name": "Anchor of Stability",
+      "role": "Inner stillness / grounding",
+      "artifact": "videos/afs/images",
+      "video": "videos/afs/Anchor (inner).mp4",
+      "mantras": ["I am the still lake"],
+      "proficiency": 0.7,
+      "proficiencyKey": "anchor"
+    },
+    {
+      "symbol": "🔥",
+      "name": "Fire of Conviction",
+      "role": "Conviction / sacrifice flame",
+      "artifact": "F:\\Videos\\Born on Fire.txt",
+      "video": "videos/afs/Flames of Conviction.mp4",
+      "mantras": ["Born on fire", "Mark your desire"],
+      "proficiency": 0.75,
+      "proficiencyKey": "fire"
+    },
+    {
+      "symbol": "🔑",
+      "name": "Key of Clarity",
+      "role": "Insight / clarity",
+      "artifact": null,
+      "video": null,
+      "mantras": ["I see clearly"],
+      "proficiency": 0.5,
+      "proficiencyKey": "clarity"
+    },
+    {
+      "symbol": "🌪️",
+      "name": "Tornado of Momentum",
+      "role": "Energy + self-perpetuating momentum",
+      "artifact": null,
+      "video": null,
+      "mantras": ["Momentum is real", "Tornado sprint — volume and speed"],
+      "proficiency": 0.68,
+      "proficiencyKey": "tornado"
+    },
+    {
+      "symbol": "🔗",
+      "name": "Chain of Synchronisation",
+      "role": "Intentions bound to truthful, consistent action",
+      "artifact": null,
+      "video": null,
+      "mantras": ["I chain intention to action", "Link old momentum to new"],
+      "proficiency": 0.55,
+      "proficiencyKey": "chain"
+    },
+    {
+      "symbol": "🧬",
+      "name": "Helix of Adaptability",
+      "role": "Formless adaptability — physiological + mental bridge",
+      "artifact": null,
+      "video": null,
+      "mantras": ["I adapt without losing my core", "The helix evolves"],
+      "proficiency": 0.6,
+      "proficiencyKey": "helix"
+    }
+  ],
+  "baseAspects": {
+    "Tornado of Momentum": { "chain": "🌪️", "mantra": "Momentum is real", "link": "🌪️" },
+    "Chain of Synchronisation": { "chain": "🔗", "mantra": "I chain intention to truthful action", "link": "🔗" },
+    "Helix of Adaptability": { "chain": "🧬", "mantra": "I adapt without losing my core", "link": "🧬" }
+  },
+  "codexSummary": "⚓ Anchor · 🔥 Fire · 🔑 Clarity · 🌪️ Tornado · 🔗 Chain · 🧬 Helix"
+}

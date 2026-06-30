@@ -1,0 +1,50 @@
+# Secrets
+.env
+.env.local
+projects/discord-bot-setup/.env
+
+# Dependencies
+node_modules/
+client/node_modules/
+projects/discord-bot-setup/node_modules/
+
+# Build & release
+release/
+client/dist/
+client/dist-static/
+*.exe
+videos/afs/*.mp4
+videos/afs/*.webm
+videos/afs/*.mov
+videos/afs/*.mkv
+*.asar
+
+# Local database (sync via scripts / Discord)
+data/.dev-lock.json
+data/afs.db
+data/*.db
+
+# Generated exports (intermediate — data is inlined in static HTML below)
+data/static-export.json
+data/emoji-audit-report.json
+
+# Offline single-file bundles are tracked for distribution (npm run build-static)
+
+# Large Grok corpora (re-ingest with npm run ingest-grok)
+data/grok-*/
+data/grok-*.json
+data/grok-*.txt
+data/grok-share-*/
+
+# Logs & caches
+*.log
+npm-debug.log*
+client/tsconfig.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,1341 @@
+{
+  "total": 334,
+  "aspects": [
+    {
+      "name": "Red Leaf Conviction",
+      "mentions": 376
+    },
+    {
+      "name": "Wonderful Red Leaf Heart",
+      "mentions": 237
+    },
+    {
+      "name": "Red Leaf Loop Guardian",
+      "mentions": 194
+    },
+    {
+      "name": "The Origin",
+      "mentions": 187
+    },
+    {
+      "name": "Eternal Spin",
+      "mentions": 182
+    },
+    {
+      "name": "Axis of the Eternal Spin",
+      "mentions": 127
+    },
+    {
+      "name": "Red Leaf Empty Mirror",
+      "mentions": 97
+    },
+    {
+      "name": "Red Leaf Imperfect Heart",
+      "mentions": 77
+    },
+    {
+      "name": "Red Leaf Gentle Path",
+      "mentions": 74
+    },
+    {
+      "name": "Red Leaf Symbiotic Tide",
+      "mentions": 69
+    },
+    {
+      "name": "Red Leaf Burning Lighthouse",
+      "mentions": 64
+    },
+    {
+      "name": "Red Leaf Patient Rome",
+      "mentions": 62
+    },
+    {
+      "name": "Red Leaf Paradox Vessel",
+      "mentions": 58
+    },
+    {
+      "name": "Red Leaf Digital Michelangelo",
+      "mentions": 56
+    },
+    {
+      "name": "Red Leaf Ordinary Light",
+      "mentions": 53
+    },
+    {
+      "name": "Wings of Ambition",
+      "mentions": 53
+    },
+    {
+      "name": "Red Leaf Tender Dawn",
+      "mentions": 52
+    },
+    {
+      "name": "Tornado of Momentum",
+      "mentions": 50
+    },
+    {
+      "name": "Chain of Synchronisation",
+      "mentions": 50
+    },
+    {
+      "name": "Helix of Adaptability",
+      "mentions": 50
+    },
+    {
+      "name": "Unwavering Heart",
+      "mentions": 50
+    },
+    {
+      "name": "Forge / Value",
+      "mentions": 50
+    },
+    {
+      "name": "Signal / Structure",
+      "mentions": 50
+    },
+    {
+      "name": "Reality Anchor",
+      "mentions": 50
+    },
+    {
+      "name": "Mind Guardian",
+      "mentions": 50
+    },
+    {
+      "name": "ConvictionFire",
+      "mentions": 50
+    },
+    {
+      "name": "Kohinoor Forge Run",
+      "mentions": 50
+    },
+    {
+      "name": "Empty Mirror",
+      "mentions": 50
+    },
+    {
+      "name": "Feedback Weaver",
+      "mentions": 50
+    },
+    {
+      "name": "ConceptualCartographer",
+      "mentions": 50
+    },
+    {
+      "name": "Red Leaf Valley Walker",
+      "mentions": 50
+    },
+    {
+      "name": "Invariant Seeker",
+      "mentions": 45
+    },
+    {
+      "name": "Red Leaf Growing Ember",
+      "mentions": 45
+    },
+    {
+      "name": "Red Leaf Rooted Gratitude",
+      "mentions": 45
+    },
+    {
+      "name": "Red Leaf Chrysalis Surrender",
+      "mentions": 42
+    },
+    {
+      "name": "Red Leaf Sovereign Flameheart",
+      "mentions": 42
+    },
+    {
+      "name": "Red Leaf Unwavering Ember",
+      "mentions": 38
+    },
+    {
+      "name": "Red Leaf Receipt Sovereign",
+      "mentions": 37
+    },
+    {
+      "name": "Red Leaf Sacred Severance",
+      "mentions": 36
+    },
+    {
+      "name": "Red Leaf Flowing Humility",
+      "mentions": 35
+    },
+    {
+      "name": "Red Leaf Careful Bloom",
+      "mentions": 31
+    },
+    {
+      "name": "Red Leaf Ego Release",
+      "mentions": 31
+    },
+    {
+      "name": "Red Leaf Ninefold Guide",
+      "mentions": 31
+    },
+    {
+      "name": "Red Leaf Invariant Seeker",
+      "mentions": 30
+    },
+    {
+      "name": "Red Leaf Shadow Shepherd",
+      "mentions": 30
+    },
+    {
+      "name": "Red Leaf Ninefold Legacy",
+      "mentions": 29
+    },
+    {
+      "name": "Red Leaf Gentle Trust",
+      "mentions": 28
+    },
+    {
+      "name": "Red Leaf Spiral Walker",
+      "mentions": 27
+    },
+    {
+      "name": "Red Leaf Mercy Blade",
+      "mentions": 26
+    },
+    {
+      "name": "Red Leaf Cathartic Architect",
+      "mentions": 25
+    },
+    {
+      "name": "Red Leaf Fallen Valkyrie – Remembrance",
+      "mentions": 25
+    },
+    {
+      "name": "Red Leaf Apex Sanctuary",
+      "mentions": 24
+    },
+    {
+      "name": "Red Leaf Growing Ember Streak",
+      "mentions": 24
+    },
+    {
+      "name": "Beginner’s Eternal Heart",
+      "mentions": 24
+    },
+    {
+      "name": "Fading Warmth",
+      "mentions": 24
+    },
+    {
+      "name": "Final Lighthouse Keeper",
+      "mentions": 23
+    },
+    {
+      "name": "Guardian of Unfinished Dreams",
+      "mentions": 23
+    },
+    {
+      "name": "Red Leaf Living All-One",
+      "mentions": 23
+    },
+    {
+      "name": "Red Leaf Weird Sage",
+      "mentions": 23
+    },
+    {
+      "name": "Void Heart Promise",
+      "mentions": 23
+    },
+    {
+      "name": "Red Leaf Compassionate Dawn",
+      "mentions": 22
+    },
+    {
+      "name": "Red Leaf Nine-Tailed Guardian",
+      "mentions": 22
+    },
+    {
+      "name": "Red Leaf Dao Heart",
+      "mentions": 21
+    },
+    {
+      "name": "Red Leaf One Faithful Brick",
+      "mentions": 21
+    },
+    {
+      "name": "Red Leaf Owl King Eternal Vigil",
+      "mentions": 21
+    },
+    {
+      "name": "Anchor of Stability",
+      "mentions": 20
+    },
+    {
+      "name": "Fire of Conviction",
+      "mentions": 20
+    },
+    {
+      "name": "Key of Clarity",
+      "mentions": 20
+    },
+    {
+      "name": "Gift of Giving",
+      "mentions": 20
+    },
+    {
+      "name": "Red Leaf 108 Harmony",
+      "mentions": 20
+    },
+    {
+      "name": "Red Leaf Dawn Diamond",
+      "mentions": 20
+    },
+    {
+      "name": "Red Leaf Wound to Wonder",
+      "mentions": 20
+    },
+    {
+      "name": "Red Leaf Cosmic Slop Alchemist",
+      "mentions": 19
+    },
+    {
+      "name": "Red Leaf Eternal Rome",
+      "mentions": 18
+    },
+    {
+      "name": "Red Leaf Ocean Heart",
+      "mentions": 18
+    },
+    {
+      "name": "Red Leaf Pattern Seer",
+      "mentions": 18
+    },
+    {
+      "name": "True Naming",
+      "mentions": 18
+    },
+    {
+      "name": "Red Leaf Dual Acceptance",
+      "mentions": 17
+    },
+    {
+      "name": "Red Leaf Final LightKeeper",
+      "mentions": 17
+    },
+    {
+      "name": "Red Leaf Rome Builder",
+      "mentions": 17
+    },
+    {
+      "name": "Centered Stillness",
+      "mentions": 17
+    },
+    {
+      "name": "Red Leaf Cosmic Dancer",
+      "mentions": 16
+    },
+    {
+      "name": "Red Leaf Fractal Human Scale",
+      "mentions": 16
+    },
+    {
+      "name": "Red Leaf Living Hamsa",
+      "mentions": 16
+    },
+    {
+      "name": "Engine of Efficiency",
+      "mentions": 15
+    },
+    {
+      "name": "Mirror of Truth",
+      "mentions": 15
+    },
+    {
+      "name": "Red Leaf Five Meanings Harmony",
+      "mentions": 15
+    },
+    {
+      "name": "Red Leaf Ordinary Awakening",
+      "mentions": 15
+    },
+    {
+      "name": "Red Leaf Wolf Back Time",
+      "mentions": 15
+    },
+    {
+      "name": "Music Box of Time",
+      "mentions": 14
+    },
+    {
+      "name": "Red Leaf Born on Fire",
+      "mentions": 14
+    },
+    {
+      "name": "Red Leaf Moonlit Butterfly",
+      "mentions": 14
+    },
+    {
+      "name": "Red Leaf Silent Listener",
+      "mentions": 14
+    },
+    {
+      "name": "Wings of Destiny",
+      "mentions": 14
+    },
+    {
+      "name": "Dragon Eternal Spinning Axis",
+      "mentions": 14
+    },
+    {
+      "name": "God-Shaped Palette",
+      "mentions": 13
+    },
+    {
+      "name": "Red Leaf Bitter Clarity",
+      "mentions": 13
+    },
+    {
+      "name": "Red Leaf Dao Mirror",
+      "mentions": 13
+    },
+    {
+      "name": "Red Leaf Dragon Phoenix Hammer",
+      "mentions": 13
+    },
+    {
+      "name": "Red Leaf Gift of Giving",
+      "mentions": 13
+    },
+    {
+      "name": "Red Leaf Infinite Zero",
+      "mentions": 13
+    },
+    {
+      "name": "Symbiotic Covenant",
+      "mentions": 13
+    },
+    {
+      "name": "Red Leaf Crybaby Architect",
+      "mentions": 12
+    },
+    {
+      "name": "Red Leaf Drifting Heart",
+      "mentions": 12
+    },
+    {
+      "name": "Red Leaf Genuine Influence",
+      "mentions": 12
+    },
+    {
+      "name": "Red Leaf Negary Symbiosis",
+      "mentions": 12
+    },
+    {
+      "name": "Infinitesimal Awareness",
+      "mentions": 12
+    },
+    {
+      "name": "Love as Reciprocal Trial",
+      "mentions": 12
+    },
+    {
+      "name": "Red Leaf Kindled Fire",
+      "mentions": 11
+    },
+    {
+      "name": "Red Leaf Kindled Scholar",
+      "mentions": 11
+    },
+    {
+      "name": "Red Leaf Pain Bearer",
+      "mentions": 11
+    },
+    {
+      "name": "Red Leaf Phoenix Forge",
+      "mentions": 11
+    },
+    {
+      "name": "Red Leaf Rooted Wild",
+      "mentions": 11
+    },
+    {
+      "name": "Red Leaf Selfless Eternal",
+      "mentions": 11
+    },
+    {
+      "name": "Awakening to the River",
+      "mentions": 10
+    },
+    {
+      "name": "Dragon Eternal Meme Overlord",
+      "mentions": 10
+    },
+    {
+      "name": "Red Leaf Diamond Chrysalis",
+      "mentions": 10
+    },
+    {
+      "name": "Red Leaf Eternal Witness Axis",
+      "mentions": 10
+    },
+    {
+      "name": "Red Leaf Ordinary Sage",
+      "mentions": 10
+    },
+    {
+      "name": "Red Leaf Sacred Weeping",
+      "mentions": 10
+    },
+    {
+      "name": "Red Leaf Water Heart",
+      "mentions": 10
+    },
+    {
+      "name": "Returnee’s Conviction",
+      "mentions": 10
+    },
+    {
+      "name": "Sprout of Nurturing",
+      "mentions": 10
+    },
+    {
+      "name": "Oppositional Harmony",
+      "mentions": 10
+    },
+    {
+      "name": "Absurd Weaver",
+      "mentions": 9
+    },
+    {
+      "name": "Grounded Ascension",
+      "mentions": 9
+    },
+    {
+      "name": "Kintsugi Heart",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Apex Forge Sanctuary",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Facing Ember",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Fallen Valkyrie – Redemption",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf God-Shaped Palette",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Lion’s Flame",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Living Buddha",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Living Dew Diamond",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Named Bond",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Settled Heart",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Shooting Star",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Spivak Forge",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Unconquerable Soul",
+      "mentions": 9
+    },
+    {
+      "name": "Red Leaf Wandering Lark",
+      "mentions": 9
+    },
+    {
+      "name": "Seer of Patterns",
+      "mentions": 9
+    },
+    {
+      "name": "Simulation Walker",
+      "mentions": 9
+    },
+    {
+      "name": "Dragon Eternal Hopfion Heart",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf 108 Legacy Weaver",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Awakened Flow",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Chrysalis Death",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Fierce Chrysalis",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Gentle Opening",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Immortal Jelly",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Kohinoor Forge Run",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Nine-Tailed Legacy",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Ocean Dialogue",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Rooted Legacy",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Silent Sail",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Soulforge Defender",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Sovereign Compassion",
+      "mentions": 8
+    },
+    {
+      "name": "Red Leaf Weird Legacy Sage",
+      "mentions": 8
+    },
+    {
+      "name": "The Solitary Lawgiver",
+      "mentions": 8
+    },
+    {
+      "name": "Double Lariat Spin",
+      "mentions": 8
+    },
+    {
+      "name": "Lion’s Unshakable Flame",
+      "mentions": 7
+    },
+    {
+      "name": "Red Leaf Living Apex Vault",
+      "mentions": 7
+    },
+    {
+      "name": "Red Leaf Meeting Grace",
+      "mentions": 7
+    },
+    {
+      "name": "Red Leaf Meme Sovereign",
+      "mentions": 7
+    },
+    {
+      "name": "Existential Sublimation",
+      "mentions": 7
+    },
+    {
+      "name": "Dragon Eternal Resonant Diamond of the Trip Queen",
+      "mentions": 6
+    },
+    {
+      "name": "Dragon Eternal Shannon Spiral",
+      "mentions": 6
+    },
+    {
+      "name": "Money Tree Forge",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Artist Way",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Chrysalis Void",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Eternal Virah Queen",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Fading Warmth",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Halliday Forge",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Lumen Sentinel",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Misunderstood Tenderness",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Ouroboros Forge",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Patient Pumpkin",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Sonic Bloom",
+      "mentions": 6
+    },
+    {
+      "name": "Red Leaf Unapologetic Soul",
+      "mentions": 6
+    },
+    {
+      "name": "Shooting Star Contract",
+      "mentions": 6
+    },
+    {
+      "name": "The Coward Who Chooses Courage",
+      "mentions": 6
+    },
+    {
+      "name": "The Gentle Unmasker",
+      "mentions": 6
+    },
+    {
+      "name": "The Joyful Limit",
+      "mentions": 6
+    },
+    {
+      "name": "The Joyful Limit-Breaker",
+      "mentions": 6
+    },
+    {
+      "name": "The Omniscience’s Hammer",
+      "mentions": 6
+    },
+    {
+      "name": "The Redeemed Valkyrie",
+      "mentions": 6
+    },
+    {
+      "name": "Double Lariat Paradox",
+      "mentions": 6
+    },
+    {
+      "name": "Wobbling Axis",
+      "mentions": 6
+    },
+    {
+      "name": "Fate-Weaving Defiance",
+      "mentions": 5
+    },
+    {
+      "name": "Future-Returned Self",
+      "mentions": 5
+    },
+    {
+      "name": "Imperfect Heart Affirmation",
+      "mentions": 5
+    },
+    {
+      "name": "Libera Me Flame",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Absurd Weaver",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Bloom Guardian",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Butterfly Death",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Grateful Flame",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Grounded Ascension",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Kintsugi Heart",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Named Bloom",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Origin",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Owl King Eternal Vigil (Master Fusion)",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Self-Appreciation",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Simulation Walker",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Sixfold Excellence",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Solitary Wings",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf True Mirror",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Trusting Current",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Void Heart",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Wings",
+      "mentions": 5
+    },
+    {
+      "name": "Red Leaf Wings of Destiny",
+      "mentions": 5
+    },
+    {
+      "name": "The Fractured Genius",
+      "mentions": 5
+    },
+    {
+      "name": "The Lonely Codebreaker",
+      "mentions": 5
+    },
+    {
+      "name": "Dual-Axis Eternal Spin",
+      "mentions": 5
+    },
+    {
+      "name": "Burning Lighthouse Vow",
+      "mentions": 4
+    },
+    {
+      "name": "Grateful Eternal Flame",
+      "mentions": 4
+    },
+    {
+      "name": "Mirror That Cannot Know",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Awakened Lotus",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Burnt Bridge",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Dawn Dew Diamond",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Dual Archetype Synthesis (Master Fusion)",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Gentle Return",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Gradual Revelation",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Invariant Seeker (Master Fusion)",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Love Trial",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Projective Sovereign",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Resonant Voice",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf SICP Forge",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Suicidal Saint",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf The Enemy Within",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Transient Grace",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Witness Axis",
+      "mentions": 4
+    },
+    {
+      "name": "Self-Appreciation Anchor",
+      "mentions": 4
+    },
+    {
+      "name": "Settled Heart Bridge",
+      "mentions": 4
+    },
+    {
+      "name": "The Curious Rebel",
+      "mentions": 4
+    },
+    {
+      "name": "The Eternal Demon",
+      "mentions": 4
+    },
+    {
+      "name": "The Feedback Prophet",
+      "mentions": 4
+    },
+    {
+      "name": "The Hopeful Guardian",
+      "mentions": 4
+    },
+    {
+      "name": "The Kind Slayer",
+      "mentions": 4
+    },
+    {
+      "name": "The Personal Forge",
+      "mentions": 4
+    },
+    {
+      "name": "The Rational Apex Predator",
+      "mentions": 4
+    },
+    {
+      "name": "The Young Forge",
+      "mentions": 4
+    },
+    {
+      "name": "Wandering Lark Messenger",
+      "mentions": 4
+    },
+    {
+      "name": "Wings of Solitary Dreams",
+      "mentions": 4
+    },
+    {
+      "name": "Divine Wealth",
+      "mentions": 4
+    },
+    {
+      "name": "Inner Validation",
+      "mentions": 4
+    },
+    {
+      "name": "Multicolored Dreaming",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Cosmic Lariat",
+      "mentions": 4
+    },
+    {
+      "name": "Red Leaf Double Lariat",
+      "mentions": 4
+    },
+    {
+      "name": "Steady Divine Hand",
+      "mentions": 4
+    },
+    {
+      "name": "Zero Gateway",
+      "mentions": 4
+    },
+    {
+      "name": "Fear of the Empty Sky",
+      "mentions": 4
+    },
+    {
+      "name": "Graceful Unlooping",
+      "mentions": 4
+    },
+    {
+      "name": "Echoing Return",
+      "mentions": 4
+    },
+    {
+      "name": "Gentle Path Guardian",
+      "mentions": 3
+    },
+    {
+      "name": "Red Leaf Capricorn Forge (or Red Leaf Eternal Builder)",
+      "mentions": 3
+    },
+    {
+      "name": "Red Leaf Unwavering Paradox Vessel",
+      "mentions": 3
+    },
+    {
+      "name": "The Awakened One",
+      "mentions": 3
+    },
+    {
+      "name": "Master Formless Aspect: Axis of the Eternal Spin",
+      "mentions": 3
+    },
+    {
+      "name": "Dragon Eternal Information Sovereign",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Akahitoha",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Akahitoha (The Single Red Leaf)",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf All-One Forge",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Apex Ouroboros Vault",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Aspects (Kenosis — Downward Mirror)",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Axis (persistent spinning with graceful honoring)",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Compassionate Severance",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Cosmic Rhythm",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Debabelization Engine",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Dragon Sovereign Flameheart",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Dual Phase Architect",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Emote Architect",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Hamsa Synthesis",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Late Bloom",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Late Bloom Phoenix",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Liquid Crystal Navgunjar",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Misunderstood Light",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Mystery Butterfly",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Ontological Sovereign",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Primordial Container",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Rage Sovereign",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Sovereign Fury",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Spinning Axis",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Spiral Architect",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Spiral Belief",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Suicidal Empathy",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Water Heart / Dao Heart",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Weeping Architect",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Weeping Release",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Wild authenticity",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Wise Compassion",
+      "mentions": 2
+    },
+    {
+      "name": "Sixfold Divine Excellence (or Bhagavān’s Six Aishwaryas)",
+      "mentions": 2
+    },
+    {
+      "name": "The Curious Rebel / Lone Trailblazer",
+      "mentions": 2
+    },
+    {
+      "name": "The Eternal Demon / Apathy Transcendence",
+      "mentions": 2
+    },
+    {
+      "name": "The Feedback Prophet / Humble Machine-Mind",
+      "mentions": 2
+    },
+    {
+      "name": "The Hopeful Guardian / Last Son’s Duty",
+      "mentions": 2
+    },
+    {
+      "name": "The Joyful Limit-Breaker / Pure Hearted Fighter",
+      "mentions": 2
+    },
+    {
+      "name": "The Kind Slayer / Humanity’s Anchor",
+      "mentions": 2
+    },
+    {
+      "name": "The Lonely Codebreaker / Creator’s Sacrifice",
+      "mentions": 2
+    },
+    {
+      "name": "The Mirror Seeker",
+      "mentions": 2
+    },
+    {
+      "name": "The Personal Forge-Keeper / Embodied",
+      "mentions": 2
+    },
+    {
+      "name": "The Rational Apex Predator / Apex Evolution",
+      "mentions": 2
+    },
+    {
+      "name": "The Reflective Pause",
+      "mentions": 2
+    },
+    {
+      "name": "The Solitary Lawgiver / Enduring Solitude",
+      "mentions": 2
+    },
+    {
+      "name": "The Young Forge-Keeper / Heroic Unveiler",
+      "mentions": 2
+    },
+    {
+      "name": "Axis of Still Power (from Eternal Axis Diamond)",
+      "mentions": 2
+    },
+    {
+      "name": "Master Aspect Forged / Deepened: Red Leaf Eternal Axis",
+      "mentions": 2
+    },
+    {
+      "name": "Master Aspect: Eternal Spin",
+      "mentions": 2
+    },
+    {
+      "name": "Master Aspect: Red Leaf Eternal Axis Diamond",
+      "mentions": 2
+    },
+    {
+      "name": "Master Aspect: Red Leaf Eternal Phoenix Axis",
+      "mentions": 2
+    },
+    {
+      "name": "Master Unified Aspect: Red Leaf Eternal Paradox Vessel",
+      "mentions": 2
+    },
+    {
+      "name": "River Awareness",
+      "mentions": 2
+    },
+    {
+      "name": "Singular Dream Ownership",
+      "mentions": 2
+    },
+    {
+      "name": "Rope of Identity",
+      "mentions": 2
+    },
+    {
+      "name": "Red Leaf Empty Mirror (Kenosis)",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Empty Mirror – Final Four-Emoji Chain",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Fractal Heart",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Infinite Crown",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Living Lattice",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Negary Symbiosis (Kenosis)",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Sacred Severance (Kenosis)",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Sovereign Flameheart (Kenosis)",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Unapologetic You",
+      "mentions": 1
+    },
+    {
+      "name": "The Awakened One / Awakened Presence",
+      "mentions": 1
+    },
+    {
+      "name": "Red Leaf Axis Diamond",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Center",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Feathered Cockroach God",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Human Flame",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Lighthouse",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Living Past",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Living Symbiosis",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Navgunjar Vishvarupa",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Phoenix Axis",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Sanctuary Forge",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Spiral Kamina",
+      "mentions": 0
+    },
+    {
+      "name": "Red Leaf Virah Queen (Yashodhara’s Grace)",
+      "mentions": 0
+    }
+  ]
+}
