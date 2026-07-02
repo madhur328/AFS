@@ -241,13 +241,55 @@ function seed() {
   console.log('AFS database seeded successfully.');
 }
 
+function parseStoredRadiantFaces(aspect) {
+  if (!aspect.detail_json) return [];
+  try {
+    const detail = JSON.parse(aspect.detail_json);
+    return (detail.radiantFaces || []).filter((f) => f?.name);
+  } catch {
+    return [];
+  }
+}
+
+function rebuildSearchIndexFromStored() {
+  const { deferSave } = require('./db');
+  deferSave(() => {
+    const { searchAliasPhrases } = require('./services/aspect-search-aliases');
+    db.prepare('DELETE FROM search_index').run();
+    const insert = db.prepare('INSERT INTO search_index (entity_type, entity_id, title, body, tags) VALUES (?,?,?,?,?)');
+
+    db.prepare('SELECT id, name, comprehension, mantra, tier, category, detail_json FROM aspects').all().forEach((r) => {
+      const aliasText = searchAliasPhrases(r.name).join(' ');
+      insert.run(
+        'aspect',
+        r.id,
+        r.name,
+        `${r.comprehension || ''} ${r.mantra || ''} ${aliasText}`.trim(),
+        `${r.tier} ${r.category}`
+      );
+      for (const face of parseStoredRadiantFaces(r)) {
+        insert.run(
+          'aspect',
+          r.id,
+          face.name,
+          `${r.name} — ${face.mantra || ''}`,
+          `diamond_face ${r.tier} ${r.category}`
+        );
+      }
+    });
+    rebuildSearchIndexNonAspects(insert);
+  });
+}
+
 function rebuildSearchIndex() {
+  const { deferSave } = require('./db');
+  deferSave(() => {
   const { resolveDiamondFaces } = require('./services/aspect-detail');
   const { searchAliasPhrases } = require('./services/aspect-search-aliases');
   db.prepare('DELETE FROM search_index').run();
   const insert = db.prepare('INSERT INTO search_index (entity_type, entity_id, title, body, tags) VALUES (?,?,?,?,?)');
 
-  db.prepare('SELECT * FROM aspects').all().forEach((r) => {
+  db.prepare('SELECT id, name, comprehension, mantra, tier, category, detail_json FROM aspects').all().forEach((r) => {
     const aliasText = searchAliasPhrases(r.name).join(' ');
     insert.run(
       'aspect',
@@ -266,6 +308,11 @@ function rebuildSearchIndex() {
       );
     }
   });
+  rebuildSearchIndexNonAspects(insert);
+  });
+}
+
+function rebuildSearchIndexNonAspects(insert) {
   db.prepare('SELECT * FROM codex_entries').all().forEach((r) => {
     insert.run('codex', r.id, r.title, r.content, r.category);
   });
@@ -313,4 +360,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { seed, rebuildSearchIndex };
+module.exports = { seed, rebuildSearchIndex, rebuildSearchIndexFromStored };

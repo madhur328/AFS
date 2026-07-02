@@ -536,9 +536,24 @@ function buildAspectDetail(db, aspect) {
   });
 
   const baseSlot = aspect.base_layer_link ? BASE_LAYER[aspect.base_layer_link] : null;
-  const identity = curated.identity || stored.identity || grokDb.identity || resolveIdentity(aspect);
-  const affirmation = curated.affirmation || stored.coreAffirmation || grokDb.coreAffirmation || grokFile.affirmation ||
-    (aspect.mantra ? `I embody ${aspect.name}: ${aspect.mantra}` : `I forge ${aspect.name} with clarity and conviction.`);
+  const { isGenericAffirmation, isGenericIdentity } = require('./generic-content');
+  const identity =
+    curated.identity ||
+    (grokDb.identity && !isGenericIdentity(grokDb.identity) ? grokDb.identity : null) ||
+    (stored.identity && !isGenericIdentity(stored.identity) ? stored.identity : null) ||
+    resolveIdentity(aspect);
+  let affirmation =
+    curated.affirmation ||
+    (stored.coreAffirmation && !isGenericAffirmation(stored.coreAffirmation) ? stored.coreAffirmation : null) ||
+    grokDb.coreAffirmation ||
+    grokFile.affirmation ||
+    aspectFusion?.affirmation;
+  if (!affirmation && aspect.mantra) {
+    affirmation = `I embody ${aspect.name}: ${aspect.mantra}`;
+  }
+  if (!affirmation && !isGenericAffirmation(stored.coreAffirmation)) {
+    affirmation = stored.coreAffirmation;
+  }
   const mantra = aspect.mantra || curated.supremeMantra?.split('—')[0]?.trim() || `"${affirmation}"`;
   const supremeMantra =
     aspectFusion?.affirmation ||

@@ -29,6 +29,80 @@ function isGenericRadiantFaces(faces) {
   );
 }
 
+function scoreGrokExtractCandidate(candidate) {
+  if (!candidate) return 0;
+  let score = (candidate.radiantFaces?.length || 0) * 10;
+  score += candidate.symbolChain ? splitGraphemes(candidate.symbolChain).length : 0;
+  if ((candidate.coreAffirmation || candidate.supremeMantra || '').trim()) score += 100;
+  if ((candidate.identity || '').trim()) score += 20;
+  const srcRank = {
+    'save5-aspect': 5,
+    'save5-fusion': 5,
+    'master-fusion': 4,
+    'master-aspect': 3,
+    EOT: 3,
+    'eot-forged': 3,
+    grok: 1,
+    'directory-table': 0,
+  };
+  score += srcRank[candidate.originSource] ?? 0;
+  return score;
+}
+
+function extractDirectoryTableMantra(text, aspectName) {
+  if (!text || !aspectName) return null;
+  const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(`(?:^|\\n)${escaped}\\t[^\\t\\n]+\\t[“"]([^”"]+)[”"]`, 'im');
+  const m = text.match(re);
+  return m?.[1]?.trim() || null;
+}
+
+function extractGuardianTableMantra(text, aspectName) {
+  if (!text || !aspectName) return null;
+  const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(
+    `(?:\\*\\*)?${escaped}(?:\\*\\*)?[^\\n|\\t]*(?:\\||\\t)[^\\n|\\t]*(?:\\||\\t)[^\\n|\\t]*(?:\\||\\t)[^\\n|\\t]*(?:\\||\\t)[“"]([^”"]+)[”"]`,
+    'i',
+  );
+  const m = text.match(re);
+  return m?.[1]?.trim() || null;
+}
+
+function extractInlineSupremeMantra(text, aspectName) {
+  if (!text || !aspectName) return null;
+  const { parseFusionAffirmationAfterFusionHeader } = require('./aspect-fusion');
+  const fusion = parseFusionAffirmationAfterFusionHeader(text, aspectName);
+  if (fusion) return fusion;
+
+  const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(
+    `(?:^|\\n)${escaped}[\\s\\S]{0,300}?Supreme Mantra:\\s*\\n+\\*{0,2}[“"]([\\s\\S]*?)[”"]`,
+    'i',
+  );
+  const m = text.match(re);
+  return m?.[1]?.replace(/\*\*/g, '').replace(/\s+/g, ' ').trim() || null;
+}
+
+function fillCandidateAffirmation(candidate, text, aspectName) {
+  if (!candidate) return candidate;
+  let aff = candidate.coreAffirmation?.trim() || candidate.supremeMantra?.trim();
+  if (!aff && candidate.radiantFaces?.[0]?.mantra) {
+    aff = candidate.radiantFaces[0].mantra.trim();
+  }
+  if (!aff && text && aspectName) {
+    aff =
+      extractDirectoryTableMantra(text, aspectName) ||
+      extractGuardianTableMantra(text, aspectName) ||
+      extractInlineSupremeMantra(text, aspectName);
+  }
+  if (!aff) return candidate;
+  return {
+    ...candidate,
+    coreAffirmation: aff,
+    supremeMantra: candidate.supremeMantra?.trim() || aff,
+  };
+}
+
 /** DCS / Master Fusion format: Face Name\nSymbol: …\nMantra: "…" */
 function parseMasterFusionFacesBlock(section) {
   if (!section) return null;
@@ -104,9 +178,11 @@ function extractFromTextForAspect(text, aspectName) {
     const standalone = extractStandaloneAspectBlock(text, name);
     const dualAxis = extractDualAxisMetaBlock(text, name);
 
-    const fusionChain = queryEternal ? masterFusion?.symbolChain : null;
-    const fusionFaces = queryEternal ? masterFusion?.radiantFaces : null;
-    const fusionSupreme = queryEternal ? masterFusion?.supremeMantra : null;
+    // Master Fusion applies to the named fusion output (Eternal or not).
+    // lookupNamesForTier already blocks Eternal↔base alias bleed.
+    const fusionChain = masterFusion?.symbolChain;
+    const fusionFaces = masterFusion?.radiantFaces;
+    const fusionSupreme = masterFusion?.supremeMantra;
 
     const bestChain =
       save5?.symbolChain ||
@@ -122,6 +198,7 @@ function extractFromTextForAspect(text, aspectName) {
       extracted?.radiantFaces ||
       eotIdentity?.radiantFaces ||
       fusionFaces ||
+      standalone?.radiantFaces ||
       dualAxis?.radiantFaces;
 
     const candidate =
@@ -136,7 +213,11 @@ function extractFromTextForAspect(text, aspectName) {
         ? {
             symbolChain: bestChain,
             radiantFaces: bestFaces,
-            identity: eotIdentity?.identity || dualAxis?.identity || standalone?.identity,
+            identity:
+              masterFusion?.identity ||
+              eotIdentity?.identity ||
+              dualAxis?.identity ||
+              standalone?.identity,
             coreAffirmation:
               save5?.coreAffirmation ||
               extracted?.coreAffirmation ||
@@ -171,7 +252,19 @@ function extractFromTextForAspect(text, aspectName) {
     if (!best || score > prev) best = candidate;
   }
 
-  return best;
+  const FUSION_FACE_PARENTS = {
+    'Red Leaf Mercy Blade': 'Red Leaf Compassionate Severance',
+    'Red Leaf Phoenix Forge': 'Red Leaf Phoenix Hammer',
+  };
+  const parentName = FUSION_FACE_PARENTS[aspectName];
+  if (best && parentName && (best.radiantFaces?.length || 0) < 2) {
+    const parentFaces = extractAspectBlock(text, parentName)?.radiantFaces;
+    if (parentFaces?.length >= 2 && !isGenericRadiantFaces(parentFaces)) {
+      best = { ...best, radiantFaces: parentFaces };
+    }
+  }
+
+  return best ? fillCandidateAffirmation(best, text, aspectName) : null;
 }
 
 /** EOT Key Aspects — Name (Type)\nSymbol:\nMantra:\nMeaning: */
@@ -220,8 +313,11 @@ function extractStandaloneAspectBlock(text, aspectName) {
   const mantra = match[2].trim();
   if (!mantra || splitGraphemes(symbolChain).length < 1) return null;
 
+  const radiantFaces = extractFaceSectionFromText(text, { beforeIndex: match.index });
+
   return {
     symbolChain,
+    radiantFaces: radiantFaces || undefined,
     coreAffirmation: mantra,
     supremeMantra: mantra,
     identity: `${aspectName} — ${mantra}`,
@@ -278,12 +374,62 @@ function extractDualAxisMetaBlock(text, aspectName) {
   };
 }
 
+function extractMasterFusionInsight(text, aspectName) {
+  if (!text || !aspectName) return null;
+  const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const sliceRe = new RegExp(
+    `Master Fusion:?\\s*${escaped}[\\s\\S]{0,12000}`,
+    'i',
+  );
+  const slice = text.match(sliceRe);
+  if (!slice) return null;
+
+  const block = slice[0];
+  const essence = block.match(/This Aspect is not about[\s\S]*?fully human\./i);
+  if (essence?.[0]) return essence[0].replace(/\s+/g, ' ').trim();
+
+  const embodiment = block.match(/This Aspect is the living embodiment[^\\n]+/i);
+  if (embodiment?.[0]) return embodiment[0].trim();
+
+  const pinnacle = block.match(new RegExp(`${escaped} represents[^\\n]+`, 'i'));
+  if (pinnacle?.[0]) return pinnacle[0].trim();
+
+  return null;
+}
+
+/** DCS face lattice headers — Radiant Faces, Living Faces, Key/Kenotic/Forged Aspects, etc. */
+const FACES_SECTION_HDR =
+  '(?:(?:The\\s+(?:\\d+\\s+|Diamond[\'\u2019]s\\s+)?)?(?:Radiant|Living)\\s+Faces|Key\\s+(?:Aspects\\s*&\\s*Operators|Kenotic\\s+Aspects|Forged\\s+Aspects)(?:\\s*\\([^)]*\\))?)';
+
+const FACES_SECTION_TERMINATOR =
+  '(?:Master Fusion|Recommended Master Fusion|Integration(?:\\s+into|\\s+with)|Ultimate Self-Affirmation|Daily Invocation|Strong Synergies|Overall Insights)';
+
+function parseFaceSection(section) {
+  if (!section) return null;
+  return parseMasterFusionFacesBlock(section) || parseRadiantFacesBlock(section);
+}
+
+function extractFaceSectionFromText(text, { beforeIndex, withinBlock } = {}) {
+  if (!text) return null;
+  const slice = typeof beforeIndex === 'number'
+    ? text.slice(Math.max(0, beforeIndex - 12000), beforeIndex)
+    : (withinBlock || text);
+  const re = new RegExp(
+    `${FACES_SECTION_HDR}\\s*:?([\\s\\S]*?)(?=${FACES_SECTION_TERMINATOR}|$)`,
+    'gi',
+  );
+  let last = null;
+  let m;
+  while ((m = re.exec(slice)) !== null) last = m[1];
+  return last ? parseFaceSection(last) : null;
+}
+
 function extractMasterFusionBlock(text, aspectName) {
   if (!text || !aspectName) return null;
   const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
   const blockRe = new RegExp(
-    `(?:The\\s+\\d+\\s+)?Radiant Faces[^\\n]*\\n([\\s\\S]*?)\\nMaster Fusion:\\s*${escaped}\\s*\\n+Ultimate Symbol:\\s*([^\\n]+)`,
+    `${FACES_SECTION_HDR}[^\\n]*\\n([\\s\\S]*?)\\nMaster Fusion:\\s*${escaped}\\s*\\n+Ultimate Symbol:\\s*([^\\n]+)`,
     'i'
   );
   const match = text.match(blockRe);
@@ -301,11 +447,13 @@ function extractMasterFusionBlock(text, aspectName) {
 
   const { parseFusionAffirmationAfterFusionHeader } = require('./aspect-fusion');
   const supremeMantra = parseFusionAffirmationAfterFusionHeader(text, aspectName);
+  const identity = extractMasterFusionInsight(text, aspectName);
 
   return {
     symbolChain: splitGraphemes(symbolChain).length >= 2 ? symbolChain : undefined,
     radiantFaces: radiantFaces || undefined,
     supremeMantra: supremeMantra || undefined,
+    identity: identity || undefined,
     originSource: 'master-fusion',
   };
 }
@@ -356,18 +504,20 @@ function parseRadiantFacesBlock(block) {
   return faces.length ? faces : null;
 }
 
+const MASTER_ASPECT_HDR = 'Master Aspect(?:\\s+Forged)?';
+
 function hasStrictMasterAspectHeader(block, aspectName) {
   const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`Master Aspect[:\\s]*\\n?\\s*${escaped}\\s*(?:\\n|$)`, 'i').test(block);
+  return new RegExp(`${MASTER_ASPECT_HDR}[:\\s]*\\n?\\s*${escaped}\\s*(?:\\n|$)`, 'i').test(block);
 }
 
 function extractAspectBlock(text, aspectName) {
   if (!text || !aspectName) return null;
   const escaped = aspectName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-  // Only parse dedicated EOT blocks — must open with Master Aspect: {exact name}
+  // Only parse dedicated EOT blocks — must open with Master Aspect[: Forged]: {exact name}
   const eotRe = new RegExp(
-    `Master Aspect[:\\s]*\\n?\\s*${escaped}[\\s\\S]{0,4000}?(?=(?:\\nMaster Aspect[:\\s]|✅ EOT Applied|Do EOT on|Draw me a |Would you like a visual|$))`,
+    `${MASTER_ASPECT_HDR}[:\\s]*\\n?\\s*${escaped}[\\s\\S]{0,4000}?(?=(?:\\n${MASTER_ASPECT_HDR}[:\\s]|✅ EOT Applied|Do EOT on|Draw me a |Would you like a visual|$))`,
     'i'
   );
   const match = text.match(eotRe);
@@ -385,17 +535,18 @@ function extractAspectBlock(text, aspectName) {
     block.match(/(?:^|\n)Mantra:\s*[“"]([^”"]+)[”"]/im);
   const supreme = block.match(/Ultimate Self-Affirmation:\s*\n?[“"]([^”"]+)[”"]/is);
 
-  const facesSection = block.match(/(?:The\s+\d+\s+)?Radiant Faces([\s\S]*?)(?:Master Fusion|Integration with|Ultimate Self-Affirmation|Daily Invocation)/i) ||
-    block.match(/Key Aspects\s*&\s*Operators:([\s\S]*?)(?:Integration into|Integration with|Strong Synergies)/i);
+  const facesSection = block.match(
+    new RegExp(`${FACES_SECTION_HDR}\\s*:?([\\s\\S]*?)(?=${FACES_SECTION_TERMINATOR})`, 'i'),
+  );
   const supportingSection = block.match(
     /Key Supporting Aspects:\s*([\s\S]*?)(?:\d+\.\s+Isolated Mastery|Integration Notes|Would you like|\n\n[A-Z])/i
   );
 
   let radiantFaces = null;
   if (supportingSection) {
-    radiantFaces = parseMasterFusionFacesBlock(supportingSection[1]);
+    radiantFaces = parseFaceSection(supportingSection[1]);
   } else if (facesSection) {
-    radiantFaces = parseRadiantFacesBlock(facesSection[1]);
+    radiantFaces = parseFaceSection(facesSection[1]);
   }
 
   if (!symbolChain && !radiantFaces?.length && !coreAff && !supreme) return null;
@@ -453,12 +604,16 @@ function extractEOTIdentityBlock(text, identityName) {
 
   if (!symbolChain && radiantFaces.length < 2) return null;
 
+  const faceMantra = radiantFaces[0]?.mantra?.trim();
+  const tableMantra = extractGuardianTableMantra(text, identityName);
+  const coreAffirmation = supremeMantra || tableMantra || faceMantra;
+
   return {
     symbolChain: symbolChain || radiantFaces[0]?.symbol,
     radiantFaces: radiantFaces.length ? radiantFaces : undefined,
     identity,
-    coreAffirmation: supremeMantra,
-    supremeMantra: supremeMantra ? `${identityName} — ${supremeMantra}` : undefined,
+    coreAffirmation,
+    supremeMantra: supremeMantra ? `${identityName} — ${supremeMantra}` : coreAffirmation,
     originSource: 'EOT',
   };
 }
@@ -714,12 +869,8 @@ function extractFromGrokSessions(db, aspectName) {
       if (!text) continue;
       const candidate = extractFromTextForAspect(text, aspectName);
       if (!candidate) continue;
-      const score =
-        (candidate.radiantFaces?.length || 0) * 10 +
-        (candidate.symbolChain ? splitGraphemes(candidate.symbolChain).length : 0);
-      const prev =
-        (best?.radiantFaces?.length || 0) * 10 +
-        (best?.symbolChain ? splitGraphemes(best.symbolChain).length : 0);
+      const score = scoreGrokExtractCandidate(candidate);
+      const prev = scoreGrokExtractCandidate(best);
       if (!best || score > prev) best = candidate;
     }
   }

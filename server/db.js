@@ -9,10 +9,22 @@ if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
 const dbPath = path.join(dataDir, 'afs.db');
 
 let db = null;
+let saveDeferred = 0;
 
 function saveDb() {
-  if (!db) return;
+  if (!db || saveDeferred > 0) return;
   fs.writeFileSync(dbPath, Buffer.from(db.export()));
+}
+
+/** Batch many writes — one disk flush at the end (avoids OOM during search index rebuild). */
+function deferSave(fn) {
+  saveDeferred += 1;
+  try {
+    return fn();
+  } finally {
+    saveDeferred -= 1;
+    if (saveDeferred === 0) saveDb();
+  }
 }
 
 function prepare(sql) {
@@ -274,4 +286,4 @@ function getDbPath() {
   return dbPath;
 }
 
-module.exports = { initDb, reloadFromDisk, getDbPath, prepare, exec, saveDb };
+module.exports = { initDb, reloadFromDisk, getDbPath, prepare, exec, saveDb, deferSave };

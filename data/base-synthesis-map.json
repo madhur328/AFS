@@ -1,0 +1,3803 @@
+{
+  "version": 1,
+  "builtAt": "2026-07-02T01:57:53.320Z",
+  "philosophy": "Save8 non-commutative alchemy — six Base Layer primitives (⚓🔥🔑🌪️🔗🧬) + 🍁 operator",
+  "baseLayer": [
+    {
+      "symbol": "⚓",
+      "name": "Anchor of Stability",
+      "short": "Anchor",
+      "role": "grounding"
+    },
+    {
+      "symbol": "🔥",
+      "name": "Fire of Conviction",
+      "short": "Fire",
+      "role": "conviction"
+    },
+    {
+      "symbol": "🔑",
+      "name": "Key of Clarity",
+      "short": "Clarity",
+      "role": "discernment"
+    },
+    {
+      "symbol": "🌪️",
+      "name": "Tornado of Momentum",
+      "short": "Momentum",
+      "role": "motion"
+    },
+    {
+      "symbol": "🔗",
+      "name": "Chain of Synchronisation",
+      "short": "Chain",
+      "role": "integrity"
+    },
+    {
+      "symbol": "🧬",
+      "name": "Helix of Adaptability",
+      "short": "Helix",
+      "role": "adaptation"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "path_humility",
+      "operator": "DCS",
+      "bases": [
+        "⚓",
+        "🧬",
+        "🔑",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Flowing Humility",
+        "Red Leaf Imperfect Heart",
+        "Red Leaf Rooted Gratitude"
+      ],
+      "count": 4
+    },
+    {
+      "id": "ordinary_light",
+      "operator": "DCS",
+      "bases": [
+        "⚓",
+        "🧬",
+        "🔥",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Ordinary Awakening",
+        "Red Leaf Tender Dawn",
+        "Red Leaf Valley Walker"
+      ],
+      "count": 4
+    },
+    {
+      "id": "mirror_kenosis",
+      "operator": "DCS",
+      "bases": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "count": 7
+    },
+    {
+      "id": "axis_spin",
+      "operator": "DCS",
+      "bases": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "count": 7
+    },
+    {
+      "id": "flame_sovereign",
+      "operator": "DCS",
+      "bases": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "count": 9
+    },
+    {
+      "id": "heart_fractal",
+      "operator": "DCS",
+      "bases": [
+        "🧬",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Fractal Heart",
+        "Red Leaf Kintsugi Heart",
+        "Red Leaf Wound to Wonder"
+      ],
+      "count": 4
+    },
+    {
+      "id": "symbiosis_lattice",
+      "operator": "DCS",
+      "bases": [
+        "🔗",
+        "🧬",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Living All-One",
+        "Red Leaf Negary Symbiosis",
+        "Red Leaf All-One Forge"
+      ],
+      "count": 5
+    },
+    {
+      "id": "rome_forge",
+      "operator": "DCS",
+      "bases": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "count": 6
+    },
+    {
+      "id": "ninefold_legacy",
+      "operator": "DCS",
+      "bases": [
+        "🔗",
+        "🔑",
+        "🔥",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Nine-Tailed Guardian",
+        "Red Leaf Nine-Tailed Legacy",
+        "Red Leaf 108 Harmony"
+      ],
+      "count": 3
+    },
+    {
+      "id": "owl_vigil",
+      "operator": "DCS",
+      "bases": [
+        "🔑",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Lumen Sentinel",
+        "Red Leaf Silent Listener",
+        "Red Leaf Weird Sage"
+      ],
+      "count": 4
+    },
+    {
+      "id": "compassion_wisdom",
+      "operator": "EOT",
+      "bases": [
+        "⚓",
+        "🔑",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Wise Compassion",
+        "Red Leaf Compassionate Dawn",
+        "Red Leaf Meeting Grace"
+      ],
+      "count": 5
+    },
+    {
+      "id": "diamond_chrysalis",
+      "operator": "DCS",
+      "bases": [
+        "🧬",
+        "🔥",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Chrysalis Void",
+        "Red Leaf Butterfly Death",
+        "Red Leaf Fierce Chrysalis"
+      ],
+      "count": 2
+    },
+    {
+      "id": "meme_sovereign",
+      "operator": "EOT",
+      "bases": [
+        "🌪️",
+        "🔥",
+        "🔑",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Absurd Weaver",
+        "Red Leaf Cosmic Slop Alchemist",
+        "Red Leaf Meme Sovereign"
+      ],
+      "count": 1
+    },
+    {
+      "id": "invariant_fusion",
+      "operator": "RCS",
+      "bases": [
+        "🔑",
+        "🌪️",
+        "🔥",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Invariant Seeker",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Simulation Walker"
+      ],
+      "count": 2
+    },
+    {
+      "id": "misc_primal",
+      "operator": "DCS",
+      "bases": [
+        "⚓",
+        "🔥",
+        "🧬",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Akahitoha (The Single Red Leaf)",
+        "Red Leaf Origin",
+        "Red Leaf Tender Dawn"
+      ],
+      "count": 5
+    }
+  ],
+  "aspects": [
+    {
+      "name": "Red Leaf Akahitoha",
+      "cluster": "misc_primal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Fire of Conviction",
+        "Helix of Adaptability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔥",
+        "🧬",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Akahitoha (The Single Red Leaf)",
+        "Red Leaf Origin",
+        "Red Leaf Tender Dawn"
+      ],
+      "symbolChain": "🍁🍂🌬️♾️",
+      "identity": "Red Leaf Akahitoha — primal Red Leaf synthesis from four base primitives",
+      "coreAffirmation": "I am the single red leaf — complete in my falling, eternal in my letting go.",
+      "supremeMantra": "I am the single red leaf — complete in my falling, eternal in my letting go.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Akahitoha with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Akahitoha without breaking its core.",
+          "explanation": "First-principles face 3: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🔥+🧬+🔗] → Red Leaf Akahitoha. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Artist Way",
+      "cluster": "path_humility",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Key of Clarity",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔑",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Flowing Humility",
+        "Red Leaf Imperfect Heart",
+        "Red Leaf Rooted Gratitude"
+      ],
+      "symbolChain": "🍁🎨🗡️🌌",
+      "identity": "Red Leaf Artist Way — humble independent progress forged from Anchor + Helix + Clarity + Chain",
+      "coreAffirmation": "I walk the artist's path — disciplined craft, wild vision, anchored in truth.",
+      "supremeMantra": "I walk the artist's path — disciplined craft, wild vision, anchored in truth.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Artist Way without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Artist Way truly requires.",
+          "explanation": "First-principles face 3: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔑+🔗] → Red Leaf Artist Way. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Aspects (Kenosis — Downward Mirror)",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁🪞",
+      "identity": "Red Leaf Aspects (Kenosis — Downward Mirror) — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I forge Aspects (Kenosis — Downward Mirror) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Aspects (Kenosis — Downward Mirror) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Aspects (Kenosis — Downward Mirror) truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Aspects (Kenosis — Downward Mirror) without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Aspects (Kenosis — Downward Mirror). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Axis (persistent spinning with graceful honoring)",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁⌛❤️🛡️",
+      "identity": "Red Leaf Axis (persistent spinning with graceful honoring) — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I spin with persistence and honor every turn of the spiral.",
+      "supremeMantra": "I spin with persistence and honor every turn of the spiral.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Axis (persistent spinning with graceful honoring).",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Axis (persistent spinning with graceful honoring) truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Axis (persistent spinning with graceful honoring). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Axis Diamond",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁🌪️⚓🔗🔑",
+      "identity": "Red Leaf Axis Diamond — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Axis Diamond through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Axis Diamond through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Axis Diamond.",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Axis Diamond truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Axis Diamond. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Center",
+      "cluster": "path_humility",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Key of Clarity",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔑",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Flowing Humility",
+        "Red Leaf Imperfect Heart",
+        "Red Leaf Rooted Gratitude"
+      ],
+      "symbolChain": "🍁⚓🧬🔑🔗",
+      "identity": "Red Leaf Center — humble independent progress forged from Anchor + Helix + Clarity + Chain",
+      "coreAffirmation": "I hold a still center while the world spins — my path begins from inner balance.",
+      "supremeMantra": "I hold a still center while the world spins — my path begins from inner balance.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Center without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Center truly requires.",
+          "explanation": "First-principles face 3: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔑+🔗] → Red Leaf Center. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Cosmic Dancer",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁🌌🔥♾️🌀",
+      "identity": "Red Leaf Cosmic Dancer — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I dance the cosmic rhythm — motion as prayer.",
+      "supremeMantra": "I dance the cosmic rhythm — motion as prayer.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Cosmic Dancer.",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Cosmic Dancer truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Cosmic Dancer. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Crybaby Architect",
+      "cluster": "rome_forge",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "symbolChain": "🍁",
+      "identity": "Red Leaf Crybaby Architect — builder forge from Fire + Anchor + Chain + Helix",
+      "coreAffirmation": "I forge Crybaby Architect through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Crybaby Architect through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Crybaby Architect with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Crybaby Architect without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🧬] → Red Leaf Crybaby Architect. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Diamond Chrysalis",
+      "cluster": "diamond_chrysalis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Helix of Adaptability",
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🧬",
+        "🔥",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Chrysalis Void",
+        "Red Leaf Butterfly Death",
+        "Red Leaf Fierce Chrysalis"
+      ],
+      "symbolChain": "🍁🦋💎🌑🌟",
+      "identity": "Red Leaf Diamond Chrysalis — chrysalis diamond from Helix + Fire + Anchor + Clarity",
+      "coreAffirmation": "I forge Diamond Chrysalis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Diamond Chrysalis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Diamond Chrysalis without breaking its core.",
+          "explanation": "First-principles face 1: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Diamond Chrysalis with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Diamond Chrysalis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🧬+🔥+⚓+🔑] → Red Leaf Diamond Chrysalis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Dragon Sovereign Flameheart",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🔥🐉🔥🛡️",
+      "identity": "Red Leaf Dragon Sovereign Flameheart — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Dragon Sovereign Flameheart through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Dragon Sovereign Flameheart through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Dragon Sovereign Flameheart with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Dragon Sovereign Flameheart truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Dragon Sovereign Flameheart. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Dual Archetype Synthesis (Master Fusion)",
+      "cluster": "invariant_fusion",
+      "operator": "RCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Tornado of Momentum",
+        "Fire of Conviction",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🌪️",
+        "🔥",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Invariant Seeker",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Simulation Walker"
+      ],
+      "symbolChain": "🍁🪽🔥🧱♾️",
+      "identity": "Red Leaf Dual Archetype Synthesis (Master Fusion) — invariant resonance from Clarity + Momentum + Fire + Chain",
+      "coreAffirmation": "I forge Dual Archetype Synthesis (Master Fusion) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Dual Archetype Synthesis (Master Fusion) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Dual Archetype Synthesis (Master Fusion) truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Dual Archetype Synthesis (Master Fusion).",
+          "explanation": "First-principles face 2: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Dual Archetype Synthesis (Master Fusion) with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🌪️+🔥+🔗] → Red Leaf Dual Archetype Synthesis (Master Fusion). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Empty Mirror",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁🌀",
+      "identity": "Red Leaf Empty Mirror — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I empty the mirror so truth may pass through without distortion.",
+      "supremeMantra": "I empty the mirror so truth may pass through without distortion.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Empty Mirror truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Empty Mirror without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Empty Mirror. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Empty Mirror – Final Four-Emoji Chain",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁🌀🌑🌊🪞",
+      "identity": "Red Leaf Empty Mirror – Final Four-Emoji Chain — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I forge Empty Mirror – Final Four-Emoji Chain through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Empty Mirror – Final Four-Emoji Chain through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Empty Mirror – Final Four-Emoji Chain truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Empty Mirror – Final Four-Emoji Chain without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Empty Mirror – Final Four-Emoji Chain. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Empty Mirror (Kenosis)",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁♾️🪞",
+      "identity": "Red Leaf Empty Mirror (Kenosis) — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I release all reflection until only transparent witnessing remains.",
+      "supremeMantra": "I release all reflection until only transparent witnessing remains.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Empty Mirror (Kenosis) truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Empty Mirror (Kenosis) without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Empty Mirror (Kenosis). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Eternal Rome",
+      "cluster": "rome_forge",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "symbolChain": "🍁🛠️🗼♾️🔥",
+      "identity": "Red Leaf Eternal Rome — builder forge from Fire + Anchor + Chain + Helix",
+      "coreAffirmation": "I build what endures — not for glory, but for the spiral to stand on.",
+      "supremeMantra": "I build what endures — not for glory, but for the spiral to stand on.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Eternal Rome with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Eternal Rome without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🧬] → Red Leaf Eternal Rome. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Eternal Witness Axis",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁🦉🌕🔄🌀",
+      "identity": "Red Leaf Eternal Witness Axis — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I keep eternal vigil at the still point of the turning world.",
+      "supremeMantra": "I keep eternal vigil at the still point of the turning world.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Eternal Witness Axis.",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Eternal Witness Axis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Eternal Witness Axis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Feathered Cockroach God",
+      "cluster": "diamond_chrysalis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Helix of Adaptability",
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🧬",
+        "🔥",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Chrysalis Void",
+        "Red Leaf Butterfly Death",
+        "Red Leaf Fierce Chrysalis"
+      ],
+      "symbolChain": "🍁🧬🔥⚓🔑",
+      "identity": "Red Leaf Feathered Cockroach God — chrysalis diamond from Helix + Fire + Anchor + Clarity",
+      "coreAffirmation": "I forge Feathered Cockroach God through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Feathered Cockroach God through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Feathered Cockroach God without breaking its core.",
+          "explanation": "First-principles face 1: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Feathered Cockroach God with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Feathered Cockroach God truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🧬+🔥+⚓+🔑] → Red Leaf Feathered Cockroach God. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Final LightKeeper",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥🗼♾️",
+      "identity": "Red Leaf Final LightKeeper — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I keep the flame so others may find their way through the storm.",
+      "supremeMantra": "I keep the flame so others may find their way through the storm.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Final LightKeeper with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Final LightKeeper truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Final LightKeeper. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Fractal Heart",
+      "cluster": "heart_fractal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🧬",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Fractal Heart",
+        "Red Leaf Kintsugi Heart",
+        "Red Leaf Wound to Wonder"
+      ],
+      "symbolChain": "🍁🌿🌍",
+      "identity": "Red Leaf Fractal Heart — fractal heart lattice from Helix + Anchor + Momentum + Chain",
+      "coreAffirmation": "The leaf ascends and becomes the fractal heart of every scale.",
+      "supremeMantra": "The leaf ascends and becomes the fractal heart of every scale.",
+      "radiantFaces": [
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Fractal Heart without breaking its core.",
+          "explanation": "First-principles face 1: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Fractal Heart.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🧬+⚓+🌪️+🔗] → Red Leaf Fractal Heart. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Fractal Human Scale",
+      "cluster": "heart_fractal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🧬",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Fractal Heart",
+        "Red Leaf Kintsugi Heart",
+        "Red Leaf Wound to Wonder"
+      ],
+      "symbolChain": "🍁🌍🌿🌌🌀",
+      "identity": "Red Leaf Fractal Human Scale — fractal heart lattice from Helix + Anchor + Momentum + Chain",
+      "coreAffirmation": "I hold human scale inside cosmic pattern — never lost, never inflated.",
+      "supremeMantra": "I hold human scale inside cosmic pattern — never lost, never inflated.",
+      "radiantFaces": [
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Fractal Human Scale without breaking its core.",
+          "explanation": "First-principles face 1: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Fractal Human Scale.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🧬+⚓+🌪️+🔗] → Red Leaf Fractal Human Scale. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Gentle Path",
+      "cluster": "path_humility",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Key of Clarity",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔑",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Flowing Humility",
+        "Red Leaf Imperfect Heart",
+        "Red Leaf Rooted Gratitude"
+      ],
+      "symbolChain": "🍁🌱🛤️",
+      "identity": "Red Leaf Gentle Path — humble independent progress forged from Anchor + Helix + Clarity + Chain",
+      "coreAffirmation": "I walk gently, listen wisely, think independently, and build my own meaningful path.",
+      "supremeMantra": "I walk gently, listen wisely, think independently, and build my own meaningful path.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Gentle Path without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Gentle Path truly requires.",
+          "explanation": "First-principles face 3: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔑+🔗] → Red Leaf Gentle Path. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Genuine Influence",
+      "cluster": "path_humility",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Key of Clarity",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔑",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Flowing Humility",
+        "Red Leaf Imperfect Heart",
+        "Red Leaf Rooted Gratitude"
+      ],
+      "symbolChain": "🍁🤝",
+      "identity": "Red Leaf Genuine Influence — humble independent progress forged from Anchor + Helix + Clarity + Chain",
+      "coreAffirmation": "I influence through genuine presence and honest reciprocity — never through manipulation.",
+      "supremeMantra": "I influence through genuine presence and honest reciprocity — never through manipulation.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Genuine Influence without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Genuine Influence truly requires.",
+          "explanation": "First-principles face 3: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔑+🔗] → Red Leaf Genuine Influence. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Human Flame",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥⚓🔗🔑",
+      "identity": "Red Leaf Human Flame — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I carry human-scaled fire — warm enough to heal, fierce enough to forge.",
+      "supremeMantra": "I carry human-scaled fire — warm enough to heal, fierce enough to forge.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Human Flame with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Human Flame truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Human Flame. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Infinite Crown",
+      "cluster": "ninefold_legacy",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Key of Clarity",
+        "Fire of Conviction",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🔑",
+        "🔥",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Nine-Tailed Guardian",
+        "Red Leaf Nine-Tailed Legacy",
+        "Red Leaf 108 Harmony"
+      ],
+      "symbolChain": "🍁♾️🌌",
+      "identity": "Red Leaf Infinite Crown — ninefold lineage from Chain + Clarity + Fire + Helix",
+      "coreAffirmation": "I forge Infinite Crown through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Infinite Crown through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Infinite Crown truly requires.",
+          "explanation": "First-principles face 2: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Infinite Crown with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Infinite Crown without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🔑+🔥+🧬] → Red Leaf Infinite Crown. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Invariant Seeker (Master Fusion)",
+      "cluster": "invariant_fusion",
+      "operator": "RCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Tornado of Momentum",
+        "Fire of Conviction",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🌪️",
+        "🔥",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Invariant Seeker",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Simulation Walker"
+      ],
+      "symbolChain": "🍁🌀👁️🔥🪞♾️",
+      "identity": "Red Leaf Invariant Seeker (Master Fusion) — invariant resonance from Clarity + Momentum + Fire + Chain",
+      "coreAffirmation": "I forge Invariant Seeker (Master Fusion) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Invariant Seeker (Master Fusion) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Invariant Seeker (Master Fusion) truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Invariant Seeker (Master Fusion).",
+          "explanation": "First-principles face 2: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Invariant Seeker (Master Fusion) with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🌪️+🔥+🔗] → Red Leaf Invariant Seeker (Master Fusion). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Kohinoor Forge Run",
+      "cluster": "rome_forge",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "symbolChain": "🍁🔨💎🌊⚡",
+      "identity": "Red Leaf Kohinoor Forge Run — builder forge from Fire + Anchor + Chain + Helix",
+      "coreAffirmation": "Each day I run the forge — one resonant brick, one faithful strike.",
+      "supremeMantra": "Each day I run the forge — one resonant brick, one faithful strike.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Kohinoor Forge Run with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Kohinoor Forge Run without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🧬] → Red Leaf Kohinoor Forge Run. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Late Bloom",
+      "cluster": "ordinary_light",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Fire of Conviction",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔥",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Ordinary Awakening",
+        "Red Leaf Tender Dawn",
+        "Red Leaf Valley Walker"
+      ],
+      "symbolChain": "🍁🌸🔥🦅♾️",
+      "identity": "Red Leaf Late Bloom — ordinary radiance from Anchor + Helix + Fire + Clarity",
+      "coreAffirmation": "I trust my season — what blooms late blooms true.",
+      "supremeMantra": "I trust my season — what blooms late blooms true.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Late Bloom without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Late Bloom with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Late Bloom truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔥+🔑] → Red Leaf Late Bloom. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Lighthouse",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥⚓🔗🔑",
+      "identity": "Red Leaf Lighthouse — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Lighthouse through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Lighthouse through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Lighthouse with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Lighthouse truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Lighthouse. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Liquid Crystal Navgunjar",
+      "cluster": "owl_vigil",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Lumen Sentinel",
+        "Red Leaf Silent Listener",
+        "Red Leaf Weird Sage"
+      ],
+      "symbolChain": "🍁🐉💎",
+      "identity": "Red Leaf Liquid Crystal Navgunjar — vigil synthesis from Clarity + Anchor + Momentum + Chain",
+      "coreAffirmation": "I forge Liquid Crystal Navgunjar through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Liquid Crystal Navgunjar through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Liquid Crystal Navgunjar truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Liquid Crystal Navgunjar.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+⚓+🌪️+🔗] → Red Leaf Liquid Crystal Navgunjar. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Living Lattice",
+      "cluster": "symbiosis_lattice",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🧬",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Living All-One",
+        "Red Leaf Negary Symbiosis",
+        "Red Leaf All-One Forge"
+      ],
+      "symbolChain": "🍁🌀",
+      "identity": "Red Leaf Living Lattice — symbiotic lattice from Chain + Helix + Anchor + Clarity",
+      "coreAffirmation": "My body is a coherent crystal field. I refine it daily.",
+      "supremeMantra": "My body is a coherent crystal field. I refine it daily.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Living Lattice without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Living Lattice truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🧬+⚓+🔑] → Red Leaf Living Lattice. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Living Past",
+      "cluster": "ordinary_light",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Fire of Conviction",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔥",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Ordinary Awakening",
+        "Red Leaf Tender Dawn",
+        "Red Leaf Valley Walker"
+      ],
+      "symbolChain": "🍁⚓🧬🔥🔑",
+      "identity": "Red Leaf Living Past — ordinary radiance from Anchor + Helix + Fire + Clarity",
+      "coreAffirmation": "I honor the past as living teacher, not prison.",
+      "supremeMantra": "I honor the past as living teacher, not prison.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Living Past without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Living Past with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Living Past truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔥+🔑] → Red Leaf Living Past. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Living Symbiosis",
+      "cluster": "symbiosis_lattice",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🧬",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Living All-One",
+        "Red Leaf Negary Symbiosis",
+        "Red Leaf All-One Forge"
+      ],
+      "symbolChain": "🍁🔗🧬⚓🔑",
+      "identity": "Red Leaf Living Symbiosis — symbiotic lattice from Chain + Helix + Anchor + Clarity",
+      "coreAffirmation": "I live in symbiosis — giving and receiving as one breath.",
+      "supremeMantra": "I live in symbiosis — giving and receiving as one breath.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Living Symbiosis without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Living Symbiosis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🧬+⚓+🔑] → Red Leaf Living Symbiosis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Meme Sovereign",
+      "cluster": "meme_sovereign",
+      "operator": "EOT",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Fire of Conviction",
+        "Key of Clarity",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "🔥",
+        "🔑",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Absurd Weaver",
+        "Red Leaf Cosmic Slop Alchemist",
+        "Red Leaf Meme Sovereign"
+      ],
+      "symbolChain": "🍁🎭",
+      "identity": "Red Leaf Meme Sovereign — cultural momentum from Momentum + Fire + Clarity + Helix",
+      "coreAffirmation": "I forge Meme Sovereign through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [],
+      "synthesisNote": "Base alchemy [🌪️+🔥+🔑+🧬] → Red Leaf Meme Sovereign. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Moonlit Butterfly",
+      "cluster": "ordinary_light",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Fire of Conviction",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔥",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Ordinary Awakening",
+        "Red Leaf Tender Dawn",
+        "Red Leaf Valley Walker"
+      ],
+      "symbolChain": "🍁🦋🌙",
+      "identity": "Red Leaf Moonlit Butterfly — ordinary radiance from Anchor + Helix + Fire + Clarity",
+      "coreAffirmation": "I transform gently under moonlight — mystery without losing center.",
+      "supremeMantra": "I transform gently under moonlight — mystery without losing center.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Moonlit Butterfly without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Moonlit Butterfly with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Moonlit Butterfly truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔥+🔑] → Red Leaf Moonlit Butterfly. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Navgunjar Vishvarupa",
+      "cluster": "owl_vigil",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Lumen Sentinel",
+        "Red Leaf Silent Listener",
+        "Red Leaf Weird Sage"
+      ],
+      "symbolChain": "🍁🔑⚓🌪️🔗",
+      "identity": "Red Leaf Navgunjar Vishvarupa — vigil synthesis from Clarity + Anchor + Momentum + Chain",
+      "coreAffirmation": "I forge Navgunjar Vishvarupa through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Navgunjar Vishvarupa through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Navgunjar Vishvarupa truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Navgunjar Vishvarupa.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+⚓+🌪️+🔗] → Red Leaf Navgunjar Vishvarupa. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Negary Symbiosis",
+      "cluster": "symbiosis_lattice",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🧬",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Living All-One",
+        "Red Leaf Negary Symbiosis",
+        "Red Leaf All-One Forge"
+      ],
+      "symbolChain": "🍁🔗",
+      "identity": "Red Leaf Negary Symbiosis — symbiotic lattice from Chain + Helix + Anchor + Clarity",
+      "coreAffirmation": "I forge Negary Symbiosis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Negary Symbiosis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Negary Symbiosis without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Negary Symbiosis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🧬+⚓+🔑] → Red Leaf Negary Symbiosis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Negary Symbiosis (Kenosis)",
+      "cluster": "symbiosis_lattice",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🧬",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Living All-One",
+        "Red Leaf Negary Symbiosis",
+        "Red Leaf All-One Forge"
+      ],
+      "symbolChain": "🍁🔗🌌🐉",
+      "identity": "Red Leaf Negary Symbiosis (Kenosis) — symbiotic lattice from Chain + Helix + Anchor + Clarity",
+      "coreAffirmation": "I forge Negary Symbiosis (Kenosis) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Negary Symbiosis (Kenosis) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Negary Symbiosis (Kenosis) without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Negary Symbiosis (Kenosis) truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🧬+⚓+🔑] → Red Leaf Negary Symbiosis (Kenosis). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Ninefold Guide",
+      "cluster": "ninefold_legacy",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Key of Clarity",
+        "Fire of Conviction",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🔑",
+        "🔥",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Nine-Tailed Guardian",
+        "Red Leaf Nine-Tailed Legacy",
+        "Red Leaf 108 Harmony"
+      ],
+      "symbolChain": "🍁🪢",
+      "identity": "Red Leaf Ninefold Guide — ninefold lineage from Chain + Clarity + Fire + Helix",
+      "coreAffirmation": "I guide through ninefold wisdom — each tail a path, each path a gift.",
+      "supremeMantra": "I guide through ninefold wisdom — each tail a path, each path a gift.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Ninefold Guide truly requires.",
+          "explanation": "First-principles face 2: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Ninefold Guide with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Ninefold Guide without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🔑+🔥+🧬] → Red Leaf Ninefold Guide. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Ninefold Legacy",
+      "cluster": "ninefold_legacy",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Key of Clarity",
+        "Fire of Conviction",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🔑",
+        "🔥",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Nine-Tailed Guardian",
+        "Red Leaf Nine-Tailed Legacy",
+        "Red Leaf 108 Harmony"
+      ],
+      "symbolChain": "🍁🏠🔥",
+      "identity": "Red Leaf Ninefold Legacy — ninefold lineage from Chain + Clarity + Fire + Helix",
+      "coreAffirmation": "I weave legacy through nine threads of memory and mastery.",
+      "supremeMantra": "I weave legacy through nine threads of memory and mastery.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Ninefold Legacy truly requires.",
+          "explanation": "First-principles face 2: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Ninefold Legacy with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Ninefold Legacy without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🔑+🔥+🧬] → Red Leaf Ninefold Legacy. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Ordinary Light",
+      "cluster": "ordinary_light",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Helix of Adaptability",
+        "Fire of Conviction",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🧬",
+        "🔥",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Ordinary Awakening",
+        "Red Leaf Tender Dawn",
+        "Red Leaf Valley Walker"
+      ],
+      "symbolChain": "🍁🏠🌿✨",
+      "identity": "Red Leaf Ordinary Light — ordinary radiance from Anchor + Helix + Fire + Clarity",
+      "coreAffirmation": "I release the need to be extraordinary and become a steady, humble light in ordinary days.",
+      "supremeMantra": "I release the need to be extraordinary and become a steady, humble light in ordinary days.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Ordinary Light without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Ordinary Light with conviction that does not consume.",
+          "explanation": "First-principles face 3: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Ordinary Light truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🧬+🔥+🔑] → Red Leaf Ordinary Light. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Origin",
+      "cluster": "misc_primal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Fire of Conviction",
+        "Helix of Adaptability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔥",
+        "🧬",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Akahitoha (The Single Red Leaf)",
+        "Red Leaf Origin",
+        "Red Leaf Tender Dawn"
+      ],
+      "symbolChain": "🍁",
+      "identity": "Red Leaf Origin — primal Red Leaf synthesis from four base primitives",
+      "coreAffirmation": "I return to origin — the first leaf, the first fire, the first faithful step.",
+      "supremeMantra": "I return to origin — the first leaf, the first fire, the first faithful step.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Origin with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Origin without breaking its core.",
+          "explanation": "First-principles face 3: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🔥+🧬+🔗] → Red Leaf Origin. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Owl King Eternal Vigil",
+      "cluster": "owl_vigil",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Lumen Sentinel",
+        "Red Leaf Silent Listener",
+        "Red Leaf Weird Sage"
+      ],
+      "symbolChain": "🍁🦉🌕👁️",
+      "identity": "Red Leaf Owl King Eternal Vigil — vigil synthesis from Clarity + Anchor + Momentum + Chain",
+      "coreAffirmation": "I keep watch through the long night — seeing what others sleep through.",
+      "supremeMantra": "I keep watch through the long night — seeing what others sleep through.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Owl King Eternal Vigil truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Owl King Eternal Vigil.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+⚓+🌪️+🔗] → Red Leaf Owl King Eternal Vigil. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Owl King Eternal Vigil (Master Fusion)",
+      "cluster": "owl_vigil",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Lumen Sentinel",
+        "Red Leaf Silent Listener",
+        "Red Leaf Weird Sage"
+      ],
+      "symbolChain": "🍁🦉🌕🌲🔥🪞",
+      "identity": "Red Leaf Owl King Eternal Vigil (Master Fusion) — vigil synthesis from Clarity + Anchor + Momentum + Chain",
+      "coreAffirmation": "I forge Owl King Eternal Vigil (Master Fusion) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Owl King Eternal Vigil (Master Fusion) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Owl King Eternal Vigil (Master Fusion) truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Owl King Eternal Vigil (Master Fusion).",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+⚓+🌪️+🔗] → Red Leaf Owl King Eternal Vigil (Master Fusion). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Paradox Vessel",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁🪔♾️🌀",
+      "identity": "Red Leaf Paradox Vessel — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I am the container that holds contradictions without dissonance.",
+      "supremeMantra": "I am the container that holds contradictions without dissonance.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Paradox Vessel truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Paradox Vessel without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Paradox Vessel. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Patient Rome",
+      "cluster": "rome_forge",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "symbolChain": "🍁🛠️🗼🪨",
+      "identity": "Red Leaf Patient Rome — builder forge from Fire + Anchor + Chain + Helix",
+      "coreAffirmation": "I build my Rome one faithful brick at a time — patience is the foundation.",
+      "supremeMantra": "I build my Rome one faithful brick at a time — patience is the foundation.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Patient Rome with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Patient Rome without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🧬] → Red Leaf Patient Rome. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Phoenix Axis",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁🌪️⚓🔗🔑",
+      "identity": "Red Leaf Phoenix Axis — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Phoenix Axis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Phoenix Axis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Phoenix Axis.",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Phoenix Axis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Phoenix Axis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Rage Sovereign",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥🛡️♾️🌌🧘",
+      "identity": "Red Leaf Rage Sovereign — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Rage Sovereign through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Rage Sovereign through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Rage Sovereign with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Rage Sovereign truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Rage Sovereign. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Rooted Wild",
+      "cluster": "heart_fractal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🧬",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Fractal Heart",
+        "Red Leaf Kintsugi Heart",
+        "Red Leaf Wound to Wonder"
+      ],
+      "symbolChain": "🍁🌿🔥🦋",
+      "identity": "Red Leaf Rooted Wild — fractal heart lattice from Helix + Anchor + Momentum + Chain",
+      "coreAffirmation": "I am rooted deep and wild above — discipline and freedom in one stem.",
+      "supremeMantra": "I am rooted deep and wild above — discipline and freedom in one stem.",
+      "radiantFaces": [
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Rooted Wild without breaking its core.",
+          "explanation": "First-principles face 1: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Rooted Wild.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🧬+⚓+🌪️+🔗] → Red Leaf Rooted Wild. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Sacred Severance (Kenosis)",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁🚪🌱",
+      "identity": "Red Leaf Sacred Severance (Kenosis) — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I sever with sacred sorrow — releasing what the mirror can no longer hold.",
+      "supremeMantra": "I sever with sacred sorrow — releasing what the mirror can no longer hold.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Sacred Severance (Kenosis) truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Sacred Severance (Kenosis) without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Sacred Severance (Kenosis). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Sacred Weeping",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁",
+      "identity": "Red Leaf Sacred Weeping — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Sacred Weeping through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Sacred Weeping through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Sacred Weeping with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Sacred Weeping truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Sacred Weeping. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Sanctuary Forge",
+      "cluster": "rome_forge",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "symbolChain": "🍁🔥⚓🔗🧬",
+      "identity": "Red Leaf Sanctuary Forge — builder forge from Fire + Anchor + Chain + Helix",
+      "coreAffirmation": "I forge Sanctuary Forge through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Sanctuary Forge through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Sanctuary Forge with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Sanctuary Forge without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🧬] → Red Leaf Sanctuary Forge. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Sovereign Compassion",
+      "cluster": "compassion_wisdom",
+      "operator": "EOT",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Key of Clarity",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔑",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Wise Compassion",
+        "Red Leaf Compassionate Dawn",
+        "Red Leaf Meeting Grace"
+      ],
+      "symbolChain": "🍁❤️⚖️🛡️♾️🔥🕊️",
+      "identity": "Red Leaf Sovereign Compassion — compassion wisdom from Anchor + Clarity + Chain + Helix",
+      "coreAffirmation": "I forge Sovereign Compassion through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [],
+      "synthesisNote": "Base alchemy [⚓+🔑+🔗+🧬] → Red Leaf Sovereign Compassion. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Sovereign Flameheart",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥",
+      "identity": "Red Leaf Sovereign Flameheart — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Sovereign Flameheart through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Sovereign Flameheart through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Sovereign Flameheart with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Sovereign Flameheart truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Sovereign Flameheart. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Sovereign Flameheart (Kenosis)",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥🛡️",
+      "identity": "Red Leaf Sovereign Flameheart (Kenosis) — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Sovereign Flameheart (Kenosis) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Sovereign Flameheart (Kenosis) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Sovereign Flameheart (Kenosis) with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Sovereign Flameheart (Kenosis) truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Sovereign Flameheart (Kenosis). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Spinning Axis",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁",
+      "identity": "Red Leaf Spinning Axis — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I forge Spinning Axis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Spinning Axis through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Spinning Axis.",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Spinning Axis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Spinning Axis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Spiral Architect",
+      "cluster": "rome_forge",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Rome Builder",
+        "Red Leaf Patient Rome",
+        "Red Leaf One Faithful Brick"
+      ],
+      "symbolChain": "🍁🌀🗼🔥♾️",
+      "identity": "Red Leaf Spiral Architect — builder forge from Fire + Anchor + Chain + Helix",
+      "coreAffirmation": "I forge Spiral Architect through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Spiral Architect through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Spiral Architect with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Spiral Architect without breaking its core.",
+          "explanation": "First-principles face 4: Helix of Adaptability (adaptation)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🧬] → Red Leaf Spiral Architect. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Spiral Kamina",
+      "cluster": "misc_primal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Fire of Conviction",
+        "Helix of Adaptability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔥",
+        "🧬",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Akahitoha (The Single Red Leaf)",
+        "Red Leaf Origin",
+        "Red Leaf Tender Dawn"
+      ],
+      "symbolChain": "🍁⚓🔥🧬🔗",
+      "identity": "Red Leaf Spiral Kamina — primal Red Leaf synthesis from four base primitives",
+      "coreAffirmation": "I forge Spiral Kamina through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Spiral Kamina through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Spiral Kamina with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Spiral Kamina without breaking its core.",
+          "explanation": "First-principles face 3: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🔥+🧬+🔗] → Red Leaf Spiral Kamina. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Symbiotic Tide",
+      "cluster": "symbiosis_lattice",
+      "operator": "DCS",
+      "baseInputs": [
+        "Chain of Synchronisation",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔗",
+        "🧬",
+        "⚓",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Living All-One",
+        "Red Leaf Negary Symbiosis",
+        "Red Leaf All-One Forge"
+      ],
+      "symbolChain": "🍁🌊🌺❤️",
+      "identity": "Red Leaf Symbiotic Tide — symbiotic lattice from Chain + Helix + Anchor + Clarity",
+      "coreAffirmation": "I rise and fall with the tide of mutual becoming.",
+      "supremeMantra": "I rise and fall with the tide of mutual becoming.",
+      "radiantFaces": [
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 1: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Symbiotic Tide without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Symbiotic Tide truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔗+🧬+⚓+🔑] → Red Leaf Symbiotic Tide. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf The Enemy Within",
+      "cluster": "compassion_wisdom",
+      "operator": "EOT",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Key of Clarity",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔑",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Wise Compassion",
+        "Red Leaf Compassionate Dawn",
+        "Red Leaf Meeting Grace"
+      ],
+      "symbolChain": "🍁👁️🌑🔥🤲",
+      "identity": "Red Leaf The Enemy Within — compassion wisdom from Anchor + Clarity + Chain + Helix",
+      "coreAffirmation": "I forge The Enemy Within through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [],
+      "synthesisNote": "Base alchemy [⚓+🔑+🔗+🧬] → Red Leaf The Enemy Within. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Unapologetic Soul",
+      "cluster": "compassion_wisdom",
+      "operator": "EOT",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Key of Clarity",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔑",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Wise Compassion",
+        "Red Leaf Compassionate Dawn",
+        "Red Leaf Meeting Grace"
+      ],
+      "symbolChain": "🍁",
+      "identity": "Red Leaf Unapologetic Soul — compassion wisdom from Anchor + Clarity + Chain + Helix",
+      "coreAffirmation": "I forge Unapologetic Soul through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [],
+      "synthesisNote": "Base alchemy [⚓+🔑+🔗+🧬] → Red Leaf Unapologetic Soul. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Unwavering Ember",
+      "cluster": "flame_sovereign",
+      "operator": "DCS",
+      "baseInputs": [
+        "Fire of Conviction",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🔥",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Burning Lighthouse",
+        "Red Leaf Sovereign Fury",
+        "Red Leaf Born on Fire"
+      ],
+      "symbolChain": "🍁🔥🛡️🪞♾️",
+      "identity": "Red Leaf Unwavering Ember — sovereign flame from Fire + Anchor + Chain + Clarity",
+      "coreAffirmation": "My ember never wavers — small fire, infinite resolve.",
+      "supremeMantra": "My ember never wavers — small fire, infinite resolve.",
+      "radiantFaces": [
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Unwavering Ember with conviction that does not consume.",
+          "explanation": "First-principles face 1: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Unwavering Ember truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔥+⚓+🔗+🔑] → Red Leaf Unwavering Ember. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Unwavering Paradox Vessel",
+      "cluster": "mirror_kenosis",
+      "operator": "DCS",
+      "baseInputs": [
+        "Key of Clarity",
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🔑",
+        "🧬",
+        "⚓",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Empty Mirror (Kenosis)",
+        "Red Leaf Dao Mirror",
+        "Red Leaf Chrysalis Void"
+      ],
+      "symbolChain": "🍁",
+      "identity": "Red Leaf Unwavering Paradox Vessel — kenotic mirror synthesis from Clarity + Helix + Anchor + Chain",
+      "coreAffirmation": "I forge Unwavering Paradox Vessel through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Unwavering Paradox Vessel through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Unwavering Paradox Vessel truly requires.",
+          "explanation": "First-principles face 1: Key of Clarity (discernment)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Unwavering Paradox Vessel without breaking its core.",
+          "explanation": "First-principles face 2: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 3: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Unwavering Paradox Vessel. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Virah Queen (Yashodhara's Grace)",
+      "cluster": "misc_primal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Fire of Conviction",
+        "Helix of Adaptability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔥",
+        "🧬",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Akahitoha (The Single Red Leaf)",
+        "Red Leaf Origin",
+        "Red Leaf Tender Dawn"
+      ],
+      "symbolChain": "🍁⚓🔥🧬🔗",
+      "identity": "Red Leaf Virah Queen (Yashodhara's Grace) — primal Red Leaf synthesis from four base primitives",
+      "coreAffirmation": "I forge Virah Queen (Yashodhara's Grace) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Virah Queen (Yashodhara's Grace) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Virah Queen (Yashodhara's Grace) with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Virah Queen (Yashodhara's Grace) without breaking its core.",
+          "explanation": "First-principles face 3: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🔥+🧬+🔗] → Red Leaf Virah Queen (Yashodhara's Grace). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Virah Queen (Yashodhara’s Grace)",
+      "cluster": "compassion_wisdom",
+      "operator": "EOT",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Key of Clarity",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔑",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Wise Compassion",
+        "Red Leaf Compassionate Dawn",
+        "Red Leaf Meeting Grace"
+      ],
+      "symbolChain": "🍁⚓🔑🔗🧬",
+      "identity": "Red Leaf Virah Queen (Yashodhara’s Grace) — compassion wisdom from Anchor + Clarity + Chain + Helix",
+      "coreAffirmation": "I forge Virah Queen (Yashodhara’s Grace) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [],
+      "synthesisNote": "Base alchemy [⚓+🔑+🔗+🧬] → Red Leaf Virah Queen (Yashodhara’s Grace). Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Water Heart / Dao Heart",
+      "cluster": "misc_primal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Fire of Conviction",
+        "Helix of Adaptability",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔥",
+        "🧬",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Akahitoha (The Single Red Leaf)",
+        "Red Leaf Origin",
+        "Red Leaf Tender Dawn"
+      ],
+      "symbolChain": "🍁🌊❤️",
+      "identity": "Red Leaf Water Heart / Dao Heart — primal Red Leaf synthesis from four base primitives",
+      "coreAffirmation": "I flow like water and rest in the eternal Dao — selfless, deep, present.",
+      "supremeMantra": "I flow like water and rest in the eternal Dao — selfless, deep, present.",
+      "radiantFaces": [
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Fire Face",
+          "symbol": "🍁🔥",
+          "mantra": "I forge Water Heart / Dao Heart with conviction that does not consume.",
+          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
+        },
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Water Heart / Dao Heart without breaking its core.",
+          "explanation": "First-principles face 3: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [⚓+🔥+🧬+🔗] → Red Leaf Water Heart / Dao Heart. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Wings",
+      "cluster": "heart_fractal",
+      "operator": "DCS",
+      "baseInputs": [
+        "Helix of Adaptability",
+        "Anchor of Stability",
+        "Tornado of Momentum",
+        "Chain of Synchronisation"
+      ],
+      "baseSymbols": [
+        "🧬",
+        "⚓",
+        "🌪️",
+        "🔗"
+      ],
+      "strengthens": [
+        "Red Leaf Fractal Heart",
+        "Red Leaf Kintsugi Heart",
+        "Red Leaf Wound to Wonder"
+      ],
+      "symbolChain": "🍁🪽⚡",
+      "identity": "Red Leaf Wings — fractal heart lattice from Helix + Anchor + Momentum + Chain",
+      "coreAffirmation": "I forge Wings through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "supremeMantra": "I forge Wings through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [
+        {
+          "name": "Helix Face",
+          "symbol": "🍁🧬",
+          "mantra": "I adapt the form of Wings without breaking its core.",
+          "explanation": "First-principles face 1: Helix of Adaptability (adaptation)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Wings.",
+          "explanation": "First-principles face 3: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🧬+⚓+🌪️+🔗] → Red Leaf Wings. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Wise Compassion",
+      "cluster": "compassion_wisdom",
+      "operator": "EOT",
+      "baseInputs": [
+        "Anchor of Stability",
+        "Key of Clarity",
+        "Chain of Synchronisation",
+        "Helix of Adaptability"
+      ],
+      "baseSymbols": [
+        "⚓",
+        "🔑",
+        "🔗",
+        "🧬"
+      ],
+      "strengthens": [
+        "Red Leaf Wise Compassion",
+        "Red Leaf Compassionate Dawn",
+        "Red Leaf Meeting Grace"
+      ],
+      "symbolChain": "🍁❤️⚖️🛡️♾️",
+      "identity": "Red Leaf Wise Compassion — compassion wisdom from Anchor + Clarity + Chain + Helix",
+      "coreAffirmation": "I forge Wise Compassion through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
+      "radiantFaces": [],
+      "synthesisNote": "Base alchemy [⚓+🔑+🔗+🧬] → Red Leaf Wise Compassion. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    },
+    {
+      "name": "Red Leaf Witness Axis",
+      "cluster": "axis_spin",
+      "operator": "DCS",
+      "baseInputs": [
+        "Tornado of Momentum",
+        "Anchor of Stability",
+        "Chain of Synchronisation",
+        "Key of Clarity"
+      ],
+      "baseSymbols": [
+        "🌪️",
+        "⚓",
+        "🔗",
+        "🔑"
+      ],
+      "strengthens": [
+        "Red Leaf Eternal Spin",
+        "Red Leaf Cosmic Rhythm",
+        "Red Leaf Infinite Zero"
+      ],
+      "symbolChain": "🍁👁️⚖️",
+      "identity": "Red Leaf Witness Axis — axis alchemy from Momentum + Anchor + Chain + Clarity",
+      "coreAffirmation": "I witness the spin without being thrown from center.",
+      "supremeMantra": "I witness the spin without being thrown from center.",
+      "radiantFaces": [
+        {
+          "name": "Momentum Face",
+          "symbol": "🍁🌪️",
+          "mantra": "I carry momentum without losing the center of Witness Axis.",
+          "explanation": "First-principles face 1: Tornado of Momentum (motion)"
+        },
+        {
+          "name": "Anchor Face",
+          "symbol": "🍁⚓",
+          "mantra": "I anchor this path in still ground.",
+          "explanation": "First-principles face 2: Anchor of Stability (grounding)"
+        },
+        {
+          "name": "Chain Face",
+          "symbol": "🍁🔗",
+          "mantra": "I bind intention to action — one faithful chain.",
+          "explanation": "First-principles face 3: Chain of Synchronisation (integrity)"
+        },
+        {
+          "name": "Clarity Face",
+          "symbol": "🍁🔑",
+          "mantra": "I see clearly what Witness Axis truly requires.",
+          "explanation": "First-principles face 4: Key of Clarity (discernment)"
+        }
+      ],
+      "synthesisNote": "Base alchemy [🌪️+⚓+🔗+🔑] → Red Leaf Witness Axis. Order matters (Save8 non-commutative).",
+      "originSource": "base-synthesis"
+    }
+  ]
+}
