@@ -173,7 +173,7 @@ const CLUSTERS = [
     bases: ['⚓', '🔑', '🔗', '🧬'],
     strengthens: ['Red Leaf Wise Compassion', 'Red Leaf Compassionate Dawn', 'Red Leaf Meeting Grace'],
     aspects: [
-      'Red Leaf Wise Compassion', 'Red Leaf Sovereign Compassion', 'Red Leaf Virah Queen (Yashodhara\u2019s Grace)',
+      'Red Leaf Wise Compassion', 'Red Leaf Sovereign Compassion',
       'Red Leaf The Enemy Within', 'Red Leaf Unapologetic Soul',
     ],
     identityTpl: (n) => `${n} — compassion wisdom from Anchor + Clarity + Chain + Helix`,

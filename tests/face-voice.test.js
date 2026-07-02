@@ -4,7 +4,13 @@ const {
   humanizeExplanation,
   normalizeRedLeafExplanationVoice,
   humanizeRadiantFace,
+  mantraToRedLeafOperatorExplanation,
 } = require('../server/services/face-voice');
+
+const BUDDHA_CTX = {
+  aspectName: 'Red Leaf Living Buddha',
+  category: 'red-leaf',
+};
 
 const GATE_CTX = {
   aspectName: 'Red Leaf Gate of the Unknown',
@@ -59,5 +65,31 @@ describe('red leaf explanation voice', () => {
       category: 'meta',
     });
     assert.match(out, /^I holds|^I hold/);
+  });
+
+  it('splits Living Buddha mantra from red leaf operator explanation', () => {
+    const mantra =
+      'I willingly leave the palace of illusions. I let go of all that binds me.';
+    const face = humanizeRadiantFace(
+      {
+        name: 'Renunciation & Release',
+        symbol: '🍁👑→🌿',
+        mantra,
+        explanation: mantra,
+      },
+      { ...BUDDHA_CTX, faceName: 'Renunciation & Release' }
+    );
+    assert.equal(face.mantra, mantra);
+    assert.match(face.explanation, /^The red leaf willingly leaves/);
+    assert.match(face.explanation, /It lets go/);
+    assert.notEqual(face.explanation, face.mantra);
+  });
+
+  it('converts Compassionate Presence mantra with From my → From its own', () => {
+    const mantra =
+      'From my own freedom from suffering, I extend boundless compassion to all beings.';
+    const out = mantraToRedLeafOperatorExplanation(mantra);
+    assert.match(out, /^From its own freedom/);
+    assert.match(out, /it extends boundless compassion/i);
   });
 });

@@ -103,6 +103,77 @@ function isVirahTone(context: { aspectName?: string; faceName?: string }): boole
   return /virah|yashodhara|waiting|offering|remembering flame|mature love|dignified release|silent offering|graceful waiting/.test(blob);
 }
 
+export function mantraToRedLeafOperatorExplanation(mantra: string): string {
+  if (!mantra?.trim()) return '';
+  let t = mantra.trim();
+  t = t.replace(/\bFrom my own\b/gi, 'From its own');
+  t = t.replace(/\bmy own\b/gi, 'its own');
+  t = t.replace(/\bmyself\b/gi, 'itself');
+  t = t.replace(/\bmy\b/gi, 'its');
+  t = t.replace(/\bme\b/gi, 'it');
+
+  const sentences = t.split(/(?<=[.!?])\s+/).filter(Boolean);
+  t = sentences
+    .map((sentence, idx) => {
+      let s = sentence.trim();
+      const subject = idx === 0 ? 'The red leaf' : 'It';
+      const subjectLower = idx === 0 ? 'the red leaf' : 'it';
+      s = s.replace(/^I'm\b/i, `${subject} is`);
+      s = s.replace(/^I've\b/i, `${subject} has`);
+      s = s.replace(/^I'll\b/i, `${subject} will`);
+      s = s.replace(/^I am\b/i, `${subject} is`);
+      s = s.replace(/^I have\b/i, `${subject} has`);
+      s = s.replace(/^I do not\b/i, `${subject} does not`);
+      s = s.replace(/^I\b/i, subject);
+      s = s.replace(/,\s*I\b/g, ', it');
+      s = s.replace(/;\s*I\b/g, '; it');
+      if (idx > 0 && !/^It\b/i.test(s)) {
+        s = s.replace(new RegExp(`^${subjectLower}\\b`, 'i'), 'It');
+      }
+      return s;
+    })
+    .join(' ');
+
+  const RED_LEAF_VERB_FIXES: [RegExp, string][] = [
+    [/^The red leaf willingly leave\b/i, 'The red leaf willingly leaves'],
+    [/^The red leaf reject\b/i, 'The red leaf rejects'],
+    [/^The red leaf walk\b/i, 'The red leaf walks'],
+    [/^The red leaf see\b/i, 'The red leaf sees'],
+    [/^The red leaf extend\b/i, 'The red leaf extends'],
+    [/^The red leaf rise\b/i, 'The red leaf rises'],
+    [/^The red leaf let\b/i, 'The red leaf lets'],
+    [/^The red leaf leave\b/i, 'The red leaf leaves'],
+    [/^The red leaf release\b/i, 'The red leaf releases'],
+    [/^The red leaf accept\b/i, 'The red leaf accepts'],
+    [/^The red leaf honor\b/i, 'The red leaf honors'],
+    [/^The red leaf guard\b/i, 'The red leaf guards'],
+    [/^The red leaf hold\b/i, 'The red leaf holds'],
+    [/^The red leaf choose\b/i, 'The red leaf chooses'],
+    [/^The red leaf remain\b/i, 'The red leaf remains'],
+    [/^The red leaf listen\b/i, 'The red leaf listens'],
+    [/^The red leaf feel\b/i, 'The red leaf feels'],
+    [/^The red leaf burn\b/i, 'The red leaf burns'],
+    [/^The red leaf build\b/i, 'The red leaf builds'],
+    [/^The red leaf turn\b/i, 'The red leaf turns'],
+    [/^The red leaf spin\b/i, 'The red leaf spins'],
+    [/^The red leaf am\b/i, 'The red leaf is'],
+    [/^The red leaf have\b/i, 'The red leaf has'],
+    [/^The red leaf do not\b/i, 'The red leaf does not'],
+    [/\bIt let\b/g, 'It lets'],
+    [/\bIt walk\b/g, 'It walks'],
+    [/\bIt see\b/g, 'It sees'],
+    [/\bIt rise\b/g, 'It rises'],
+    [/\bIt reject\b/g, 'It rejects'],
+    [/\bIt leave\b/g, 'It leaves'],
+    [/\bIt release\b/g, 'It releases'],
+    [/\bit extend\b/gi, 'it extends'],
+    [/\bthe red leaf walk\b/gi, 'the red leaf walks'],
+    [/\bIt walk\b/g, 'It walks'],
+  ];
+  for (const [re, rep] of RED_LEAF_VERB_FIXES) t = t.replace(re, rep);
+  return t;
+}
+
 function expandVirahExplanation(mantra: string, faceName: string): string {
   const byFace: Record<string, string> = {
     'Silent Offering': 'The ache is real, and I let it move through me — but I refuse to let it harden into bitterness.',
@@ -155,6 +226,9 @@ export function deriveAliveExplanation(
   if (isVirahTone({ ...context, faceName: face.name })) {
     return expandVirahExplanation(mantra, face.name);
   }
+  if (isRedLeafContext(context)) {
+    return mantraToRedLeafOperatorExplanation(mantra);
+  }
   return humanizeExplanation(mantra, { ...context, faceName: face.name });
 }
 
@@ -168,8 +242,12 @@ export function humanizeRadiantFace(
       ? humanizeExplanation(face.explanation, ctx)
       : deriveAliveExplanation(face, ctx);
   if (!explanation && face.mantra?.trim()) explanation = deriveAliveExplanation(face, ctx);
-  if (explanation && face.mantra?.trim() && explanation === face.mantra.trim() && isVirahTone(ctx)) {
-    explanation = expandVirahExplanation(face.mantra, face.name);
+  if (explanation && face.mantra?.trim() && explanation === face.mantra.trim()) {
+    if (isVirahTone(ctx)) {
+      explanation = expandVirahExplanation(face.mantra, face.name);
+    } else if (isRedLeafContext(ctx)) {
+      explanation = mantraToRedLeafOperatorExplanation(face.mantra);
+    }
   }
   return { ...face, explanation: explanation || face.mantra?.trim() || '' };
 }

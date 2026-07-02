@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "builtAt": "2026-07-02T01:57:53.320Z",
+  "builtAt": "2026-07-02T02:20:15.086Z",
   "philosophy": "Save8 non-commutative alchemy — six Base Layer primitives (⚓🔥🔑🌪️🔗🧬) + 🍁 operator",
   "baseLayer": [
     {
@@ -3525,88 +3525,6 @@
         }
       ],
       "synthesisNote": "Base alchemy [🔑+🧬+⚓+🔗] → Red Leaf Unwavering Paradox Vessel. Order matters (Save8 non-commutative).",
-      "originSource": "base-synthesis"
-    },
-    {
-      "name": "Red Leaf Virah Queen (Yashodhara's Grace)",
-      "cluster": "misc_primal",
-      "operator": "DCS",
-      "baseInputs": [
-        "Anchor of Stability",
-        "Fire of Conviction",
-        "Helix of Adaptability",
-        "Chain of Synchronisation"
-      ],
-      "baseSymbols": [
-        "⚓",
-        "🔥",
-        "🧬",
-        "🔗"
-      ],
-      "strengthens": [
-        "Red Leaf Akahitoha (The Single Red Leaf)",
-        "Red Leaf Origin",
-        "Red Leaf Tender Dawn"
-      ],
-      "symbolChain": "🍁⚓🔥🧬🔗",
-      "identity": "Red Leaf Virah Queen (Yashodhara's Grace) — primal Red Leaf synthesis from four base primitives",
-      "coreAffirmation": "I forge Virah Queen (Yashodhara's Grace) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
-      "supremeMantra": "I forge Virah Queen (Yashodhara's Grace) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
-      "radiantFaces": [
-        {
-          "name": "Anchor Face",
-          "symbol": "🍁⚓",
-          "mantra": "I anchor this path in still ground.",
-          "explanation": "First-principles face 1: Anchor of Stability (grounding)"
-        },
-        {
-          "name": "Fire Face",
-          "symbol": "🍁🔥",
-          "mantra": "I forge Virah Queen (Yashodhara's Grace) with conviction that does not consume.",
-          "explanation": "First-principles face 2: Fire of Conviction (conviction)"
-        },
-        {
-          "name": "Helix Face",
-          "symbol": "🍁🧬",
-          "mantra": "I adapt the form of Virah Queen (Yashodhara's Grace) without breaking its core.",
-          "explanation": "First-principles face 3: Helix of Adaptability (adaptation)"
-        },
-        {
-          "name": "Chain Face",
-          "symbol": "🍁🔗",
-          "mantra": "I bind intention to action — one faithful chain.",
-          "explanation": "First-principles face 4: Chain of Synchronisation (integrity)"
-        }
-      ],
-      "synthesisNote": "Base alchemy [⚓+🔥+🧬+🔗] → Red Leaf Virah Queen (Yashodhara's Grace). Order matters (Save8 non-commutative).",
-      "originSource": "base-synthesis"
-    },
-    {
-      "name": "Red Leaf Virah Queen (Yashodhara’s Grace)",
-      "cluster": "compassion_wisdom",
-      "operator": "EOT",
-      "baseInputs": [
-        "Anchor of Stability",
-        "Key of Clarity",
-        "Chain of Synchronisation",
-        "Helix of Adaptability"
-      ],
-      "baseSymbols": [
-        "⚓",
-        "🔑",
-        "🔗",
-        "🧬"
-      ],
-      "strengthens": [
-        "Red Leaf Wise Compassion",
-        "Red Leaf Compassionate Dawn",
-        "Red Leaf Meeting Grace"
-      ],
-      "symbolChain": "🍁⚓🔑🔗🧬",
-      "identity": "Red Leaf Virah Queen (Yashodhara’s Grace) — compassion wisdom from Anchor + Clarity + Chain + Helix",
-      "coreAffirmation": "I forge Virah Queen (Yashodhara’s Grace) through Base Layer alchemy — non-commutative, faithful, Red Leaf way.",
-      "radiantFaces": [],
-      "synthesisNote": "Base alchemy [⚓+🔑+🔗+🧬] → Red Leaf Virah Queen (Yashodhara’s Grace). Order matters (Save8 non-commutative).",
       "originSource": "base-synthesis"
     },
     {
